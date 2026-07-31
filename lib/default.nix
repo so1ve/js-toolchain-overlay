@@ -35,6 +35,7 @@ let
         in
         lts != false && lib.toLower lts == ltsName
       ) versions;
+      candidates = if lib.hasPrefix "lts/" alias then matchingLts else versions;
       normalized =
         if
           builtins.elem alias [
@@ -51,11 +52,11 @@ let
         then
           data.lts
         else if lib.hasPrefix "lts/" alias then
-          resolver.resolve matchingLts "*"
+          "*"
         else
           value;
     in
-    resolver.resolve versions normalized;
+    resolver.resolve candidates normalized;
 
   nodeVersionFromPackage =
     package:
