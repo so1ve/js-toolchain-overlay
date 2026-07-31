@@ -105,7 +105,7 @@ let
         release.artifacts.${system}
           or (throw "node-overlay: Node.js ${version} has no archive for ${system}");
       bundlesCorepack = lib.versionAtLeast version "14.19.0" && lib.versionOlder version "25.0.0";
-      supportsStandaloneCorepack = lib.versionAtLeast version "26.0.0";
+      supportsStandaloneCorepack = lib.versionAtLeast version "25.0.0";
     in
     pkgs.stdenvNoCC.mkDerivation (finalAttrs: {
       pname = "nodejs-bin";
