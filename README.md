@@ -1,6 +1,6 @@
 # node-overlay
 
-Official Node.js binaries for Nix.
+Nix overlay for upstream Node.js binaries.
 
 Supported systems: `x86_64-linux`, `aarch64-linux`, and `aarch64-darwin`
 
