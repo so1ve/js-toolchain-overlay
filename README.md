@@ -89,11 +89,14 @@ node-overlay.lib.fromProject pkgs ./.
 `fromProject` checks `.node-version`, `.nvmrc`, then `package.json`.
 For `package.json`, it checks `volta.node`, `devEngines.runtime.version`, then `engines.node`. Version values may be exact versions, partial versions, or semver ranges.
 
+The file- and project-based selectors return `null` when their file or Node.js version declaration is absent. `fromNodeVersion` is strict; malformed or unsupported declarations also fail.
+
 `nodejs.corepack` is the Corepack package paired with the selected Node.js version. Devenv uses it when `corepack.enable` is enabled:
 
 ```nix
 let
-  nodejs = pkgs.nodejs-bin.fromProject ./.;
+  projectNodejs = pkgs.nodejs-bin.fromProject ./.;
+  nodejs = if projectNodejs == null then pkgs.nodejs-bin.latest else projectNodejs;
 in
 {
   languages.javascript = {

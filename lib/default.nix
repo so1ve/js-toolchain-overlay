@@ -57,10 +57,9 @@ let
     in
     resolver.resolve versions normalized;
 
-  nodeVersionFromPackageJSON =
-    file:
+  nodeVersionFromPackage =
+    package:
     let
-      package = builtins.fromJSON (builtins.readFile file);
       runtimes = package.devEngines.runtime or [ ];
       runtime =
         if builtins.isList runtimes then
@@ -73,26 +72,43 @@ let
     else if runtime != null && (runtime.name or "node") == "node" && runtime ? version then
       runtime.version
     else
-      package.engines.node or (throw "node-overlay: package.json has no Node.js version");
+      package.engines.node or null;
 
-  nodeVersionFromProject =
+  nodeVersionFromPackageJSON =
+    file:
+    if builtins.pathExists file then
+      nodeVersionFromPackage (builtins.fromJSON (builtins.readFile file))
+    else
+      null;
+
+  nodeVersionFromFile =
+    file:
+    if builtins.pathExists file then
+      let
+        version = lib.strings.trim (builtins.readFile file);
+      in
+      if version == "" then null else version
+    else
+      null;
+
+  findNodeVersion =
     root:
     let
       file = name: "${toString root}/${name}";
+      versions = [
+        (nodeVersionFromFile (file ".node-version"))
+        (nodeVersionFromFile (file ".nvmrc"))
+        (nodeVersionFromPackageJSON (file "package.json"))
+      ];
     in
-    if builtins.pathExists (file ".node-version") then
-      builtins.readFile (file ".node-version")
-    else if builtins.pathExists (file ".nvmrc") then
-      builtins.readFile (file ".nvmrc")
-    else if builtins.pathExists (file "package.json") then
-      nodeVersionFromPackageJSON (file "package.json")
-    else
-      throw "node-overlay: no Node.js version found in ${toString root}";
+    lib.findFirst (version: version != null) null versions;
 
   fromNodeVersion = pkgs: request: mkNodejs pkgs (resolveVersion pkgs request);
-  fromNodeVersionFile = pkgs: file: fromNodeVersion pkgs (builtins.readFile file);
-  fromPackageJSON = pkgs: file: fromNodeVersion pkgs (nodeVersionFromPackageJSON file);
-  fromProject = pkgs: root: fromNodeVersion pkgs (nodeVersionFromProject root);
+  fromOptionalNodeVersion =
+    pkgs: version: if version == null then null else fromNodeVersion pkgs version;
+  fromNodeVersionFile = pkgs: file: fromOptionalNodeVersion pkgs (nodeVersionFromFile file);
+  fromPackageJSON = pkgs: file: fromOptionalNodeVersion pkgs (nodeVersionFromPackageJSON file);
+  fromProject = pkgs: root: fromOptionalNodeVersion pkgs (findNodeVersion root);
 
   mkNodejs =
     pkgs: version:
@@ -213,8 +229,6 @@ in
     fromPackageJSON
     fromProject
     mkNodejs
-    nodeVersionFromPackageJSON
-    nodeVersionFromProject
     overlay
     packagesFor
     resolveVersion
