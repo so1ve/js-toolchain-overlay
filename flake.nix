@@ -55,6 +55,7 @@
         {
           default = pkgs.mkShellNoCC {
             packages = with pkgs; [
+              actionlint
               nixfmt-tree
               nodejs
               prettier

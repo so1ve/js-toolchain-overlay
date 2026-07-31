@@ -2,6 +2,7 @@
 
 {
   packages = with pkgs; [
+    actionlint
     deadnix
     nixd
     nixfmt

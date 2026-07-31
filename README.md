@@ -112,7 +112,7 @@ Corepack reads `packageManager` and `devEngines.packageManager` from `package.js
 nix run .#update
 ```
 
-An automated workflow updates the overlay to the latest Node.js release daily.
+An automated workflow refreshes the release index every 12 hours and verifies the latest and LTS builds before committing updates.
 
 ## License
 
