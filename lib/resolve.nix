@@ -74,7 +74,6 @@ let
     in
     if
       builtins.elem token [
-        ""
         "*"
         "x"
         "X"
@@ -105,34 +104,7 @@ let
     let
       range = trim value;
       hyphen = builtins.match "([^ ]+) +- +([^ ]+)" range;
-      compact =
-        lib.replaceStrings
-          [
-            ">= "
-            "<= "
-            "> "
-            "< "
-            "= "
-            "^ "
-            "~ "
-            ","
-            "\t"
-            "\n"
-          ]
-          [
-            ">="
-            "<="
-            ">"
-            "<"
-            "="
-            "^"
-            "~"
-            " "
-            " "
-            " "
-          ]
-          range;
-      tokens = lib.filter (token: token != "") (lib.splitString " " compact);
+      tokens = lib.filter (token: token != "") (lib.splitString " " range);
     in
     if hyphen != null then
       matchesToken version ">=${builtins.elemAt hyphen 0}"

@@ -18,7 +18,7 @@ let
       system = pkgs.stdenv.hostPlatform.system;
     in
     builtins.attrNames (
-      lib.filterAttrs (_: release: builtins.hasAttr system (release.artifacts or { })) data.releases
+      lib.filterAttrs (_: release: builtins.hasAttr system release.artifacts) data.releases
     );
 
   resolveVersion =
@@ -31,9 +31,9 @@ let
       matchingLts = lib.filter (
         version:
         let
-          lts = data.releases.${version}.lts or false;
+          lts = data.releases.${version}.lts;
         in
-        builtins.isString lts && lib.toLower lts == ltsName
+        lts != false && lib.toLower lts == ltsName
       ) versions;
       normalized =
         if
@@ -63,13 +63,13 @@ let
       runtimes = package.devEngines.runtime or [ ];
       runtime =
         if builtins.isList runtimes then
-          lib.findFirst (value: (value.name or "node") == "node") null runtimes
+          lib.findFirst (value: value.name == "node") null runtimes
         else
           runtimes;
     in
     if package ? volta.node then
       package.volta.node
-    else if runtime != null && (runtime.name or "node") == "node" && runtime ? version then
+    else if runtime != null && runtime.name == "node" && runtime ? version then
       runtime.version
     else
       package.engines.node or null;
@@ -168,7 +168,7 @@ let
         homepage = "https://nodejs.org/";
         license = lib.licenses.mit;
         mainProgram = "node";
-        platforms = builtins.attrNames (release.artifacts or { });
+        platforms = builtins.attrNames release.artifacts;
         sourceProvenance = [ lib.sourceTypes.binaryNativeCode ];
       };
     });
@@ -178,7 +178,7 @@ let
     let
       system = pkgs.stdenv.hostPlatform.system;
       availableReleases = lib.filterAttrs (
-        _: release: builtins.hasAttr system (release.artifacts or { })
+        _: release: builtins.hasAttr system release.artifacts
       ) data.releases;
       versions = lib.mapAttrs (version: _: mkNodejs pkgs version) availableReleases;
       versionedPackages = lib.mapAttrs' (
@@ -202,7 +202,7 @@ let
     let
       system = final.stdenv.hostPlatform.system;
       availableReleases = lib.filterAttrs (
-        _: release: builtins.hasAttr system (release.artifacts or { })
+        _: release: builtins.hasAttr system release.artifacts
       ) data.releases;
       versions = lib.mapAttrs (version: _: mkNodejs final version) availableReleases;
       availableMajors = lib.filterAttrs (_: version: builtins.hasAttr version versions) data.majors;

@@ -24,7 +24,7 @@ Use a package from another flake:
     };
   };
 
-  outputs = { self, node-overlay, ... }: {
+  outputs = { node-overlay, ... }: {
     ...
   };
 }

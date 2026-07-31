@@ -28,11 +28,10 @@ async function fetchRelease(release) {
     ? await get(SHASUMS_URL.replace("{version}", version))
     : "";
   const checksums = Object.fromEntries(
-    manifest
-      .split("\n")
-      .map((line) => /^([0-9a-f]{64})  (.+)$/.exec(line))
-      .filter(Boolean)
-      .map((match) => [match[2].replace(/^\.\//, ""), match[1]]),
+    [...manifest.matchAll(/^([0-9a-f]{64})  (.+)$/gm)].map((match) => [
+      match[2],
+      match[1],
+    ]),
   );
   const artifacts = {};
 
@@ -61,9 +60,7 @@ async function fetchRelease(release) {
 function buildCatalog(index, records) {
   const versions = index.map(versionOf);
   const releases = Object.fromEntries(
-    versions
-      .filter((version) => version in records)
-      .map((version) => [version, records[version]]),
+    versions.map((version) => [version, records[version]]),
   );
   const packaged = new Set(
     Object.entries(releases)
