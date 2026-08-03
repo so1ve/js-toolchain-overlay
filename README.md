@@ -132,16 +132,13 @@ in
 
 ## Version data and updates
 
-The three release catalogs live independently in `versions/node.json`,
-`versions/bun.json`, and `versions/deno.json`.
-
-Refresh them from the official release sources:
+Run this to update the version data:
 
 ```bash
 nix run .#update
 ```
 
-The scheduled workflow performs this lightweight update every 12 hours.
+The scheduled workflow performs this update every 12 hours.
 
 ## License
 
