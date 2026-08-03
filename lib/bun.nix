@@ -48,6 +48,8 @@ let
       artifact =
         release.artifacts.${system}
           or (throw "js-toolchain-overlay: Bun ${version} has no archive for ${system}");
+      isTarball = lib.hasSuffix ".tgz" artifact.file;
+      binary = if isTarball then "bin/bun" else "bun";
     in
     pkgs.stdenvNoCC.mkDerivation {
       pname = "bun-bin";
@@ -58,7 +60,7 @@ let
         inherit (artifact) hash;
       };
 
-      sourceRoot = lib.removeSuffix ".zip" artifact.file;
+      sourceRoot = if isTarball then "package" else lib.removeSuffix ".zip" artifact.file;
       strictDeps = true;
       nativeBuildInputs = [
         pkgs.unzip
@@ -78,7 +80,7 @@ let
 
       installPhase = ''
         runHook preInstall
-        install -Dm755 bun "$out/bin/bun"
+        install -Dm755 ${binary} "$out/bin/bun"
         ln -s bun "$out/bin/bunx"
         runHook postInstall
       '';

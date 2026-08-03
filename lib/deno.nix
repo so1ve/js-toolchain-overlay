@@ -48,47 +48,58 @@ let
       artifact =
         release.artifacts.${system}
           or (throw "js-toolchain-overlay: Deno ${version} has no archive for ${system}");
+      isGzip = lib.hasSuffix ".gz" artifact.file;
     in
-    pkgs.stdenvNoCC.mkDerivation {
-      pname = "deno-bin";
-      inherit version;
+    pkgs.stdenvNoCC.mkDerivation (
+      {
+        pname = "deno-bin";
+        inherit version;
 
-      src = pkgs.fetchurl {
-        url = "https://github.com/denoland/deno/releases/download/v${version}/${artifact.file}";
-        inherit (artifact) hash;
-      };
+        src = pkgs.fetchurl {
+          url = "https://github.com/denoland/deno/releases/download/v${version}/${artifact.file}";
+          inherit (artifact) hash;
+        };
 
-      sourceRoot = ".";
-      strictDeps = true;
-      nativeBuildInputs = [
-        pkgs.unzip
-      ]
-      ++ lib.optionals pkgs.stdenv.hostPlatform.isLinux [ pkgs.autoPatchelfHook ];
-      buildInputs = lib.optionals pkgs.stdenv.hostPlatform.isLinux [ pkgs.stdenv.cc.cc.lib ];
+        sourceRoot = ".";
+        strictDeps = true;
+        nativeBuildInputs = [
+          pkgs.unzip
+        ]
+        ++ lib.optionals isGzip [ pkgs.gzip ]
+        ++ lib.optionals pkgs.stdenv.hostPlatform.isLinux [ pkgs.autoPatchelfHook ];
+        buildInputs = lib.optionals pkgs.stdenv.hostPlatform.isLinux [ pkgs.stdenv.cc.cc.lib ];
 
-      dontConfigure = true;
-      dontBuild = true;
+        dontConfigure = true;
+        dontBuild = true;
 
-      installPhase = ''
-        runHook preInstall
-        install -Dm755 deno "$out/bin/deno"
-        runHook postInstall
-      '';
+        installPhase = ''
+          runHook preInstall
+          install -Dm755 deno "$out/bin/deno"
+          runHook postInstall
+        '';
 
-      passthru = {
-        inherit (release) date;
-        platform = lib.removeSuffix ".zip" artifact.file;
-      };
+        passthru = {
+          inherit (release) date;
+          platform = lib.removeSuffix ".zip" artifact.file;
+        };
 
-      meta = {
-        description = "Deno JavaScript and TypeScript runtime (${version}, official binary distribution)";
-        homepage = "https://deno.com/";
-        license = lib.licenses.mit;
-        mainProgram = "deno";
-        platforms = builtins.attrNames release.artifacts;
-        sourceProvenance = [ lib.sourceTypes.binaryNativeCode ];
-      };
-    };
+        meta = {
+          description = "Deno JavaScript and TypeScript runtime (${version}, official binary distribution)";
+          homepage = "https://deno.com/";
+          license = lib.licenses.mit;
+          mainProgram = "deno";
+          platforms = builtins.attrNames release.artifacts;
+          sourceProvenance = [ lib.sourceTypes.binaryNativeCode ];
+        };
+      }
+      // lib.optionalAttrs isGzip {
+        unpackPhase = ''
+          runHook preUnpack
+          gzip -dc "$src" > deno
+          runHook postUnpack
+        '';
+      }
+    );
 
   packagesByVersionFor =
     pkgs: lib.mapAttrs (version: _: mkDeno pkgs version) (catalog.availableReleasesFor data pkgs);
