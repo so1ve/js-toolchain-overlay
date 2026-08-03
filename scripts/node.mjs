@@ -57,7 +57,7 @@ async function fetchRelease(release) {
 
 export async function updateNode() {
   const index = await getJSON(INDEX_URL);
-  const { releases: records, schema } = await readCatalog("node");
+  const { releases: records } = await readCatalog("node");
   const missing = index.filter((release) => !(versionOf(release) in records));
 
   for (let offset = 0; offset < missing.length; offset += CONCURRENCY) {
@@ -85,7 +85,6 @@ export async function updateNode() {
     buildCatalog(records, {
       latest,
       lts,
-      schema,
       keepEmpty: true,
     }),
   );

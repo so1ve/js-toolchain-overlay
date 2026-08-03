@@ -24,7 +24,7 @@ export async function updateDeno() {
     (release) =>
       !release.draft && !release.prerelease && TAG.test(release.tag_name),
   );
-  const { releases: records, schema } = await readCatalog(NAME);
+  const { releases: records } = await readCatalog(NAME);
   const pending = releases.filter((release) => {
     const artifacts = records[versionOf(release)]?.artifacts ?? {};
     return Object.entries(platforms).some(([system, file]) => {
@@ -60,7 +60,6 @@ export async function updateDeno() {
     buildCatalog(records, {
       latest: versionOf(releases[0]),
       lts,
-      schema,
     }),
   );
 }

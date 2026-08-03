@@ -46,10 +46,7 @@ export async function writeCatalog(name, catalog) {
   console.log(`updated versions/${name}.json`);
 }
 
-export function buildCatalog(
-  records,
-  { latest, lts, schema, keepEmpty = false },
-) {
+export function buildCatalog(records, { latest, lts, keepEmpty = false }) {
   const versions = Object.keys(records).sort((left, right) =>
     right.localeCompare(left, undefined, {
       numeric: true,
@@ -80,7 +77,6 @@ export function buildCatalog(
     ...(lts != null && packaged.includes(lts) ? { lts } : {}),
     majors,
     releases,
-    schema,
   };
 }
 
