@@ -1,6 +1,6 @@
 {
-  "latest": "26.5.1",
-  "lts": "24.18.1",
+  "latest": "26.6.0",
+  "lts": "24.19.0",
   "majors": {
     "0": "0.12.18",
     "4": "4.9.1",
@@ -23,11 +23,30 @@
     "21": "21.7.3",
     "22": "22.23.2",
     "23": "23.11.1",
-    "24": "24.18.1",
+    "24": "24.19.0",
     "25": "25.9.0",
-    "26": "26.5.1"
+    "26": "26.6.0"
   },
   "releases": {
+    "26.6.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "node-v26.6.0-darwin-arm64.tar.xz",
+          "hash": "sha256-6gKagHIDoyN4vwmr5W/qPqQNai2/Zj7b7a7dhKvRsQs="
+        },
+        "aarch64-linux": {
+          "file": "node-v26.6.0-linux-arm64.tar.xz",
+          "hash": "sha256-l05vAzL7JhebNNScV/NTOeCJqJ+vi4KoHkTA4RZLeSM="
+        },
+        "x86_64-linux": {
+          "file": "node-v26.6.0-linux-x64.tar.xz",
+          "hash": "sha256-5TqMjKLucTXeOOY4Wb1PQwAq4tIi9bOpisGUXbn1RLs="
+        }
+      },
+      "date": "2026-08-03",
+      "lts": false,
+      "npm": "11.18.0"
+    },
     "26.5.1": {
       "artifacts": {
         "aarch64-darwin": {
@@ -445,6 +464,25 @@
       "date": "2025-10-15",
       "lts": false,
       "npm": "11.6.2"
+    },
+    "24.19.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "node-v24.19.0-darwin-arm64.tar.xz",
+          "hash": "sha256-PxzxV0ecFIA1IIMQXhP6+dAI7emOfhV3RrbflA0Ze5Q="
+        },
+        "aarch64-linux": {
+          "file": "node-v24.19.0-linux-arm64.tar.xz",
+          "hash": "sha256-AUQ8Hhop5THMrVpG/vpt9JDSGJxJ95VZBK7Nuw/ob9w="
+        },
+        "x86_64-linux": {
+          "file": "node-v24.19.0-linux-x64.tar.xz",
+          "hash": "sha256-FLNC5xIE+BG95hU76OBLYq72PCNv75K1X5yDFUtAlkc="
+        }
+      },
+      "date": "2026-08-03",
+      "lts": "Krypton",
+      "npm": "11.17.0"
     },
     "24.18.1": {
       "artifacts": {
