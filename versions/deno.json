@@ -2,6 +2,8 @@
   "latest": "2.9.4",
   "lts": "2.9.3",
   "majors": {
+    "0": "0.42.0",
+    "1": "1.46.3",
     "2": "2.9.4"
   },
   "releases": {
@@ -872,6 +874,108 @@
       },
       "date": "2025-06-12"
     },
+    "2.3.5": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-xLl7Jg1TSye9MdDawefY3YM3WwhRDXiJs4tzTukyu3U="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-i1wklaouh2Ostv5vWwP+2krzGh8mKN7eHkH4KouVA2Y="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-CW3bixUa2ybzSsao8r63dHduS4AXOCQYHrLS+B4A0RE="
+        }
+      },
+      "date": "2025-05-30"
+    },
+    "2.3.4": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-kS8TukhqVbo+I1vJH939UelaRVmJcs4CbTTyBhF8sUw="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-PI8Nd2yWfJFz2KD8znitrGJ9r95H/Pj2kHhW8404YnM="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-UBrYrpMJCTqDbURrUIT9nckV/NfwahcDIL8+IqDqSSk="
+        }
+      },
+      "date": "2025-05-30"
+    },
+    "2.3.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-oZqgfJYOAyn+MoWNHSJ/mW9Wya6J0SOsbqpjrcUlQdg="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-XZ3Gn78ySv5i8sA8EkGuRin+zbYDKh3tipB85IAHf2E="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-y1c+8Y4GtvF9sxt6QQFDq/6+DI0fqpnLk0p8E1HHVwE="
+        }
+      },
+      "date": "2025-05-16"
+    },
+    "2.3.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-QBBX7XTs0eZj5L1gjLNQquGFfWQFXY2DqBS7XsmYtYc="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-hKOuK28ArQa9wDM3II2IEB29KJfw+iKV8QG9pDWpUUs="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-/GMR8BVmSJrHCrdrqTmiS94KXHc1qcpdy4TWIQ5XFcc="
+        }
+      },
+      "date": "2025-05-16"
+    },
+    "2.3.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-49PXshzokQXZbDFuk3Cx8Fqm6HaH9A+vN6OaYTpHcBQ="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-N3Ht40A3aUWRhGFm9iEeeoq1zXeh5xQ+Y31EV+hwjcc="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-spICZeYzIVlZsJoytn9GyTNihCu/0nyW6KzC0ktm9WM="
+        }
+      },
+      "date": "2025-04-30"
+    },
+    "2.3.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-fiB2T3sVqK8kFI1VR94uIDAt8iT3LWcrBkrd4cUbqoE="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-2KX2FQTYBxuw8q2Hq9cisbn1tCeJ+SxRNS3224s4Idw="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-XYTi0s2ie0tl5us/WogIXE77yyjEoG8X8hDV24bwpzY="
+        }
+      },
+      "date": "2025-04-30"
+    },
     "2.2.15": {
       "artifacts": {
         "aarch64-darwin": {
@@ -906,6 +1010,244 @@
       },
       "date": "2025-07-16"
     },
+    "2.2.13": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-/9yT2OVluB0S8xprVcO7q6mh72Q04uWiw1VkM5OdL5A="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-dHFxo2FjzQP3eXnub+ryqCTUjz1rrk6tagixWgjIgZo="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-Ad1BcqmoFFFgiL3qWYiDFka1DyMBpLJ4O5YSFhVZOX4="
+        }
+      },
+      "date": "2025-05-13"
+    },
+    "2.2.12": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-Dcqwz+hIzTerpiS/oal1/49+1auD5h19Msaj9HdU72k="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-F1XzZpRyNsFej0af/e5dzoRf54r3fUBBSa+XCrIwIHQ="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-u374ujPQ4C+fNQfnnDVZz80xyKXGT08buRTzrIPdZtU="
+        }
+      },
+      "date": "2025-04-25"
+    },
+    "2.2.11": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-LlpN2v5T/Q/vtSSfyv6XrlEwNeWliaCk1CRQsDJVnjM="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-7pfCaO8jPwz4qbuHpfncy1ukEwHWsDY8EZqyf24XYMo="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-bvONFsvpnD1hBXa1aqqe3p2YjoouXB7ZydUC4xZ+91g="
+        }
+      },
+      "date": "2025-04-18"
+    },
+    "2.2.10": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-OY35eDX4/HrFfSakkKVsFRN6PCMgqUWFmNZ5XGCmuqI="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-BAcHR90baqrOaEn0kQpp96V2nl1h3X8mfPIXhNypSjM="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-fo6l8YhBJReGt2pc12++Rgk74Ij/SJlVYvTZCCCXrhk="
+        }
+      },
+      "date": "2025-04-14"
+    },
+    "2.2.9": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-+U7/5sgGhEr/CrE2y4uJVoC/a3RNc0gsTcgZ9loMvTA="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-oEc3WgPFiJSS9ejWIRsp0h69c23kxn7z54MBMW2oFbU="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-KtcPon0Daq+uI29ICP1ndfo4Rtfy8PgcZjW2ZIrfLNk="
+        }
+      },
+      "date": "2025-04-11"
+    },
+    "2.2.8": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-fPiZEh/QYGQgDpXrusI4q5EnyoczlwtGcfzsdLBz3Qw="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-5pkHsVny/p8MZFHyi24oFOmpH9vnXR/gFvt2bQSlPrc="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-wKjQy9aCywyJ62gfZNKf+LOwYfQJigMFsIPxLOmWG4I="
+        }
+      },
+      "date": "2025-04-05"
+    },
+    "2.2.7": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-Ebv8iAp00YGxGn4Btw5Ge7c53hfts9b5t6IlG8C0AXo="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-ORhYJk3066pYaTtaDMHkKuByhfbbf9tFj413JqHXXxI="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-f91ZZ3G3hmygvlWKNTrsliENFA8cu/NmlAQAdq/COyE="
+        }
+      },
+      "date": "2025-04-04"
+    },
+    "2.2.6": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-RFkYK9I8KJWMgH8GZF43HsijTN23Ch2ZaA51zKdtboY="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-b7uBGRw4SI3nP0qGEthW1O60UWUSHdV8b2ikbegtMKo="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-K8lsSfXOtadK3UPxY4HioqtfUJxaVmXFUzpmGkFB5lA="
+        }
+      },
+      "date": "2025-03-28"
+    },
+    "2.2.5": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-nuTfBa1BTuRXseUwOQOrs+HUvQUK0OtX74GzJRhLw24="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-mlt1YldRG4ynTZOCKqBAjjc1AXR4T3gB9sKMB2AA5k4="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-xFhKb0J/A8beKIeKFbFOdJNA7FgMZQtT/WAPBIMV218="
+        }
+      },
+      "date": "2025-03-21"
+    },
+    "2.2.4": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-7XtzW02NSrCBuMPygHrfOIq6T7lkwXyuKLJ6KUaAfiA="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-+4dXQJBsZYxLk60TSC+RSYX3Oy/29U6OZxZNbGTAb0Y="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-miYKYkyrbmH3YDlX+U9jjWhznYxqyMOLwzdSEmZgOnw="
+        }
+      },
+      "date": "2025-03-14"
+    },
+    "2.2.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-PQ6qXujdw3wdW25fadEN/QOUoCLSt6ASmcEd/6dEp2Q="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-pjpacNRNeiDR9vKJTc0UIE9rs1BjXQOPfDGYlzC0Ozo="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-mykowDL9n6BYJFsBBcpjggB9jwR66MH0tA6iIQb1ke0="
+        }
+      },
+      "date": "2025-03-05"
+    },
+    "2.2.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-7B8Budg+PQwQcC1DfTzms92cZsvEN/8g27CXRfaJBpw="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-jHLIGtPlIe1O+4n30hu0wIqAFHnPlLNFJeaJLNXEtLs="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-zEfB+os8ojBXt8icaVEVV6Dy7vyUUWw4vJbql9YZtJE="
+        }
+      },
+      "date": "2025-02-25"
+    },
+    "2.2.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-LnApzMMOdQCWPZ51GaPiD/KZQf/nMMaQG2HPWEIeb0s="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-LemvaJTX6errWxQMNB7oqGcPJ8Zz84GuJ+jtyOXdRbc="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-LeYMxlNJu0+XY23iazKx/3Hnmg4Sfy5rc5ex2JqnbqQ="
+        }
+      },
+      "date": "2025-02-21"
+    },
+    "2.2.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-oK/x1WlI8DDQWWCF8tsDdGcDMchIu2QrJeIfq5hrbJ8="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-F86CksP2wwmCQUuhrhSWiIAMIq1q9AWSZOtVe1uoUF4="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-ORq4JFtZTvxx+AqikZHjeZgHZQsl0JgDj722pLN6Wzs="
+        }
+      },
+      "date": "2025-02-19"
+    },
     "2.1.14": {
       "artifacts": {
         "aarch64-darwin": {
@@ -922,6 +1264,3181 @@
         }
       },
       "date": "2025-09-29"
+    },
+    "2.1.13": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-w8f6833DU01rKFFkW1GQYMytPDpipBvuwauOi2CnYt0="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-w9NrN/kPsv95JxirLCt5hT26UZVvYdMWhx8XxKP1R8U="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-2ohgF+4gydmD/kl0M7vEnc8WXVl8uerAIOQNr6JeRU0="
+        }
+      },
+      "date": "2025-05-13"
+    },
+    "2.1.12": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-vNTTXs8N9E8qS5tRZT6+DWbnzHxWp4tx53r+H5J3GA4="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-QVm8mLNra3nRMH2YE2qT6hVapbfeaUgRurRZGT3pDhM="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-6t6hlXY+kJ9KHrqdDHPFKhYx8O4+y7X++N96WOSWUgI="
+        }
+      },
+      "date": "2025-04-12"
+    },
+    "2.1.11": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-eEjZGdyKxFzjmYQ2DK2LVC+3A59F35s96Xxk+oX15/I="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-LZ+px7Mfeih/va2bh0JELRUJomw2W9yEIuhWHLIxPpE="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-BqaM/DHqp29KPYTxjp4IqueI239Dqo/v5DxeHn9cXUQ="
+        }
+      },
+      "date": "2025-04-10"
+    },
+    "2.1.10": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-0z/kcs2Tu6vN+8tcuYBs9J46hiNlljrvMjuvudcya/Q="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-7gGiGituvRqqfTSbXgUji/tfSzBioiW6ePWR4kK5c+M="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-VdGL+Wm3rG4TKzo18x+PAcC9nA6EfgW0WfQDhM50bME="
+        }
+      },
+      "date": "2025-02-13"
+    },
+    "2.1.9": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-a4qBBIKJqWJ7ZOFwz69IwyHTrvo391n1SbIYfbMzjxg="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-XtVhphS9XlUFyGxlq3LPMvxcS5l9gkJH5i+W98iXNT0="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-5CVDvFP1xgFPSgFfbHIolNFVTDMtZvMk1S6LKcesbYY="
+        }
+      },
+      "date": "2025-01-31"
+    },
+    "2.1.8": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-rDVLZP6urboTSrvBfEk4gOiHELFuwLZuK5gHgu+Iw0I="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-jpCagsO2ish4GEw1pibVgBJvVhzGcH2H49+tjEK89sU="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-PPAphW+FHEOnD7HgJOJbXM51X1yzexJ/v3aFN64pELY="
+        }
+      },
+      "date": "2025-01-30"
+    },
+    "2.1.7": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-USgMu6xchK7mNGc35GZnvokZraLVXlcHcEyZm+PvbEE="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-+zfyMLVYmGYIByR+ooo3r+rUC8NxPi7gIqXB6Udqyao="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-jqR6zoWi2q22AWXSqlGeEa7wI9dEQaJMTcHRBt/90Zs="
+        }
+      },
+      "date": "2025-01-22"
+    },
+    "2.1.6": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-xsbODPZ+befSBkAzxlTZ1znrGCCk+IvMr4+LYfFqFbU="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-5g6M+VD1Rh4vWPm1IzMtpkdwCfpefmSAYbwlVlCHGRM="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-jNVDO6+WQjgBELHx7gP0dAqo0rRwlT5ctA3hu8n8vV0="
+        }
+      },
+      "date": "2025-01-17"
+    },
+    "2.1.5": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-c4W2vEjwV51nQMkhaxYmPCMT/vhPloFgejTSYY5ripA="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-+Sh1xad83jrnqrJ7H1iZSBM58ci+ANxoZXrfZVeM9K8="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-vphzEoaEnyr9Xe/XoHpLCGS+s/EmUqbbl+xG+ePZchw="
+        }
+      },
+      "date": "2025-01-09"
+    },
+    "2.1.4": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-Ze/hN+4ohGQnrntsUTVDl0QGWtWcyzyM0Z5prwZuLbA="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-k62O/m9g2oVmZS39Oc8qI8sONdjG1vqsc5KpF9K1ADk="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-VKgZOczLKvEUxNCmilVM9KBLHwhyjnD2Y/g3gd4Z14U="
+        }
+      },
+      "date": "2024-12-11"
+    },
+    "2.1.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-ImZJd3CDkKtVyJ0q5X8M29/CEmgTgNTUB0h4gJbY5l4="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-jZsIWW1YxJXGI0fX4/RGDN0hEESwK1Kt7MXhZ4pgGgk="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-RHX6cxp2X1+1cNHKuyXSihbxj0+1RfwYWWVdqEUh3+U="
+        }
+      },
+      "date": "2024-12-06"
+    },
+    "2.1.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-y+aeSz02M3wk1MHkPud2rZPiJiTASPLg3wfw2OtcrNE="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-a/yyQez2vekiEPU9EuZVJ23IaXjzaK06XVabvEkMucg="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-WDbByi7M9pLGCkRrzV1h0lOx/3oyVzOhANDdYs2pdpM="
+        }
+      },
+      "date": "2024-11-28"
+    },
+    "2.1.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-kalWFjgfn10acQjaxZVyIbu8EKevE7rGfnGL3SUA//c="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-Ub62UVaoqODSa2SmGeV+n99NFHQc8kar6Ked45tcGMU="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-y8G2coBA9xXoeaOgw25GK9CcN7Y063nQTfC8i9sH1sY="
+        }
+      },
+      "date": "2024-11-21"
+    },
+    "2.1.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-0uqMje6tmFBR1mU4ZGq81Yke40JbE80itQBlET1Q2Pg="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-KvQm8pshjRUm5iC2kEzuLRhQpWw2k5ioVSCLWOt7uyc="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-w2xlsGsdaPKir59u+2rHZjTxSx8vfhlnzzvEC7PIvjA="
+        }
+      },
+      "date": "2024-11-21"
+    },
+    "2.0.6": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-Yn6v7pBM1iXXBW1TN3RE29JHiUNLEGLpoUF5PA84y7s="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-9VFE8qfQ68CqRTPyIpTVIrqAhEfWIFvpK+93DO7R5Cc="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-lGw3Bhe/wEGjU6X7GbhMIJRhscK7kCkIcC5pmlJ2ZZ4="
+        }
+      },
+      "date": "2024-11-10"
+    },
+    "2.0.5": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-ou2zjT1377vZQYX3sHSXMJ3xNf5zNvEGwDm3pEbCtiY="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-QMX8SxO92XXeaW2q+77wyw84Sqekl9/W52+7bBZZVVA="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-GOFpH/RCuPY3MlvynWcp5veo65vaPemRbRop0B/VyRs="
+        }
+      },
+      "date": "2024-11-06"
+    },
+    "2.0.4": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-4qfm4bqk4nJKVSchGxDVDfGBMOwg2J2ZnGR04qAXJko="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-DM1KmPcPXEelkhRKW41qSirTztnLnj3/627TUTCHi5M="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-PiGFzKuhl3QCpCF+e/AeFJ97RDBv//6/zB0Y/ZVX4gs="
+        }
+      },
+      "date": "2024-10-30"
+    },
+    "2.0.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-VfNunaA+rzIY2rwSrvIZCQ3krxg+VvNgp6o5S1PwhhM="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-Onxrjpz8lYgcHA9qKhH8+ZTQDQMyy6wubb6Z4Yqxg0E="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-t5y6NcOWRatlhRayKuOUH/gBkOTu61K8GPEu4zu8kS4="
+        }
+      },
+      "date": "2024-10-25"
+    },
+    "2.0.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-1ie//Dj39YBGVscbtq+O4vXIAQ3zSIa0QU1MeFFDUN8="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-u9TIvitFoSd79MqkjkwOfE88MFyrDTVIlxufk+nOcR4="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-1QAYUO+MwxcxWny+wgycjH9EMU99d0EEEPNVn85bkM4="
+        }
+      },
+      "date": "2024-10-18"
+    },
+    "2.0.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-unNJceijDp/3rAFcLec+yKoUSuYgnEl39+cnAmkFiXA="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-Y4Ly7a01FbwCkAv8U0ny1N2kMZ5iyns1dO+eiCpxh28="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-cMeUftiz0MqAxKcPm2qHOXzp+yvx3Rm1Ih1oGbSb8Gc="
+        }
+      },
+      "date": "2024-10-17"
+    },
+    "2.0.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-rRIrHIyCM3hGn7SXLAzG2vwBNT36XHMD0Zm9wd7p1ek="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-p2radCtOdnCxxQeDzQG+IAo4riQ5vlg90HyAadOH+Z4="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-0gG4ErvGzCVlAS5SwqnLmWXXaK/Si7wroprmZ79yUKY="
+        }
+      },
+      "date": "2024-10-09"
+    },
+    "1.46.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-50+N3W2CBWVJBaTkK1pgWrEQcip4mK72i8NdbnBMKUY="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-rPfgEQ4Yb8UVobc2fZxWqfAgWtRIwcCKt2m4485vcA8="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-ObsdIa0ZwW/LFPnVj7VCwrzPDNksGa7oEnrFEStIv4M="
+        }
+      },
+      "date": "2024-09-04"
+    },
+    "1.46.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-drnL3Gxq+GBdEvnylHCIY0gyDjpRE1LqzSU+oiH1B/Y="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-BOQ5+CTVhvLi+STk1ncBsz4aKHAubbKkqBagvywDwJs="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-HzijKwlNKuUwiXNi83lt80mI9RZfHp9CiVAqRhjIRr0="
+        }
+      },
+      "date": "2024-08-29"
+    },
+    "1.46.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-0lDl84sMDV9KDz4GPKdUZ9vdIznqTtSULLRCbG1nuuw="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-fwa2F2r7qb9hO33MIbaalwoQUJUhpy7BIG2zt4sBqNE="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-wQKkII3BTKG1BU0pLCF0/k/TihiiNBMJuzHpkfKlrmY="
+        }
+      },
+      "date": "2024-08-22"
+    },
+    "1.46.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-uw+pWRtElf9nKL4T2Ao8jbeSzDvduhB80YOpmrfbi0g="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-O9VwMzpdTcJKfA1nKH0dlw5eU73znv/0hlDhO1dQYR8="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-LXpTMvxuzwttbJB/qOSaxH4zw4Zme9edGHFNvEBC1nk="
+        }
+      },
+      "date": "2024-08-22"
+    },
+    "1.45.5": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-NqNyic6vHPUt88dI2rR78x37N0/lSFElcy3maoWbNYk="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-D2p/zQfll6qpafhjoCwS8VB7lXc0W+bpe942o8g4UaQ="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-5U92PIiJISmSp4er6jKQPlnqMKUrV3voo7ViQllvKyk="
+        }
+      },
+      "date": "2024-07-31"
+    },
+    "1.45.4": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-e9CdlPjY3UXMrVpDeQsMbBEKltlZ13aMwmX9PJn4TL8="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-0TJrEsWrEu51krPA64lSW5/Psy62vWXtTqpdZ/l533E="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-tgNS9DEePauSss+TY7lslrWGPeQEGnW870x6xM5ND60="
+        }
+      },
+      "date": "2024-07-26"
+    },
+    "1.45.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-6Tpdc/RhpTP9K7Fsf4koxMvUTaAFRfhlV7LiGQIZcXw="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-oRkyxl1gwSimSScjbvyreehJFxzrCj3CAElqYwU8/3I="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-gQKYlnknXxyYWf2WPvQH9g2gJ0M3+7dSkLPp34F0ows="
+        }
+      },
+      "date": "2024-07-23"
+    },
+    "1.45.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-3pYn0Grk1rmWBDCtKUeJz7VfMnsx5tAywMOxrXt+RcE="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-GAr+fHASHiEQ3PjWS7HLhEsSArUF/MXNkR4L8sk7zoo="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-vZKCLwsS/A6eBQxJTEMibUCxrNpsisyGyFhD7Tf33pU="
+        }
+      },
+      "date": "2024-07-12"
+    },
+    "1.45.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-BCKD62K49kGtD9L+h6dXFQZAM6pfUeLfdDvi/Bc5cmg="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-m4fC0XlWPVZlXcsUsNuJTi0ia+6/I7/F5VetBCzd49I="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-V3iTCk+rE2gzKuKWayrOLqEhfqB+qsPifJvtPgY07rw="
+        }
+      },
+      "date": "2024-07-11"
+    },
+    "1.45.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-e5qTxkOTJp+LUHgx0pr7X88CmbGUMMCn9pkguqyh8DQ="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-9gF81uNTYuUeobpLNvVkUPEJaTugVo+3cYQA8PkCMpM="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-tSYg9NDfM/BhrO8k96nIzzEXdvwojuB0+BoNGdtTnR0="
+        }
+      },
+      "date": "2024-07-10"
+    },
+    "1.44.4": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-cBrIzSqsJjVZRMN3ks+OYGWCCOInaGkEZXmIJ+MXBkY="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-yC2XIv5HHsvFvsmYMDRZHmMKpjOmZvBRFokyVqReDwY="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-xI9tE6oy0M6fHzPKL0Q4bbiFZgoDG5nTu1DlzMDp7lU="
+        }
+      },
+      "date": "2024-06-19"
+    },
+    "1.44.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-iXUPWysewhpzJv5ZNQuGkRA9yxmvcTOCLpgeaFed84k="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-ZYTuOHijmbR9Fzy9jrfV1nK9fr591+ivkYBqPvESvwA="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-0QcADsAPdTqIDU1pL3vMy+/bPc4ZbS8CFS2FLCpaYUw="
+        }
+      },
+      "date": "2024-06-19"
+    },
+    "1.44.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-BldCfq0eW+KnpaRNk3YJuSY1K/YWcjQ/u4dLryiJ2oQ="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-K08Pn5gow0AH/lAcFw8m/18/Zwg2bMmB5M/ho1xgseg="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-iRCowRGeEpOvVEN3V68BwQgYoVYNbgHy231UJ82M5Oc="
+        }
+      },
+      "date": "2024-06-13"
+    },
+    "1.44.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-r55r3OF/9Bym96lEa3vL/WsqZQHzFyMu7Sr7jzmOWO0="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-IZLhbaVcpFgo5HywA65xAyJnN/IzRW+UyyUd6Vd0pLA="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-ue1skPEt13Ua1fOeB/WA9xpz6ZR9K+cD6lQIb4ub7Ps="
+        }
+      },
+      "date": "2024-06-06"
+    },
+    "1.44.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-QKALqY4s1C+7mLfu0uLaTBeJP68cX9AVn0/jKN7yybs="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-lKlqqba+1m8L+8Fyr5W/UDHKDrx+lmDpFYtXI5smUOc="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-u4/i+JwuRt7IkJTJn4ZdmTypEKt4Lkc8XjiFSDNTNA8="
+        }
+      },
+      "date": "2024-05-30"
+    },
+    "1.43.6": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-JOqdipgTnkCHgONkMWd88In4+nq3NxBpVn0P/+aBBvs="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-Tr8iiE6SwLUxlwJC+7uYJJqEpSqm+wgm7hEjtgOPOts="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-whOOWqlnP4bL3vd7+tOOoxeQyus3q3HcpEJE1hDPfe0="
+        }
+      },
+      "date": "2024-05-22"
+    },
+    "1.43.5": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-QGTgriwhPjU74FG28asNXoo/INtbrV7Lg3oB/DuZvAE="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-MzXNEKPBevpaRPx5SEzTRxyhUa+l2bpggOVaf6p9r7U="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-JGv4GJMsXhGtuFr6rzyQ5l1cvhS8qo6hTTX8CFhpd10="
+        }
+      },
+      "date": "2024-05-18"
+    },
+    "1.43.4": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-wROXh4rZXciuRJR5pIjl9mAGtnuW5djMv1YqUDEwdHA="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-a5BxTA5sWVF3Gt6ZAlIkF0jRMQCILQeN8js6fCIfMJk="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-VE05Vu+fMa+gos2MXw1tfzlMFrYoBcPOFYT/WdnzKRo="
+        }
+      },
+      "date": "2024-05-17"
+    },
+    "1.43.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-KnQkOZCb3K4bg7IBjVpOs3hIMCwrh/FBVKHNtbKbVQM="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-j0ywsKpYsy8xlf6buMpMCVwVJhT8Dn9CikIglN04hMY="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-BHbqgrVUFCDaEEU9FQxjJK+SXYtLu84iNaFed5JkF/4="
+        }
+      },
+      "date": "2024-05-10"
+    },
+    "1.43.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-e56AwTZH2VktgwnRxXktc2HYnkeB6xXcRt32QK4T2v4="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-8KKEsRIJs66XvS/RkxmrwTAQvvRvT4KK8XjoBPQ4+Rc="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-Invj2xCUepZCZ3SbGpLt45JGI0Mynycs9unk5qL6aAg="
+        }
+      },
+      "date": "2024-05-09"
+    },
+    "1.43.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-V3sXPLC+JzMCRQwrqVz3tznXlK5/oacta6Flh58JktU="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-PnfKXf5Xk30RiuyEPAKPsuHYynNi79w1oVSMsSPOoKk="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-p5fCzWiDbGmg6dALMR0MlzO93USsPM9Kj1r/TiMPpRE="
+        }
+      },
+      "date": "2024-05-01"
+    },
+    "1.43.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-V3sXPLC+JzMCRQwrqVz3tznXlK5/oacta6Flh58JktU="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-PnfKXf5Xk30RiuyEPAKPsuHYynNi79w1oVSMsSPOoKk="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-p5fCzWiDbGmg6dALMR0MlzO93USsPM9Kj1r/TiMPpRE="
+        }
+      },
+      "date": "2024-05-01"
+    },
+    "1.42.4": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-0Fidxuhae5OEhgKZCNAT2vmN26AABry2hcUCGOtdEsM="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-yHVF2iBJ7hRA3IP5TTrDoRGyEhz6Ew9+t/GM3Wpdp+s="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-j3ad7V7ERRHuhBDGOJF055ydFCy05HOF1zWLVSxjvbk="
+        }
+      },
+      "date": "2024-04-16"
+    },
+    "1.42.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-9q6Tpk7woiXYUPK1Tumj0dSqDRcQsi/YAkyWJo+qSpI="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-ca+uEKngI5/8nZK2/tM8saqf+TvDYe2WTwzItG3Dask="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-fBDJa+MuQwB6JKGTPvVjJpYrbOkAPPWDuWHBxKc8jaw="
+        }
+      },
+      "date": "2024-04-12"
+    },
+    "1.42.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-WYP7gqw7ldRufodEux3vc1HO2AOJm07TyXnhxB59l40="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-If/u5RuhCwd38NMj3QDfMp6RCPLubZpulBtSwcoKMUI="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-dWNC0zHUad3DtvsJ3nCGTiJaaT3HqTe8RnkEA/hMT9c="
+        }
+      },
+      "date": "2024-04-11"
+    },
+    "1.42.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-xe8wW8QiR/0/kqTvh06iZkDJfbI4rpSiNnB7wTPB+Tg="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-ecCPVy14+D9JujS1Ty/5BygyRdiyWgr78Z5f5EsZ00k="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-+Di62yd9EqZH0pxNqcTaPYEUikn94EaPPBKnwezezTg="
+        }
+      },
+      "date": "2024-04-01"
+    },
+    "1.42.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-rFENswOehFAMF3yh+MAhppQj0FxiYkaf0MxZ+upwDJ8="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-NfZMZsg7PJmG6R9XoOt83Q5gJxnje5z21epH58QvY04="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-3jbacxIAeBW/V2T7eN0S94OMtdiXow55FUt0idI2Oy8="
+        }
+      },
+      "date": "2024-03-28"
+    },
+    "1.41.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-uJeFcCt7Xa3VfnfKS07EmoUTyS7cO2ExUFpLCLeUR0U="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-mZi61e4oVbAuspYYUhDTR9NraZ61JpJgYgwX89ombmE="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-9d3z9FWyTVpERra2qNaiwkC/Z9CilGVmEJ4mwFPZlE4="
+        }
+      },
+      "date": "2024-03-14"
+    },
+    "1.41.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-mJGMjrRJm1Qyj7TlBbdTr4sbKvJrFlHUtnKhVz6ItVc="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-cJL7264YjyxMXFnw1iuAeBUzjGkeSC+Al1dQAwHp/s0="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-Po/AdcpK1h8CCI0jSH9hpIfRh5IXKs/ztc9ArIOvKN0="
+        }
+      },
+      "date": "2024-03-08"
+    },
+    "1.41.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-rv4kG0rcVHKMn5Wo/AXk6iDg6AYo++dbQ0sxfx7gGPI="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-tP9ZTdY1/wz6GalLuPfebxE4m+JursHcQMKz+rFvXIo="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-IzN3girSHdjpCVPg0DAd+oIZN5vwUSseFapPUH6DC3s="
+        }
+      },
+      "date": "2024-03-01"
+    },
+    "1.41.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-3d1wmgmeWL+C2BUmB525ChFAqbrV9G4Jgpy1ye61Q6A="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-HgSXiBTfEjQ+0J20ShT/t8RncU6u0h4XJMk6Q4G7eTU="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-ybJiBwTUtPdxEE5S5TltA7Uam1MExDlyMOzr4VfsovM="
+        }
+      },
+      "date": "2024-02-22"
+    },
+    "1.40.5": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-2I8bK44+ULj93srCevqDp+Qu50cZk9XlKZT5YaK5h40="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-+VN4aMUALa+dqPtRzIjNG6zrL0Ohtfhcs/s1lsGCZpI="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-z7sCu15fIILnxsLZ4LafH0kd3bdIfAGCxH/faqXcyJk="
+        }
+      },
+      "date": "2024-02-15"
+    },
+    "1.40.4": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-taPXBLdRnj2d0Et4/VBJW0jxd3RN1h+93wl8W5wsLac="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-JR7yuPIwuH6h4SHnuDXGord0NeYGO26TncU19cjb2V4="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-xSBmFYd9v+4m6O+NW6qD1iXU3CvzYF8fZSUvlnUiMjU="
+        }
+      },
+      "date": "2024-02-08"
+    },
+    "1.40.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-Z+np6dWXsZW8LuTTMMYXcfmo13C9Z0Ygu/fOO+taMi8="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-vCw6EjfcOaZEwR98l76DbnJGuiEoyEpeV3u0GUHeKNU="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-rSkC32TIF8WInII+4x+C+jbN9mpOJZriXFFAREOy7Cs="
+        }
+      },
+      "date": "2024-02-01"
+    },
+    "1.40.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-G+RglMkni6m6FmoOo+fGu1Jue0Ki7iY0ZLPEvliWL5o="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-rK9O1VaKm9G29Z9pkhjNfZhE53flcGZtHOsnQMFSfsM="
+        }
+      },
+      "date": "2024-01-26"
+    },
+    "1.40.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-zk4telW7m/PwEgP3zOotZ9cjP12L+4mrhpcWnnxGCo8="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-BU3L+BAqIpLPPeg4m3qFl0swOE0PE0UqwwItMuSr8ZE="
+        }
+      },
+      "date": "2024-01-25"
+    },
+    "1.40.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-WDvcbXTPtaPkU2w/KJb1WfuYuxKRTBHdMxvKHO43uS4="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-3L6xj30j3pa7MGkfxmAVLT7FBwM1o//XmCE2Mr4zF1o="
+        }
+      },
+      "date": "2024-01-25"
+    },
+    "1.39.4": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-E+8zblPaUd6alNYMJyPvhkrBqh6s+ZZFGDBvEbp93W0="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-UbkWEiwkNLwkd6uVnFZ/uzF7Oj4/Y+9OBB+AuP5fIp0="
+        }
+      },
+      "date": "2024-01-14"
+    },
+    "1.39.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-OK7EbjJusJod13n890pgIMB0t/N4X1+w6qg+wo+aXCA="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-dEITwDuOSAsHCQQLpd3opx1llKWtINxfYriFUEiTZ9o="
+        }
+      },
+      "date": "2024-01-12"
+    },
+    "1.39.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-b1a+JG4H3gqvXPqHSm9tIKjCzDV6IPGxkA7tzev7Kek="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-v8TBs22mTqSBgcv1tzu8zhuTwTpDAhvR7vP52a8QqZw="
+        }
+      },
+      "date": "2024-01-05"
+    },
+    "1.39.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-vn8F5XhLvU0hVZgecNQKHEtOu8nRNG2U9wKNfgMkOg8="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-vdWDpQ7JMewb8Yq/llIjNY6K7q6uF+302QsIpg+eCoI="
+        }
+      },
+      "date": "2023-12-21"
+    },
+    "1.39.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-m2HssL5Y8QjyF1A/6H+fcgfcqpnpoZ+4jZsKUKNESfU="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-UIupL9drrgG1/YXu9Tfx0ducC/RkegIATQmjpSRRTkg="
+        }
+      },
+      "date": "2023-12-13"
+    },
+    "1.38.5": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-0AEIBm0n1WMRtuxqtONCYV7jJ5ILRo1D0t/nkzqz6oA="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-BD127iAyQQIeSrGgzG9oEOdQV8xiZUBYAAwicwkSKg8="
+        }
+      },
+      "date": "2023-12-05"
+    },
+    "1.38.4": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-8GncKpj7Tb1v8Haes1tQmC/FtBDMCCr7hEspdcWWkZ4="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-070OrxyTDsZpPWYgH3nIu5XsxM6fJg3zD3Ad4GQI6Lg="
+        }
+      },
+      "date": "2023-11-30"
+    },
+    "1.38.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-kNUviilxDZUYWPU4W924te6nc+IXRfWUf77ARyct2bQ="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-AervDnqSIyTN6yzhn54rRX/rSJtWjp2obHtMyKPE4KM="
+        }
+      },
+      "date": "2023-11-24"
+    },
+    "1.38.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-qrtr2dn7O2eiD3B4fwTH+8XYGpHr7PrYoRquyu1dWCY="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-hznIG63UN/XXBPjYKZ8BsXH43TwnqyhwJufzGYypL+Y="
+        }
+      },
+      "date": "2023-11-17"
+    },
+    "1.38.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-rSLAm2x1BeFYzkIBHKI0TOFVuzSXFSI5orHVOkeq1K0="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-/l6gLoOpgAMLGt8glTaqoBuKArdHk1xfVmwQoN1vfoI="
+        }
+      },
+      "date": "2023-11-10"
+    },
+    "1.38.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-CCj3QH837BSeUOLfC93g9ITI4yHXdf+xTZzZis4Nsw0="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-yAhu280a37lm8KiN2xqCM4tjr6bjglYrCwXcSWLk/2g="
+        }
+      },
+      "date": "2023-11-02"
+    },
+    "1.37.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-uKyybukhl3AbC4g6JT6VWnqpoihBznqE+bDKSfGX4Tc="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-C/Zd9MjtzO1CIfeUGRYxQiByS2Ac9JElaawfCBSIqCI="
+        }
+      },
+      "date": "2023-10-13"
+    },
+    "1.37.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-tzVwlmpgHZTSVIBAFCMvoIT29gsBMSfpqxIBwKfddPk="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-Prs8I0xOpdkU6zlK80DgiuB4fpXKjsLFi4aXUnYPqgA="
+        }
+      },
+      "date": "2023-09-27"
+    },
+    "1.37.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-Tamymt7g+TWf1RqEAgkX3bROPFXE8fF0cBbHsGI4Bfg="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-uJqG+2fWrD048DyR/S92lHCIZxmh/V3Blxc2dESpaLw="
+        }
+      },
+      "date": "2023-09-19"
+    },
+    "1.36.4": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-PSOpesx/ZpMzVdsGd2rnMrCAVdsL5qOOTDnWvKoVln8="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-rUgvJZQI5evN8oCBSWiPUsM0kY4Zi/0/PGq9B2YCD10="
+        }
+      },
+      "date": "2023-09-01"
+    },
+    "1.36.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-OCbZiKunkI/Id9mErvUAB+chhLfDS89YM5DYRt4EyMQ="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-EvF6FOEUa8CUOZDHogqyt5Abzy6fVrKM5G7U4Vky+n4="
+        }
+      },
+      "date": "2023-08-24"
+    },
+    "1.36.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-uOCaYosCgTWxX7cOzE3wNsEbvBEYFuTRjtC1AGyOBnw="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-9HeWaLY81Q+QGWZbX20s4sHSlJMKEvvAH47NhsfYoNA="
+        }
+      },
+      "date": "2023-08-21"
+    },
+    "1.36.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-2/Wv2sBq1ID237yA/Za3GciDSLHcgByy+IfwIwfdmaM="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-Y29OtkNhDZucgmSdRRHJhTgX+I3pYGKC8FjQ2PvWR8w="
+        }
+      },
+      "date": "2023-08-10"
+    },
+    "1.36.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-4E3HfoV6u9a0HOSH9zJTu7jl3PUB0zizGio+kXzxZPE="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-nyewOQ+QuJe9aX7YJOm7GBn/ny8xtSSuafNLrnDyJ/8="
+        }
+      },
+      "date": "2023-08-03"
+    },
+    "1.35.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-jW+pVEK1SJe1yq38x39huaJzrTUZ3RuQ8p6lqjwr43g="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-1ABUhYiDfFeIPSgFWDEvG72jlqTuSSQrE2LNdHgUw3U="
+        }
+      },
+      "date": "2023-07-26"
+    },
+    "1.35.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-cC7DNok1TTHDElSD2ocTCyW/00e6kz39BaonB40lnOY="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-Q2AdVMRh5+NFhOhFDZKjII5Ol3D/3ebND4LP64HEqks="
+        }
+      },
+      "date": "2023-07-20"
+    },
+    "1.35.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-u4AqxMVjUISuTkoykT+DK0SxM0qRNK8ADiw3E60q4WA="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-sm1lF5FBXwxRCNsGwIpcSFZT3r1s73G305Kw6Rc8JGk="
+        }
+      },
+      "date": "2023-07-13"
+    },
+    "1.35.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-GWSdOrYAtWTDRtP5Y8esqcH5InFWhNRld64JoXGLshc="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-Jr17abQ4wfoOjlLSoY1fLPBqqc7s3L0FM2S0ls21F0o="
+        }
+      },
+      "date": "2023-07-05"
+    },
+    "1.34.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-/kjTkob+lzIRUA9kJjABgajxkQPdJ43L5nmlhrFNjrY="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-8tSWqDUJk3t+TgyTFjVfL/Tvz2BCws8peRngnkJkXDk="
+        }
+      },
+      "date": "2023-06-15"
+    },
+    "1.34.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-UvzwKbyzHgMNAG61zBObfqKHIqU+sWRIDFZmGJ2NkWY="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-gVTJHSnF6VaiTmAYkLQ4tVWO6cNaJw3DrpiewbWDJ+4="
+        }
+      },
+      "date": "2023-06-09"
+    },
+    "1.34.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-WWIpPeuVKIEd+A3Llk7vCMDcwgDSbC5hn2UiMq5mOTA="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-IeBpQrLzki0v2G0jcuVxNaNShPXk/YZ+l4zvslAs56E="
+        }
+      },
+      "date": "2023-05-30"
+    },
+    "1.34.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-A+HMXcUJegBdkMDVnrKkUgN0YoureNG2cdD4L7J7zWk="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-EuNeT9siQN2NqLYNQTktd4uf+05Rl1AOVixrwIT3Jts="
+        }
+      },
+      "date": "2023-05-25"
+    },
+    "1.33.4": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-6lBMrIulPvWD0PkS14NPS/+I62R8+xDLHdJJYrHcBi0="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-LmJEhzKoSByuevZjfd03KJ5bqm8izY4vgZfiWZGGklc="
+        }
+      },
+      "date": "2023-05-18"
+    },
+    "1.33.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-MbiKS0VtrC87uhHp9DjTj+KqJMzcDDld+WLA31dIv+g="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-Zl7KGpKU4EqDXPozN2dzdtfWYJobbY5pt7HL/CQ7Ux4="
+        }
+      },
+      "date": "2023-05-12"
+    },
+    "1.33.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-62t0+amW0TQY48gU/+yZRvBE+rRsL3eKvL7NIzEWw3g="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-eJeF3IT/Qpp7TsZ7Rbu5kzRDkDQFfvCWPKntIoX5ufY="
+        }
+      },
+      "date": "2023-05-04"
+    },
+    "1.33.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-5KUx0GH6gVEHCmMj41ojYg1oiSl7gQtkJKUSWELsu0c="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-3+Tymv9MiF3WGW12I/UMiq2cFie+i8mr5n5CSut49j4="
+        }
+      },
+      "date": "2023-04-28"
+    },
+    "1.33.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-LbG55bZ52qZAvArkahPSfrkUI2gqkLCv+9gTZojwzQs="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-NuIF8EcTKH8jgTYEgYykFx5L+pRe47NZmMUTK8HmXKI="
+        }
+      },
+      "date": "2023-04-28"
+    },
+    "1.32.5": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-FKxqT9R1kkvR3RaCS2PvGWqazwtpwe8MH8pP7edd/Ps="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-w5yK77Adb6+9zkn56YeNUH9R8pa/AdBk5lWaVB+0gus="
+        }
+      },
+      "date": "2023-04-18"
+    },
+    "1.32.4": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-u5hb38+YVfmNApc0HdoeR1Zh6ImXbfrwExi7bSQtAJo="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-QCR7JYkGK7IDbUSNcSXii7Adomihe950uM7WmBgGako="
+        }
+      },
+      "date": "2023-04-12"
+    },
+    "1.32.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-NOLsUqZpfSDIPIKSRWdNQRCB1STDOz4nyKegdB2pni0="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-ktfdTrAKp1ONMjyNK/hSa2dsE7LNi9BqU5r/rGuS9+s="
+        }
+      },
+      "date": "2023-04-02"
+    },
+    "1.32.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-Ll6W9zibMBgMajBWmKH1dNaaWyeBi3zmm6F6ze/eFYo="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-YUOOb34bbDPcobS0QcEcPvrSlDK1nyQsFaUqVQbRd0M="
+        }
+      },
+      "date": "2023-03-31"
+    },
+    "1.32.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-HP9deuiYtWbUUjlU/ZgY1T7sSwR6pfko1NhHD9dQ9PU="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-GMHxQfj47vsYqPEkyEfX5+FDOBXuDb8vzyDpan6bWyE="
+        }
+      },
+      "date": "2023-03-23"
+    },
+    "1.31.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-Zm+Et0HiPf1fPHgNHFNp40HGrFmg+I/NJJgf2/g8E+Q="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-KskoZDpLPEzr0ELS57XDvilaatim6dQn020y+rld4j8="
+        }
+      },
+      "date": "2023-03-16"
+    },
+    "1.31.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-Zg6kRYrqTKhPWanHkokonenkNEIeWjEL1Uc3M0/qlKY="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-m1lgxmGeB+YvEYiBYI8s/TcRnAU+k+M09A4GX8Xb+5A="
+        }
+      },
+      "date": "2023-03-10"
+    },
+    "1.31.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-vYlBjJ6CQl3UAhc9kMVUHHKSBFn/DMNJTld/dixc/Ls="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-QLnVBjD5Zop6ctAdaLYXI8xlkZTBPpVVZBrCq2JzvA8="
+        }
+      },
+      "date": "2023-02-25"
+    },
+    "1.31.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-3OKgv4JpTOURB4d1MYiIFEvTgR6KCmg32bNa13WXwbk="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-8JaY17DqAUFeBEqt/nJh/7s7kicERWGNf2XGqUIGPdY="
+        }
+      },
+      "date": "2023-02-24"
+    },
+    "1.30.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-gOzdmT1l3iFF1d4wwkx1pRUNEH06wIJ50UF0E4EznyI="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-1EArtboE5a2MlG+qwM6GXqPMg/W1kkb2ptHEJgDg00Q="
+        }
+      },
+      "date": "2023-02-07"
+    },
+    "1.30.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-N3mSyFAmbK2o9ybzkpK1Hik4DfSpNJ4UNTUcA4V6zjE="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-cL4YFdUFFjlZbg5ycBYriX/1QUYOgbjllyPiuT4M6SM="
+        }
+      },
+      "date": "2023-02-03"
+    },
+    "1.30.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-jyUTCrglJD8dSpE/NZ4K9DlzRbAvPPsG+S1iHSdP4TU="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-sgGiB49cKWkxpxJPPmdw2Of6a2h8+dPHfR1CDhDConU="
+        }
+      },
+      "date": "2023-02-02"
+    },
+    "1.30.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-gMam+eTb2ozQJN1qw5pkMG7e2Y1TLvqL8S3cnBJiah0="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-d+uyU7O8i6XKYrRLYOi4VVwbPQAR+869HVIpFlL4NKg="
+        }
+      },
+      "date": "2023-01-26"
+    },
+    "1.29.4": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-rJ8vB0YgJbb0UGDjvwRnPbPj6a/CjhG8S0oEDtmJ6ig="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-fxWLv81QLoTaAaZo4kEKU46C7rGQL4kp4xjjO3IgpS4="
+        }
+      },
+      "date": "2023-01-16"
+    },
+    "1.29.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-gwMivicXAxnk1uhtsKent97L2boCcXFH52BPTtgcfJ4="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-0ZukqChvMBN01AnvIsleaQp6FM2rLLzrhLguoYMMgC8="
+        }
+      },
+      "date": "2023-01-13"
+    },
+    "1.29.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-UaoFhhWbXjUHGXItMBSp320J8Y1ozz7d2VDeBMxTpYk="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-FHhEJw4bbyK9Ew/zeJSR7SEx6VrsixvBnYQCv9EytXI="
+        }
+      },
+      "date": "2023-01-05"
+    },
+    "1.29.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-iVOZB1w0CkUxUjc9niSrLewmE3GFifKIs1DyDf78boM="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-jC0LsTLUgfjJxk77qrc4DEoSlCCzfhHDmXJLnwVP5J4="
+        }
+      },
+      "date": "2022-12-15"
+    },
+    "1.29.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-AN/0UsaTtuUSNN1iaPNGz/svNsgJN4R1GGzk0hNhgRA="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-eDcu24fN7va2v7/82Q06emtw7+mp9qOAj2OoxtnhHCU="
+        }
+      },
+      "date": "2022-12-15"
+    },
+    "1.28.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-+OhbHa3TEHZgjvjBC+YyZ8v5Powudg56jqFz8Z7EGWI="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-HJhizof6yneTobM24MIH9bBATnfNR7p+fXEdxP87PqE="
+        }
+      },
+      "date": "2022-12-01"
+    },
+    "1.28.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-ba9wnA5sVGs9D4q7736JL6IwwnvJiwWpjjPKrdBgjEQ="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-aumlL2F+HQ9HxWzW/vRGLpvri2qFBwRz7kKO8nIOuPU="
+        }
+      },
+      "date": "2022-11-24"
+    },
+    "1.28.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-p2VcqGq/hUvCIweYrlfPGxNJKqFEYB+fsSfMzodt6gM="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-z1TS7di7JhndEPo7k9T45IPKiCGrOFTEkXcOVVpmaM8="
+        }
+      },
+      "date": "2022-11-17"
+    },
+    "1.28.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-PYSiRwB5g5wMOMRNUfqa50ne0cT+Qv6KfmsmQ2Y/kDw="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-HyMQKpKr6NZcsZSuFNHvSk6oV05TBh7suDgf2Dcbvvw="
+        }
+      },
+      "date": "2022-11-13"
+    },
+    "1.27.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-97VQ4NDOnpYWTPuEOF0VKKqY9bos2yoMXudf21QB5/I="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-ZHZlybRriNX5h1V1dMbeJA2L2Tu56v6bgxJzFyW/XIE="
+        }
+      },
+      "date": "2022-11-08"
+    },
+    "1.27.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-qMUkswh/iZEF5gxYV9zpP2W/AQO9qT7gpcParrWyIGg="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-nkKnkzIS1TClk7yfCtfMy7jMGWv+JscE+Tju647Aj/8="
+        }
+      },
+      "date": "2022-11-03"
+    },
+    "1.27.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-zq/Mv7G4bOQtZzwp1bjB8MPzPibfMy5SbtTgHswuCB4="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-CVbjJRRO7P92jQbzvMwSEzJwR61fGGpBYYFpf/qhFaQ="
+        }
+      },
+      "date": "2022-10-27"
+    },
+    "1.26.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-AwK3ZOmJJmqK9G6upjyoKxlOH6TaogkVq7P7TPw+YPU="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-0ZJJQhozM7AygPtCR0jBRDwHcLSAxp3JYG2N2B+fQ24="
+        }
+      },
+      "date": "2022-10-17"
+    },
+    "1.26.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-zsDa3J37i2txHmphTkaIwn57X3ogvToEYkWyLwQ897Y="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-bx1igmf9RPO2RPpgUq8gUWDDzfw6KuBASTVXGcZViMo="
+        }
+      },
+      "date": "2022-10-06"
+    },
+    "1.26.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-822CzgMxqBOrcZ5wsiDf/16UjwLW6TmLRGyMa/DSkMQ="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-Bk+g+/k/kfLupVI0/1PKQkEcb+zz4T31JApKFxP/nOE="
+        }
+      },
+      "date": "2022-09-28"
+    },
+    "1.25.4": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-wpUm/Wg15lUF78B9fTcpQ/QYvH2X0XLvhuTYbh5Cymk="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-7inOq6tRQc5W/7tMu3SpZi3jJeWzNpM9GQWHZOoTYz0="
+        }
+      },
+      "date": "2022-09-22"
+    },
+    "1.25.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-uMRVEOysuboCJE/n65qL4kS37cPTTKON33viJX5woT4="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-RtULydBawaQ5OcuZJBC9SKva8J2Egsv0Cm/NpWlYvo8="
+        }
+      },
+      "date": "2022-09-15"
+    },
+    "1.25.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-Li3JcxXMem05tzOZP7icIawzZETDbUZBK60v/xwJmqE="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-KYXRa1IsN+iNbjyDHlzKU7hyKNG3FcMTILph696zZZA="
+        }
+      },
+      "date": "2022-09-09"
+    },
+    "1.25.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-i2khjZS6ohb1jSoTNMTiJuWcfPMD5av4Kr9pXmx0esU="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-mgeGZcFyadlkhu48n5vRbrP7Ss95lGyIseS6tiLRJYw="
+        }
+      },
+      "date": "2022-09-02"
+    },
+    "1.25.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-UvHSZqbF1ye2zjORFSrlEDyQYL5MfsZWdht0OjHMRro="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-YXu5e6FPDezWGqj275jnDQ7sWnN41FjUa3gaxg0rkkE="
+        }
+      },
+      "date": "2022-08-25"
+    },
+    "1.24.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-xxQ0mQDMUn7PD/NIN+qSaMLvT4ScuwIqGNoQ+dCpgKI="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-7UB+SfiLJ2POnRoTtWbdh7/GI5lgoTpXW4B1kpmHs+c="
+        }
+      },
+      "date": "2022-08-11"
+    },
+    "1.24.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-MJ+Wd/frY20J+GoJzMfXyGnFEZs+6f+7XsmgqjFZaD8="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-RbrcsfUwLWQ+sfArX1Ev2gs5Jw68CrNT0knDNJ52Ib8="
+        }
+      },
+      "date": "2022-08-04"
+    },
+    "1.24.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-WzYCCjZ9OD3leldJC3QixypCL+YVJuKy8dWG80KzpVg="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-Gevl5s55jkNJuq2ez/8aImH4W4ysgwSD0a0Sb25yBVY="
+        }
+      },
+      "date": "2022-07-28"
+    },
+    "1.24.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-pU14CACyNUyl3KDiJmLj/rhOeeE0/9abpF50HDWs8UA="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-E5BcjgTFtY0D6bSXDuupFWDURx4Yp5M+UDodmGYCAK0="
+        }
+      },
+      "date": "2022-07-21"
+    },
+    "1.23.4": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-pg3QbrUvePB3pm/dDuFz/mGBcr9ZjllhTs1pgr5x/E8="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-I2z2/WX+0Hj6RFajWPR7hIX1HTCDgabcqWg62O9MI3I="
+        }
+      },
+      "date": "2022-07-12"
+    },
+    "1.23.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-pg3QbrUvePB3pm/dDuFz/mGBcr9ZjllhTs1pgr5x/E8="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-T23m53ct1MyfSvy9WDxWpDzV3yrjjTF8dXhQ/PzYRcw="
+        }
+      },
+      "date": "2022-07-05"
+    },
+    "1.23.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-oRmvwxM1j/PzNNhkkcLwGbPN+UNAMY+IoktdiFQp+o4="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-YKqV8U0QcIWzPKkSi4G2PO+TP4FOlK3ZWovGAndbKc8="
+        }
+      },
+      "date": "2022-06-30"
+    },
+    "1.23.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-pVxxgOOMEuSGgSJ/FXJbp3Q6pEZ+61nUKjQMKEiy7d4="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-iOiqj91DOm9FMi3IBnI/6jQmPHtZG5ZWFGdDdbEe808="
+        }
+      },
+      "date": "2022-06-23"
+    },
+    "1.23.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-LsgOQ5k5mp91yjqMfPkgt3V7UuKS+Qw5KzRVtDEfC+k="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-26FYEslBJckC9/x35AbhXFamJBo4wEOtI+BiT2x/l74="
+        }
+      },
+      "date": "2022-06-16"
+    },
+    "1.22.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-SBXMTmttUGTT4+Zd32C8iCbu6IMu0h4QAiG4b8+qNZs="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-nh1SnNQ2j1e2olJyx0O5aKqESLJI3AVeLCIC3LR3w8U="
+        }
+      },
+      "date": "2022-06-09"
+    },
+    "1.22.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-tybESnl3VUYqWSns4c+/7yACxySHwFRAjalpTbluixk="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-ZTlVuaQ5Kio3zKrBX7XsBWp3efAI5yJy91EdbY3VQqo="
+        }
+      },
+      "date": "2022-06-02"
+    },
+    "1.22.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-DXryzQuLDyhHW3MvvxayGBb+mpUdXmIHgz0uim7rxjU="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-Oq0mLWdnPXTXHl80I04Y1dn03REd62D4Va4EPJ8f3rs="
+        }
+      },
+      "date": "2022-05-27"
+    },
+    "1.22.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-w1T6wBM9yOGg3yO1ep9XH375Y+rMaab0fZjsS4Fgtew="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-vOx0NiiOIK4EPo0gOxNoZuK11EJ6OkyJORajor9T1Tc="
+        }
+      },
+      "date": "2022-05-18"
+    },
+    "1.21.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-jIRK0NNFgdFVr9GVNIxjnICSpwD8UvmdcZMtQSKbQqQ="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-lBDMaYWsDDVrzozZmE7zixk/yfDpeWp6vvexLAWJ+dc="
+        }
+      },
+      "date": "2022-05-12"
+    },
+    "1.21.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-07PYjEk59xJ1mQV/aazK/ou/KN4DclJOYzY15nr1pOo="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-ACXPNmjkb192v02EpSH1qQzVXPPPEgqHZ9oQtohEK0Y="
+        }
+      },
+      "date": "2022-05-05"
+    },
+    "1.21.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-f4dwwoYviLB08wY06x8O4JcLkv46U2QL4NXIJ5WEBH0="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-KIgp3K3h79guPdg7FnZWij+2InJIkcSxVMrmLP7rygM="
+        }
+      },
+      "date": "2022-04-28"
+    },
+    "1.21.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-ya3uteOgPZrL8Cd/cd2nhjAgDKGsxnxPlLYLvN5X6Y4="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-HvyLK40M60JJRRZMnd4qU/vhWM0BTCGAIDpFwbVHqPk="
+        }
+      },
+      "date": "2022-04-21"
+    },
+    "1.20.6": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-senyUayecJ6XpbiS7zwLaWiWM4qo2XZNRb7+2Sladfs="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-3kMfc6Mf58rJacXhCIF0pHJjsjxw6/X2kEiOzP1htiw="
+        }
+      },
+      "date": "2022-04-14"
+    },
+    "1.20.5": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-ZEEVKWJ22+KRifve6Yth5zBlJHcRLIo50dABxMQeOI0="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-93h1/mkbSFejfKZhEh0JLGjRo1RSQphum9RiF3IIb7A="
+        }
+      },
+      "date": "2022-04-07"
+    },
+    "1.20.4": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-T8502oBkn+TqyGbxS2riArzjoiEYuN8xVwI4AMIJtks="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-x39zVylhHer2MAqKykwgSd68KfYS54rN2Rwq3OZIB54="
+        }
+      },
+      "date": "2022-03-31"
+    },
+    "1.20.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-OAkw+McggPsbtNjXhbV0Gl/foKHCz8CHFa1xDfWOFDo="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-r8QqpJOxcfW+I8m9us5F7lWPz9hFHhhKgTmZ6OYeV24="
+        }
+      },
+      "date": "2022-03-25"
+    },
+    "1.20.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-QiA8lFLpssSyGQxYsz/eB5gp1gD2lNmZjzk+t5gd6Vo="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-qqXAav5hguTQCe26fR1F9chAhGDCHEqBJIfvKAr4DbQ="
+        }
+      },
+      "date": "2022-03-24"
+    },
+    "1.20.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-+tMeZ2/VrNSaDIs2Z3T20s/QOD67UwXAxxt0c7gS7JU="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-rK8+y5FWCZGhF9i6iy2T/AOsKuh5+ytmc6fD2hhbSTw="
+        }
+      },
+      "date": "2022-03-17"
+    },
+    "1.19.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-PIq6i0M/ognGi8krTelrLeNYyOCOE/uzgQpG8sQVGEQ="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-/HDn53MNP82t86sN/hqh7Q2lh+XveM1eBg+Yszk82IM="
+        }
+      },
+      "date": "2022-03-10"
+    },
+    "1.19.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-yBYue+FYmOc5iMODcTu6e9QKr+pt/vi5Qg3ayo709YQ="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-aGTQGfDO0WV4Q/3nMCK9U7E9wuFJIzk6bsnN4gl8qGc="
+        }
+      },
+      "date": "2022-03-03"
+    },
+    "1.19.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-zx8rNL4iMxfSMCnVGv0muiNiXjv7ygKf/Y4TKaLCC84="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-XTPtIbrTe3l9b7HBRGhZplGQoh8xIVTaCSnnUODbYY0="
+        }
+      },
+      "date": "2022-02-24"
+    },
+    "1.19.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-1c2fTbXTWEdEbBUHeTAu3hRVU4tQkYJOK2PtEwvhIPo="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-+Z03zfbl4pVgYwU5fIwZgujFsAgBWZGCzg1jrh/EW8g="
+        }
+      },
+      "date": "2022-02-17"
+    },
+    "1.18.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-puITotgBbOLjrWN14NKcAYN8MufTk2Cpgw8txtiAePs="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-+91U8HSp+e4fHCANUV90JQN/vuFyf/MDlUMTjn4Tm7c="
+        }
+      },
+      "date": "2022-02-04"
+    },
+    "1.18.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-v3tw26QR6uFZfw/mRUG9ule3E7a0gsyiTkS9FKGWzwM="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-BJsl4L9H2EbOW+oDDoNwe8rmvkjDS0z6SGRjIvVy3LI="
+        }
+      },
+      "date": "2022-01-27"
+    },
+    "1.18.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-7LHhRC4+4UIUk4XVsdSlLNmcguTc/4xhztaiYUpCCmA="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-R3z5hrCBRNzw98IBXb/1PRXBqeENjhPLsYYKMssjFUc="
+        }
+      },
+      "date": "2022-01-20"
+    },
+    "1.17.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-AtefptLEULvcsJXzzI/QPr1lKKY5arFc/QkjzIzksUA="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-e4g+PGONId0YdfAQiBny8TZHuGb/JJZRNeZ5x0MBP0Y="
+        }
+      },
+      "date": "2022-01-12"
+    },
+    "1.17.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-MuqJPTcT1UkX3G1lktJ+qtTnCIkWlhDgJi0a6wPaqHE="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-eq7961feIGQRrhlLPSxbyiPp3e47WaHXRq4+TaNYyqo="
+        }
+      },
+      "date": "2022-01-05"
+    },
+    "1.17.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-fCeN/I9Vg1e/ib3zjdWViPngl+e5IbBNwAnUOtMiJTQ="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-STWL/lCpg1H9tfYOF0BAblqKXavk4hmJhbPG8pVrJqE="
+        }
+      },
+      "date": "2021-12-22"
+    },
+    "1.17.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-uxCWlgGtP6CMUjL2I6zfd1cx/7j7u3kAd1dgSrhJnSc="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-5T0whKxh3Ug5Eb6k0qW5Dh8OTXxokdIyum5jx/0wx2c="
+        }
+      },
+      "date": "2021-12-16"
+    },
+    "1.16.4": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-pwJDAbVxPahERRJv4fXQlsRggSHa4f/9x6MHdD20Gzc="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-d9FkML/pxfOl1HyU7PpqLWCigyIXzP/QBNkP0Eq291o="
+        }
+      },
+      "date": "2021-12-03"
+    },
+    "1.16.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-v6m9qkHyCs5qithiBoh0WDwN2McOv0BkAzNyuxeYEFg="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-zzciUYm8wqwy+AmZpZqTJcr+Gemo3oW2qcHsW+LbwW0="
+        }
+      },
+      "date": "2021-11-24"
+    },
+    "1.16.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-iQs75OEay3otXOtPH6LxH8buKVWwqfZqy6LKZk6NRXc="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-FJifrsC0fU/5PgVgm+OMV2cjXAUOLBO4/t/NExZNn44="
+        }
+      },
+      "date": "2021-11-17"
+    },
+    "1.16.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-uDjPOzzUJ6n/YvkuEEG6emUpK+H9oPjks/oDAkfWSH8="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-pPXONtvnJhAXOttOEnkX8/fohlLtcnxm5xkpXyT4UIM="
+        }
+      },
+      "date": "2021-11-11"
+    },
+    "1.16.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-D61iSvdXwNl3WmfKG0l5xn6ubjNDfBJQ17Bh+SH8txo="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-2Ap9/8vvYbcQ6BbvVo7nkMWtbHQ/CpndukvRBp5XTFQ="
+        }
+      },
+      "date": "2021-11-09"
+    },
+    "1.15.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-W8s/eLOTlYYgBEc1jxaBV05+plhIEYEVmy9zwLm9c/I="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-9yjSmvOLf+Iqq1tGtinJCgL0B4iCQeRu8XQRQewQ/+E="
+        }
+      },
+      "date": "2021-10-25"
+    },
+    "1.15.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-l3COQcTZGMM2pg63TMz8REHe0apUwzyB+uqA12ADVkM="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-3WSrOMXQpw+DrWPAKXyM27SsZn1D625Icx3OW9RjW/0="
+        }
+      },
+      "date": "2021-10-18"
+    },
+    "1.15.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-ji5CvlgQiYgNPEj6nedgRtU6VfGCrLcDL/rz4uV6mNQ="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-TkAWCd8XANAcXGupx5/Tcsav/LcSwRuVdfn5FvfG1ws="
+        }
+      },
+      "date": "2021-10-13"
+    },
+    "1.15.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-Qi+OKq+z1g3ek/2LY+Thysq9Pjj1irYiQCLw+XopufI="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-WVKXfBPehunAKN83BOaelW5V1IfNOfojiJ/kKVOl5c8="
+        }
+      },
+      "date": "2021-10-12"
+    },
+    "1.14.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-a/jAZ9O+zZZ/+JvQVmaGTuvPbWhB49Grm+6p1Jeaq/M="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-QWQVtHUUQ9M6sIW52Y42GSDaQwBov3LISESSOQnLJEE="
+        }
+      },
+      "date": "2021-10-04"
+    },
+    "1.14.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-QLIU8e3bNivrihxM7MUnBhUpVkr1GKX8JAZuEnuWamM="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-45vvAgzgAPmZkFF8Te5hwKNh2/ThMtBSGzocpPU5JK0="
+        }
+      },
+      "date": "2021-09-28"
+    },
+    "1.14.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-nbaMR/hkPU8gkxzJX6vg8+HVClIq6fOUGySPrlJ+hY0="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-ofdkVob6zic+T2TAJ71Scs6xw3Qni9qahzSk/iyOhAw="
+        }
+      },
+      "date": "2021-09-21"
+    },
+    "1.14.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-hOF/HqaUEF52GTU8dhQsiuaoIMCXl0KEQ3/xMyVlSDc="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-Zua1YvXMb8I9NA5vQYFA/2HtWaPbCWq1Iqj1p8ZAEIw="
+        }
+      },
+      "date": "2021-09-14"
+    },
+    "1.13.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-BLMMyxY+zYePDu2Cw2bW+HffvTYZqEdTtKUGkB7g4v4="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-NYfP4LHTd0ovAmvyfjAzs9phq5lODL4+lZvSFmTQVis="
+        }
+      },
+      "date": "2021-08-23"
+    },
+    "1.13.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-3RNW4fc7XAS47aesa/4L0Q9lGbie4B51UiDTscoR+D0="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-x9zFuyEhfxcLPynr/WqfkXhI/5tNDdoUab3mNwJPA3U="
+        }
+      },
+      "date": "2021-08-16"
+    },
+    "1.13.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-9E9vR209rCoPh2k1vQxn2TFxAE96/x3k6qvm9X7/K7w="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-wZVUrt64zDqysbLRBUP+IWwKHXyl9eLSwayuZ/b2e/0="
+        }
+      },
+      "date": "2021-08-10"
+    },
+    "1.12.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-/jhE+k0GS4W7/2XDzLyWJUg49b2Qxr7POfsbP+QJe4U="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-n0wX7ZmeH82oo3EGZvanaI5zxvdfAMD2zPIed2WiYR4="
+        }
+      },
+      "date": "2021-07-26"
+    },
+    "1.12.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-DmtEpBC/I891haMKyftB58B+J+AdMpLgdEaL/DJFojs="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-7BEHZGKaQ5zLpUfy3ZKjM/A4UdBSikUFyR+J462HBdM="
+        }
+      },
+      "date": "2021-07-19"
+    },
+    "1.12.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-zcpaJHP0gyDUV6sf92SBZn/JaN1AUdkkEmVrZkh3xAw="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-88aAeunpCoRTinTAlv9pKq586Q6dW7O6fPpwqf+8hZ4="
+        }
+      },
+      "date": "2021-07-13"
+    },
+    "1.11.5": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-e4lAVx9EOEaZqO4Y6Rtp4/4/d2FirdBXeKOaTlJ4f4c="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-m0BL3JgEneC6pQk/ZZrw2u+Vb0T52kooQU7QpFp7LnE="
+        }
+      },
+      "date": "2021-07-03"
+    },
+    "1.11.4": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-nwq9VkdiscFK4vG9oWQ3lZGz36BBqN67DZclGbtMZXY="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-J3/HG+js0Eua6eSGcpGydlrS8aKYPpQiFZSllnLgxew="
+        }
+      },
+      "date": "2021-07-01"
+    },
+    "1.11.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-pWveSSrGkfuhX9oL88LXdw4zC1lgdV3R+laU21bJyss="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-P9nJMqOSAEVRdtZ3VLDFOTRvmUYiHuJ3id9uroIbT94="
+        }
+      },
+      "date": "2021-06-29"
+    },
+    "1.11.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-AQSTGeW4VCO6jVE0s5Chfq6ZsMbxJDrpq9TDa+4hEDw="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-Hky6BWeB7tEzQlnPP8FUJ+qHyjU6fIAcZm+NxcrO3dc="
+        }
+      },
+      "date": "2021-06-21"
+    },
+    "1.11.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-QMlbOsc0PMiVYCATAzH9Hn5LjGFFE/19mQThCADZ9vw="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-8TbY14B41h5c37unZQG3ezN3yPFcKfheYS0l5usZBmM="
+        }
+      },
+      "date": "2021-06-15"
+    },
+    "1.11.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-+HJgbVu6u26FkxITL5PTuLjoqu21WxEobzn0yLd6Hs0="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-3O5diavfNThcKn9yPjja8izncRr39aONEHW7Z3xkhPc="
+        }
+      },
+      "date": "2021-06-08"
+    },
+    "1.10.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-qnTiW5AgeUOvKAo4lIqUQSHx3ymQcrYyRTN0SLbRPBU="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-eyeNQTVq0LNuefn0RL0+a44wj9CMtOo4HghTkIJdsi0="
+        }
+      },
+      "date": "2021-05-31"
+    },
+    "1.10.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-kU80luLkiXLZSwo27mRMBlLpHAgNNUowm+w8Mr7enFY="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-7G8eUN+dwy9JPVOz1b7+XULn7rqHrpvnXDMfkAw/JFM="
+        }
+      },
+      "date": "2021-05-17"
+    },
+    "1.10.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-BWXzj4aL/5O37w2ntuiyAEjytfDxyNZknMki9/v6/cQ="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-zYJZir3vreBsnfD8VkQxMhPxGOzrnkL5hOxZMj2K7FE="
+        }
+      },
+      "date": "2021-05-12"
+    },
+    "1.9.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-BTUbMvdGQtzYq0MSUvYkDnww1apmQEBgliYMkmwFV3g="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-BcaUg/8LmMeyZmbjVnK3Hz3N4d9SPbEMzuYFECdb4cU="
+        }
+      },
+      "date": "2021-04-23"
+    },
+    "1.9.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-jVYTANAdT+LyWZTAqgzXX6y9UgTmpMe0WmZc1VqyS+U="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-/ByzcZ4nZlSZDLewl5WxyTzJwFjWhXngv/e9ecAZ1jM="
+        }
+      },
+      "date": "2021-04-21"
+    },
+    "1.9.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-38ykekAsIoKap9URPMpmFY18DJCvycAF3qrZ1Qcc6k0="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-lDQdLrWjGZhrs155WdNdvkfFWQT7VvQkXlKOm54qekQ="
+        }
+      },
+      "date": "2021-04-13"
+    },
+    "1.8.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-/3YbxzbN5NZcZwO0wfEWpLY8DjonbfEfHRU1inNKoWA="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-jYWnmGSRIG33lmBIrgGXa8B/jcQttuyTr7p4BsRbAME="
+        }
+      },
+      "date": "2021-04-02"
+    },
+    "1.8.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-/VZNJCpLTegbRJ/jQVmPM5TeGL0l15O3TEQBLrewNYo="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-wx4NFcfAPhq4lsznz15iBX+8JBFLw1CXA9ivkg8iJsY="
+        }
+      },
+      "date": "2021-03-21"
+    },
+    "1.8.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-voVGEhA8jiKXbKWz5Uq9Nii426fq8vACo3yBY7QTxi4="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-vGoW7fosTD6XLJpBnoLQEmwc1Dej6X2a4Veqqw7Q2EA="
+        }
+      },
+      "date": "2021-03-09"
+    },
+    "1.8.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-1apvlPwL8o6L5laDQ7Oyt2u9jLtw85aQQ4/SBFxCncw="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-Kh3k2C9WoiDxgoNKnESRdDfQMRuQI+KLcL0MpRX9h6Q="
+        }
+      },
+      "date": "2021-03-03"
+    },
+    "1.7.5": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-bmZyGb5yHJ0l/6hAOVsIMcTymuLEr+/JGhA//WjCTv0="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-Ti7s5++xEDWSBbigzl98pnLLuopqcXUQhmklwiONj0k="
+        }
+      },
+      "date": "2021-02-19"
+    },
+    "1.7.4": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-5Itdw1rdwBR0/oAySOq7oXvk/nI3L0xPukQMPifs6JA="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-v7B4zXhYkQk9F0p0GQAnrA9Rqwm60+4gj31xPItzwLM="
+        }
+      },
+      "date": "2021-02-13"
+    },
+    "1.7.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-q7bk8bgljChke9/U55IfzOHqgwHZSvEzImk/ncV6gG0="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-34zCJduHeWSxkxlzr5YH/fPGOu3biulFyRn1sBoJ1T4="
+        }
+      },
+      "date": "2021-02-05"
+    },
+    "1.7.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-9WHqLutinvI6iLgUmx/o+HNrLLoqXl9NmoAbvPyR7yg="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-DYb3uhvT3YSKTBZOyUPqJvJYXSe3MxtvcI7Qbl/3Rac="
+        }
+      },
+      "date": "2021-01-29"
+    },
+    "1.7.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-vxPetlRVXtz1r5vqi/G+yXZ6RXw3PGsqq3u7JS4Uy/M="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-el+PviEx5t3MKU7Rq7sZyf56uUSXYlcyNvPZAIhWNc8="
+        }
+      },
+      "date": "2021-01-20"
+    },
+    "1.6.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-6FZ8Agrd+FaMJk0c27oybqDOEPTrGTpglCWHrHHhdRo="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-PFtsY9S39FWrA54XbJuDRobu42RgDGcHrg4peKh0OfY="
+        }
+      },
+      "date": "2020-12-30"
+    },
+    "1.6.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-LPyyq+X7kQcuOVzWEd1fv0BBsPugLcVdDdUqeHuhQEA="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-A8Q5rBRpkaGsSKQyfsTDMr70SaB+Iejk1Jjm6r9EzX8="
+        }
+      },
+      "date": "2020-12-22"
+    },
+    "1.6.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-RSX9Dofl6GDdoWDAXgvcdgeAloDKYUFHULHEUxzzYQI="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-AEluSzSGBpR1OE+7Uj3FFXxqsi3uEudJbUXUwXJWfRs="
+        }
+      },
+      "date": "2020-12-14"
+    },
+    "1.6.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-wauUwB5XA5LMV6TvAag6c7msheH5qrDJT7xx7QczHYw="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-rQfjMVFcMpkHnPT4vKml/pkxyZJGjKZc3H0P87SZYjc="
+        }
+      },
+      "date": "2020-12-08"
+    },
+    "1.5.4": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-EjLlByWq7GKih9dAKbK3XOetfMg1v8dd2ymeDxvz7A8="
+        }
+      },
+      "date": "2020-11-23"
+    },
+    "1.5.3": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-JFIpaBigV9ub8we9csXaFYgxCEFcH3vU+GFT47zlzUQ="
+        }
+      },
+      "date": "2020-11-16"
+    },
+    "1.5.2": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-rQ9pRCXVGwUecdQCdjbbrWASg7f2lefg6MeAD9HqlGw="
+        }
+      },
+      "date": "2020-11-09"
+    },
+    "1.5.1": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-0MxijO3iKp4xjFWMtYawy5mJGshQuP5DsnngNGnkJ6U="
+        }
+      },
+      "date": "2020-10-31"
+    },
+    "1.5.0": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-kWlIWRAr+Y6vuP1II1RXRRRPMPCQ9yO+IJhzOBpJzSE="
+        }
+      },
+      "date": "2020-10-27"
+    },
+    "1.4.6": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-22mkVIzDHAk7lu2caaalsTYoXoS+MVy+ldijrRyu6gk="
+        }
+      },
+      "date": "2020-10-10"
+    },
+    "1.4.5": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-nT1yQp5p62DDWDGM3p07dvMMwgNCWYaG0ppPZkXvhZk="
+        }
+      },
+      "date": "2020-10-08"
+    },
+    "1.4.4": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-zirS5Rs7SaTXhE+iYJJDfqqonpDi30vzOFm5+4yJvpw="
+        }
+      },
+      "date": "2020-10-03"
+    },
+    "1.4.3": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-O4I0pZ3unY56FQ3bfRljrOmR/0QrNm6tlUdS81CBmF8="
+        }
+      },
+      "date": "2020-10-02"
+    },
+    "1.4.2": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-gHWpBmIjfrDO9Aa9sisHdNJWF2J6+yTpQvWK4hI0/ds="
+        }
+      },
+      "date": "2020-09-25"
+    },
+    "1.4.1": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-eM7qKLxpKDb2JCP9kPOX2vH2tJwL7gHLFgXaZOkIsPc="
+        }
+      },
+      "date": "2020-09-18"
+    },
+    "1.4.0": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-u1Ozkv15v1jW6Z74q8OFK9Gey1cyoguC0A8Lz48rK2A="
+        }
+      },
+      "date": "2020-09-13"
+    },
+    "1.3.3": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-biyqQPldI3LgjHXDf7G5KptxCnLp65XOR7NJZapFP/A="
+        }
+      },
+      "date": "2020-09-04"
+    },
+    "1.3.2": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-xVxGkG/cAOE5LFN5g2RMuZgtDPG2FD92DctQLTo3QeA="
+        }
+      },
+      "date": "2020-08-29"
+    },
+    "1.3.1": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-7zqHQL3OqxBYCMkc+5GMiDoj3vtnGbnFEeK+MNW/3AE="
+        }
+      },
+      "date": "2020-08-21"
+    },
+    "1.3.0": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-XufcmEgaEAkCjJdURarveHG13FCT/T4TqH3nRtRmj6Q="
+        }
+      },
+      "date": "2020-08-13"
+    },
+    "1.2.3": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-ksZrXlRHSDnhDI21x3HorMCL6eHeBU+fTiOB+OoJP6E="
+        }
+      },
+      "date": "2020-08-09"
+    },
+    "1.2.2": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-rgtFiDrjE1a+QkNfCb2llDC92sWtmnykJrsg2dg/1tw="
+        }
+      },
+      "date": "2020-07-31"
+    },
+    "1.2.1": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-nL70fp7+6yBUxxc8MmsWZuCQyt0TUtqkDmV0meoXte8="
+        }
+      },
+      "date": "2020-07-24"
+    },
+    "1.2.0": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-M1KqA7kig9epBYzFUjMCaBgN8Iy/aNd1Cqzwj1SL04E="
+        }
+      },
+      "date": "2020-07-13"
+    },
+    "1.1.3": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-/4d61fXhUhHaGM4kJkNq3nxiHkAwf65c9BVyLv7VpXA="
+        }
+      },
+      "date": "2020-07-03"
+    },
+    "1.1.2": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-D6M9uKAWozPcXncIYw4LgCfRhcoTry+jEIUI8WyVLPM="
+        }
+      },
+      "date": "2020-06-26"
+    },
+    "1.1.1": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-fKk0ClMqh5VW18chxKXCyRsfvguuGMSQ21aHcPWmVHI="
+        }
+      },
+      "date": "2020-06-19"
+    },
+    "1.1.0": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-QTMFk/lxYi+AoV6WXxa+E5tXcl4usZ2Hmxy6Ze3ytWU="
+        }
+      },
+      "date": "2020-06-12"
+    },
+    "1.0.5": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-yADi9hZZ8MlH9WQU1r3DMHR6cJ+O4a0l1jL/IypVZ84="
+        }
+      },
+      "date": "2020-06-03"
+    },
+    "1.0.4": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-QrGKSx4EM5Aj/Dg/wsXwfgH/bavjfk/AWDYqJ0wmZQM="
+        }
+      },
+      "date": "2020-06-02"
+    },
+    "1.0.3": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-Y+G556yc4s5rR99LvV5scdXJo6borHgPCBYBjjLIiTU="
+        }
+      },
+      "date": "2020-05-29"
+    },
+    "1.0.2": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-dwX9gyoFsqLV/B5bzmqQCe8pUhcQPdtxOaqvrYmGxFg="
+        }
+      },
+      "date": "2020-05-22"
+    },
+    "1.0.1": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-x/drDEUkZ+glUe54uyU4Lh0RBYO4pQKF4x29iI4GdTk="
+        }
+      },
+      "date": "2020-05-20"
+    },
+    "1.0.0": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-YVivJSGDdxBew1OOrtLQ/XPrv3C+cOVDAnyz8pPvdio="
+        }
+      },
+      "date": "2020-05-13"
+    },
+    "0.42.0": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-DeORx3PVoPlQLk7fHlIiYEb8XLloZ86i/OEizaPjlx4="
+        }
+      },
+      "date": "2020-04-29"
+    },
+    "0.41.0": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-8vA6JhfIrSshpi7oSnf0vc7NMAMi96jumFusvJILHVw="
+        }
+      },
+      "date": "2020-04-16"
+    },
+    "0.40.0": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-ceyaZTnojn8pk10WphYANidcBg7fIT8+riwbMsV5EA8="
+        }
+      },
+      "date": "2020-04-08"
+    },
+    "0.39.0": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-RLQNqmJ5tT0UFZsrDFcD0HyMZpP5GIQ3jyTyZNmZUmQ="
+        }
+      },
+      "date": "2020-04-03"
+    },
+    "0.38.0": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-595fInAi0JSCRiyzjDjsZKnW5ORXQwJhzEFCs8/KbBE="
+        }
+      },
+      "date": "2020-03-28"
+    },
+    "0.37.1": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-Onf250FS7YWOC0cAdgBnx78yVKRYQbmgZ0bBN5qtVfI="
+        }
+      },
+      "date": "2020-03-23"
+    },
+    "0.37.0": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-d8OvTv3EIuaX3aTZ19cIHpMp0J28tNPmL5+8SCTpAgg="
+        }
+      },
+      "date": "2020-03-23"
+    },
+    "0.36.0": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-hCpxuCvd3WCZu9pZgX0CYtRqYGn91pr/OT4sbC7781Q="
+        }
+      },
+      "date": "2020-03-11"
     }
   },
   "schema": 1

@@ -1,6 +1,7 @@
 {
   "latest": "1.3.14",
   "majors": {
+    "0": "0.8.1",
     "1": "1.3.14"
   },
   "releases": {
@@ -394,6 +395,2740 @@
         }
       },
       "date": "2025-06-12"
+    },
+    "1.2.15": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-qwzW/H/I0e5PgWbZm3EIbUeTxa7g0LXHP9+bcPpH3tQ="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-PD0AYUjzcgD5Z/2AcO77NARoKHustEUkoxytHunTu3s="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-omFiY2eDW7N1SgGuB/iESE7RewiGsB5Be3mVkfpNeQE="
+        }
+      },
+      "date": "2025-05-28"
+    },
+    "1.2.14": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-J0w3utbdUEH3T2UzCww5gDF7EUKhveznvr6zqrRLiNo="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-hLctvtLYWywlHx80ViQ65LVyd7hs6sNAakRgGPbPltk="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-zrG9NHKgi83I2VSCAkOjKdgLigwC9Xy+/ZERCS2NPd0="
+        }
+      },
+      "date": "2025-05-21"
+    },
+    "1.2.13": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-gVQ2dSTYwpjtsmm40N9h1GnsQZTTYcB+S40sZfu8Lvs="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-tqJVN7wtEevkSkeN1iqOAdvJ9OHEt9LXMLSn6dNYDMk="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-i7LkxH6uGD8kc8Vbm853mMSig21kbCWHp5h6PRBi4QA="
+        }
+      },
+      "date": "2025-05-10"
+    },
+    "1.2.12": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-ibU/bbdU0yTNaJz95dA1zBJMkDREI8XWvAf48AlPx6k="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-yJiiBX+Rm3AL8onYQ9rknuEUyPYlx8H+0EN5D1RpRQk="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-MzeWT6ox2LzhmfkXCBMHEO8ucLmP80o09ZCxdFiApjM="
+        }
+      },
+      "date": "2025-05-04"
+    },
+    "1.2.11": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-fVTFXFknTy8nBkgbOOb32QmZyXny6lIudhG/BRxbGfQ="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-rIY6rQU+9p0dD2DYmrMTxh3MqqlissTXQ2w+/bqVlbs="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-5IElgZD4kwqRX/UrWgcXuD2PKdvRiClMnUXjdGTc+eA="
+        }
+      },
+      "date": "2025-04-29"
+    },
+    "1.2.10": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-B4le8PtmEkm4awtyO2WxzEeQx/NoW2PNqQEisAKZlyw="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-VFkv0CN+PskaKTPf8BXhWniYnZcjQELn1TNKTArVBgM="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-aKFU/xvpaFG00ah8xRl/An74Crea+j1FhxUPrlw0w24="
+        }
+      },
+      "date": "2025-04-17"
+    },
+    "1.2.9": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-valv+2j45f0W0rNEMiWuXibI2+eQy7Nd26Jht74oBhg="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-oqtdrUAxo7RdNzomfL0FE+c+m1TOsNu5tF1veHZ/aac="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-LAjGN0h8YcN38pmlkZ6P9Pyghbqa/obOE9Wy93mb82s="
+        }
+      },
+      "date": "2025-04-09"
+    },
+    "1.2.8": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-ioBqQKA3Mp5PtVlFcmf2xOvoIEy7rNsD85s0m+1ao1U="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-Iwg/JW8qHRVcRW4S45xR4x3EG5fGNCDZkV9Du4ar6rE="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-QrSLNmdguYb+HWqLE8VwbSZzCDmoV3eQzS6PKHmenzE="
+        }
+      },
+      "date": "2025-03-31"
+    },
+    "1.2.7": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-VxB20tZEoKSWchHphR9YTESmRcCgt7tRma/xIXL9WuQ="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-nCS4Oky54tHiH8cdHNj4nz1vd3bqeR1CusjgPku1MZs="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-hHsTjLGOq4Inyx87Fu3Kuvdk5Yp5pef5BeunaOo138s="
+        }
+      },
+      "date": "2025-03-27"
+    },
+    "1.2.6": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-Ix+BnVMeijmkS5VBqCAJpoGJxaQuz5sudVAwvIYx8Cs="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-g1n61xSSUbjnL4Pl+9n8oFN53xd34hKa/DkSqeMbKyQ="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-z96q3OE/6DgepiFMpyEuhUb6+Iom8+23yNbGpqvFjh8="
+        }
+      },
+      "date": "2025-03-25"
+    },
+    "1.2.5": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-VeZSChcuIqN9SCLyOv3pCybzaIDOPqrTSGmUGNv3iLs="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-7htcq7X9uyVkB4fjKYRu9BOEyoaZ21BPRb/uAV80i1g="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-iPZL7e4zD/TWMo4+kMZpvHrFMUknxgT4XjKeoqHRl5s="
+        }
+      },
+      "date": "2025-03-11"
+    },
+    "1.2.4": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-/UcChwu7kRg2RppwOu58HH26/HzY/FgEKbot2hi7WqE="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-aUobOa01YPP8fI4KxC3yd9esTyj+NzZGEEAA3f+a6Fw="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-ity9dM8a8H3DYH6+4yv+WlM1OxrvlRWWN4EYPVxAFYY="
+        }
+      },
+      "date": "2025-02-26"
+    },
+    "1.2.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-Q9/A3llu75cfV8zmkmwd8K6WhBVFrEWn3Rvx/+erwrg="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-rI0vSbk+WG7m4erJKGiX0a6BLb+y+1wJoDGFYyOh9/k="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-wNNfzF/rCOi4SDLr5hcS0r+x8Rgd5wbpOHvBLiNGPzU="
+        }
+      },
+      "date": "2025-02-22"
+    },
+    "1.2.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-xNWOBsXDOIW1JvTZGjjKnr25/D+0zVR/fTMCBVyY5Bw="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-0duqPpryRUn62Svb5Psh+lMwLNBIqPAE6FokCYTJPU0="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-P077iv0fhKwqmMBGYciYVh0dNVJ9Awy0Vx6Zt8hfUHk="
+        }
+      },
+      "date": "2025-02-01"
+    },
+    "1.2.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-+QPKAgbohV+Gm+L3mQi4hzxCTluCrIbMFtjPx905Qgs="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-i3iaovqeH9VAMbb9APW7lGL2vw3BkapOakigimfdKAw="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-Q4DjmFTLTIqt8jfI9dJwJWSaK0lwXakc4zBm3pWdUug="
+        }
+      },
+      "date": "2025-01-27"
+    },
+    "1.2.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-+nIXPLIiDQDi0mUP79wLWze/2Lsz2NZxtQ77QJwvV0U="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-aF6IlwQM+qNtxkoz6EGevUqQa9A2v5DIz8vj1oBE1c8="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-B0fpcBILE6HaU0G3UaXwrxd4vYr9cLXEWPr/+VzppFM="
+        }
+      },
+      "date": "2025-01-22"
+    },
+    "1.1.45": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-LMSX2u5IF6ps4+JY6/FyYrxCAuUnaHHxh0iqkoJUvWY="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-DFjWi9KamQZCoMP0CJ5YeEvgi3DewjIvnhWIhNOZAFw="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-bQqVKJIWF3DKbmQTaIrToFCy79queouJOQUjWLJRga8="
+        }
+      },
+      "date": "2025-01-17"
+    },
+    "1.1.44": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-8ZIpfUVwFl768O0P+ZOfcMVUpjnMVst9VpY5SOoYUC4="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-z2JO60dBJOgPlRKHjqwq90BpSZW9tnhL7wOTV+rbunY="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-CzXRBAm5UTotBknu4/jRTUn8ROHa6GLt1dcyZDFQAZM="
+        }
+      },
+      "date": "2025-01-17"
+    },
+    "1.1.43": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-3sbiB84OHnxm7bSAL6eu+EKeOUQZvWqlqCGuXDCuoBE="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-SjI5u1jhmsRMRDqpANuhqyz3YCCiWzz1XJxG5IZharM="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-j5iqhwkVV2R9wjxlwyBrFO6QLI4n0CA9qhIAstH6PCE="
+        }
+      },
+      "date": "2025-01-08"
+    },
+    "1.1.42": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-ZKcP4pC9Y5GgnVVdTk4ajfVlQ+UmuxOBqzRKOFNIVyw="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-AGZIRW0qjVCqYhPZr2WiUELOAfhAYDluXqo8mPeE3Rc="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-NoIGwwONj6q8Y+MFnu6mTCr5xQ7Q37+4b2SYS6adsa8="
+        }
+      },
+      "date": "2024-12-21"
+    },
+    "1.1.41": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-ePPTdg34SWd5TV26HWYJFdw/gtEGSWLvHce8IJy8af4="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-i1UEKj60MK4aLx2YyKAXFM/Z1LTGrBqD9O0cxSW5UNI="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-KNq/ug2cLAN8AEOL3o12EpydaYJVp0TjusqGfW9UiBk="
+        }
+      },
+      "date": "2024-12-20"
+    },
+    "1.1.40": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-i1ny8I2kX4UfzYkB4Oh2KM8A8apl+yzh7YikVcCJXwM="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-sDnJQ6ep/GraWdvqFKnVHHQZ0N/b17MS1/pR0BesVcQ="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-n5BFNl4hxkZWiWZ8GLFpUZxQYh2+VbCQjidFyAqhMQI="
+        }
+      },
+      "date": "2024-12-18"
+    },
+    "1.1.39": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-1tZ6ZZWa6CxvjfNHi54P8iPq62oJdS8QnZtYtS9MG1o="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-3lmYhu/s/H/uhqVshgIoSaLc9xMEVoV4ed1gW6+bCIk="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-/c4cGEOF6e7sUzSbs5z3kX58nEjeXCz0RsjWudEB6dk="
+        }
+      },
+      "date": "2024-12-17"
+    },
+    "1.1.38": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-u8b7Dnu5nn6VABugUQXPCdC3nAaUHZ9u49CzTcFUFZA="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-Owj9CzH3RVCeH+2caQyA0aMu8rPI0FlYP2Q/aWY5vSE="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-ph2lNX4o1Jd/zNSFH+1i/02j6jOFMAXH3ZPayAvFOTI="
+        }
+      },
+      "date": "2024-11-29"
+    },
+    "1.1.37": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-b8U9LbdtvvXF0l04+OG3Y8bdiDsNnOKdADnQirs2zK4="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-ai70l93Mj7m3it2HbTQMINdkKFjhWfk6tby0Bkg//dI="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-zHpTkX7cm2V3i6zfyiHprPvR8vaXQtYWmAN3p4Yg6XQ="
+        }
+      },
+      "date": "2024-11-26"
+    },
+    "1.1.36": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-8pmq9GfsjmELvv74uRZkqzsZmhdM6y9al9YkyW394Gg="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-1bv3TUkoi7aYGcVFl4nawGoAYtmZpibXnS9FsFtTWXo="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-xSYfTX40L+cgvGpdc2sclPTfKULCJah2UsaYUYGx7Hc="
+        }
+      },
+      "date": "2024-11-19"
+    },
+    "1.1.35": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-AC8J4ueYjbjPNCefb+i+nEXo+0m2dzQolBs6PRFkJlU="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-ccini1zvvBj3yI/TAu9mpPjQLUo+WIlE2nzM+YIx6jg="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-3Z4CL90qEpZF2PbalYyKJGephzrA7OeeRE3631soBrk="
+        }
+      },
+      "date": "2024-11-19"
+    },
+    "1.1.34": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-unFn4bexupfjtFA6Nxzi/vC1stzuBXYP5jPfwXbZDig="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-BIYlEyRuyUdvipsCVEHTORlJoAnH+rv1ogv10JUHyOA="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-S8AA/1CWxTSHZ60E2ZNQXyEAOalYgCc6dte9CvD8Lx8="
+        }
+      },
+      "date": "2024-11-02"
+    },
+    "1.1.33": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-ZW2+P1bWWNG0MCCeqtczOOY52TyQ/WZkC5ExagfxsBM="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-zNOhGhLX6yuiOjHbpijkcxk8YlkMDzNCUwWKTIwc3Xk="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-oAIFp9WnScRx+VJXwknnUMBQT7S9nugyD+45qJu6qFg="
+        }
+      },
+      "date": "2024-10-24"
+    },
+    "1.1.32": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-OIUQqD2fWajn/7b1b5+vx5EdcqCDNfsvb6HdfvDz+XA="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-sQIvD93GvYnOpgS6ZY0R52EcRCswdUrf5KFNYLt/JOU="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-4hcKlpIcyMFrirMSZ44VeEZoa4nO57wVe4lc92M56MU="
+        }
+      },
+      "date": "2024-10-21"
+    },
+    "1.1.31": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-dOQFfkxCiOFmAr11CjSdSKNpiLERkbVWawAuy8ASkJE="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-ZuU14GvAtf1n1sA8amtZUSGp5iJ5qp/SI2wrw4Gwe/4="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-zHitG4Ktt+iCKk9GrC3C4MRSWhUxh89kW9bUeHzqNJs="
+        }
+      },
+      "date": "2024-10-18"
+    },
+    "1.1.30": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-4U8PGLbRSjRbPqNp0eF2GB/EM2P+cg/C7pKBv4J3ksw="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-T3BZ5JQoSSBOEbNY7MyDHd6Viw34yLHvvoXRbusfjSY="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-UGDyM+7L7YGXaGs3sOstqP9SKC9XvR3Y45T1Ov3shA4="
+        }
+      },
+      "date": "2024-10-08"
+    },
+    "1.1.29": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-RSMuealmdHe7qGFwhK9e51TED3PaCwSqzd4aj2RKMxE="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-gY+MDJqDjQamxQsk/CJJVuHsBAfwgrebs/h6nI0HV78="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-RnKczYB/IkUYVBnRktCFhHsmvObQovVMfCilqJq3q1g="
+        }
+      },
+      "date": "2024-09-20"
+    },
+    "1.1.28": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-wNGr7P/3hL6Of1AQaaLK1k16a0nYBrOiI8g+9JwNGzY="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-i6CoZu4V5jubjz2hT2Re03iKzX/reMHfZm0USWvyAsE="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-ZEhYhecMV0EOvC26bEYqguW8RkPVeT+q3a1ZZyXHeQk="
+        }
+      },
+      "date": "2024-09-18"
+    },
+    "1.1.27": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-I/axYOXXLU5V+82jfNwsmhjwGOMkK+e5Sx7pKqQlvBE="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-LvIjCWx7fd0EOLEY9qy26SS5/5ztAvEPKdv8mUG+TCA="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-Ir0EQH+bnHPwOTakrO/ZQ6pyeOWvhu5bK5j+YLN8Myc="
+        }
+      },
+      "date": "2024-09-07"
+    },
+    "1.1.26": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-WATRJhepP2uwJCcuD3YOqhpgaHXIeMtJcjVUaSCZadg="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-Vxn2GepUR5gW+qPbaTh6JBCG35O+SoYn2s3+EXA+RiI="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-qHBNhvZRTjBEmDOsMJRIz4TgiLbtuWjgVHfP+aBaqio="
+        }
+      },
+      "date": "2024-08-24"
+    },
+    "1.1.25": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-rXLPClcVgJULeUhCjZg26DLkWaSr2ihZEMryAYw9HHI="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-0/VQW06/C7CePWXsm6FVVPu7iVzWODuM1TzHrDXwME4="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-5w/frKlIFjgBEtDJHstoxCPmhmL77xSOukPo7nO5Rsk="
+        }
+      },
+      "date": "2024-08-21"
+    },
+    "1.1.24": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-S4CkxukIj/ST6J4Dt+V1z+QPjBcrIYdZvbSKQZYawZk="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-gucwMMs7Y5nqhPzYYDoDR4PzV8avfXlZ6ae8r7wfZqA="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-9HiIBnjPKC/dpGzJ1Y4goN3h+tjJz+4Sjq1DmWRT4cg="
+        }
+      },
+      "date": "2024-08-14"
+    },
+    "1.1.23": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-jpftgynuGl7XDsuJfV/jTr3Lks4ZF/F/ntnSyIqDmlg="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-6yyeuM+teZRHnWS3cBoU+mxWTWEdy6La/2QlHOQny50="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-6b+X+ynbkECEOFssPUhiEiKOQDZ4xydZp5Ewd5kFAhY="
+        }
+      },
+      "date": "2024-08-14"
+    },
+    "1.1.22": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-ZbQHCE0ra68NFQWGIXIERZiqX/eYGmw55EO7OCdUszE="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-syt9VN4Jg42oycujOgdQ6s/MWp8uyKvyf+ztb6cZTlY="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-sKhv4Bz4r17sShUaaV1X6uxQWMoyxKWEO8R4RBrqiUg="
+        }
+      },
+      "date": "2024-08-07"
+    },
+    "1.1.21": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-SjdwEWdAa6KFm2Iu6Dbkv+H2TI0JeaSYcdr6m98AAVM="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-wvVvep9kUzmZObpkoa28ObqCvRSWUTKg5v21zI73vPE="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-KPq1T0jxN6ghFIoKRe3rQqUtI6qMuRdMzIFVSj+JMco="
+        }
+      },
+      "date": "2024-07-27"
+    },
+    "1.1.20": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-ErutjiXBjC9GDvb0F39AgbbsSo6zhRzpDEvDor/xRbI="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-vqL/H5t0elgT9fSk0Op7Td69eP9WPY2XVo1a8sraTwM="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-bLcK0DSaLOzJSrIRPNHQeld5qud8ccqxzyDIgawMB3U="
+        }
+      },
+      "date": "2024-07-13"
+    },
+    "1.1.19": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-+12hHYEnmQJ7l+pxPtk/M7YALvOOfw+N7dJ8ZxE8MGo="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-lQvlyiBLYMvaQnqea1c9quYqQYSCtY3Do4w6pmBIo24="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-7X2oX+YcAEAtmuwc5CARroWviWjY9X2a2HMAwc8aVgs="
+        }
+      },
+      "date": "2024-07-12"
+    },
+    "1.1.18": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-USN4hMdTjoij1JQ3lWztk9ue4pB+kqaYvD7AuxWz4is="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-JIaprZk36YW+oUe6DLWba0OIK69LuhVsq8cjnQ9o72A="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-n/HcFSSNtnmzEa4nBuzn8LuJ/IQ3/QUlTt3OO5T/ACQ="
+        }
+      },
+      "date": "2024-07-03"
+    },
+    "1.1.17": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-aULgRZ9evcGUhKJ6slLJOg3IEzUeNfIkJF8RDP3YUlo="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-eytY45LcgeI9m9amHd8hfE7Lz7ET7p19h37Bi4yUHBM="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-pRggu/l0HgCk73kX7W43qKFVE13/7pP4P9bTiqyK2Yk="
+        }
+      },
+      "date": "2024-06-25"
+    },
+    "1.1.16": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-wv+owUkAizJP9iHLYFCYc/qIFu/c4beHAibdG90xQV0="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-/FKCOMQp+bKVHrhvULlamuaSC/KVvk4sFVEEuoSX6z4="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-6Cufy76EpnpMDCJGVxIZ0WtfALD6iRko7+NThJG9v5Y="
+        }
+      },
+      "date": "2024-06-23"
+    },
+    "1.1.15": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-T6V3B54rpdNmF60lX137Pau80+E/21aSl6LCa+6GHq4="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-ekWcoZxGsq1AtBLflzzhVQ2lVPwQt61Y86MVHtFJsUQ="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-PLGR7TEdy3sQ3S9rKWe8z8gjrmb8STyYPzbRPaJYSPI="
+        }
+      },
+      "date": "2024-06-19"
+    },
+    "1.1.14": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-JKUAmUW/Lh78RUZBOk1cXLpMrhxskXW6BO+WcYanWFs="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-kBkzOLG8O4OvjwKHiDiYFEvAe3QtDJDdoGKvMzSY5wA="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-LCfBxZMR+DI9HDvk3ZCJGFPtev+4U9AcxY/qDYbpOuA="
+        }
+      },
+      "date": "2024-06-19"
+    },
+    "1.1.13": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-pg6nL+brc1B7GyBt8Y/FFqdBKt8uTw9KhNqITYbdi5A="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-18iAnXEELi+YvRVs1PP1MqZPeROVVl4T+qu2izyE4s0="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-QC6dsWjRYiuBIojxPvs8NFMSU6ZbXbZ9Q/+u+45NmPc="
+        }
+      },
+      "date": "2024-06-12"
+    },
+    "1.1.12": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-V2EbGBdWedUCJ2oOGUVdSu5oD906OFztqadK5qnEFh4="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-0hLhJaMm4yzkeZAt67ZTGgH8ky8hhuTNnn+YeZlqZtA="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-+m+tWL+r3ANFuVGwiQDRXDzl1hTARIfVgOgvzZg+DIk="
+        }
+      },
+      "date": "2024-06-01"
+    },
+    "1.1.11": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-TkUxWTd+86ffbieIHq6CficbDBEkDcl36PbIf/co1W8="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-qkez2rLnMldTtS2oaL3avd8Zs1NJkqfDA/ICZpv5opQ="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-RfP4fnTqumZKMBvC3ze4Lb7cQuUVl/czL+8xqB00kPA="
+        }
+      },
+      "date": "2024-06-01"
+    },
+    "1.1.10": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-txTr+uYvGOsytyTO2mXZUQOOJMcNT4uyzNCdz4pn0AQ="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-8Wp3RDvP2/tonU8ngDTWuGD1m7q7gxwnuwbxpc6N/+Y="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-iQM/BtoaDBRlH/jx9qH6WlV2Ox7MbtWMzHc8RxVCHH0="
+        }
+      },
+      "date": "2024-05-25"
+    },
+    "1.1.9": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-gk3Zi8AcpMTCexL8ASY29W2LcwYICpD2QwpvuEbQpB4="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-F5yfovHAsWeLiQ4Uigrm0hy3gwz8pK5PA6AuZiyrfOI="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-yIz/CWKTSKoeOTb/2rxbyYovw0rralSj0r2ZMPu29i8="
+        }
+      },
+      "date": "2024-05-22"
+    },
+    "1.1.8": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-n5ElTDuD0fap+llzrXN7de937jYaAG8dpJlKUB0npT4="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-4/kEyaF2kmu8MAjlrPgBqKFDId8bBibu3Zll3b0w8Ro="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-JuDT+8FHbamdMVCDeSTGPYOvhPY2EZ9XeD2zjHEj36Y="
+        }
+      },
+      "date": "2024-05-10"
+    },
+    "1.1.7": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-VDS01LVpTMl033tyUDk+efi0ShUyAXnZGrt33Nx2Qfg="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-lvm3jmlY6QkLJVFtWea3h7hARU1DEkunBQniPw563H4="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-J6eVZ6SVOj/9ZU3e2kEKZAnU63RKTLf7ef3V7nJqopA="
+        }
+      },
+      "date": "2024-05-03"
+    },
+    "1.1.6": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-ffEu37NAT/74l1Kkr+e1hAkawbSeZlTQcHbqg/7jYOQ="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-qKWtazbPfPjDxLChZ0FVyV2qQhPUHwF4wpHrFdCRlYg="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-IzjuIPXljt8EStcRdGj55SWIpqJdGQeVZVAS5u9sW+Y="
+        }
+      },
+      "date": "2024-04-28"
+    },
+    "1.1.5": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-cn4pjaYUeXWo/CqTZsZTRLfETI6Qizp8JosBw9yQocU="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-Kooxd0VOOz5i4O2e+BKbG41CiH2vqOMWgIVgsU8DPms="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-4iv6had7KaEpI0ng1ZnZFCqeVM+R3OEf0KPAtsc6K60="
+        }
+      },
+      "date": "2024-04-26"
+    },
+    "1.1.4": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-dBiwVO4WreVyIlbJVEyPZj46Dy/3W49mXdo7CiQWiAo="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-XsyjcqKZ667iVTVsOKjaD9iORze0Zs8ZHiDYvuXQ07A="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-9H/1qR6ZHHy5/abq2SjoUbUX6Y92/8MQem2inuWhVC8="
+        }
+      },
+      "date": "2024-04-16"
+    },
+    "1.1.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-OBlbE7tezlH5RGrRbL0TvjKq0deLA2VMGO/gJI1wHpQ="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-8bpkzH0SqG7tgm6Q7+4AT9RfrFKnsSGuFt2S1JXGwrw="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-0/Z0wkKm2RlNr1nLWU6U5mz0SluBDKaIJi4GG9LAxz4="
+        }
+      },
+      "date": "2024-04-08"
+    },
+    "1.1.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-ICZMbmXTZdMfsvWsAzDdeVk/p86pNxVJPyeTrT7ntfs="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-DaPTkcuh8bEq/YB9SqUMslZV/n9nlAhCWoMzF5aeqjM="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-qSgwXJD+T3lh1Gjd+0tXBEkc2VgZgbldFI3WkM72ej8="
+        }
+      },
+      "date": "2024-04-06"
+    },
+    "1.1.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-5lvXmzUqz7BH/l3Nm+8ftkjmQOE7+dPeNK5l5EBAWF0="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-jUHurwvRAw5D6pJoDm5i96M4TrIaVRvfRtXATJRDa5U="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-zzuHZEapwh6iy845wEs/EELtYHQPt+K5KYG76kOSKKg="
+        }
+      },
+      "date": "2024-04-04"
+    },
+    "1.1.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-ggODKY9y8J0xY1SImiQq0qVepi6ywXB95kyg6zPoaLw="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-QFA1MjtBAt3a/HAe2Mdv8LA2Iv5ayO279gOOuFqEZ/E="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-WhfqYTVkdaSjoN7zRcRodfLPK2K579tluSEEXTVzOFM="
+        }
+      },
+      "date": "2024-04-01"
+    },
+    "1.0.36": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-NYsCwYdYL8cw5uPaViCA+fcaP1znNzvRCJuhnFixx84="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-ztRE4MxrAkSvORTGU5veDj5qhchYbsY4BxP6duZLeoQ="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-+AR0EYOVOgvElDzQjCtlCg5oZFBtLfdEmrL1jFWDAfQ="
+        }
+      },
+      "date": "2024-03-29"
+    },
+    "1.0.35": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-QuCd2l5PNz2pJzKrzy5Zvd9MbAsTu9HzdBulyBvSUok="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-rxXkCViPgJiSNhlaNQMGcurONhXXK7shrLD0Zk1pLmw="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-I7fqIhMs/2N9pcxJf5ED4p0kq+rQPnfYGOciAd+6mXU="
+        }
+      },
+      "date": "2024-03-22"
+    },
+    "1.0.34": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-rN5VruUQz58LyWU8DiwkV6S3HKhQLiHJxkn0bF6QV2I="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-2peQgWl/1wZH5cqQ19lqjdn4bRBW49YSynukpxAMB6s="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-f19mFfzHAqZI6G6FdlAJT5VWYy2xln9mnvx89RPEgic="
+        }
+      },
+      "date": "2024-03-22"
+    },
+    "1.0.33": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-tAZi8AJswFe9iQy68Ul9mcr7OYQN4TeP2THSvYewPRU="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-6cog3hl/SfAN+G63F4HIT4avlxy47COkv6FQPjhyr2k="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-nYohWMmsYv8SzdEoHSTPUveuwlhYdmLYFS7R2aqeou0="
+        }
+      },
+      "date": "2024-03-18"
+    },
+    "1.0.32": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-auR2y0w6ssgalNFmEHDjSDPkqL2j2VIRVwOR+15qPMA="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-nns4jR0x/HwzJXYdGggM6F3eQwoGXWGtFLHDTbNZXHc="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-WNoBbar/gXcrzTyDQ9m561H2zRlU+KcSk/xfZJmYBQY="
+        }
+      },
+      "date": "2024-03-17"
+    },
+    "1.0.31": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-0w+Vp1SkZ3brx5HJOp36vED4K/DWPo4w8+tYi5lHgOk="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-TAD41TlVMut2Fjlo8FGJBf8R7MIMlnts5RTRLqFwvT4="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-Z8eOFiodmE/VrYy8gejJblBkcHsppOamg4akfiM/oEE="
+        }
+      },
+      "date": "2024-03-15"
+    },
+    "1.0.30": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-8S8fC7t7aRstWDvhlJe2gsYWaAvZJZqINv1sMyvmWsE="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-7jMs7I7LWY9z/SX1xiNe/hi7ikqTY0qm26UsB0GZWhE="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-ZrBAukdbxmK0pfXptmt/VwfJFr9T4XGjXLeWCNzO55I="
+        }
+      },
+      "date": "2024-03-04"
+    },
+    "1.0.29": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-tcrFHzGJkpVDkrEUff6OR4i76E2+dmYIXuwJ3BiNvQc="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-ujiVw1Pemlo+OHPj8JtazNzYVziq8a65mYdXcS5ViL4="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-mhDFX6Z1UFGXLqDbUAt8TP/8Ejavzu+WdFGayrtS2Ns="
+        }
+      },
+      "date": "2024-02-23"
+    },
+    "1.0.28": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-kw39m8zD1f4uGjs2r/J2j8YbjbKDjZmFWxzf/x81poM="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-eJr3mWusSNrDqPHV5PwVsfGK4o57XDsBHozpPJE7HsU="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-a9upDXwlgmvF99ulUplrscWrsGp/7AsLTfx1FPYY41s="
+        }
+      },
+      "date": "2024-02-19"
+    },
+    "1.0.27": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-zGc5Y/PNoU1tOHKCH9SiBBWyIxs6gyTNPKwxFhJl3w0="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-IEBCZ7DrWzFs2Z97uRuQ1MsaxGqEz9/+BzTA/Qb4rnI="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-t48K6lueJaNcKPAuahzz2TVomWhv67SlYqeo7EBoqtM="
+        }
+      },
+      "date": "2024-02-17"
+    },
+    "1.0.26": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-UEYA6q83fxD3yQuHsQiO9bQ5gptQSipFGjE5eGUb+1c="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-H+hmbZdRKjljskwNicLeFguo5STZ8fIxk7FHvOenuRc="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-mWVe8BFGSXKJYnr2QXZah1XYfir5zN5+2wQ4HfgdOyE="
+        }
+      },
+      "date": "2024-02-03"
+    },
+    "1.0.25": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-Upgh45aYCNmW1we/+2VsNbJl718HKQNFoAg0zDmHSwA="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-RhHJ3H6tA8te1sk0eMEb5jBHFoAvfBTUWQo6O3ycMCs="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-vg8YtbhW122EU/oBuMoh5kPVqA6YRbRxrDZWnoJmdYQ="
+        }
+      },
+      "date": "2024-01-21"
+    },
+    "1.0.24": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-emp0SXua/XdgVfbEemahRabl9K1MV2HfY/j4iInCUu4="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-92el7Z80IA37CJfj9XckG4JstAKI+36Z8/rA3SgukZg="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-8uHTAGCJ6fZ2CdN8GUSfOrSUyu1lIUXAL73ezx/7tV8="
+        }
+      },
+      "date": "2024-01-20"
+    },
+    "1.0.23": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-qWg2WdWQHAYXLkIQd2RPQ2j1Bo3qKHhlxcFaqDIxcks="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-nojMZknNXG+pMsSWx7SkkcAweeXtF3W+XC8+QvQHtD4="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-IPQ4W8B4prlLljf7OviGpYtqNxSxMB1kHCMOrnbxldw="
+        }
+      },
+      "date": "2024-01-16"
+    },
+    "1.0.22": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-DbpDJe7QfWa+QK31mqmWUxJ9O/CUhDHk2RILBo5d1+A="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-dROAnP6cTX4uteDdIXTFg/h+DX6IanRw2EuQgOev5xc="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-+TCpIiI1s84TxOq+5YPfETKqgPUxgkdZDeM5KNyoZfY="
+        }
+      },
+      "date": "2024-01-10"
+    },
+    "1.0.21": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-PqQWBoSRfCs4uPNCTdgxkrsfvkJcA7KADbqrij+J6Ks="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-tQ2ShcOlh0Zqsw6hHXxq5M0W562Fp3u6VfW6uRgsCIQ="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-MrIR77IE4OdSVIeU+xp3PPuM/TFvd7nD9YyX+efLnU0="
+        }
+      },
+      "date": "2024-01-02"
+    },
+    "1.0.20": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-rwBU4jdD4sTB3wTS3uh1Fq88IW+LB/S/srMAMPJsQ1M="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-kzg4pT4e6evvyPhkC3wmwWsRvSpVCM45jgn+yvEvTaI="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-NISClwFmDflxx09gWgo2Cpx/QXxoq4iDcYuXUT1FTn8="
+        }
+      },
+      "date": "2023-12-24"
+    },
+    "1.0.19": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-Otp3y6bO0KdcAUACKKc5RGG3zOeBhIuIwLiIJYLYJfE="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-cXycL5lj7R+A8rkH/RI2ff/fw3ycOiu831HXmToyt60="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-ER3YAKPhmQ5u7mv2rN3YWBF9g0FY3+RAV8kF1nSgk0Y="
+        }
+      },
+      "date": "2023-12-22"
+    },
+    "1.0.18": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-z3C6V8jG/et+CizWHHx6zN56JBe4QBhEKbDQgx67dmc="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-xnFN1Kiaerot6ieMqf5fvyq826vE4KpM57r/7wz4C7o="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-qwqgaU3zYiuer4tI4JiSsZd94IO6xn+dSjJZkM70WP4="
+        }
+      },
+      "date": "2023-12-14"
+    },
+    "1.0.17": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-0zZJ3GYYwJOv3/CmvUHYI1GdJXf3/7ujGpEf+dn/tlI="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-lscEZki4sMHFAeZJwBTksdBUXOmZ6EEu1YFoedBr5bs="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-JvzOC/2JxA7K7J0+2l+Bq0FVSrt7llZNE/wkM58nMXY="
+        }
+      },
+      "date": "2023-12-12"
+    },
+    "1.0.16": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-jp8ZQ7l8uBdoVQsLpm3AgfBF3XhNzZOhimSUmSVqOEY="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-BSU2iTo+AGcOdPSgW4CRYcDS4KgAvpOmSZE7JDEtV00="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-2f/n/aKJO2LnCWohYSQ3zukuXZ+cKFzem+mKeYQnoTc="
+        }
+      },
+      "date": "2023-12-10"
+    },
+    "1.0.15": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-3EUVa/v/1Q42IPysoUT/N7Adtwq//79ibTpQgrpzl1I="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-WEt/oIleK3f+waEIiR+umdbxvMpeF+sTVTcy1DE0yKY="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-8US2sbirFOAFXfGvHm9VqPORjUzJN/K+0/BcgK4FVcI="
+        }
+      },
+      "date": "2023-12-02"
+    },
+    "1.0.14": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-15YHmf3hJtkRXV8JO2P6XEx3ySOmaXIXU++pt6xl7fM="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-DEsYsn6zuUVFt6LerkMIb8bIPvCL6bW2qtX3fg6QLvw="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-8ixHAN2VpeEdixoq8Aw4KwG+B7bw5u35XVT5TFZzeRE="
+        }
+      },
+      "date": "2023-11-23"
+    },
+    "1.0.13": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-HAcPrC/xFu9UHdpyF13OW3cXQEmpcyvtswaGAdHtnUE="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-dadj5YKpWOxWzn7z+ve3naHmfVsX4fAtNARruXyY/pM="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-rOWXBvYJfhi+3fSv6ZDU5tZ51Nfy4nBIRaFOimRHHTs="
+        }
+      },
+      "date": "2023-11-18"
+    },
+    "1.0.12": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-tGQQEEPBrMx3AuIsJbN0i/xoa7HSf4rNrE6km3NWjHQ="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-xMmNBK0t+e/BLXnE3wOxbANXlwpQ/rczTK/7E80T6cw="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-+EWt1/YtGzJm/lRBPrf1RM5xdMVFMWurRNBQACALcSA="
+        }
+      },
+      "date": "2023-11-16"
+    },
+    "1.0.11": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-yZp/AFlOVRtZ60865utrtVv0zlerwFMhpqBh26WnfL8="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-/9MKD2iRogrOIiKlCCPUX5KoDD0rM7K8+jVLx9xxs5s="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-pT9+GchNC3vmeFgTF0GzzyLzWBrCQcR/DFRVK2CnHCw="
+        }
+      },
+      "date": "2023-11-08"
+    },
+    "1.0.10": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-xwKNDTlghNkq36wMAKSa+reROqGwMm4dZ/Hfos1zuP4="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-gaquYp4q22IJHV7Fx5GxZWVFvJzU30HOmL32lkxJeQ8="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-Er7QiWBhENTa9xhCIVqECCzexWejBwBC59u3CJKQiwc="
+        }
+      },
+      "date": "2023-11-07"
+    },
+    "1.0.9": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-KN4awunMddU05UkCWIqFSRPozxitmeMZc79l7sabFdk="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-9gCm3yjHN6hx2n9QRg1RcrV1EwFHdjN9PDUgvgXV7Vs="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-8tY3EgIXmJENVYeAWctNbOg5fHj323Ms2Za5uhReNPM="
+        }
+      },
+      "date": "2023-11-05"
+    },
+    "1.0.8": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-9Llp5dAc0OxWelsHHAkUHzgKUilkOy6mYsfmxCzSAhc="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-szrkJIDTtIKmZhxEAVNp0oN+U6pQcCCC8fFugbtOSWw="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-uir7vdWMSUEoHYR3Jx/wD6CnLSGCpnHNdrgFgTPHQfA="
+        }
+      },
+      "date": "2023-11-03"
+    },
+    "1.0.7": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-aPFKKCqjKZSz/ZX5G3RiIkLHIj89MGPp+PgFbE4vpgE="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-u2UlimmIE2z7qsqkAbSfi7kxuOjlJGkX4RAsUGMklGc="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-yw17x8DmKktE5fNBF3JQdVSEXFwAotA7hCzfLcd6JoI="
+        }
+      },
+      "date": "2023-10-20"
+    },
+    "1.0.6": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-pkCAtO8JUcKJJ/CKbyl84fAT4h1Rf0ASibrq8uf9bsg="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-eHuUgje3lmLuCQC/Tu0+B62t6vu5S8AvPWyBXfwcgdc="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-OQ+jSHtdsTZspgwoy0wrntgNX85lndH2dC3ETGiJKQg="
+        }
+      },
+      "date": "2023-10-12"
+    },
+    "1.0.5": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-0WgKOmn0hAoSpPWvUih+PJe37wfTHWMBYN5HNfquaeQ="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-Cp5TM92/sPuE3wFjNXgtmF5TxjctZk1P7hJg2rKSUgE="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-h3bl5tlOz7GhhAuT1irfypjnNBDuRpZNj7fGL6P7vNU="
+        }
+      },
+      "date": "2023-10-11"
+    },
+    "1.0.4": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-ko0DFCYUfuww3qrz4yUde6Mr4yPVcMJwwGdrG9Fiwhg="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-0KFAvfyTJU1z/KeKVbxFx6+Ijz4YzMsCMiytom730QI="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-lEEIrmIEcIdE2SqnKlVxpiq9ae2wNRepHY61jWqk584="
+        }
+      },
+      "date": "2023-10-03"
+    },
+    "1.0.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-M0OG9V+TVqUqNuEDvpPCJR1KvILty7M59JiYjOsRjS0="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-0Nto5EikWEvW6PCX6801qxDdlB1PtWJ1iym0mwh/YJI="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-8xMBU3jloMsdekejKrnswWfzXhxwvsHFNgcUf4hn0W4="
+        }
+      },
+      "date": "2023-09-22"
+    },
+    "1.0.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-QvoEakfR5wmP10d6MDpfS8THke975bVyZc5pLVliUbQ="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-izVtW28QE7Tty6DfQDKmw1oqD5GOolTzCeIUmtgI1Uw="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-kHv8PU48Le4lG3pf304hXggAtx/I5uBeu4aHmLsbdgw="
+        }
+      },
+      "date": "2023-09-15"
+    },
+    "1.0.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-AzjCqfvR4Uad6+ocLo+KfqHKFjxOlZt4//Nw80FRijM="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-EEcKoaaC0KnaAfUqd5QNYpTeArY3ia38l5dkZCooZuw="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-RmgnWTG6kTebYwIa/VAwvvJmbL+ARNC+HkbF4mJPF7o="
+        }
+      },
+      "date": "2023-09-12"
+    },
+    "1.0.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-Bd8KL1IbWBRiMZq4YPhNLdhBOqRReCFeUPAilLfk0TM="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-CHOiQ47wXjkFyJG9ElE9gBpmWpylMEUf6c+Sm+YCpGc="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-1ju7ZuW82wRfXEiU24Lx9spCoIhhddJ2p4dTTQmsa7A="
+        }
+      },
+      "date": "2023-09-08"
+    },
+    "0.8.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-R0+2MevBE98WNsjGsfBrMJyvc0jadLQ9lJIvoekGiBk="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-fdn3yEavJUEwcUiyr9vd/0yVzkuJLwTvVeIaLcZkKhs="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-BZ1Ymu2WexC4Ad3cS0Zo9K6WtYL8rlqIYWprk1MyOsg="
+        }
+      },
+      "date": "2023-08-25"
+    },
+    "0.8.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-fJwzGgPzBQeV80Btl16N8zDnmcWq60EUbs0IkpLLgtA="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-C/JlybeZ1daTBWCAtKcxmN90QSDvII+YuX5/UU/aTL4="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-kzlxhUegVmra3zAyF/0KP2Nb9+uIV/UhwlnN2PMenS8="
+        }
+      },
+      "date": "2023-08-24"
+    },
+    "0.7.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-9gs5PIbYxhhUC+lw/iEIhjdMIUYVnhP7oYrRqmE3HcU="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-CFio1bgsgND54BrklkCVjfDvMDFxpYe1h77nGMOJdsc="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-05Duhv2WrYXWS6mKI3zB5QiIlitsysXwmuy+9XHBB9M="
+        }
+      },
+      "date": "2023-08-06"
+    },
+    "0.7.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-21U+tnfUOfeR58r77clR5ODl4oSfXuBj21/FpYAulaM="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-6oHr6tHbmx4HM+JISdlHBix+ac3Fg3HWsDbExruBVSQ="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-LvkTdQY4+2JyfMgeyWtyVSOZgmnOc58qvPvKNgO2Z08="
+        }
+      },
+      "date": "2023-08-04"
+    },
+    "0.7.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-5AC1jd2rTVZ+Rfn7B1uvps9NVVAByMlo0mjhM8Wc6jI="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-DM1HVlbqPCOkT05IAVciP1c5g7PIZPmjHmlbWD8DmoU="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-l5lSbJwsPHejcgCXvTDPjvzSP6s/OBgOS44g2xTxfYo="
+        }
+      },
+      "date": "2023-07-29"
+    },
+    "0.7.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-5PcDK1rSHu9WucCuxBclnEzB9DkbQNwzYnq0Moto9aw="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-9Kwqa3V/LMjuZSS00uPNkHAnWvBo/33kgzmwa903T80="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-cczuQoE6LV9NPaHx14Z6va4QsXb3cUYL799SGzKTIYA="
+        }
+      },
+      "date": "2023-07-21"
+    },
+    "0.6.14": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-adXsZjg2dmUzaKTBARfS195y3eTUgiOep5pr6y36c6g="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-IHGYARyeRHN3vORW/fBX7+j3vpfQX+ZQWX2TcIOrMHc="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-5iU+1FevTjjzo/qN0zjIoCQflbWCmdfMXkx+6BOEEcc="
+        }
+      },
+      "date": "2023-07-12"
+    },
+    "0.6.13": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-6d4pDuAJCgUIFpmp8gGLn2rHvpQ54I6vCXU2WmIYe0M="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-Hr3c0840fz47jDNjigTsz7HEUSP6btXVDFUUtDtdO5I="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-f3VysZdTfs4G4a48AahbaEACVpiKPG7OfbAYTCGHi1k="
+        }
+      },
+      "date": "2023-07-04"
+    },
+    "0.6.12": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-CCfBRrvG1OFThIQ/udmXK/civUFPow7aXlrJO1o00Cg="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-V5csrlGcxwUsKu078vIMgbWkxBa8OvFUeCvPFhcTOPE="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-M/YDVAOXK7TUbrcey+J7plrTzTXPBOps7JPBioGew7E="
+        }
+      },
+      "date": "2023-06-30"
+    },
+    "0.6.11": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-2bkH4D66yWf25jMYK/StIzlNb/3YlVCoK77a//Bnbe8="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-PwfKVce0NUBHsezfp8zFEVcUSxoWW5fT+Z9xYNKr/oU="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-fNGcTg8mjRBYTTekPUXkNYkYMrX6xdXoxE8yHUDn0h4="
+        }
+      },
+      "date": "2023-06-27"
+    },
+    "0.6.10": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-8stJMyWduuzOgHMHFL2awlNuQMMLNd79/PFrQXGqvxE="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-LDUQnqb8JYii+BU4yew6WBmE3uuuJ7FBsSRbVdmFTUI="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-5oi1nnKvzDDQOfxIMaoQgkD8aXaTC1pEQnqkXrX2vlY="
+        }
+      },
+      "date": "2023-06-27"
+    },
+    "0.6.9": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-19NWXqC6HNBP45IYeZYQQE8/cp0M5VTEspmg/Sf0GMU="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-qmjYq+UhYO4uYvygVtetTrGfbsRDuZDrViui+Dg4TU4="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-rOoeiinBgzTuoVb+Bhdo+gHvT2RXCF1fROau6A4CzJk="
+        }
+      },
+      "date": "2023-06-13"
+    },
+    "0.6.8": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-YvAt6JICEZbZSVo6nrca42x6ZJQ07nWsRrYaNwwQE08="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-FLy4kqLHi6Y3W0h0OvBgETlzontZz2U+ohY+9cVIr2M="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-QVrGrs5ZSAw+sOYDvEHcQ/o7zMolbcRTnbhqzb91z2w="
+        }
+      },
+      "date": "2023-06-10"
+    },
+    "0.6.7": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-g3DuKv8K2+PtMkLb5wK4m85tMsB5z7KzgJwWsFJ9abg="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-P5dK+uWiZZ0F3hy40oiNKnFOQTcHHrl3QcIMIXKFp5I="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-bX3gV3wR2ZJabP6LXT4Tg3T+061aghktXD2YOrQfmWo="
+        }
+      },
+      "date": "2023-06-03"
+    },
+    "0.6.6": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-7nOxN+DMGytkmT/VhC//r/endE4tT7qktwr1hoBAWXg="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-kqAe6ZgUcHMzxYOYdO5sLbuJzRqHGjFizkTxkfGr1ho="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-oYSYmmYOKF4XYbdpXZnOgVBjyU3L7LRTjSG+RfU+I5w="
+        }
+      },
+      "date": "2023-06-01"
+    },
+    "0.6.5": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-NZU2C1zve8nBTKhk3DpeuEL4aY9Qk+3UnGzH6F7i0hY="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-qC4WbrxD7s9PexQruUpHp8AgDmDLl7cguR4rTurFB9c="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-Coz+NyX6YBS6NEzzcXoVa9ArBJxD7LhxpT+2Q1rNmYs="
+        }
+      },
+      "date": "2023-05-30"
+    },
+    "0.6.4": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-nLl18vwHXZsZrZJiQAMtfSXtCMYtuW7YNim/PHgD3z4="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-OJF7g2L2qEc9y5cGxqsIbBkwZErKHkurx3iy1Q8/MVw="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-P/SNxCRVWVL58UOKDxZ3PcDyVsCkIkMNlbTCtidg1QA="
+        }
+      },
+      "date": "2023-05-27"
+    },
+    "0.6.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-u2sgfejY9I6zjpo30H63Pf8FrnI9yzvKZKdVCEwuMJo="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-fGq9m17WZ382UOROpAHUuk21mU1WhgmzQDUAb0RpGfo="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-UBrNOjrK+40OlkiFT8d8oav/2ZSAaz0xWYCalGtahs8="
+        }
+      },
+      "date": "2023-05-22"
+    },
+    "0.6.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-Zt17kNKVyqql+wHxR+H2peyz3ADj5h506Vg5jJVF6uE="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-I8Z0S6th4Iay5/5VPnL+wY0ROUAyOzNPtkOij8KsyMo="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-aXZzMxsmkFiZgvLv6oZurb4lc6R2/SmJ6GQaZV/kCLw="
+        }
+      },
+      "date": "2023-05-17"
+    },
+    "0.6.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-tE08WKlJx4zfKQtl85PqHSIuU0mki9ORMSf1q6Qt/vk="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-p5MF/KZdxLpdVX4bpogCWU5wUb3fRQIakb35D2U7QaY="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-evq9IlIyosLl4Msd0LANUojJmTsTNcaYwhIOGEhASMI="
+        }
+      },
+      "date": "2023-05-16"
+    },
+    "0.6.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-DgMahLb8Xb/s5WTe4CBOLizv1XAzKsYcJF9huHKZ3fU="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-FI46970DnqMyrywwTEMu8VLEUBNXHGUYLystCa2sXvo="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-cztYv5onlLNGZTgATjlZaw2c6AMX417z5xKTo5+2EGI="
+        }
+      },
+      "date": "2023-05-16"
+    },
+    "0.5.9": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-nkXTyJMvGMBz1xiWudLSwl+s7gb750g1oYTvPoY+o0M="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-pJXwRuokjlwVNLoDajvhIIBzLdYUHZsLxXr98RkC6Hg="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-vwxkydYJdnb8MBUAfywpXdaahsuw5IvnXeoUmilzruE="
+        }
+      },
+      "date": "2023-04-04"
+    },
+    "0.5.8": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-phTBV0vQT7Qgf1wY9Qqc7xXrs3Cms9jKpjp1KxlTbz8="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-weH+Aygh8Ud9cfMOVpZe8EjL7BWsXBlm9GDnkZa/x0c="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-+NiZtMUQBGPtI4VbtfIb+oZX+RMjIJiTnEbvoeeCC84="
+        }
+      },
+      "date": "2023-03-20"
+    },
+    "0.5.7": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-m0lFokGfJY3qXLYO4vnFFqKb3/IPRXWN3L6PV5DqtX0="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-XSUbfRkjo7yiPrPa/Mp30WolFex+Evziphut1sKflDE="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-uOVHQIjvZW0Gqv/GLlvbXl5bDcnwR80AP1lUJ2v2ZoM="
+        }
+      },
+      "date": "2023-02-24"
+    },
+    "0.5.6": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-0LEoOwsZrEV819UpdwHaIRk9vT14JMDiXghUMf3fEoY="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-sE6DnfyPIj/Rpo9+pME87TcBvdxKFP4B7UXPvq4Rars="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-Sdj/hdGaMvqN35N7tnAgvPQPELeW2IHA3uCVyTLYPw0="
+        }
+      },
+      "date": "2023-02-09"
+    },
+    "0.5.5": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-n7OfH93qXfu8608mMJ1tMoe9rAngu0cSHflwJZlKPYU="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-YPX5+wfXumYSvdjSOgb0rc/RrIU9vMYEqQmhObsg3ak="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-4eziS6QRQzg/KyKrgAmyOrMxXb+YH2pNX1RX4dL/zhM="
+        }
+      },
+      "date": "2023-02-03"
+    },
+    "0.5.4": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-aPS2/VOTzSWi5mEauhPEsARPXqAAY6SIPojANJf3iUo="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-MDaj1nhUFY/ZNxnA3SBA9fA7hivtL5tdMMPs4VZn2fE="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-sxrFNXbZuBdfLpzEL1MW5Gk7XNacoiElVoqebRw+l/E="
+        }
+      },
+      "date": "2023-02-01"
+    },
+    "0.5.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-M0YtXMWMfbqKeGynem8DrOl2PM2ZfTgtrlpY8+C7Iwg="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-eiseclEZA4buJF7Dci4FCmi/WTEii3jKEvxxoiKukv8="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-64k+HUMiDlOCe5jDuQBSE3lqomv00JE2xuuzgjiJ5MM="
+        }
+      },
+      "date": "2023-01-31"
+    },
+    "0.5.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-s7qPwwY1vu4SpFPKmNsjgwbEJJUdq0qfCq2K/576rMI="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-bK3gf2YTN/+oEo32RUH2btsk/zvJwKQV0GETAMb4ANg="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-aihU4NZag0sfPSW7IqDCkW0vKuevYJ0RYOBWMc3H3cw="
+        }
+      },
+      "date": "2023-01-31"
+    },
+    "0.5.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-YkVqQxYXxfvrZtlYB4BrsW0Bh+WzuNSNMwQYx1ZfR1c="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-MLGXwYbOUrF8UNqf6ThKMRYewnGl0WOBELvHFXWS87M="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-0YadLE8FWb5IL2TQjes87DKEtlCwz26jYjggUsezy08="
+        }
+      },
+      "date": "2023-01-20"
+    },
+    "0.5.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-xAOXtX531VvJ1FvI/ODTh8EZCRt6T2+cLTraHDvEXHs="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-Rq1Ip8uA4FtS3H+DEOW4oan6Ohbm7qG/NiifRRrAdI0="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-ft+Mdy2ZE58SAuXL/2SOnNfNTHOtKoJoAMPy/ORsxRI="
+        }
+      },
+      "date": "2023-01-18"
+    },
+    "0.4.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-T+vxwYM0zc1HsPiBncZolIquglKThsx2RDOS3/jPn4s="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-AEo4xXnePlQYTXepwSDUaG8NczPdTCbPGPzxgH+/HHo="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-LMutdGNiGp4aLmeqMLk8Pc0xIjqgWPO6GSli1EfTgkY="
+        }
+      },
+      "date": "2022-12-23"
+    },
+    "0.3.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-CPoSo8Kqu87c0bF4J2KSoamz6bsfS/DnkYqRi+XL8Qw="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-0ymZ4cYJn3Qth4jiTeXuAAsY0wFrYO2OHumY5WLamME="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-bnuz+n8pAhBUgQKImCUKRZCwIqGHHaB3KtZOVfqy4Zw="
+        }
+      },
+      "date": "2022-12-07"
+    },
+    "0.2.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-IIy5ZEx/+StAhtRcGqM3uvvEqu4wGzGUls0K/ot4jRI="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-5cScLXujNm14+SCr8OcO93RDL3EfAjsuAzfcwj+EMKs="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-eVEopSvyjzY8J3q52wowTlSVHZ4s1lIc8/yU6Ya+0QU="
+        }
+      },
+      "date": "2022-10-27"
+    },
+    "0.2.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-n1uucciInOrvdJfXwbkq820SmnCrDEZJzOgTtZ5StWc="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-Of6UPU1xORGuUxd7tFgi1k+bT5uAHoO0CyB/AkLfUOY="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-vhpYilnl+7l/3YtRQQLU21EzCZIRpznwQH6kfjENjo0="
+        }
+      },
+      "date": "2022-10-19"
+    },
+    "0.2.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-fqV/HBezVUw7qVPC412znpDv7pFh0b91ISy2ONedXgA="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-e/3G+psqujxjS0/mNm5jbJHPVKgM6JiMhp6RQSG51Rs="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-C87tUgJkVSj8EM1xcmHQ+QTiZPBiwjeb7wk2+jpSe10="
+        }
+      },
+      "date": "2022-10-13"
+    },
+    "0.1.13": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-RYTRcc8xccRmxuKOXwX3bBWJSXLI2/XfH4/7ZdcUBdE="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-LixLrzSsgbXyfpFKiksM4zNS5iDU3tXOrr7fP8yJknM="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-ssZtJi+CEVn7MjPMqFkwv1lnwE7a7ttkmiuoT0Y6wao="
+        }
+      },
+      "date": "2022-09-18"
+    },
+    "0.1.12": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-Qg/5a70Hnd4leURkBaqQlwAsCeYJTzlCCmLLXLHZwyE="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-7+KwMGnJQTpmvJhGk9ogWOhqUWig+s1reykgOY3SrHY="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-dcG4Uh/TvYRtwrcXmprfeHUu74wLuWmXfakQNaVl2Z0="
+        }
+      },
+      "date": "2022-09-18"
+    },
+    "0.1.11": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-R17Ga4C6PSxfL1bz6IBjx0dYFmX93i0y8uqxG1eZKd4="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-KSC4gdsJZJoPjMEs+VigVuqlUDhg4sL054WRlAbB+eA="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-N3hGPyp9wvb7jjpaFLJcdNIRyLvegjAe+MiV2aMS1nE="
+        }
+      },
+      "date": "2022-09-07"
+    },
+    "0.1.10": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-83p37UxQNUDc/rvTkmG1XJxczFWZ2O3PUCdSlJpLLb4="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-z1Mgy8d7WE5Lk3Fj7SluslQvZ8NXAjXWNoDuBb9WhBk="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-bfgXZRmZW8nLILrwbFO8XQ+U7Z2WY8zyEbXD9Csq9HY="
+        }
+      },
+      "date": "2022-08-19"
+    },
+    "0.1.9": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-RDtCNWJHORZ24YYW4l+vN5dAeQW9MRm/IhczE7moC4c="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-rX7Na+kkrklLlKFif60DQNAyuhf8HnoCwMMW/1dyu48="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-XizlVCD1wZIh4YuKd/METxWMPGF134H/dUNspfRhaBI="
+        }
+      },
+      "date": "2022-08-18"
+    },
+    "0.1.8": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-F6ho23AClAtMGSchmMmPb1Dy5c3ZofBhBuhh/LMtH1U="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-Rm8P+Y0npO1VZ7wKEHJ9IjeNrIw6svWsx7J8LqskVDU="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-A4Z1BATIZON9xetl97bAuEp3xhmg18uslPTabd9Xr9g="
+        }
+      },
+      "date": "2022-08-11"
+    },
+    "0.1.7": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-GewYyui++sfwk+r45JHsJ2nFUwf63/lwRrTwqtMs2Bs="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-/7q04HADHQhCF7H8Yb097kTKUx3PR5WQeL12OnZkdp8="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-7MiVnWXC+SDxO6ELMU1QjYKgFNwPLrr8cOhNKf3B3gM="
+        }
+      },
+      "date": "2022-08-06"
+    },
+    "0.1.6": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-yCVH2WElv5Oudtr+IDyuX3zVDQQb+xz5cvnwIyoNHME="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-NDDz/0Vu6G3bYHpG7pN8nBoCuOTSVG3lK0STh49mr7g="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-if4AcTpODp932IQsXgf3cb10MnF0b8t1XF2Yy1wARW4="
+        }
+      },
+      "date": "2022-08-01"
+    },
+    "0.1.5": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-gDBPbPQ8a+PbAwO9y03kmVrOGjlKxgaLvh4rb7oysuU="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-ayK2IhAU/tnmtstDJQVCTmGO8JWyBglFrRGc2PIVX64="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-UkotflHd2keGeZVSrhwYq45hc7sw8VjybK6Jmn508i8="
+        }
+      },
+      "date": "2022-07-23"
+    },
+    "0.1.4": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-WBuz/4jhsPepxkPy2lpCyqf34rAf2fcZOVz9bUdo2L0="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-uA8dv2m4deD7pgu6Qg63wVHuoe/ehffew684XXwvvuY="
+        }
+      },
+      "date": "2022-07-13"
+    },
+    "0.1.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-0BxE2xOL+pRpCcdhdmBBJoTKI1U6MDBKxiecKyQyCVg="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-uCqXjkis/qbwJ7KfcaHHifBrQIwufXn/EA0w8BbEF3E="
+        }
+      },
+      "date": "2022-07-11"
+    },
+    "0.1.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-6mi1I8dga16dQLFy2+qa4dzDzlW6J0fdiv104Re3cZ0="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-Xjm+1wkAsC5Mn6Fm4MRdGyL4gpw2L++N0nKo7ofXLXs="
+        }
+      },
+      "date": "2022-07-07"
+    },
+    "0.1.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-EgnfSITMMfUiG3UmxqHwCaqurP3o37VENoh4tHwjbho="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-UcBNcWJ7+ZhoUn9qADl6uovAE6kOHvGgIICk6T0pHA0="
+        }
+      },
+      "date": "2022-07-05"
+    },
+    "0.0.83": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-LXBXccoe2oXFqS4at5Q3T+bRCI7kWB15GTgApliIPN0="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-cJIyK0Qm1/Uwgzchwwxj/iLDOFq1fr5grOyz2gj2Qog="
+        }
+      },
+      "date": "2022-05-17"
+    },
+    "0.0.81": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-hpse0488GsSdQRlxGfSq+53Qvr+cvT/hq/Es8A+51vs="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-EPHhq4VoDg+k6j1UtR2TrapCkoL9d1Z7c6eCwzuGMe4="
+        }
+      },
+      "date": "2022-05-11"
+    },
+    "0.0.79": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-4UmxDSc6uB6LCmk6sgAZW3j4VTcCAcFgdT14b+0WbEw="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-hsJ2aoMJ1IVxcLjveEjAzCeqse1LiD0NvjSTZ8XFfMk="
+        }
+      },
+      "date": "2022-05-04"
+    },
+    "0.0.78": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-WJ6xWYqjo3MPdTQvh3HIVD7609wbCuBHywzrfle2BGs="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-pNhKu5ELKSTGa3iA+zUc6y0PTW42kNtA0YktGVG9QZo="
+        }
+      },
+      "date": "2022-04-10"
+    },
+    "0.0.76": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-LM7dDueg5o8DlrO6+2Tnh4tCqQhU+jsQvCwLn0Qxlec="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-9SrHfNXv/f+fWsYh/8Idrm0QC3ZNFHUO6tGgERHOfdQ="
+        }
+      },
+      "date": "2022-04-08"
+    },
+    "0.0.72": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-e8pt6xQXZGNRVIcpqQCbkvYG9FnxfWR/m/3mBs9Cyls="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-nxEwMuSNZwK1KSgiFaoUICTF/fZodJUUycoSBmFK4HY="
+        }
+      },
+      "date": "2022-03-17"
+    },
+    "0.0.71": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-AGJo/PlekfTxj85Jb9kgpWiPyQNYHBl3ynNxbFkPWe8="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-Xyv7p6VDCmEnpfl7cyt9J7hhxcTIUBxLI+MxEsjIAkc="
+        }
+      },
+      "date": "2022-02-25"
+    },
+    "0.0.69": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-l4qFBMY7NMyiMAj9vHU8/Hi4DcSYDzdSLv0liyVT5Y4="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-xbNe1B0KJrUC55p1cgCditA55CfHpp1IiSr8j4mGM6I="
+        }
+      },
+      "date": "2022-02-06"
+    },
+    "0.0.68": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-ZwvHJLKder83f7yM72KN3INUqqfPR+ignTyJ4Shpg5o="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-eZnCO/wZHF8NcHrSrIczDb3gIEbQFf4342FK9cFsWok="
+        }
+      },
+      "date": "2022-01-23"
+    },
+    "0.0.66": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-LLk77D8iJoZeryp1M9U2lHx/xu6Ny5tgFCn1PwgsZ/g="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-cPgPipoa9bEpyCOotXgq6vuTqw26NcV7M8SEVZcZdrw="
+        }
+      },
+      "date": "2022-01-04"
+    },
+    "0.0.56": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-RiP+K1h0HnHL8sIWGoaqsiLgthOSVxXgzZ4fMHrjaTA="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-5gvx9thV0+nypAkPaNR2O3u5Zm0YDfU7/e6LgQQaVLw="
+        }
+      },
+      "date": "2021-12-21"
+    },
+    "0.0.55": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-M4LLo+CeK16jIOirsE+XDSXoLn9yKNgLCTNTDCUXlTo="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-ck5ZCUYIERVLfOd6MeokWwftTkXWtNMkHkX1/B3ASl4="
+        }
+      },
+      "date": "2021-12-17"
+    },
+    "0.0.46": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-lIb9MOplb72N4yynl9vR4uAzVJnZ9VEWxvjss4wP8bQ="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-JESO9Dhfq5rCHUU6Xs5GTbVf698yurNoB3wkcPSOOoY="
+        }
+      },
+      "date": "2021-11-07"
+    },
+    "0.0.45": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-7r+eimJQeMN0rdDvM6BeDbcnHM8FwlZhwWQvfSCJq6Q="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-RZKaegOwQsycIjpXyFtXwYy9M8ZlzoPwPbQqBK5yyW4="
+        }
+      },
+      "date": "2021-11-05"
+    },
+    "0.0.44": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-BPllmPHMZn+3I4KG+ScBiTU+tMzmWyhBmvrtefJb4Zk="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-NeX7252APAf7xYYgeI1gZBWCWrW1zBZoyq+XLvCO3Co="
+        }
+      },
+      "date": "2021-11-03"
+    },
+    "0.0.42": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-CQKg7CoVuy/FpWJPONt9qSIw3GNQYzrp3sYpRedKY74="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-DfI9nxC5mJqcRF8S4ikL+dYBm2rVuB+JBLst9hpqiAM="
+        }
+      },
+      "date": "2021-11-01"
+    },
+    "0.0.41": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-Whd41k+3Og3qkjFhAnffK+oR8lcKZAYayyW65w1utCg="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-swPyF8RVrgrMnCzm0rfJVaqoPQA84Hotlq/9Dk03RSU="
+        }
+      },
+      "date": "2021-10-30"
+    },
+    "0.0.40": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-j/wNapkO8BlCBjRSAhe++9+mRsOuxbGf/QoGAk/amsQ="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-hqzgssPkpMC6tOi5hY/iLjR+BS24devW0zeI943vBpU="
+        }
+      },
+      "date": "2021-10-29"
     }
   },
   "schema": 1
