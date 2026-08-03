@@ -1,31 +1,33 @@
-# node-overlay
+# js-toolchain-overlay
 
-Nix overlay for upstream Node.js binaries.
+Nix overlay for official Node.js, Bun, and Deno binaries
 
-Supported systems: `x86_64-linux`, `aarch64-linux`, and `aarch64-darwin`
+Supported systems: `x86_64-linux`, `aarch64-linux`, and `aarch64-darwin`.
 
 ## Flake packages
 
-Run a package directly:
+Run a runtime directly:
 
 ```bash
-nix shell github:so1ve/node-overlay#lts
+nix shell github:so1ve/js-toolchain-overlay#node
+nix shell github:so1ve/js-toolchain-overlay#bun
+nix shell github:so1ve/js-toolchain-overlay#deno
 ```
 
-Use a package from another flake:
+Use the packages from another flake:
 
 ```nix
 {
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-    node-overlay = {
-      url = "github:so1ve/node-overlay";
+    js-toolchain-overlay = {
+      url = "github:so1ve/js-toolchain-overlay";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
 
-  outputs = { node-overlay, ... }: {
-    ...
+  outputs = { js-toolchain-overlay, ... }: {
+    # Use js-toolchain-overlay.packages.${system}.node, bun, or deno
   };
 }
 ```
@@ -36,19 +38,23 @@ Use a package from another flake:
 {
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-    node-overlay = {
-      url = "github:so1ve/node-overlay";
+    js-toolchain-overlay = {
+      url = "github:so1ve/js-toolchain-overlay";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
 
-  outputs = { nixpkgs, node-overlay, ... }: {
+  outputs = { nixpkgs, js-toolchain-overlay, ... }: {
     nixosConfigurations.example = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
       modules = [
-        { nixpkgs.overlays = [ node-overlay.overlays.default ]; }
+        { nixpkgs.overlays = [ js-toolchain-overlay.overlays.default ]; }
         ({ pkgs, ... }: {
-          environment.systemPackages = [ pkgs.nodejs-bin.lts ];
+          environment.systemPackages = [
+            pkgs.node-bin.lts
+            pkgs.bun-bin.latest
+            pkgs.deno-bin.latest
+          ];
         })
       ];
     };
@@ -56,67 +62,87 @@ Use a package from another flake:
 }
 ```
 
-The overlay adds `pkgs.nodejs-bin` instead of overriding `pkgs.nodejs`
+The overlay adds `pkgs.node-bin`, `pkgs.bun-bin`, and `pkgs.deno-bin` and does
+not override the corresponding nixpkgs packages.
 
 ## Package names
 
-| Flake package | Overlay attribute | Selects |
-| --- | --- | --- |
-| `default`, `latest` | `nodejs-bin.latest` | Latest release |
-| `lts` | `nodejs-bin.lts` | Latest LTS release |
-| `nodejs_24` | `nodejs-bin.majors."24"` | Latest 24.x release |
-| `nodejs_24_18_1` | `nodejs-bin.versions."24.18.1"` | Node.js 24.18.1 |
+| Flake package         | Overlay attribute             | Selects                     |
+| --------------------- | ----------------------------- | --------------------------- |
+| `node`, `node_latest` | `node-bin.latest`             | Latest Node.js release      |
+| `node_lts`            | `node-bin.lts`                | Latest Node.js LTS release  |
+| `node_24`             | `node-bin.majors."24"`        | Latest Node.js 24.x release |
+| `node_24_18_1`        | `node-bin.versions."24.18.1"` | Node.js 24.18.1             |
+| `bun`, `bun_latest`   | `bun-bin.latest`              | Latest Bun release          |
+| `bun_1`               | `bun-bin.majors."1"`          | Latest Bun 1.x release      |
+| `bun_1_3_14`          | `bun-bin.versions."1.3.14"`   | Bun 1.3.14                  |
+| `deno`, `deno_latest` | `deno-bin.latest`             | Latest Deno release         |
+| `deno_lts`            | `deno-bin.lts`                | Latest Deno LTS release     |
+| `deno_2`              | `deno-bin.majors."2"`         | Latest Deno 2.x release     |
+| `deno_2_9_4`          | `deno-bin.versions."2.9.4"`   | Deno 2.9.4                  |
 
-Exact versions are available only when Node.js publishes an archive for the target system.
+## Version selection
 
-## Project versions
-
-The overlay can select a release from a version, a version file, or `package.json`:
-
-```nix
-pkgs.nodejs-bin.fromNodeVersion "^24"
-pkgs.nodejs-bin.fromNodeVersionFile ./.node-version
-pkgs.nodejs-bin.fromPackageJSON ./package.json
-pkgs.nodejs-bin.fromProject ./.
-```
-
-Without the overlay, use the flake library:
+Each runtime namespace supports exact versions, partial versions, and semver
+ranges:
 
 ```nix
-node-overlay.lib.fromProject pkgs ./.
+pkgs.node-bin.fromVersion "^24"
+pkgs.bun-bin.fromVersion "1.3"
+pkgs.deno-bin.fromVersion "~2.9"
 ```
 
-`fromProject` checks `.node-version`, `.nvmrc`, then `package.json`.
-For `package.json`, it checks `volta.node`, `devEngines.runtime.version`, then `engines.node`. Version values may be exact versions, partial versions, or semver ranges.
+It can also select a runtime from a plain version file, `package.json`, or a
+project directory:
 
-The file- and project-based selectors return `null` when their file or Node.js version declaration is absent. `fromNodeVersion` is strict; malformed or unsupported declarations also fail.
+```nix
+pkgs.node-bin.fromVersionFile ./.node-version
+pkgs.bun-bin.fromPackageJSON ./package.json
+pkgs.deno-bin.fromProject ./.
+```
 
-`nodejs.corepack` is the Corepack package paired with the selected Node.js version. Devenv uses it when `corepack.enable` is enabled:
+`fromProject` checks these declarations in order:
+
+| Runtime | Project declarations                                                        |
+| ------- | --------------------------------------------------------------------------- |
+| Node.js | `.node-version`, `.nvmrc`, `.tool-versions` (`nodejs`), then `package.json` |
+| Bun     | `.bun-version`, `.tool-versions` (`bun`), then `package.json`               |
+| Deno    | `.dvmrc`, `.tool-versions` (`deno`), then `package.json`                    |
+
+For `package.json`, the runtime-specific precedence is:
+
+- Node.js: `volta.node`, matching `devEngines.runtime`, then `engines.node`.
+- Bun: a Bun `packageManager`, matching `devEngines.runtime`, then
+  `engines.bun`.
+- Deno: matching `devEngines.runtime`, then `engines.deno`.
+
+File- and project-based selectors return `null` when no declaration is found.
+`fromVersion` is strict and fails for malformed or unsupported requests.
+
+Its matching Corepack package is exposed as `node.corepack`:
 
 ```nix
 let
-  projectNodejs = pkgs.nodejs-bin.fromProject ./.;
-  nodejs = if projectNodejs == null then pkgs.nodejs-bin.latest else projectNodejs;
+  node = pkgs.node-bin.fromProject ./.;
 in
 {
-  languages.javascript = {
-    enable = true;
-    package = nodejs;
-    corepack.enable = true;
-  };
+  packages = [ node node.corepack ];
 }
 ```
 
-Corepack reads `packageManager` and `devEngines.packageManager` from `package.json`.
+## Version data and updates
 
-## Update
+The three release catalogs live independently in `versions/node.json`,
+`versions/bun.json`, and `versions/deno.json`.
+
+Refresh them from the official release sources:
 
 ```bash
 nix run .#update
 ```
 
-An automated workflow refreshes the release index every 12 hours and verifies the latest and LTS builds before committing updates.
+The scheduled workflow performs this lightweight update every 12 hours.
 
 ## License
 
-[MIT](LICENSE)
+[MIT](LICENSE). Made with ❤️ by [Ray](https://github.com/so1ve)

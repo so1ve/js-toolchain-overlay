@@ -111,8 +111,7 @@ let
       && matchesToken version "<=${builtins.elemAt hyphen 1}"
     else
       lib.all (matchesToken version) tokens;
-in
-{
+
   resolve =
     versions: request:
     let
@@ -122,7 +121,10 @@ in
       ) versions;
     in
     if matches == [ ] then
-      throw "node-overlay: no Node.js release matches ${request}"
+      throw "js-toolchain-overlay: no release matches ${request}"
     else
       lib.last (lib.sort (a: b: compare a b < 0) matches);
+in
+{
+  inherit resolve;
 }
