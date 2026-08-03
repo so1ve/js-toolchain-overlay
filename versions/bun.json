@@ -3129,6 +3129,161 @@
         }
       },
       "date": "2021-10-29"
+    },
+    "0.0.36": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-cli-darwin-aarch64-0.0.36.tgz",
+          "hash": "sha256-usFTaBvwLT3I2q2nTfOufp8z5ZsgbtNzlFYOF/N4PNs="
+        },
+        "x86_64-linux": {
+          "file": "bun-cli-linux-x64-0.0.36.tgz",
+          "hash": "sha256-i2bYlmS6YUo3rsfW72ZHmFW92EYJmBvo7lzbXg8ow3o="
+        }
+      },
+      "date": "2021-10-17"
+    },
+    "0.0.34": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-cli-darwin-aarch64-0.0.34.tgz",
+          "hash": "sha256-i04WB/0JR69ZS1xwnbwZfiPtwwaJXws42jUb/Jjvedc="
+        },
+        "x86_64-linux": {
+          "file": "bun-cli-linux-x64-0.0.34.tgz",
+          "hash": "sha256-2MuzIeNseBdGWukTj7Xu1EueuRBOgwGI30bCCUnXG4c="
+        }
+      },
+      "date": "2021-10-07"
+    },
+    "0.0.32": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-cli-darwin-aarch64-0.0.32.tgz",
+          "hash": "sha256-NxYDYjeB1uIUMeEP4NeFZBE7kHzpGrpFx5Zcus+Sba8="
+        },
+        "x86_64-linux": {
+          "file": "bun-cli-linux-x64-0.0.32.tgz",
+          "hash": "sha256-pB5Zn0OCVsopk2+yziF4SP7jF53KHS4og9GsIPMxjHw="
+        }
+      },
+      "date": "2021-10-05"
+    },
+    "0.0.29": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-cli-darwin-aarch64-0.0.29.tgz",
+          "hash": "sha256-/Db8KVxtK/ZyHJXYXjfqtD0rg9SKd9WGCA0oO9F0CNY="
+        },
+        "x86_64-linux": {
+          "file": "bun-cli-linux-x64-0.0.29.tgz",
+          "hash": "sha256-BxQNMmyEBqMvdxHFc0HvyxhD3KRBDK6/9it/4m11s5A="
+        }
+      },
+      "date": "2021-10-04"
+    },
+    "0.0.28": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-cli-darwin-aarch64-0.0.28.tgz",
+          "hash": "sha256-dKnGMtfXTOJoaJJPM1X/zXfJnMZXDkXexaV2WJ0EhcE="
+        },
+        "x86_64-linux": {
+          "file": "bun-cli-linux-x64-0.0.28.tgz",
+          "hash": "sha256-w1F1mQuDVXGn/Oi7lAWKiEZkpNsTYMKATKYaI77P6CA="
+        }
+      },
+      "date": "2021-10-04"
+    },
+    "0.0.27": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-cli-darwin-aarch64-0.0.27.tgz",
+          "hash": "sha256-5713J6XCOIGfURlUhU6tfIQ6k/sqejgCCQ1FS4fh/Q4="
+        }
+      },
+      "date": "2021-10-01"
+    },
+    "0.0.26": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-cli-darwin-aarch64-0.0.26.tgz",
+          "hash": "sha256-xJIjXzVHdqtXlz39VLst0rXUlcd7kUC50C8r/8UOC88="
+        }
+      },
+      "date": "2021-09-28"
+    },
+    "0.0.24": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-cli-darwin-aarch64-0.0.24.tgz",
+          "hash": "sha256-3oxFhr5UdiE0oq3tVI3S64RLAYhGKd90Crshd6WKT2I="
+        }
+      },
+      "date": "2021-09-25"
+    },
+    "0.0.23": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-cli-darwin-aarch64-0.0.23.tgz",
+          "hash": "sha256-IJ9JdkXzV04UP3pS7QEPHmdN7SIHMhRDiFA7cxHKM+0="
+        }
+      },
+      "date": "2021-09-25"
+    },
+    "0.0.22": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-cli-darwin-aarch64-0.0.22.tgz",
+          "hash": "sha256-OLAglg+exJcKVI+urQFoy80MyANF5BGhM/qfvdc0/VU="
+        }
+      },
+      "date": "2021-09-25"
+    },
+    "0.0.21": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-cli-darwin-aarch64-0.0.21.tgz",
+          "hash": "sha256-AviTeWtjOWLrevg0pMJR0sAwOeXjOAVY8e0w6ZMOVXo="
+        }
+      },
+      "date": "2021-09-18"
+    },
+    "0.0.19": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-cli-darwin-aarch64-0.0.19.tgz",
+          "hash": "sha256-5gG8CDBtXitXqeBC68OriCyZ+uXR5NkGSswza3kc6vY="
+        }
+      },
+      "date": "2021-09-17"
+    },
+    "0.0.18": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-cli-darwin-aarch64-0.0.18.tgz",
+          "hash": "sha256-zxIu4boyGb13/eW9qANr4zEYWv9EMEbLSLBgrRpCS5o="
+        }
+      },
+      "date": "2021-09-17"
+    },
+    "0.0.17": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-cli-darwin-aarch64-0.0.17.tgz",
+          "hash": "sha256-gauu6wvPlkrbIdAeJRUAsI4BeVML3aKbwQihUlDkKuk="
+        }
+      },
+      "date": "2021-09-17"
+    },
+    "0.0.16": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-cli-darwin-aarch64-0.0.16.tgz",
+          "hash": "sha256-pepmRphb69TAV7Q36iIuQ5+aiTOmcnboIc8BcG7B8Hk="
+        }
+      },
+      "date": "2021-09-16"
     }
   },
   "schema": 1

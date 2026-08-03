@@ -4439,6 +4439,627 @@
         }
       },
       "date": "2020-03-11"
+    },
+    "0.35.0": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-3UZBq5qIPY4d4eNb/i0GGbuR7pUQZ4JWquLtqdqdk0A="
+        }
+      },
+      "date": "2020-02-29"
+    },
+    "0.34.0": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-tY2UksIK7vHiCKMD1moBLLBKxThK/Fvkxa1Y3ZFmSTI="
+        }
+      },
+      "date": "2020-02-20"
+    },
+    "0.33.0": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-OmiJoVWLRC/RlbaAmK6MzptFn4xJtvuSPZPjHvH06DY="
+        }
+      },
+      "date": "2020-02-13"
+    },
+    "0.32.0": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-6zrEkxEUecYqVlXZkXYVk38J3DLsf9SAYNsyQpEO7HA="
+        }
+      },
+      "date": "2020-02-03"
+    },
+    "0.31.0": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-IuvGudMYN6diF2H7Ua4T8MAMfUQFEOajN+DdpjyqPRs="
+        }
+      },
+      "date": "2020-01-24"
+    },
+    "0.30.0": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-CnAtWt7Dt8SLIDHnaVy7+scf2kqE5VwhNeqoinmSHc0="
+        }
+      },
+      "date": "2020-01-18"
+    },
+    "0.29.0": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-TGuP66JT93PQ1svRzQx7wfdmKw9khLb7K01yAGT0vx8="
+        }
+      },
+      "date": "2020-01-09"
+    },
+    "0.28.1": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-8W4korfXCDI5dBnM6mRKC4UqovD0cUh4uxw/PVbMyU8="
+        }
+      },
+      "date": "2020-01-03"
+    },
+    "0.28.0": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-M28uMMO40Six3ovrQwVO4Rc35dND7AlBXCzr5xDUIQA="
+        }
+      },
+      "date": "2020-01-02"
+    },
+    "0.27.0": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-acGc+7uVYltNVyAEYG4U8mLulmZjEwOJ+EcCe/SXnBo="
+        }
+      },
+      "date": "2019-12-19"
+    },
+    "0.26.0": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-oH4NU6vos6KKoTIuuAj+Ru82fhQHJqHLUZdPZOjkO1A="
+        }
+      },
+      "date": "2019-12-06"
+    },
+    "0.25.0": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-RLNcv79g7MZ1+2QOJyBDv7BvfUotsY5T2X3COMVy2t4="
+        }
+      },
+      "date": "2019-11-26"
+    },
+    "0.24.0": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-RFuLSpc8u6P93CBKdBZFliMUtM9ySD4Btlam4XUjypA="
+        }
+      },
+      "date": "2019-11-15"
+    },
+    "0.23.0": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-lsj0M2r7+HBy10ZnveENUWVyrQ1givW1N9vBmsRMs5I="
+        }
+      },
+      "date": "2019-11-05"
+    },
+    "0.22.0": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-rMCMNgDYIc77fFmG9cXM15fqxySlTfZgFLY1VtBhvqU="
+        }
+      },
+      "date": "2019-10-28"
+    },
+    "0.21.0": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-vMh0s4gcb1s4FD14crVdIAUoYQyyrzYM4kOn5AbpM7M="
+        }
+      },
+      "date": "2019-10-19"
+    },
+    "0.20.0": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-h1JZ3Pp2arIZDuViBr75JrBwB/0Wb8jHsLq1oDhHcis="
+        }
+      },
+      "date": "2019-10-07"
+    },
+    "0.19.0": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-oHQhh5wP4WobHk02ioQu13cueu4AqJyhZuQILftuSyo="
+        }
+      },
+      "date": "2019-09-25"
+    },
+    "0.18.0": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-GvA3lxV1myTprQKZiOH2d85KGyN5t8TDx6SUkFN94cg="
+        }
+      },
+      "date": "2019-09-13"
+    },
+    "0.17.0": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-mkospUa3KoqTkakYGaYhBV12hBpd3jqycWV76CVzAwU="
+        }
+      },
+      "date": "2019-09-04"
+    },
+    "0.16.0": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-0sO60THtQqQWPlypCDLMQCwbApPf+P86w055zurmvPA="
+        }
+      },
+      "date": "2019-08-22"
+    },
+    "0.15.0": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-XBR68s2hpt/Trc6qiEYPUqgFZr6Txi++pou/YF2Fzsc="
+        }
+      },
+      "date": "2019-08-13"
+    },
+    "0.14.0": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-nhVm5hh+6rckrxXdtJbBA35ITFwX9TDpRg9oL1I3pOA="
+        }
+      },
+      "date": "2019-08-09"
+    },
+    "0.13.0": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-tLHpbA7lKewY6AW7Y8PTVBihnB5GGABZMJKbuZkP0N8="
+        }
+      },
+      "date": "2019-07-31"
+    },
+    "0.12.0": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-njTVu41lViVZlAGod6F3QRhAdwERDpI/TtwUACfXErw="
+        }
+      },
+      "date": "2019-07-16"
+    },
+    "0.11.0": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-zOFi8UqMe/P9zAMHjz4rTAKBaWeAWWqmxZ4aFxDsm5c="
+        }
+      },
+      "date": "2019-07-07"
+    },
+    "0.10.0": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-3o8bz9bq0UU/DIyPTc+qb9vbM2HKaUKb9jQrDBMVcnM="
+        }
+      },
+      "date": "2019-06-25"
+    },
+    "0.9.0": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-q0j57zBWZ9Fcpmx+VpHSCITRL36HcYim873tcRB6Ymg="
+        }
+      },
+      "date": "2019-06-15"
+    },
+    "0.8.0": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-lehpioAutmmj7LZd7YLFFB988yoBH36aJr6GWqlxI2A="
+        }
+      },
+      "date": "2019-06-08"
+    },
+    "0.7.0": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-oAM1+hIv9vRcFkRjCjVVoAi8wgqLMnkxcwG3vcrkftk="
+        }
+      },
+      "date": "2019-05-29"
+    },
+    "0.6.0": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-DIEtaJ+1DgWb7nmIuG3KLvKtN6Lb17c/byQSQfAR/5E="
+        }
+      },
+      "date": "2019-05-20"
+    },
+    "0.5.0": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-dyrTgyJTpwBdovFB1L7yiAGqeBHoEohw5xW7koEgesw="
+        }
+      },
+      "date": "2019-05-12"
+    },
+    "0.4.0": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-8vneTKBlOGeiJm/U06KJg4Kbtx6S3570TWPbzs7CiP4="
+        }
+      },
+      "date": "2019-05-03"
+    },
+    "0.3.10": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-hInnrzoCm4wg13VtrMWVBVkafv1GxMIIEmICgFa2zRg="
+        }
+      },
+      "date": "2019-04-25"
+    },
+    "0.3.9": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-Lz/kXY5a3yibf2YOCOrMEeTGo2fBhwYx2LaaHNU/kCg="
+        }
+      },
+      "date": "2019-04-25"
+    },
+    "0.3.8": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-vBgPoC5NgdpqTGZRlhiTSQQc8SHQBNqZ1o2xGGL8oAQ="
+        }
+      },
+      "date": "2019-04-19"
+    },
+    "0.3.7": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-xqZkGw4mJh0x2UBrqQeJfl32rZjpIA6Pvw/v0ge1wJQ="
+        }
+      },
+      "date": "2019-04-11"
+    },
+    "0.3.6": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-1CInh29kjL8P1IHVLMc/ddleIvxSIuyKt/0ItL3/VuU="
+        }
+      },
+      "date": "2019-04-04"
+    },
+    "0.3.5": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-Sv1uMvnJTRTnHhCXsGKitbiWVpSsKWF3MLpncpRpeyA="
+        }
+      },
+      "date": "2019-03-28"
+    },
+    "0.3.4": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-iKIrTn0gARhtB8u2oICQttKg1JPjwDK1aPqj0gW4yKQ="
+        }
+      },
+      "date": "2019-03-20"
+    },
+    "0.3.3": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-GVRjfKAsusXF9PK28XtGI/dPOhS3kn8mGayIfaXzmZY="
+        }
+      },
+      "date": "2019-03-13"
+    },
+    "0.3.2": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-rwOVTUT0VPSjim+NSjUF3M/tiYcLsszR8LkvB/URKmk="
+        }
+      },
+      "date": "2019-03-07"
+    },
+    "0.3.1": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-oksFgQ0zIR7hGyASssxYp96SxH5N1WfmvifgKCufEeM="
+        }
+      },
+      "date": "2019-02-27"
+    },
+    "0.3.0": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-tTIw8L0YjjguKFwUphuDm7v7AlPa32kz0cbO6Pzjkds="
+        }
+      },
+      "date": "2019-02-19"
+    },
+    "0.2.11": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-fOh4sLXy1b43FyC1DYUgXff7t0TGsCdiYXZuxxK5KFs="
+        }
+      },
+      "date": "2019-02-09"
+    },
+    "0.2.10": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-x7oegATPma13q5RmvQ2AaYoPKIUhZPfUAttDeIcIQa4="
+        }
+      },
+      "date": "2019-02-02"
+    },
+    "0.2.9": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-p3hZSfjbO3ioxRVH+SY/wzPJl53O0sNgs15I7VlXdVk="
+        }
+      },
+      "date": "2019-01-30"
+    },
+    "0.2.8": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-0GnvTQtJrMnFDHnalu4MxQjPYCCWgedRxIfKnQsxuA0="
+        }
+      },
+      "date": "2019-01-19"
+    },
+    "0.2.7": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-tqBm8tl4qqTYckWjiqvvtvX7xZSEX6JxPfRyaKSNacI="
+        }
+      },
+      "date": "2019-01-15"
+    },
+    "0.2.6": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-KG6ltZy1pTrt41ISYNowQxHjXLAfXLCgI4B5WqgcYUo="
+        }
+      },
+      "date": "2019-01-07"
+    },
+    "0.2.5": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-4+8AfSA1iEVCrIRCsSNq78hm8rLh3U1teejbFfGHNnw="
+        }
+      },
+      "date": "2019-01-01"
+    },
+    "0.2.4": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-CL3r9/7CnlVenMlz4ZSzdxLSRWMI/bx8dMbyV7VbdoA="
+        }
+      },
+      "date": "2018-12-24"
+    },
+    "0.2.3": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-O4RCPhIkWsxzQ5SYP6lSxCWKBkmrjmqHkMJHGVTio7c="
+        }
+      },
+      "date": "2018-12-14"
+    },
+    "0.2.2": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-RC+o/pFgV20yHanBmC+kGHvb//Hlj/fbqrUx4DAGfbo="
+        }
+      },
+      "date": "2018-12-07"
+    },
+    "0.2.1": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-7rhSU3BQ1gRclsJxb5OdDk9P4iND+4Pr61IV4CmjAoU="
+        }
+      },
+      "date": "2018-12-01"
+    },
+    "0.2.0": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-U7sacaMNtH74YeOaTT9GqyiTgKyKS0/Qpi0q+XKEJCM="
+        }
+      },
+      "date": "2018-11-16"
+    },
+    "0.1.12": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-Gp2P517ik4SpnKyGPaVlSowKtNTf6nGTlqLYfAfT+RE="
+        }
+      },
+      "date": "2018-11-12"
+    },
+    "0.1.11": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-xfAL3xkeps9K4OLVzEBNeQ3PiahNw4Gnz8vHOLnEe64="
+        }
+      },
+      "date": "2018-11-05"
+    },
+    "0.1.10": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-V+gyvQKwTzwb0C8f8UefpI+GLGAGExcIawlz7OYF60U="
+        }
+      },
+      "date": "2018-10-27"
+    },
+    "0.1.9": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-cZHfp98ACNUbnqLFL9/JK2owBYG6UlPbB9MDAc94ETE="
+        }
+      },
+      "date": "2018-10-21"
+    },
+    "0.1.8": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-xjyDbvYyzPa3bUYmn3HvOIU3MNjHkFm629pgvonDXbM="
+        }
+      },
+      "date": "2018-10-12"
+    },
+    "0.1.7": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-qDT4I6QsxRv2mDp1OmzCGCJMNYObBmMyZR+BVyIFXto="
+        }
+      },
+      "date": "2018-10-04"
+    },
+    "0.1.6": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-FY1aoISM6h8E0q3ltrSJSZ/SA7Nq37kpyGnAR58Sxok="
+        }
+      },
+      "date": "2018-09-29"
+    },
+    "0.1.5": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-t0LnKCt+kps0whtOsJxH5pV9lNnYEkvG27j4vifzCI8="
+        }
+      },
+      "date": "2018-09-22"
+    },
+    "0.1.4": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-sF+NU1xJN7tHIhBCB6koxHd4Ekc0BUR+GTlQGC0C21A="
+        }
+      },
+      "date": "2018-09-13"
+    },
+    "0.1.3": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-lVA0ATiGANqtvhSCbgxOf7nCsJICa5LpNcRJ34nzBpo="
+        }
+      },
+      "date": "2018-09-06"
+    },
+    "0.1.2": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-2XML4JTcp3Hy97EtroaFVP05uBCgV/WyzQXHkxZBofY="
+        }
+      },
+      "date": "2018-08-30"
+    },
+    "0.1.1": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-VSG0jfbzg/63bSc5bItBoVQ7+yF+i6bOuDxyyDUqo2E="
+        }
+      },
+      "date": "2018-08-28"
+    },
+    "0.1.0": {
+      "artifacts": {
+        "x86_64-linux": {
+          "file": "deno_linux_x64.gz",
+          "hash": "sha256-miCpMxOu5x6eqANzwV03HDMOqvwqA4ODB74aR/7Yrjc="
+        }
+      },
+      "date": "2018-08-23"
     }
   },
   "schema": 1
