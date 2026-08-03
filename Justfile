@@ -1,7 +1,7 @@
 default:
     @just --list
 
-build package="default":
+build package:
     nix build .#{{ package }} --print-build-logs
 
 fmt:

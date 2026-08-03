@@ -1,9 +1,20 @@
-name: Update versions
+name: Backfill runtime hashes
 
 on:
-  schedule:
-    - cron: "0 */12 * * *"
   workflow_dispatch:
+    inputs:
+      runtime:
+        description: Runtime catalog to backfill
+        required: true
+        type: choice
+        options:
+          - bun
+          - deno
+          - all
+      limit:
+        description: Maximum releases per runtime (0 means all)
+        required: true
+        type: string
 
 permissions:
   contents: write
@@ -13,7 +24,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  update:
+  backfill:
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v7
@@ -22,25 +33,27 @@ jobs:
           ref: ${{ github.event.repository.default_branch }}
       - uses: cachix/install-nix-action@v31
 
-      - name: Update versions
+      - name: Backfill hashes
         env:
           GITHUB_TOKEN: ${{ github.token }}
-        run: nix run .#update
+          BACKFILL_RUNTIME: ${{ inputs.runtime }}
+          BACKFILL_LIMIT: ${{ inputs.limit }}
+        run: nix shell .#node -c node scripts/backfill.mjs "--runtime=$BACKFILL_RUNTIME" "--limit=$BACKFILL_LIMIT"
 
       - name: Detect updates
         id: changes
         run: |
           if git diff --quiet -- versions; then
             echo "changed=false" >>"$GITHUB_OUTPUT"
-            echo "The index is up to date." >>"$GITHUB_STEP_SUMMARY"
+            echo "No missing hashes were found." >>"$GITHUB_STEP_SUMMARY"
           else
             echo "changed=true" >>"$GITHUB_OUTPUT"
             git diff --stat -- versions >>"$GITHUB_STEP_SUMMARY"
           fi
 
-      - name: Build updated releases
+      - name: Evaluate catalogs
         if: steps.changes.outputs.changed == 'true'
-        run: nix build --no-link .#node .#node_lts .#bun .#deno .#deno_lts
+        run: nix flake check --no-build
 
       - name: Commit updates
         if: steps.changes.outputs.changed == 'true'
@@ -50,5 +63,5 @@ jobs:
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git add versions
-          git commit --message "chore: update versions"
+          git commit --message "chore: backfill ${{ inputs.runtime }} release hashes"
           git push origin "HEAD:$DEFAULT_BRANCH"
