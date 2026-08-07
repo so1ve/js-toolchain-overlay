@@ -1,12 +1,29 @@
 {
-  "latest": "2.9.4",
+  "latest": "2.9.5",
   "lts": "2.9.3",
   "majors": {
     "0": "0.42.0",
     "1": "1.46.3",
-    "2": "2.9.4"
+    "2": "2.9.5"
   },
   "releases": {
+    "2.9.5": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "deno-aarch64-apple-darwin.zip",
+          "hash": "sha256-t5aq3RMfaTBWDB7gQM8Nb1OTP7uYdGTp/0a9fqSDBhU="
+        },
+        "aarch64-linux": {
+          "file": "deno-aarch64-unknown-linux-gnu.zip",
+          "hash": "sha256-a3yuOo/EOFpZ3qMUb8uLrX/qQjDgrTaoxpKvrLwlS+A="
+        },
+        "x86_64-linux": {
+          "file": "deno-x86_64-unknown-linux-gnu.zip",
+          "hash": "sha256-iwEKOxpKAYimfNuKeic0iypQGveK7H/HTyrOFnNo1TA="
+        }
+      },
+      "date": "2026-08-06"
+    },
     "2.9.4": {
       "artifacts": {
         "aarch64-darwin": {
