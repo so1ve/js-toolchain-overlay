@@ -10,6 +10,36 @@ let
   nodeWithoutCorepack = node.fromVersion pkgs "16.8.0";
   nodeWithBundledCorepack = node.fromVersion pkgs "24.19.0";
   nodeWithStandaloneCorepack = node.fromVersion pkgs "26.6.0";
+  nodeOutputs = [
+    "out"
+    "npm"
+  ];
+  checkNodeOutputs = nodePackage: ''
+    test "$(${nodePackage}/bin/node --version)" = "v${nodePackage.version}"
+    test "$(${nodePackage.npm}/bin/npm --version)" = "${nodePackage.npmVersion}"
+    test "$(${nodePackage.npm}/bin/npx --version)" = "${nodePackage.npmVersion}"
+
+    for executable in npm npx; do
+      test ! -e "${nodePackage}/bin/$executable"
+    done
+  '';
+  checkCorepack =
+    nodePackage:
+    let
+      shims = "corepack-shims-${nodePackage.version}";
+    in
+    ''
+      test ! -e "${nodePackage}/bin/corepack"
+
+      for executable in yarn pnpm; do
+        test ! -e "${nodePackage.corepack}/bin/$executable"
+      done
+
+      mkdir "${shims}"
+      ${nodePackage.corepack}/bin/corepack enable --install-directory "$PWD/${shims}"
+      test -L "${shims}/yarn"
+      test -L "${shims}/pnpm"
+    '';
 
   assertions = [
     (project.readVersionFile ./fixtures/runtime-version == "2.9.4")
@@ -33,32 +63,10 @@ let
       ] "^1.2" == "1.9.0"
     )
     (pkgs.lib.hasPrefix "24." (node.resolveVersion pkgs "24"))
-    (
-      nodeWithoutCorepack.outputs == [
-        "out"
-        "npm"
-      ]
-    )
-    (nodeWithoutCorepack ? npm)
+    (nodeWithoutCorepack.outputs == nodeOutputs)
     (!(nodeWithoutCorepack ? corepack))
-    (
-      nodeWithBundledCorepack.outputs == [
-        "out"
-        "npm"
-        "corepack"
-      ]
-    )
-    (nodeWithBundledCorepack.npmVersion == "11.17.0")
-    (nodeWithBundledCorepack ? npm)
-    (nodeWithBundledCorepack ? corepack)
-    (
-      nodeWithStandaloneCorepack.outputs == [
-        "out"
-        "npm"
-      ]
-    )
-    (nodeWithStandaloneCorepack.npmVersion == "11.18.0")
-    (nodeWithStandaloneCorepack ? npm)
+    (nodeWithBundledCorepack.outputs == nodeOutputs ++ [ "corepack" ])
+    (nodeWithStandaloneCorepack.outputs == nodeOutputs)
     (nodeWithStandaloneCorepack ? corepack)
     ((bun.fromVersion pkgs "latest").version == bun.resolveVersion pkgs "latest")
     ((deno.fromVersion pkgs "lts").version == deno.resolveVersion pkgs "lts")
@@ -66,35 +74,9 @@ let
 in
 assert pkgs.lib.all pkgs.lib.id assertions;
 pkgs.runCommand "js-toolchain-lib-tests" { } ''
-  test "$(${nodeWithBundledCorepack}/bin/node --version)" = "v24.19.0"
-  test "$(${nodeWithBundledCorepack.npm}/bin/npm --version)" = "11.17.0"
-  ${nodeWithBundledCorepack.corepack}/bin/corepack --version >/dev/null
-
-  test ! -e ${nodeWithBundledCorepack}/bin/npm
-  test ! -e ${nodeWithBundledCorepack}/bin/npx
-  test ! -e ${nodeWithBundledCorepack}/bin/corepack
-  test ! -e ${nodeWithBundledCorepack.corepack}/bin/yarn
-  test ! -e ${nodeWithBundledCorepack.corepack}/bin/pnpm
-
-  mkdir corepack-shims-24
-  ${nodeWithBundledCorepack.corepack}/bin/corepack enable --install-directory "$PWD/corepack-shims-24"
-  test -L corepack-shims-24/yarn
-  test -L corepack-shims-24/pnpm
-
-  test "$(${nodeWithStandaloneCorepack}/bin/node --version)" = "v26.6.0"
-  test "$(${nodeWithStandaloneCorepack.npm}/bin/npm --version)" = "11.18.0"
-  ${nodeWithStandaloneCorepack.corepack}/bin/corepack --version >/dev/null
-
-  test ! -e ${nodeWithStandaloneCorepack}/bin/npm
-  test ! -e ${nodeWithStandaloneCorepack}/bin/npx
-  test ! -e ${nodeWithStandaloneCorepack}/bin/corepack
-  test ! -e ${nodeWithStandaloneCorepack.corepack}/bin/yarn
-  test ! -e ${nodeWithStandaloneCorepack.corepack}/bin/pnpm
-
-  mkdir corepack-shims-26
-  ${nodeWithStandaloneCorepack.corepack}/bin/corepack enable --install-directory "$PWD/corepack-shims-26"
-  test -L corepack-shims-26/yarn
-  test -L corepack-shims-26/pnpm
+  ${checkNodeOutputs nodeWithBundledCorepack}
+  ${checkCorepack nodeWithBundledCorepack}
+  ${checkCorepack nodeWithStandaloneCorepack}
 
   touch $out
 ''
