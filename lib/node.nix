@@ -70,12 +70,17 @@ let
       artifact =
         release.artifacts.${system}
           or (throw "js-toolchain-overlay: Node.js ${version} has no archive for ${system}");
-      bundlesCorepack = lib.versionAtLeast version "14.19.0" && lib.versionOlder version "25.0.0";
+      bundlesNpm = release.npm != null;
+      bundlesCorepack =
+        (lib.versionAtLeast version "14.19.0" && lib.versionOlder version "15.0.0")
+        || (lib.versionAtLeast version "16.9.0" && lib.versionOlder version "25.0.0");
       supportsStandaloneCorepack = lib.versionAtLeast version "25.0.0";
     in
     pkgs.stdenvNoCC.mkDerivation (finalAttrs: {
       pname = "node-bin";
       inherit version;
+
+      outputs = [ "out" ] ++ lib.optional bundlesNpm "npm" ++ lib.optional bundlesCorepack "corepack";
 
       src = pkgs.fetchurl {
         url = "https://nodejs.org/dist/v${version}/${artifact.file}";
@@ -96,21 +101,47 @@ let
       '';
 
       postInstall = ''
+        scriptRoots=("$out")
+
+        ${lib.optionalString bundlesNpm ''
+          mkdir -p "$npm/bin" "$npm/lib/node_modules"
+          mv "$out/bin/npm" "$out/bin/npx" "$npm/bin/"
+          mv "$out/lib/node_modules/npm" "$npm/lib/node_modules/"
+          scriptRoots+=("$npm")
+        ''}
+
+        ${lib.optionalString bundlesCorepack ''
+          mkdir -p "$corepack/bin" "$corepack/lib/node_modules"
+          mv "$out/bin/corepack" "$corepack/bin/"
+          mv "$out/lib/node_modules/corepack" "$corepack/lib/node_modules/"
+          scriptRoots+=("$corepack")
+        ''}
+
         while IFS= read -r script; do
           substituteInPlace "$script" \
             --replace-fail '#!/usr/bin/env node' "#!$out/bin/node"
-        done < <(grep -rl '^#!/usr/bin/env node$' "$out")
+        done < <(grep -rl '^#!/usr/bin/env node$' "''${scriptRoots[@]}")
       '';
 
       passthru = {
-        inherit (release) date lts npm;
+        inherit (release) date lts;
         inherit platform;
-      }
-      // lib.optionalAttrs bundlesCorepack {
-        corepack = finalAttrs.finalPackage;
+        npmVersion = release.npm;
       }
       // lib.optionalAttrs supportsStandaloneCorepack {
-        corepack = pkgs.corepack.override { nodejs-slim = finalAttrs.finalPackage; };
+        corepack =
+          let
+            unwrapped = pkgs.corepack.override { nodejs-slim = finalAttrs.finalPackage; };
+          in
+          pkgs.runCommand "corepack-${unwrapped.version}-for-node-${version}"
+            {
+              inherit (unwrapped) meta version;
+              passthru = { inherit unwrapped; };
+            }
+            ''
+              mkdir -p "$out/bin"
+              ln -s ${lib.getExe unwrapped} "$out/bin/corepack"
+            '';
       };
 
       meta = {

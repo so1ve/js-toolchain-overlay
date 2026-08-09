@@ -119,16 +119,38 @@ For `package.json`, the runtime-specific precedence is:
 File- and project-based selectors return `null` when no declaration is found.
 `fromVersion` is strict and fails for malformed or unsupported requests.
 
-Its matching Corepack package is exposed as `node.corepack`:
+## Node.js components
+
+Node.js packages expose the runtime, npm, and corepack separately. The default
+package contains only the `node` executable, headers, documentation, and
+runtime files. In particular, `nix shell .#node` does not add npm or corepack.
+
+- `node.npm` contains npm and npx when the official release bundles npm.
+- `node.npmVersion` records the bundled npm version, or `null` when absent.
+- `node.corepack` contains only the corepack executable. When the official
+  archive bundles corepack (Node.js 14 starting with 14.19, Node.js 16 starting
+  with 16.9, and Node.js 17 through 24), it is exposed as a separate output.
+  Node.js 25 and newer use the standalone nixpkgs corepack package with the
+  selected Node.js runtime.
+
+Add the components a project needs explicitly:
 
 ```nix
 let
   node = pkgs.node-bin.fromProject ./.;
 in
 {
-  packages = [ node node.corepack ];
+  packages = [
+    node
+    node.npm
+    node.corepack
+  ];
 }
 ```
+
+Yarn and pnpm are not included in `node.corepack`. An environment integration
+such as devenv can generate their corepack shims, or they can be installed as
+separate Nix packages.
 
 ## Version data and updates
 
