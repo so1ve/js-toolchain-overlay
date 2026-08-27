@@ -1,6 +1,6 @@
 {
-  "latest": "26.7.0",
-  "lts": "24.19.0",
+  "latest": "26.8.1",
+  "lts": "24.20.0",
   "majors": {
     "0": "0.12.18",
     "4": "4.9.1",
@@ -23,11 +23,49 @@
     "21": "21.7.3",
     "22": "22.23.2",
     "23": "23.11.1",
-    "24": "24.19.0",
+    "24": "24.20.0",
     "25": "25.9.0",
-    "26": "26.7.0"
+    "26": "26.8.1"
   },
   "releases": {
+    "26.8.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "node-v26.8.1-darwin-arm64.tar.xz",
+          "hash": "sha256-syBH2GRnSX0/WbjPgfQiwGk4z1827OKzb258AkoKPls="
+        },
+        "aarch64-linux": {
+          "file": "node-v26.8.1-linux-arm64.tar.xz",
+          "hash": "sha256-I8G00Z4vEqfQb+iqPW4OSSPPd6R+E8XM3zL62qM5YPI="
+        },
+        "x86_64-linux": {
+          "file": "node-v26.8.1-linux-x64.tar.xz",
+          "hash": "sha256-PjARGNffU9Vjt+lsFhdUXybi92+XJL5mjWyrZcFd2l0="
+        }
+      },
+      "date": "2026-08-26",
+      "lts": false,
+      "npm": "11.19.0"
+    },
+    "26.8.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "node-v26.8.0-darwin-arm64.tar.xz",
+          "hash": "sha256-vo0ccbPULOjpdrLwFlwJn2ODUQJL4toO1/gWQ5yDJuk="
+        },
+        "aarch64-linux": {
+          "file": "node-v26.8.0-linux-arm64.tar.xz",
+          "hash": "sha256-eBDgOsrYpZK7Vl54dczbi0JtFZiI1GJmajEw32S94+g="
+        },
+        "x86_64-linux": {
+          "file": "node-v26.8.0-linux-x64.tar.xz",
+          "hash": "sha256-R4ZO1D9M+TjL1Bz4iklYdISIgpVomkt1l3oKJxdwLtk="
+        }
+      },
+      "date": "2026-08-25",
+      "lts": false,
+      "npm": "11.19.0"
+    },
     "26.7.0": {
       "artifacts": {
         "aarch64-darwin": {
@@ -483,6 +521,25 @@
       "date": "2025-10-15",
       "lts": false,
       "npm": "11.6.2"
+    },
+    "24.20.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "node-v24.20.0-darwin-arm64.tar.xz",
+          "hash": "sha256-t793BwcLlQuh7F8a87tt4PKxlixQM5c9lAaKsCHvMBQ="
+        },
+        "aarch64-linux": {
+          "file": "node-v24.20.0-linux-arm64.tar.xz",
+          "hash": "sha256-X03athDBqyAWs8Inzr2/bZSVFhSH5HOce5AJBZX0Zfc="
+        },
+        "x86_64-linux": {
+          "file": "node-v24.20.0-linux-x64.tar.xz",
+          "hash": "sha256-LywNoWIxjw3kdmVBDHyMLtPTbI8xBd5LvGEXbHCny/I="
+        }
+      },
+      "date": "2026-08-26",
+      "lts": "Krypton",
+      "npm": "11.19.0"
     },
     "24.19.0": {
       "artifacts": {
