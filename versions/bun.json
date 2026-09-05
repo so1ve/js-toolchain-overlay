@@ -1,10 +1,27 @@
 {
-  "latest": "1.4.1",
+  "latest": "1.4.2",
   "majors": {
     "0": "0.8.1",
-    "1": "1.4.1"
+    "1": "1.4.2"
   },
   "releases": {
+    "1.4.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "bun-darwin-aarch64.zip",
+          "hash": "sha256-kJh6OhbX21VtiGrD1VHnttPt8KHPQ6yu1iLoZ2vh0S8="
+        },
+        "aarch64-linux": {
+          "file": "bun-linux-aarch64.zip",
+          "hash": "sha256-VDKLvC2cjgyfiSxUTWbFeoO4QTnjSQnl7oF1jxrI/ac="
+        },
+        "x86_64-linux": {
+          "file": "bun-linux-x64.zip",
+          "hash": "sha256-NjaPrvdSeHXV/6UuU81IAhdB8qg+tiCKjdZAaNQiqRM="
+        }
+      },
+      "date": "2026-09-05"
+    },
     "1.4.1": {
       "artifacts": {
         "aarch64-darwin": {
