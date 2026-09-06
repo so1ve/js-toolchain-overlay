@@ -34,9 +34,9 @@ let
   findVersion =
     root:
     project.findFirstVersion [
-      (project.readVersionFile "${root}/.bun-version")
-      (project.versionFromToolVersions "bun" "${root}/.tool-versions")
-      (versionFromPackageJSON "${root}/package.json")
+      (project.readVersionFile (root + "/.bun-version"))
+      (project.versionFromToolVersions "bun" (root + "/.tool-versions"))
+      (versionFromPackageJSON (root + "/package.json"))
     ];
 
   mkBun =

@@ -28,8 +28,8 @@ let
   findVersion =
     root:
     project.findFirstVersion [
-      (project.versionFromToolVersions "pnpm" "${root}/.tool-versions")
-      (versionFromPackageJSON "${root}/package.json")
+      (project.versionFromToolVersions "pnpm" (root + "/.tool-versions"))
+      (versionFromPackageJSON (root + "/package.json"))
     ];
 
   mkNativePackage =

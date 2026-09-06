@@ -54,10 +54,10 @@ let
   findVersion =
     root:
     project.findFirstVersion [
-      (project.readVersionFile "${root}/.node-version")
-      (project.readVersionFile "${root}/.nvmrc")
-      (project.versionFromToolVersions "nodejs" "${root}/.tool-versions")
-      (versionFromPackageJSON "${root}/package.json")
+      (project.readVersionFile (root + "/.node-version"))
+      (project.readVersionFile (root + "/.nvmrc"))
+      (project.versionFromToolVersions "nodejs" (root + "/.tool-versions"))
+      (versionFromPackageJSON (root + "/package.json"))
     ];
 
   mkPackage =

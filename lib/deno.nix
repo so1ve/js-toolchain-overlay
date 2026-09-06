@@ -34,9 +34,9 @@ let
   findVersion =
     root:
     project.findFirstVersion [
-      (project.readVersionFile "${root}/.dvmrc")
-      (project.versionFromToolVersions "deno" "${root}/.tool-versions")
-      (versionFromPackageJSON "${root}/package.json")
+      (project.readVersionFile (root + "/.dvmrc"))
+      (project.versionFromToolVersions "deno" (root + "/.tool-versions"))
+      (versionFromPackageJSON (root + "/package.json"))
     ];
 
   mkDeno =

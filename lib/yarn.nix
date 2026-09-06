@@ -29,8 +29,8 @@ let
   findVersion =
     root:
     project.findFirstVersion [
-      (project.versionFromToolVersions "yarn" "${root}/.tool-versions")
-      (versionFromPackageJSON "${root}/package.json")
+      (project.versionFromToolVersions "yarn" (root + "/.tool-versions"))
+      (versionFromPackageJSON (root + "/package.json"))
     ];
 
   mkPackage =
