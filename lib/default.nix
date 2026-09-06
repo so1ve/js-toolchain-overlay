@@ -8,17 +8,35 @@ let
   node = import ./node.nix { inherit lib catalog project; };
   bun = import ./bun.nix { inherit lib catalog project; };
   deno = import ./deno.nix { inherit lib catalog project; };
+  pnpm = import ./pnpm.nix { inherit lib catalog project; };
+  yarn = import ./yarn.nix { inherit lib catalog project; };
 
   supportedSystems = lib.unique (
-    node.supportedSystems ++ bun.supportedSystems ++ deno.supportedSystems
+    node.supportedSystems
+    ++ bun.supportedSystems
+    ++ deno.supportedSystems
+    ++ pnpm.supportedSystems
+    ++ yarn.supportedSystems
   );
 
-  overlay = final: prev: node.overlay final prev // bun.overlay final prev // deno.overlay final prev;
+  overlay =
+    final: prev:
+    node.overlay final prev
+    // bun.overlay final prev
+    // deno.overlay final prev
+    // pnpm.overlay final prev
+    // yarn.overlay final prev;
 
-  packagesFor = pkgs: node.packagesFor pkgs // bun.packagesFor pkgs // deno.packagesFor pkgs;
+  packagesFor =
+    pkgs:
+    node.packagesFor pkgs
+    // bun.packagesFor pkgs
+    // deno.packagesFor pkgs
+    // pnpm.packagesFor pkgs
+    // yarn.packagesFor pkgs;
 
-  publicRuntimeLib = runtime: {
-    inherit (runtime)
+  publicToolLib = tool: {
+    inherit (tool)
       fromPackageJSON
       fromProject
       fromVersion
@@ -28,9 +46,11 @@ let
   };
 
   publicLib = {
-    node = publicRuntimeLib node;
-    bun = publicRuntimeLib bun;
-    deno = publicRuntimeLib deno;
+    node = publicToolLib node;
+    bun = publicToolLib bun;
+    deno = publicToolLib deno;
+    pnpm = publicToolLib pnpm;
+    yarn = publicToolLib yarn;
   };
 in
 {

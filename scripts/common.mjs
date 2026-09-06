@@ -1,8 +1,8 @@
 import { readFile, writeFile } from "node:fs/promises";
-import { resolve } from "node:path";
+import { join } from "node:path";
 
 const GITHUB_PAGE_SIZE = 100;
-const VERSIONS_DIR = resolve("versions");
+const VERSIONS_DIR = "versions";
 
 const githubHeaders = {
   Accept: "application/vnd.github+json",
@@ -33,14 +33,12 @@ export function digestToSRI(digest) {
 }
 
 export async function readCatalog(name) {
-  return JSON.parse(
-    await readFile(resolve(VERSIONS_DIR, `${name}.json`), "utf8"),
-  );
+  return JSON.parse(await readFile(join(VERSIONS_DIR, `${name}.json`), "utf8"));
 }
 
 export async function writeCatalog(name, catalog) {
   await writeFile(
-    resolve(VERSIONS_DIR, `${name}.json`),
+    join(VERSIONS_DIR, `${name}.json`),
     `${JSON.stringify(catalog, null, 2)}\n`,
   );
   console.log(`updated versions/${name}.json`);
@@ -90,4 +88,11 @@ export async function listGitHubReleases(repository) {
     releases.push(...batch);
     if (batch.length < GITHUB_PAGE_SIZE) return releases;
   }
+}
+
+export async function getGitHubRelease(repository, tag) {
+  return getJSON(
+    `https://api.github.com/repos/${repository}/releases/tags/${encodeURIComponent(tag)}`,
+    { headers: githubHeaders },
+  );
 }

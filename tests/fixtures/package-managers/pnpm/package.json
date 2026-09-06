@@ -1,0 +1,17 @@
+{
+  "name": "pnpm-smoke",
+  "private": true,
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^12.0.0",
+      "onFail": "download"
+    }
+  },
+  "dependencies": {
+    "overlay-smoke-dependency": "file:../dependency"
+  },
+  "scripts": {
+    "check": "node -e \"require('node:assert/strict').equal(require('overlay-smoke-dependency'), 'dependency-loaded'); console.log(process.execPath)\""
+  }
+}

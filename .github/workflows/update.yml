@@ -40,7 +40,10 @@ jobs:
 
       - name: Build updated releases
         if: steps.changes.outputs.changed == 'true'
-        run: nix build --no-link .#node .#node_lts .#bun .#deno .#deno_lts
+        run: >-
+          nix build --no-link
+          .#node .#node_lts .#bun .#deno .#deno_lts .#pnpm .#yarn
+          .#checks.x86_64-linux.package-managers
 
       - name: Commit updates
         if: steps.changes.outputs.changed == 'true'

@@ -1,0 +1,1200 @@
+{
+  "latest": "4.18.0",
+  "majors": {
+    "2": "2.4.2",
+    "3": "3.8.7",
+    "4": "4.18.0"
+  },
+  "releases": {
+    "4.18.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.18.0.tgz",
+          "hash": "sha512-WV9H+/O8BPElO7GKzrKipTtCNt8/gBCUJaNAEOw4U/x2k17aZjseYzll4QhpZE4xIsEvo8bK6KvjhsXuHrclPg=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.18.0.tgz",
+          "hash": "sha512-WV9H+/O8BPElO7GKzrKipTtCNt8/gBCUJaNAEOw4U/x2k17aZjseYzll4QhpZE4xIsEvo8bK6KvjhsXuHrclPg=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.18.0.tgz",
+          "hash": "sha512-WV9H+/O8BPElO7GKzrKipTtCNt8/gBCUJaNAEOw4U/x2k17aZjseYzll4QhpZE4xIsEvo8bK6KvjhsXuHrclPg=="
+        }
+      },
+      "date": "2026-07-29"
+    },
+    "4.17.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.17.1.tgz",
+          "hash": "sha512-2tiSQuJNl/L3QwTdrq6lKWDpkcnp9MGvCT/rIldHcbu3SWfnLdmehvt3eulX1hT7FFt1Gjfq3CesF+kvhFip6g=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.17.1.tgz",
+          "hash": "sha512-2tiSQuJNl/L3QwTdrq6lKWDpkcnp9MGvCT/rIldHcbu3SWfnLdmehvt3eulX1hT7FFt1Gjfq3CesF+kvhFip6g=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.17.1.tgz",
+          "hash": "sha512-2tiSQuJNl/L3QwTdrq6lKWDpkcnp9MGvCT/rIldHcbu3SWfnLdmehvt3eulX1hT7FFt1Gjfq3CesF+kvhFip6g=="
+        }
+      },
+      "date": "2026-07-08"
+    },
+    "4.17.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.17.0.tgz",
+          "hash": "sha512-quDpJzauzaCeutv4S7MObzjKcExJU0iKPzwl2LN66AP2MSVC/yTDuwnTyR3NwaA6euvSMBhk8MzX2GBDvVXxsA=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.17.0.tgz",
+          "hash": "sha512-quDpJzauzaCeutv4S7MObzjKcExJU0iKPzwl2LN66AP2MSVC/yTDuwnTyR3NwaA6euvSMBhk8MzX2GBDvVXxsA=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.17.0.tgz",
+          "hash": "sha512-quDpJzauzaCeutv4S7MObzjKcExJU0iKPzwl2LN66AP2MSVC/yTDuwnTyR3NwaA6euvSMBhk8MzX2GBDvVXxsA=="
+        }
+      },
+      "date": "2026-06-15"
+    },
+    "4.16.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.16.0.tgz",
+          "hash": "sha512-33ULUUvcE8WLwzzWnGeo1QPDPScYNpYhB8zMTJWdTgMZCxaRqmCr6Q3ZD194/1C0TcSdN7AuspVD8FGlSzgvFQ=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.16.0.tgz",
+          "hash": "sha512-33ULUUvcE8WLwzzWnGeo1QPDPScYNpYhB8zMTJWdTgMZCxaRqmCr6Q3ZD194/1C0TcSdN7AuspVD8FGlSzgvFQ=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.16.0.tgz",
+          "hash": "sha512-33ULUUvcE8WLwzzWnGeo1QPDPScYNpYhB8zMTJWdTgMZCxaRqmCr6Q3ZD194/1C0TcSdN7AuspVD8FGlSzgvFQ=="
+        }
+      },
+      "date": "2026-06-02"
+    },
+    "4.15.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.15.0.tgz",
+          "hash": "sha512-+va5m+fh6KiKRreFsoQrDhfyupPxazl2TdrdSEB6CiYC0vS9fWp+WNMIIV0p1vnP63kZcJsCDlcyT2CjU+GPlA=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.15.0.tgz",
+          "hash": "sha512-+va5m+fh6KiKRreFsoQrDhfyupPxazl2TdrdSEB6CiYC0vS9fWp+WNMIIV0p1vnP63kZcJsCDlcyT2CjU+GPlA=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.15.0.tgz",
+          "hash": "sha512-+va5m+fh6KiKRreFsoQrDhfyupPxazl2TdrdSEB6CiYC0vS9fWp+WNMIIV0p1vnP63kZcJsCDlcyT2CjU+GPlA=="
+        }
+      },
+      "date": "2026-05-19"
+    },
+    "4.14.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.14.1.tgz",
+          "hash": "sha512-62uYRCYBnAwNZ1Y4uMh0iUXtgZe4frwAgd5dJFoTu/uWMZWpJzxY2ib0cAva1eiy1L2jiDR0dS1Os+1osiIxvA=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.14.1.tgz",
+          "hash": "sha512-62uYRCYBnAwNZ1Y4uMh0iUXtgZe4frwAgd5dJFoTu/uWMZWpJzxY2ib0cAva1eiy1L2jiDR0dS1Os+1osiIxvA=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.14.1.tgz",
+          "hash": "sha512-62uYRCYBnAwNZ1Y4uMh0iUXtgZe4frwAgd5dJFoTu/uWMZWpJzxY2ib0cAva1eiy1L2jiDR0dS1Os+1osiIxvA=="
+        }
+      },
+      "date": "2026-04-17"
+    },
+    "4.14.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.14.0.tgz",
+          "hash": "sha512-DU5Nj4lyXSs7I6BtShfACseWZ8F80D48G8u7QmCRvbDkkgRRyNe7CWE+PvlcL6sLRNerYTYu5EJvSyHsxfCvPg=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.14.0.tgz",
+          "hash": "sha512-DU5Nj4lyXSs7I6BtShfACseWZ8F80D48G8u7QmCRvbDkkgRRyNe7CWE+PvlcL6sLRNerYTYu5EJvSyHsxfCvPg=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.14.0.tgz",
+          "hash": "sha512-DU5Nj4lyXSs7I6BtShfACseWZ8F80D48G8u7QmCRvbDkkgRRyNe7CWE+PvlcL6sLRNerYTYu5EJvSyHsxfCvPg=="
+        }
+      },
+      "date": "2026-04-16"
+    },
+    "4.13.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.13.0.tgz",
+          "hash": "sha512-c0YdSja652OezJqFnz9+pZwKfKAiBu2aRPJiHPU73sirTGgvQRTyaS5Y6PQHAmmaoa3RjCY6f3L2q9g8S/urqw=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.13.0.tgz",
+          "hash": "sha512-c0YdSja652OezJqFnz9+pZwKfKAiBu2aRPJiHPU73sirTGgvQRTyaS5Y6PQHAmmaoa3RjCY6f3L2q9g8S/urqw=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.13.0.tgz",
+          "hash": "sha512-c0YdSja652OezJqFnz9+pZwKfKAiBu2aRPJiHPU73sirTGgvQRTyaS5Y6PQHAmmaoa3RjCY6f3L2q9g8S/urqw=="
+        }
+      },
+      "date": "2026-03-19"
+    },
+    "4.12.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.12.0.tgz",
+          "hash": "sha512-r0AVfpKUXIbgajKFY0wWMZLwZou+CJmtqt+Y5LTimbPaA78srI0SnLJIS4ikPE1mv8YTPQ7mqRUdoDB7W+kDDA=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.12.0.tgz",
+          "hash": "sha512-r0AVfpKUXIbgajKFY0wWMZLwZou+CJmtqt+Y5LTimbPaA78srI0SnLJIS4ikPE1mv8YTPQ7mqRUdoDB7W+kDDA=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.12.0.tgz",
+          "hash": "sha512-r0AVfpKUXIbgajKFY0wWMZLwZou+CJmtqt+Y5LTimbPaA78srI0SnLJIS4ikPE1mv8YTPQ7mqRUdoDB7W+kDDA=="
+        }
+      },
+      "date": "2025-11-23"
+    },
+    "4.11.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.11.0.tgz",
+          "hash": "sha512-AZ+F42OY7N+3YELgoWXGUGLTcjoZMYEWyy+s4XNOBdo2tgNQtj5fPNgYFvIRsr/l0trD1llu2tYO4OOSbsyqCQ=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.11.0.tgz",
+          "hash": "sha512-AZ+F42OY7N+3YELgoWXGUGLTcjoZMYEWyy+s4XNOBdo2tgNQtj5fPNgYFvIRsr/l0trD1llu2tYO4OOSbsyqCQ=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.11.0.tgz",
+          "hash": "sha512-AZ+F42OY7N+3YELgoWXGUGLTcjoZMYEWyy+s4XNOBdo2tgNQtj5fPNgYFvIRsr/l0trD1llu2tYO4OOSbsyqCQ=="
+        }
+      },
+      "date": "2025-11-07"
+    },
+    "4.10.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.10.3.tgz",
+          "hash": "sha512-OKLKR6w4RpXjtDzMnkcEXMX55toUme0i/acIiUkmTspaX2zFYLmGPDBmsbFcpWBhbuamX2e8dXgoTx8lDr89lQ=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.10.3.tgz",
+          "hash": "sha512-OKLKR6w4RpXjtDzMnkcEXMX55toUme0i/acIiUkmTspaX2zFYLmGPDBmsbFcpWBhbuamX2e8dXgoTx8lDr89lQ=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.10.3.tgz",
+          "hash": "sha512-OKLKR6w4RpXjtDzMnkcEXMX55toUme0i/acIiUkmTspaX2zFYLmGPDBmsbFcpWBhbuamX2e8dXgoTx8lDr89lQ=="
+        }
+      },
+      "date": "2025-09-23"
+    },
+    "4.10.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.10.2.tgz",
+          "hash": "sha512-Ha/v26FsE594DA4Nt0hQxMm4LIYR4E/sl8l7BcU1w3z6vYpV5aLFbw9lWAqzvpcOvmPYb9QsqUUCCycmfSBktQ=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.10.2.tgz",
+          "hash": "sha512-Ha/v26FsE594DA4Nt0hQxMm4LIYR4E/sl8l7BcU1w3z6vYpV5aLFbw9lWAqzvpcOvmPYb9QsqUUCCycmfSBktQ=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.10.2.tgz",
+          "hash": "sha512-Ha/v26FsE594DA4Nt0hQxMm4LIYR4E/sl8l7BcU1w3z6vYpV5aLFbw9lWAqzvpcOvmPYb9QsqUUCCycmfSBktQ=="
+        }
+      },
+      "date": "2025-09-18"
+    },
+    "4.10.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.10.1.tgz",
+          "hash": "sha512-r1Urs2p2FWEv6D1SF5bU6DQsOCe7QmdSN7ixLEM5ZkbPyCjM7N1XawoQYESvoRAS+duMVagTFJe9OwmKqKXvyw=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.10.1.tgz",
+          "hash": "sha512-r1Urs2p2FWEv6D1SF5bU6DQsOCe7QmdSN7ixLEM5ZkbPyCjM7N1XawoQYESvoRAS+duMVagTFJe9OwmKqKXvyw=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.10.1.tgz",
+          "hash": "sha512-r1Urs2p2FWEv6D1SF5bU6DQsOCe7QmdSN7ixLEM5ZkbPyCjM7N1XawoQYESvoRAS+duMVagTFJe9OwmKqKXvyw=="
+        }
+      },
+      "date": "2025-09-18"
+    },
+    "4.9.4": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.9.4.tgz",
+          "hash": "sha512-q504Eb++phLdYrVWhHLNpTwlwPkqz+w/+ydkSJUIP2SWKPUoeIllFD0xGVAWOR0pImxYwEjaRVXfdfVeJP6wqA=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.9.4.tgz",
+          "hash": "sha512-q504Eb++phLdYrVWhHLNpTwlwPkqz+w/+ydkSJUIP2SWKPUoeIllFD0xGVAWOR0pImxYwEjaRVXfdfVeJP6wqA=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.9.4.tgz",
+          "hash": "sha512-q504Eb++phLdYrVWhHLNpTwlwPkqz+w/+ydkSJUIP2SWKPUoeIllFD0xGVAWOR0pImxYwEjaRVXfdfVeJP6wqA=="
+        }
+      },
+      "date": "2025-08-26"
+    },
+    "4.9.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.9.3.tgz",
+          "hash": "sha512-kM8DvzL+TApS2jAA5verfopcIuSUpLy8h8jIqn26ErwGWCXJpeiAKOj8vgdmJ8boNPmIBevOtOrRCcy1GuuY5Q=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.9.3.tgz",
+          "hash": "sha512-kM8DvzL+TApS2jAA5verfopcIuSUpLy8h8jIqn26ErwGWCXJpeiAKOj8vgdmJ8boNPmIBevOtOrRCcy1GuuY5Q=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.9.3.tgz",
+          "hash": "sha512-kM8DvzL+TApS2jAA5verfopcIuSUpLy8h8jIqn26ErwGWCXJpeiAKOj8vgdmJ8boNPmIBevOtOrRCcy1GuuY5Q=="
+        }
+      },
+      "date": "2025-08-20"
+    },
+    "4.9.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.9.2.tgz",
+          "hash": "sha512-qrMyWzvEnWhaWOflvE1pGxWGiVOPsO/q4XfGCeRPnLU8ECkvhrhJEfCNakcy3s3VHcApBASQ4fmL0sOEw6xtZQ=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.9.2.tgz",
+          "hash": "sha512-qrMyWzvEnWhaWOflvE1pGxWGiVOPsO/q4XfGCeRPnLU8ECkvhrhJEfCNakcy3s3VHcApBASQ4fmL0sOEw6xtZQ=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.9.2.tgz",
+          "hash": "sha512-qrMyWzvEnWhaWOflvE1pGxWGiVOPsO/q4XfGCeRPnLU8ECkvhrhJEfCNakcy3s3VHcApBASQ4fmL0sOEw6xtZQ=="
+        }
+      },
+      "date": "2025-06-03"
+    },
+    "4.9.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.9.1.tgz",
+          "hash": "sha512-yuC8sQNJrwELRy73+hAjwzwK/WClTcKdGHl+a7dxvWwNPQau+oAcVjY7zG7PYTOYjR+UNUMpPnM17eYGGPso6A=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.9.1.tgz",
+          "hash": "sha512-yuC8sQNJrwELRy73+hAjwzwK/WClTcKdGHl+a7dxvWwNPQau+oAcVjY7zG7PYTOYjR+UNUMpPnM17eYGGPso6A=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.9.1.tgz",
+          "hash": "sha512-yuC8sQNJrwELRy73+hAjwzwK/WClTcKdGHl+a7dxvWwNPQau+oAcVjY7zG7PYTOYjR+UNUMpPnM17eYGGPso6A=="
+        }
+      },
+      "date": "2025-04-15"
+    },
+    "4.9.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.9.0.tgz",
+          "hash": "sha512-nmtFX2U65k6Jj5fo0Q8ToTEL2HZ3iNA2PI0Ms2+6CYr5vj8k1/r4xas3i63+KlKLkKEJp6sHy9A41Vvxazh9IQ=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.9.0.tgz",
+          "hash": "sha512-nmtFX2U65k6Jj5fo0Q8ToTEL2HZ3iNA2PI0Ms2+6CYr5vj8k1/r4xas3i63+KlKLkKEJp6sHy9A41Vvxazh9IQ=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.9.0.tgz",
+          "hash": "sha512-nmtFX2U65k6Jj5fo0Q8ToTEL2HZ3iNA2PI0Ms2+6CYr5vj8k1/r4xas3i63+KlKLkKEJp6sHy9A41Vvxazh9IQ=="
+        }
+      },
+      "date": "2025-04-09"
+    },
+    "4.8.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.8.1.tgz",
+          "hash": "sha512-/biMPROIGBws5maHqqBOmv4Vn6Zv1EfXT1q8bXWj+5niztwgED2NX/NXbQhPdvyNjP2D3aq8OkdlOCQGLfGcpw=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.8.1.tgz",
+          "hash": "sha512-/biMPROIGBws5maHqqBOmv4Vn6Zv1EfXT1q8bXWj+5niztwgED2NX/NXbQhPdvyNjP2D3aq8OkdlOCQGLfGcpw=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.8.1.tgz",
+          "hash": "sha512-/biMPROIGBws5maHqqBOmv4Vn6Zv1EfXT1q8bXWj+5niztwgED2NX/NXbQhPdvyNjP2D3aq8OkdlOCQGLfGcpw=="
+        }
+      },
+      "date": "2025-03-30"
+    },
+    "4.8.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.8.0.tgz",
+          "hash": "sha512-CpONlAq+t+95Dzyy+9vgJlSu5+11NHThFUSJ5g7VDL9JCy5FPNgrlu8jx38YKZClD/8nhiNiNn95ElBweuSufw=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.8.0.tgz",
+          "hash": "sha512-CpONlAq+t+95Dzyy+9vgJlSu5+11NHThFUSJ5g7VDL9JCy5FPNgrlu8jx38YKZClD/8nhiNiNn95ElBweuSufw=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.8.0.tgz",
+          "hash": "sha512-CpONlAq+t+95Dzyy+9vgJlSu5+11NHThFUSJ5g7VDL9JCy5FPNgrlu8jx38YKZClD/8nhiNiNn95ElBweuSufw=="
+        }
+      },
+      "date": "2025-03-28"
+    },
+    "4.7.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.7.0.tgz",
+          "hash": "sha512-ZoeS3BHcJkSnp4zyCfxIrRhxzOAPLwBeARmQJZFeiqadIbZhRCE9YHsIwgZEe2XnZT8dtuVh4r22aY7e+Gv5Vg=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.7.0.tgz",
+          "hash": "sha512-ZoeS3BHcJkSnp4zyCfxIrRhxzOAPLwBeARmQJZFeiqadIbZhRCE9YHsIwgZEe2XnZT8dtuVh4r22aY7e+Gv5Vg=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.7.0.tgz",
+          "hash": "sha512-ZoeS3BHcJkSnp4zyCfxIrRhxzOAPLwBeARmQJZFeiqadIbZhRCE9YHsIwgZEe2XnZT8dtuVh4r22aY7e+Gv5Vg=="
+        }
+      },
+      "date": "2025-03-01"
+    },
+    "4.6.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.6.0.tgz",
+          "hash": "sha512-ox0MJJkxtma1kAzIsSboShQQOvyvef0TbmCo9ecrBpPaZ9exd/71IEZmjbHjAir8GAiiOw7B394aAsqfWEFZug=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.6.0.tgz",
+          "hash": "sha512-ox0MJJkxtma1kAzIsSboShQQOvyvef0TbmCo9ecrBpPaZ9exd/71IEZmjbHjAir8GAiiOw7B394aAsqfWEFZug=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.6.0.tgz",
+          "hash": "sha512-ox0MJJkxtma1kAzIsSboShQQOvyvef0TbmCo9ecrBpPaZ9exd/71IEZmjbHjAir8GAiiOw7B394aAsqfWEFZug=="
+        }
+      },
+      "date": "2024-12-29"
+    },
+    "4.5.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.5.3.tgz",
+          "hash": "sha512-iE9YlRf+knyYuZz5sRscq/z1Z659TXS9gIGG0wWdyfTZ9qMgo4EBj7V0f8UzXBau7bd3ansprMKUqvRgqWXzJQ=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.5.3.tgz",
+          "hash": "sha512-iE9YlRf+knyYuZz5sRscq/z1Z659TXS9gIGG0wWdyfTZ9qMgo4EBj7V0f8UzXBau7bd3ansprMKUqvRgqWXzJQ=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.5.3.tgz",
+          "hash": "sha512-iE9YlRf+knyYuZz5sRscq/z1Z659TXS9gIGG0wWdyfTZ9qMgo4EBj7V0f8UzXBau7bd3ansprMKUqvRgqWXzJQ=="
+        }
+      },
+      "date": "2024-11-25"
+    },
+    "4.5.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.5.2.tgz",
+          "hash": "sha512-lM5rf/pkOQmutqRy826IQ9VOyJPumQ9iRpREWB804BLiJmaNrDuSL1Zbh49nHDiNJ4MG6PAZETl2oHe0RuKNSg=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.5.2.tgz",
+          "hash": "sha512-lM5rf/pkOQmutqRy826IQ9VOyJPumQ9iRpREWB804BLiJmaNrDuSL1Zbh49nHDiNJ4MG6PAZETl2oHe0RuKNSg=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.5.2.tgz",
+          "hash": "sha512-lM5rf/pkOQmutqRy826IQ9VOyJPumQ9iRpREWB804BLiJmaNrDuSL1Zbh49nHDiNJ4MG6PAZETl2oHe0RuKNSg=="
+        }
+      },
+      "date": "2024-11-22"
+    },
+    "4.5.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.5.1.tgz",
+          "hash": "sha512-df9DZyWSPblSOwkarK729EB7SOhQ9mQvjGKY1YiiAAj3DBir81FyxeDGJbTj8jVZjE54TXypTuKYqydARykMTg=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.5.1.tgz",
+          "hash": "sha512-df9DZyWSPblSOwkarK729EB7SOhQ9mQvjGKY1YiiAAj3DBir81FyxeDGJbTj8jVZjE54TXypTuKYqydARykMTg=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.5.1.tgz",
+          "hash": "sha512-df9DZyWSPblSOwkarK729EB7SOhQ9mQvjGKY1YiiAAj3DBir81FyxeDGJbTj8jVZjE54TXypTuKYqydARykMTg=="
+        }
+      },
+      "date": "2024-10-18"
+    },
+    "4.5.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.5.0.tgz",
+          "hash": "sha512-BF6HlsCtsQLcUcNF7TrTjPfJBEq0fYNfpv0UI1yCMAPIwzEo7gATJX8B2/qbrz3FR5RSQouEvg/z9ui1DjZXcw=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.5.0.tgz",
+          "hash": "sha512-BF6HlsCtsQLcUcNF7TrTjPfJBEq0fYNfpv0UI1yCMAPIwzEo7gATJX8B2/qbrz3FR5RSQouEvg/z9ui1DjZXcw=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.5.0.tgz",
+          "hash": "sha512-BF6HlsCtsQLcUcNF7TrTjPfJBEq0fYNfpv0UI1yCMAPIwzEo7gATJX8B2/qbrz3FR5RSQouEvg/z9ui1DjZXcw=="
+        }
+      },
+      "date": "2024-09-14"
+    },
+    "4.4.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.4.1.tgz",
+          "hash": "sha512-adqT5RhZlM7XCUqKaGkcPRidMjHgKs3KoHgiCCwfVpfj9uEVQ/zMfZ86xd2Bp4OjRbfMCOvYioRM1geEYgizGA=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.4.1.tgz",
+          "hash": "sha512-adqT5RhZlM7XCUqKaGkcPRidMjHgKs3KoHgiCCwfVpfj9uEVQ/zMfZ86xd2Bp4OjRbfMCOvYioRM1geEYgizGA=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.4.1.tgz",
+          "hash": "sha512-adqT5RhZlM7XCUqKaGkcPRidMjHgKs3KoHgiCCwfVpfj9uEVQ/zMfZ86xd2Bp4OjRbfMCOvYioRM1geEYgizGA=="
+        }
+      },
+      "date": "2024-08-24"
+    },
+    "4.4.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.4.0.tgz",
+          "hash": "sha512-1YMvFokdlHHG+xzB4d7NyzRAnfIZjfnkbY35SK3kU417WRoR9C2IKmW/ePI/WeQ2S9mxOBkETjbluD+A2K0eYg=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.4.0.tgz",
+          "hash": "sha512-1YMvFokdlHHG+xzB4d7NyzRAnfIZjfnkbY35SK3kU417WRoR9C2IKmW/ePI/WeQ2S9mxOBkETjbluD+A2K0eYg=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.4.0.tgz",
+          "hash": "sha512-1YMvFokdlHHG+xzB4d7NyzRAnfIZjfnkbY35SK3kU417WRoR9C2IKmW/ePI/WeQ2S9mxOBkETjbluD+A2K0eYg=="
+        }
+      },
+      "date": "2024-08-02"
+    },
+    "4.3.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.3.1.tgz",
+          "hash": "sha512-Vpi/Nbu2SLXGRdKvuxhT0WNe3jOL/LM0Wl58yxUN9WcaQnCYyuIILNS3R35lujao1ZXoAN35d9vAsevzStDreQ=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.3.1.tgz",
+          "hash": "sha512-Vpi/Nbu2SLXGRdKvuxhT0WNe3jOL/LM0Wl58yxUN9WcaQnCYyuIILNS3R35lujao1ZXoAN35d9vAsevzStDreQ=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.3.1.tgz",
+          "hash": "sha512-Vpi/Nbu2SLXGRdKvuxhT0WNe3jOL/LM0Wl58yxUN9WcaQnCYyuIILNS3R35lujao1ZXoAN35d9vAsevzStDreQ=="
+        }
+      },
+      "date": "2024-06-21"
+    },
+    "4.3.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.3.0.tgz",
+          "hash": "sha512-+UwC1y7vty5vYLUxJRX1bDx1DZk5B5bAHJbOwG30NWtVeciFEOkuZnRg5jbrGzGnXiGy6LQwmHeY4tWD8o/uRA=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.3.0.tgz",
+          "hash": "sha512-+UwC1y7vty5vYLUxJRX1bDx1DZk5B5bAHJbOwG30NWtVeciFEOkuZnRg5jbrGzGnXiGy6LQwmHeY4tWD8o/uRA=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.3.0.tgz",
+          "hash": "sha512-+UwC1y7vty5vYLUxJRX1bDx1DZk5B5bAHJbOwG30NWtVeciFEOkuZnRg5jbrGzGnXiGy6LQwmHeY4tWD8o/uRA=="
+        }
+      },
+      "date": "2024-06-10"
+    },
+    "4.2.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.2.2.tgz",
+          "hash": "sha512-NxOmeyfLLJcon4YFBqsMwrhN7IqJI6QxhleEwWHRIeJ0+jLRz/AS3GeUXp6FE8sEtpGedCLYkoAd+Z4hwNVF/Q=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.2.2.tgz",
+          "hash": "sha512-NxOmeyfLLJcon4YFBqsMwrhN7IqJI6QxhleEwWHRIeJ0+jLRz/AS3GeUXp6FE8sEtpGedCLYkoAd+Z4hwNVF/Q=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.2.2.tgz",
+          "hash": "sha512-NxOmeyfLLJcon4YFBqsMwrhN7IqJI6QxhleEwWHRIeJ0+jLRz/AS3GeUXp6FE8sEtpGedCLYkoAd+Z4hwNVF/Q=="
+        }
+      },
+      "date": "2024-05-08"
+    },
+    "4.2.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.2.1.tgz",
+          "hash": "sha512-RuRH+pZ1ohEHSMMyL+MQUpFvBcrbEVfqG3hW2ohCNaOUkInj97A40owYZ1m6efTuvanrkO3DNncEw8zeqhXpYg=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.2.1.tgz",
+          "hash": "sha512-RuRH+pZ1ohEHSMMyL+MQUpFvBcrbEVfqG3hW2ohCNaOUkInj97A40owYZ1m6efTuvanrkO3DNncEw8zeqhXpYg=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.2.1.tgz",
+          "hash": "sha512-RuRH+pZ1ohEHSMMyL+MQUpFvBcrbEVfqG3hW2ohCNaOUkInj97A40owYZ1m6efTuvanrkO3DNncEw8zeqhXpYg=="
+        }
+      },
+      "date": "2024-05-02"
+    },
+    "4.2.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.2.0.tgz",
+          "hash": "sha512-/g6KbzlKxR3F3t6s2CyfCovoHQgU1PudN36NxXW8Owku1RWxtlUDwjBO23URrIfDSnNKsOB6+98d4yKoVA3djw=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.2.0.tgz",
+          "hash": "sha512-/g6KbzlKxR3F3t6s2CyfCovoHQgU1PudN36NxXW8Owku1RWxtlUDwjBO23URrIfDSnNKsOB6+98d4yKoVA3djw=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.2.0.tgz",
+          "hash": "sha512-/g6KbzlKxR3F3t6s2CyfCovoHQgU1PudN36NxXW8Owku1RWxtlUDwjBO23URrIfDSnNKsOB6+98d4yKoVA3djw=="
+        }
+      },
+      "date": "2024-05-02"
+    },
+    "4.1.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.1.1.tgz",
+          "hash": "sha512-5qXVUB1jKY+AHZLjti6gaxxL3Fnog0axt5B6EqTCE5JW/+XL/rz/RqL1fI9T7FVBbaqC7wpvdgqy5t11igZG2Q=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.1.1.tgz",
+          "hash": "sha512-5qXVUB1jKY+AHZLjti6gaxxL3Fnog0axt5B6EqTCE5JW/+XL/rz/RqL1fI9T7FVBbaqC7wpvdgqy5t11igZG2Q=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.1.1.tgz",
+          "hash": "sha512-5qXVUB1jKY+AHZLjti6gaxxL3Fnog0axt5B6EqTCE5JW/+XL/rz/RqL1fI9T7FVBbaqC7wpvdgqy5t11igZG2Q=="
+        }
+      },
+      "date": "2024-03-04"
+    },
+    "4.1.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.1.0.tgz",
+          "hash": "sha512-wp1+8TqjlwB4uV73KlDX6iSNWzcUSCsR1nwG5nPUOYbqIoWomJ4A57jP0wU+mdtGRy+hlKrK6XR6WD/vvKy2YQ=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.1.0.tgz",
+          "hash": "sha512-wp1+8TqjlwB4uV73KlDX6iSNWzcUSCsR1nwG5nPUOYbqIoWomJ4A57jP0wU+mdtGRy+hlKrK6XR6WD/vvKy2YQ=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.1.0.tgz",
+          "hash": "sha512-wp1+8TqjlwB4uV73KlDX6iSNWzcUSCsR1nwG5nPUOYbqIoWomJ4A57jP0wU+mdtGRy+hlKrK6XR6WD/vvKy2YQ=="
+        }
+      },
+      "date": "2024-01-30"
+    },
+    "4.0.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.0.2.tgz",
+          "hash": "sha512-JfKGMld+j1GRHpWkOhf/QGnkgJvXlYa6JcbGk02Ectpr7hx1euKYb/rdMR/NOqXfp3j34eiNflmMDI5hX+z7eA=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.0.2.tgz",
+          "hash": "sha512-JfKGMld+j1GRHpWkOhf/QGnkgJvXlYa6JcbGk02Ectpr7hx1euKYb/rdMR/NOqXfp3j34eiNflmMDI5hX+z7eA=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.0.2.tgz",
+          "hash": "sha512-JfKGMld+j1GRHpWkOhf/QGnkgJvXlYa6JcbGk02Ectpr7hx1euKYb/rdMR/NOqXfp3j34eiNflmMDI5hX+z7eA=="
+        }
+      },
+      "date": "2023-11-14"
+    },
+    "4.0.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.0.1.tgz",
+          "hash": "sha512-X4Q6tDfK0JTWeSi8rR2ey5AUg7wwln/KPPasckt0b+XcmsNeQrL8wqC5sFmcto2BL2F5msoWBjz5rO9b9+BWWA=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.0.1.tgz",
+          "hash": "sha512-X4Q6tDfK0JTWeSi8rR2ey5AUg7wwln/KPPasckt0b+XcmsNeQrL8wqC5sFmcto2BL2F5msoWBjz5rO9b9+BWWA=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.0.1.tgz",
+          "hash": "sha512-X4Q6tDfK0JTWeSi8rR2ey5AUg7wwln/KPPasckt0b+XcmsNeQrL8wqC5sFmcto2BL2F5msoWBjz5rO9b9+BWWA=="
+        }
+      },
+      "date": "2023-10-28"
+    },
+    "4.0.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.0.0.tgz",
+          "hash": "sha512-QwC0IthvIfNSv5z33Yppq+nnpuPRc3y2vtzyZW9Y0RqWhV6zJ0BbfA1mWV39mEdCwtkFMXOQ0PRGqypbpI9Ptg=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.0.0.tgz",
+          "hash": "sha512-QwC0IthvIfNSv5z33Yppq+nnpuPRc3y2vtzyZW9Y0RqWhV6zJ0BbfA1mWV39mEdCwtkFMXOQ0PRGqypbpI9Ptg=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.0.0.tgz",
+          "hash": "sha512-QwC0IthvIfNSv5z33Yppq+nnpuPRc3y2vtzyZW9Y0RqWhV6zJ0BbfA1mWV39mEdCwtkFMXOQ0PRGqypbpI9Ptg=="
+        }
+      },
+      "date": "2023-10-22"
+    },
+    "3.8.7": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.8.7.tgz",
+          "hash": "sha512-YMoAlLR9f+kxXjK72ggBIidi3ulQQrQpMSxzrLUt0OUk9Xdst2v26LBSYFlzOm+7KRNWgYIJpFjA8uRnCgB5xQ=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.8.7.tgz",
+          "hash": "sha512-YMoAlLR9f+kxXjK72ggBIidi3ulQQrQpMSxzrLUt0OUk9Xdst2v26LBSYFlzOm+7KRNWgYIJpFjA8uRnCgB5xQ=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.8.7.tgz",
+          "hash": "sha512-YMoAlLR9f+kxXjK72ggBIidi3ulQQrQpMSxzrLUt0OUk9Xdst2v26LBSYFlzOm+7KRNWgYIJpFjA8uRnCgB5xQ=="
+        }
+      },
+      "date": "2024-12-04"
+    },
+    "3.8.6": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.8.6.tgz",
+          "hash": "sha512-z3rCq5xOLAvFTIHLFfduD5+IG/9uVR5cWtpOaqmiNQ5lAbmCYHhIcz3UNZGy7MiKwsoA4Qnoj+r/U1T4uR+kkw=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.8.6.tgz",
+          "hash": "sha512-z3rCq5xOLAvFTIHLFfduD5+IG/9uVR5cWtpOaqmiNQ5lAbmCYHhIcz3UNZGy7MiKwsoA4Qnoj+r/U1T4uR+kkw=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.8.6.tgz",
+          "hash": "sha512-z3rCq5xOLAvFTIHLFfduD5+IG/9uVR5cWtpOaqmiNQ5lAbmCYHhIcz3UNZGy7MiKwsoA4Qnoj+r/U1T4uR+kkw=="
+        }
+      },
+      "date": "2024-10-18"
+    },
+    "3.8.5": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.8.5.tgz",
+          "hash": "sha512-TQ+WLdgklIaaJli8IYFE5LzVhx0asFgYPKsk5GOmWo/mxAiEZT5rbA4Ww3sPgXMh6QNEONbDr2T6a3gfRnh9bA=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.8.5.tgz",
+          "hash": "sha512-TQ+WLdgklIaaJli8IYFE5LzVhx0asFgYPKsk5GOmWo/mxAiEZT5rbA4Ww3sPgXMh6QNEONbDr2T6a3gfRnh9bA=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.8.5.tgz",
+          "hash": "sha512-TQ+WLdgklIaaJli8IYFE5LzVhx0asFgYPKsk5GOmWo/mxAiEZT5rbA4Ww3sPgXMh6QNEONbDr2T6a3gfRnh9bA=="
+        }
+      },
+      "date": "2024-08-24"
+    },
+    "3.8.4": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.8.4.tgz",
+          "hash": "sha512-mAsXhHDsZloRkKybNIq0bjxkvCTtyCG0J3KBhXW7yBAl+o8Ot/E6qJXWIXCaAMGxMA4AtCFdwkwqOsvblgUveA=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.8.4.tgz",
+          "hash": "sha512-mAsXhHDsZloRkKybNIq0bjxkvCTtyCG0J3KBhXW7yBAl+o8Ot/E6qJXWIXCaAMGxMA4AtCFdwkwqOsvblgUveA=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.8.4.tgz",
+          "hash": "sha512-mAsXhHDsZloRkKybNIq0bjxkvCTtyCG0J3KBhXW7yBAl+o8Ot/E6qJXWIXCaAMGxMA4AtCFdwkwqOsvblgUveA=="
+        }
+      },
+      "date": "2024-08-05"
+    },
+    "3.8.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.8.3.tgz",
+          "hash": "sha512-w88oPqVTjfQcUskPehmPGiEJy/QTOb+bUdGBWMFr1HIqW98L2MRUxxi9kJujGKKie+izsoIh6EJktuaD77s9hA=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.8.3.tgz",
+          "hash": "sha512-w88oPqVTjfQcUskPehmPGiEJy/QTOb+bUdGBWMFr1HIqW98L2MRUxxi9kJujGKKie+izsoIh6EJktuaD77s9hA=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.8.3.tgz",
+          "hash": "sha512-w88oPqVTjfQcUskPehmPGiEJy/QTOb+bUdGBWMFr1HIqW98L2MRUxxi9kJujGKKie+izsoIh6EJktuaD77s9hA=="
+        }
+      },
+      "date": "2024-06-21"
+    },
+    "3.8.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.8.2.tgz",
+          "hash": "sha512-CqNaFUCuylbwDBwXh3Id/W840didwQW+JdFCA/P8i2v4CWP0dtCvJLoRprdtzY/FmzwRDjHVQ6LTnpgL7eg4mQ=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.8.2.tgz",
+          "hash": "sha512-CqNaFUCuylbwDBwXh3Id/W840didwQW+JdFCA/P8i2v4CWP0dtCvJLoRprdtzY/FmzwRDjHVQ6LTnpgL7eg4mQ=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.8.2.tgz",
+          "hash": "sha512-CqNaFUCuylbwDBwXh3Id/W840didwQW+JdFCA/P8i2v4CWP0dtCvJLoRprdtzY/FmzwRDjHVQ6LTnpgL7eg4mQ=="
+        }
+      },
+      "date": "2024-05-02"
+    },
+    "3.8.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.8.1.tgz",
+          "hash": "sha512-+0VUqfgpgkobLgADqMXqQ5IvRTJntgcj9UamFgXuiYNSFZANOdLgZ21AgzH4QNIK1Idj4OGFxyWOPpt0E5VfBQ=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.8.1.tgz",
+          "hash": "sha512-+0VUqfgpgkobLgADqMXqQ5IvRTJntgcj9UamFgXuiYNSFZANOdLgZ21AgzH4QNIK1Idj4OGFxyWOPpt0E5VfBQ=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.8.1.tgz",
+          "hash": "sha512-+0VUqfgpgkobLgADqMXqQ5IvRTJntgcj9UamFgXuiYNSFZANOdLgZ21AgzH4QNIK1Idj4OGFxyWOPpt0E5VfBQ=="
+        }
+      },
+      "date": "2024-03-04"
+    },
+    "3.8.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.8.0.tgz",
+          "hash": "sha512-4F7xnr7HfyXaKSe2fuAaQcb9qPlGUWFo421uPJf8PDt5seOBDXsQ5nub1KS4lKHjL922D/T5Ff2dGBkD0kAYIA=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.8.0.tgz",
+          "hash": "sha512-4F7xnr7HfyXaKSe2fuAaQcb9qPlGUWFo421uPJf8PDt5seOBDXsQ5nub1KS4lKHjL922D/T5Ff2dGBkD0kAYIA=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.8.0.tgz",
+          "hash": "sha512-4F7xnr7HfyXaKSe2fuAaQcb9qPlGUWFo421uPJf8PDt5seOBDXsQ5nub1KS4lKHjL922D/T5Ff2dGBkD0kAYIA=="
+        }
+      },
+      "date": "2024-02-01"
+    },
+    "3.7.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.7.0.tgz",
+          "hash": "sha512-SrlcEGOe2QY8P+jYjsTf2FISIXk35GapBvysJ7I/xPrwsTQnjSnC+pH3ft5t3r+l4BZLnkc7/YFI6OmACf/TBQ=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.7.0.tgz",
+          "hash": "sha512-SrlcEGOe2QY8P+jYjsTf2FISIXk35GapBvysJ7I/xPrwsTQnjSnC+pH3ft5t3r+l4BZLnkc7/YFI6OmACf/TBQ=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.7.0.tgz",
+          "hash": "sha512-SrlcEGOe2QY8P+jYjsTf2FISIXk35GapBvysJ7I/xPrwsTQnjSnC+pH3ft5t3r+l4BZLnkc7/YFI6OmACf/TBQ=="
+        }
+      },
+      "date": "2023-11-14"
+    },
+    "3.6.4": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.6.4.tgz",
+          "hash": "sha512-SUaCrEjap0ZYwe3vBiZD0uUv1cyM2X2DJzeZLi2fbGhWOt5jXQi4vX1rM6/ltmiyfCcwIcZeJiGrDSX5imDo3w=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.6.4.tgz",
+          "hash": "sha512-SUaCrEjap0ZYwe3vBiZD0uUv1cyM2X2DJzeZLi2fbGhWOt5jXQi4vX1rM6/ltmiyfCcwIcZeJiGrDSX5imDo3w=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.6.4.tgz",
+          "hash": "sha512-SUaCrEjap0ZYwe3vBiZD0uUv1cyM2X2DJzeZLi2fbGhWOt5jXQi4vX1rM6/ltmiyfCcwIcZeJiGrDSX5imDo3w=="
+        }
+      },
+      "date": "2023-10-03"
+    },
+    "3.6.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.6.3.tgz",
+          "hash": "sha512-BLaj+GeJHL+j1yItAzw/UbVSMdgEg+WDqPDJbFPICCz/o7JbPhX3/nMSRtnXmwDdogYqzZjToKB7N2H/jnY90g=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.6.3.tgz",
+          "hash": "sha512-BLaj+GeJHL+j1yItAzw/UbVSMdgEg+WDqPDJbFPICCz/o7JbPhX3/nMSRtnXmwDdogYqzZjToKB7N2H/jnY90g=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.6.3.tgz",
+          "hash": "sha512-BLaj+GeJHL+j1yItAzw/UbVSMdgEg+WDqPDJbFPICCz/o7JbPhX3/nMSRtnXmwDdogYqzZjToKB7N2H/jnY90g=="
+        }
+      },
+      "date": "2023-08-23"
+    },
+    "3.6.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.6.2.tgz",
+          "hash": "sha512-5JUZ1rmiVc/0HdlOGE+T6EsUMVG7uC4Qd7uAx79oGYKwYw/FZHv3sRUSnSIok7VGg3ssFsz4kDrT2So4QfeIEA=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.6.2.tgz",
+          "hash": "sha512-5JUZ1rmiVc/0HdlOGE+T6EsUMVG7uC4Qd7uAx79oGYKwYw/FZHv3sRUSnSIok7VGg3ssFsz4kDrT2So4QfeIEA=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.6.2.tgz",
+          "hash": "sha512-5JUZ1rmiVc/0HdlOGE+T6EsUMVG7uC4Qd7uAx79oGYKwYw/FZHv3sRUSnSIok7VGg3ssFsz4kDrT2So4QfeIEA=="
+        }
+      },
+      "date": "2023-08-17"
+    },
+    "3.6.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.6.1.tgz",
+          "hash": "sha512-MpnutgB/WrsRFogvywsA5pmhDuC6muwdT9zpRWmDEoaWnGSk/NmFeIl4GrwleHjLwYHEe3jhaSb9xGazuS85Hw=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.6.1.tgz",
+          "hash": "sha512-MpnutgB/WrsRFogvywsA5pmhDuC6muwdT9zpRWmDEoaWnGSk/NmFeIl4GrwleHjLwYHEe3jhaSb9xGazuS85Hw=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.6.1.tgz",
+          "hash": "sha512-MpnutgB/WrsRFogvywsA5pmhDuC6muwdT9zpRWmDEoaWnGSk/NmFeIl4GrwleHjLwYHEe3jhaSb9xGazuS85Hw=="
+        }
+      },
+      "date": "2023-06-30"
+    },
+    "3.6.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.6.0.tgz",
+          "hash": "sha512-63b9x9c1SYHj5x5ivk3AMqvOk4TxXAsM99WOSKG95EM9wry5QJ0DYXesqO4kMRhoZlBZOAwuX3XtKxED8kG5zQ=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.6.0.tgz",
+          "hash": "sha512-63b9x9c1SYHj5x5ivk3AMqvOk4TxXAsM99WOSKG95EM9wry5QJ0DYXesqO4kMRhoZlBZOAwuX3XtKxED8kG5zQ=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.6.0.tgz",
+          "hash": "sha512-63b9x9c1SYHj5x5ivk3AMqvOk4TxXAsM99WOSKG95EM9wry5QJ0DYXesqO4kMRhoZlBZOAwuX3XtKxED8kG5zQ=="
+        }
+      },
+      "date": "2023-06-01"
+    },
+    "3.5.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.5.1.tgz",
+          "hash": "sha512-KWePHoVrlt8Xmtp4EYkIGps8o9p224SA2neXvw1mu2uMZrffslrZZUeoxNTFgQ8p5kIfF+6bdAqBaCEiWkOVVQ=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.5.1.tgz",
+          "hash": "sha512-KWePHoVrlt8Xmtp4EYkIGps8o9p224SA2neXvw1mu2uMZrffslrZZUeoxNTFgQ8p5kIfF+6bdAqBaCEiWkOVVQ=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.5.1.tgz",
+          "hash": "sha512-KWePHoVrlt8Xmtp4EYkIGps8o9p224SA2neXvw1mu2uMZrffslrZZUeoxNTFgQ8p5kIfF+6bdAqBaCEiWkOVVQ=="
+        }
+      },
+      "date": "2023-05-01"
+    },
+    "3.5.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.5.0.tgz",
+          "hash": "sha512-5wpP3M/W6GuzvjI9nl7KKKPGdo593f7BKF2m2sV4WfhKzCYcPnSfXB4T8MeTy5USIzw7WXMIPK6VSVvLzz6fHA=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.5.0.tgz",
+          "hash": "sha512-5wpP3M/W6GuzvjI9nl7KKKPGdo593f7BKF2m2sV4WfhKzCYcPnSfXB4T8MeTy5USIzw7WXMIPK6VSVvLzz6fHA=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.5.0.tgz",
+          "hash": "sha512-5wpP3M/W6GuzvjI9nl7KKKPGdo593f7BKF2m2sV4WfhKzCYcPnSfXB4T8MeTy5USIzw7WXMIPK6VSVvLzz6fHA=="
+        }
+      },
+      "date": "2023-03-16"
+    },
+    "3.4.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.4.1.tgz",
+          "hash": "sha512-165Y6mm0chgIcjdY2MsJJbm9eYFqnpU2HN+xy6yEltngxld11EBdGCNCHXzL2pvxqlHzL2V3OnIDa7diov1wng=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.4.1.tgz",
+          "hash": "sha512-165Y6mm0chgIcjdY2MsJJbm9eYFqnpU2HN+xy6yEltngxld11EBdGCNCHXzL2pvxqlHzL2V3OnIDa7diov1wng=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.4.1.tgz",
+          "hash": "sha512-165Y6mm0chgIcjdY2MsJJbm9eYFqnpU2HN+xy6yEltngxld11EBdGCNCHXzL2pvxqlHzL2V3OnIDa7diov1wng=="
+        }
+      },
+      "date": "2023-02-01"
+    },
+    "3.4.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.4.0.tgz",
+          "hash": "sha512-7gAKKIaMHRJvTM1QrnSNlxjfeXvJK3zkwrxAk0UhNu+oUGuM4CxFvkgAI/KYfiLzqbN8yOiJN7S5YMpCt+u6sw=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.4.0.tgz",
+          "hash": "sha512-7gAKKIaMHRJvTM1QrnSNlxjfeXvJK3zkwrxAk0UhNu+oUGuM4CxFvkgAI/KYfiLzqbN8yOiJN7S5YMpCt+u6sw=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.4.0.tgz",
+          "hash": "sha512-7gAKKIaMHRJvTM1QrnSNlxjfeXvJK3zkwrxAk0UhNu+oUGuM4CxFvkgAI/KYfiLzqbN8yOiJN7S5YMpCt+u6sw=="
+        }
+      },
+      "date": "2023-02-01"
+    },
+    "3.3.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.3.1.tgz",
+          "hash": "sha512-OLhsQRU/zZwngMuk/PVGdfX9DOe6pF6AnsfaZLkUBPktEQeiPam0sUFUuV+6VrhfiK0s/MSsc4woFJjAtzt8vQ=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.3.1.tgz",
+          "hash": "sha512-OLhsQRU/zZwngMuk/PVGdfX9DOe6pF6AnsfaZLkUBPktEQeiPam0sUFUuV+6VrhfiK0s/MSsc4woFJjAtzt8vQ=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.3.1.tgz",
+          "hash": "sha512-OLhsQRU/zZwngMuk/PVGdfX9DOe6pF6AnsfaZLkUBPktEQeiPam0sUFUuV+6VrhfiK0s/MSsc4woFJjAtzt8vQ=="
+        }
+      },
+      "date": "2022-12-20"
+    },
+    "3.3.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.3.0.tgz",
+          "hash": "sha512-iJ+KWCzR3zSW7DPl1I2hbrb+V0RSQcXldYsgvOodazLAt0eFOj9xAxkv3KSrURdRdvCcopNCiWnYURpNW63Fhg=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.3.0.tgz",
+          "hash": "sha512-iJ+KWCzR3zSW7DPl1I2hbrb+V0RSQcXldYsgvOodazLAt0eFOj9xAxkv3KSrURdRdvCcopNCiWnYURpNW63Fhg=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.3.0.tgz",
+          "hash": "sha512-iJ+KWCzR3zSW7DPl1I2hbrb+V0RSQcXldYsgvOodazLAt0eFOj9xAxkv3KSrURdRdvCcopNCiWnYURpNW63Fhg=="
+        }
+      },
+      "date": "2022-11-16"
+    },
+    "3.2.4": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.2.4.tgz",
+          "hash": "sha512-nICVzLjU8+1tKkiBecgAymTM7lmL8VWWsPjjZUosTF9CkZMD4mvBO7yLyMinBtX3KlTxGu/uk9x2qGm4OapjPQ=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.2.4.tgz",
+          "hash": "sha512-nICVzLjU8+1tKkiBecgAymTM7lmL8VWWsPjjZUosTF9CkZMD4mvBO7yLyMinBtX3KlTxGu/uk9x2qGm4OapjPQ=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.2.4.tgz",
+          "hash": "sha512-nICVzLjU8+1tKkiBecgAymTM7lmL8VWWsPjjZUosTF9CkZMD4mvBO7yLyMinBtX3KlTxGu/uk9x2qGm4OapjPQ=="
+        }
+      },
+      "date": "2022-10-05"
+    },
+    "3.2.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.2.3.tgz",
+          "hash": "sha512-UkZFwXikg0dWH0Tt6TmJCY8WyYWJe1nDuv2yg9gcGyydjuxQDhSHN9VwmI74J5Yy9ITcw4pOcosokb+Jg/s50A=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.2.3.tgz",
+          "hash": "sha512-UkZFwXikg0dWH0Tt6TmJCY8WyYWJe1nDuv2yg9gcGyydjuxQDhSHN9VwmI74J5Yy9ITcw4pOcosokb+Jg/s50A=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.2.3.tgz",
+          "hash": "sha512-UkZFwXikg0dWH0Tt6TmJCY8WyYWJe1nDuv2yg9gcGyydjuxQDhSHN9VwmI74J5Yy9ITcw4pOcosokb+Jg/s50A=="
+        }
+      },
+      "date": "2022-08-24"
+    },
+    "3.2.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.2.2.tgz",
+          "hash": "sha512-beD8e4IEEh/qvZItKVVtFEDNT4IbbIsy3pfObX9LNfMSwSu4ApeSf+nAHU6U9radZhoGyn70EzkPPpUnA3pCjw=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.2.2.tgz",
+          "hash": "sha512-beD8e4IEEh/qvZItKVVtFEDNT4IbbIsy3pfObX9LNfMSwSu4ApeSf+nAHU6U9radZhoGyn70EzkPPpUnA3pCjw=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.2.2.tgz",
+          "hash": "sha512-beD8e4IEEh/qvZItKVVtFEDNT4IbbIsy3pfObX9LNfMSwSu4ApeSf+nAHU6U9radZhoGyn70EzkPPpUnA3pCjw=="
+        }
+      },
+      "date": "2022-07-21"
+    },
+    "3.2.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.2.1.tgz",
+          "hash": "sha512-yyD7TR9es397FfW/xxj4GFL6dVXiPllrSzAHm+tXackcb804Tk3RK1ZHfPVOPc/Co/Ghji40XIV8v0cdpHz1nw=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.2.1.tgz",
+          "hash": "sha512-yyD7TR9es397FfW/xxj4GFL6dVXiPllrSzAHm+tXackcb804Tk3RK1ZHfPVOPc/Co/Ghji40XIV8v0cdpHz1nw=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.2.1.tgz",
+          "hash": "sha512-yyD7TR9es397FfW/xxj4GFL6dVXiPllrSzAHm+tXackcb804Tk3RK1ZHfPVOPc/Co/Ghji40XIV8v0cdpHz1nw=="
+        }
+      },
+      "date": "2022-05-13"
+    },
+    "3.2.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.2.0.tgz",
+          "hash": "sha512-XFyimrLkyJbQ/zik6p+msi5+IQEL//qVbwOHLzFohdEXZ8kl4chaXYtzr19G9tsQaUrOpGKUa1f3nRNpuSBQpA=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.2.0.tgz",
+          "hash": "sha512-XFyimrLkyJbQ/zik6p+msi5+IQEL//qVbwOHLzFohdEXZ8kl4chaXYtzr19G9tsQaUrOpGKUa1f3nRNpuSBQpA=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.2.0.tgz",
+          "hash": "sha512-XFyimrLkyJbQ/zik6p+msi5+IQEL//qVbwOHLzFohdEXZ8kl4chaXYtzr19G9tsQaUrOpGKUa1f3nRNpuSBQpA=="
+        }
+      },
+      "date": "2022-02-21"
+    },
+    "3.1.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.1.1.tgz",
+          "hash": "sha512-7R8UUelyaGkpiSEgDgeK4A8jEUNmKw+un4UCY0xQoFXBJgVWS6lyWWN57FSs+3ybHZuNrEzaEa9+Bb5hiktGug=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.1.1.tgz",
+          "hash": "sha512-7R8UUelyaGkpiSEgDgeK4A8jEUNmKw+un4UCY0xQoFXBJgVWS6lyWWN57FSs+3ybHZuNrEzaEa9+Bb5hiktGug=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.1.1.tgz",
+          "hash": "sha512-7R8UUelyaGkpiSEgDgeK4A8jEUNmKw+un4UCY0xQoFXBJgVWS6lyWWN57FSs+3ybHZuNrEzaEa9+Bb5hiktGug=="
+        }
+      },
+      "date": "2021-11-26"
+    },
+    "3.1.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.1.0.tgz",
+          "hash": "sha512-2KfhcWKIiYbQyqV/MMJjaNu1RCNeNJTF9+yrjVsp269ZXyv09GqmuqRJ6bzeFlfoeLEfdaXnlxsOr2hP1yIwYg=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.1.0.tgz",
+          "hash": "sha512-2KfhcWKIiYbQyqV/MMJjaNu1RCNeNJTF9+yrjVsp269ZXyv09GqmuqRJ6bzeFlfoeLEfdaXnlxsOr2hP1yIwYg=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.1.0.tgz",
+          "hash": "sha512-2KfhcWKIiYbQyqV/MMJjaNu1RCNeNJTF9+yrjVsp269ZXyv09GqmuqRJ6bzeFlfoeLEfdaXnlxsOr2hP1yIwYg=="
+        }
+      },
+      "date": "2021-10-25"
+    },
+    "3.0.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.0.2.tgz",
+          "hash": "sha512-FdQPP9gGgdaQBHwFeVWpRkJc2a23Wd5LXPUWJKCM2mEH8CWZT9TogQdpcwRFwvf7ehs6z6hUaSBS45pPX/4JBg=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.0.2.tgz",
+          "hash": "sha512-FdQPP9gGgdaQBHwFeVWpRkJc2a23Wd5LXPUWJKCM2mEH8CWZT9TogQdpcwRFwvf7ehs6z6hUaSBS45pPX/4JBg=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.0.2.tgz",
+          "hash": "sha512-FdQPP9gGgdaQBHwFeVWpRkJc2a23Wd5LXPUWJKCM2mEH8CWZT9TogQdpcwRFwvf7ehs6z6hUaSBS45pPX/4JBg=="
+        }
+      },
+      "date": "2021-09-03"
+    },
+    "3.0.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.0.1.tgz",
+          "hash": "sha512-HqhuygNHtBN9YubYGGqW2HKsTXgLb5R2ktQUzK2T/V0orjDDRgez+BrHOsbG8hoZ6mAgzm62vNnk7WF0yD7vnA=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.0.1.tgz",
+          "hash": "sha512-HqhuygNHtBN9YubYGGqW2HKsTXgLb5R2ktQUzK2T/V0orjDDRgez+BrHOsbG8hoZ6mAgzm62vNnk7WF0yD7vnA=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.0.1.tgz",
+          "hash": "sha512-HqhuygNHtBN9YubYGGqW2HKsTXgLb5R2ktQUzK2T/V0orjDDRgez+BrHOsbG8hoZ6mAgzm62vNnk7WF0yD7vnA=="
+        }
+      },
+      "date": "2021-08-22"
+    },
+    "3.0.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.0.0.tgz",
+          "hash": "sha512-b0uijuYqwBQHsG8CPoaH1GYui2Wb9xDvX0AtD+nCqNpEa10k82sDQCtis5GPwYatzKEbXHpchBWMLcl3n3q4tQ=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.0.0.tgz",
+          "hash": "sha512-b0uijuYqwBQHsG8CPoaH1GYui2Wb9xDvX0AtD+nCqNpEa10k82sDQCtis5GPwYatzKEbXHpchBWMLcl3n3q4tQ=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-3.0.0.tgz",
+          "hash": "sha512-b0uijuYqwBQHsG8CPoaH1GYui2Wb9xDvX0AtD+nCqNpEa10k82sDQCtis5GPwYatzKEbXHpchBWMLcl3n3q4tQ=="
+        }
+      },
+      "date": "2021-07-26"
+    },
+    "2.4.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-2.4.2.tgz",
+          "hash": "sha512-M82xg3uZnE836u68o/DpLtSQjxHUoYkuK82v4psznrFjZO3msYD6qb/wAhGD9KdkO/puwfnDhOc9imA3NDrp9g=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-2.4.2.tgz",
+          "hash": "sha512-M82xg3uZnE836u68o/DpLtSQjxHUoYkuK82v4psznrFjZO3msYD6qb/wAhGD9KdkO/puwfnDhOc9imA3NDrp9g=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-2.4.2.tgz",
+          "hash": "sha512-M82xg3uZnE836u68o/DpLtSQjxHUoYkuK82v4psznrFjZO3msYD6qb/wAhGD9KdkO/puwfnDhOc9imA3NDrp9g=="
+        }
+      },
+      "date": "2021-06-03"
+    },
+    "2.4.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-2.4.1.tgz",
+          "hash": "sha512-+alR6g7Aaqt6MU9CYKy23xwEUChjibDZFQWSkhuijAYeKlHTtAkmG865Kma+kgaIbShmSJBtckiYbhPUg4GhUw=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-2.4.1.tgz",
+          "hash": "sha512-+alR6g7Aaqt6MU9CYKy23xwEUChjibDZFQWSkhuijAYeKlHTtAkmG865Kma+kgaIbShmSJBtckiYbhPUg4GhUw=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-2.4.1.tgz",
+          "hash": "sha512-+alR6g7Aaqt6MU9CYKy23xwEUChjibDZFQWSkhuijAYeKlHTtAkmG865Kma+kgaIbShmSJBtckiYbhPUg4GhUw=="
+        }
+      },
+      "date": "2021-04-09"
+    }
+  }
+}

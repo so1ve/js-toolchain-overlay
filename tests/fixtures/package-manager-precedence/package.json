@@ -1,0 +1,13 @@
+{
+  "packageManager": "yarn@4.18.0",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.0.0"
+    }
+  },
+  "engines": {
+    "pnpm": "^12",
+    "yarn": "^3"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "yarn-smoke",
+  "private": true,
+  "packageManager": "yarn@4.18.0",
+  "dependencies": {
+    "overlay-smoke-dependency": "file:../dependency"
+  },
+  "scripts": {
+    "check": "node -e \"require('node:assert/strict').equal(require('overlay-smoke-dependency'), 'dependency-loaded'); console.log(process.execPath)\""
+  }
+}

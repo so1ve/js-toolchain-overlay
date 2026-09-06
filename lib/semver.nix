@@ -14,8 +14,13 @@ let
   parse =
     value:
     let
-      parts = lib.splitString "." (lib.removePrefix "v" (trim value));
-      numbers = takeNumbers parts;
+      token = lib.removePrefix "v" (trim value);
+      parts = lib.splitString "." token;
+      valid =
+        builtins.match "[0-9]+(\\.[0-9]+)?(\\.[0-9]+)?" token != null
+        || builtins.match "[0-9]+\\.[xX*](\\.[xX*])?" token != null
+        || builtins.match "[0-9]+\\.[0-9]+\\.[xX*]" token != null;
+      numbers = if valid then takeNumbers parts else [ ];
       precision = builtins.length numbers;
       normalized = lib.take 3 (
         numbers

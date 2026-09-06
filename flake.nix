@@ -1,5 +1,5 @@
 {
-  description = "Nix overlay for official Node.js, Bun, and Deno binaries";
+  description = "Nix overlay for official Node.js, Bun, Deno, pnpm, and Yarn distributions";
 
   inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
 
@@ -29,7 +29,14 @@
         in
         {
           lib = import ./tests { inherit pkgs toolchains; };
-          inherit (packages) node bun deno;
+          inherit (packages)
+            node
+            bun
+            deno
+            pnpm
+            yarn
+            ;
+          package-managers = import ./tests/package-managers.nix { inherit pkgs toolchains; };
         }
       );
 

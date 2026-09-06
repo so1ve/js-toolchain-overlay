@@ -1,0 +1,9 @@
+{
+  "devEngines": {
+    "packageManager": [
+      { "name": "npm", "version": "11" },
+      { "name": "pnpm", "version": "12.0.0+sha512.example" },
+      { "name": "yarn", "version": "4.18.0" }
+    ]
+  }
+}

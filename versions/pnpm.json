@@ -1,0 +1,161 @@
+{
+  "latest": "12.3.4",
+  "majors": {
+    "12": "12.3.4"
+  },
+  "releases": {
+    "12.3.4": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "pnpm-darwin-arm64.tar.gz",
+          "hash": "sha256-lWAkPU6SeAxEZrrC7mqsQWbIu2Aa08Y/BwzdcBso82A="
+        },
+        "aarch64-linux": {
+          "file": "pnpm-linux-arm64.tar.gz",
+          "hash": "sha256-lecaKjC7wLd1Eflc8JZ3kGjcrW/8u/3wzU3eneKyuXw="
+        },
+        "x86_64-linux": {
+          "file": "pnpm-linux-x64.tar.gz",
+          "hash": "sha256-lwXlcEtGeftQPJY6GNGsTxBeOar6/Kii7TRvrN+CDNA="
+        }
+      },
+      "date": "2026-09-04"
+    },
+    "12.3.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "pnpm-darwin-arm64.tar.gz",
+          "hash": "sha256-1LQYfa2e5ODe7eBaCfWWKcA9orbFcKgmOw75MqoxiK4="
+        },
+        "aarch64-linux": {
+          "file": "pnpm-linux-arm64.tar.gz",
+          "hash": "sha256-GR6xm0Z+r600ihbcxbFL/DF2qPrTp+Ou7t8kAjauZG0="
+        },
+        "x86_64-linux": {
+          "file": "pnpm-linux-x64.tar.gz",
+          "hash": "sha256-3MSrT6ramWHBca1xAw85ZQ7y58MshafnoumlEbqBJUk="
+        }
+      },
+      "date": "2026-09-04"
+    },
+    "12.3.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "pnpm-darwin-arm64.tar.gz",
+          "hash": "sha256-Fw9LBVq1QSKS1LNZWNJfT1kVyAGjdc4vVKwcOBAQXAQ="
+        },
+        "aarch64-linux": {
+          "file": "pnpm-linux-arm64.tar.gz",
+          "hash": "sha256-SOxZc3Qa4EIH5eGlJTcm7y3hxSGd/OLliUCSysVlp0A="
+        },
+        "x86_64-linux": {
+          "file": "pnpm-linux-x64.tar.gz",
+          "hash": "sha256-8zAPFLWdpU+iZV1TmawjegpdflH1FcMMueSok+2gFVU="
+        }
+      },
+      "date": "2026-09-04"
+    },
+    "12.3.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "pnpm-darwin-arm64.tar.gz",
+          "hash": "sha256-Idx+ogQi5F1DC7mK/YlBjsNFQITO6GrwllgMtLq8xQs="
+        },
+        "aarch64-linux": {
+          "file": "pnpm-linux-arm64.tar.gz",
+          "hash": "sha256-w8voDmV/6sXd/qPXauvkOyfx4LKVNo5FUBIhWHZ43T0="
+        },
+        "x86_64-linux": {
+          "file": "pnpm-linux-x64.tar.gz",
+          "hash": "sha256-CU32etzlwt9yAlRVvUO3znkgyer2gphzHAYIBN1iHy8="
+        }
+      },
+      "date": "2026-09-03"
+    },
+    "12.3.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "pnpm-darwin-arm64.tar.gz",
+          "hash": "sha256-znaP6+B7I5sU2/GfTAWImXBjgpO10GHSDVJiReu/7fw="
+        },
+        "aarch64-linux": {
+          "file": "pnpm-linux-arm64.tar.gz",
+          "hash": "sha256-9TxxvaJzi5sciDRcBnqhthl+KqmvGf911aAsMbGiyqw="
+        },
+        "x86_64-linux": {
+          "file": "pnpm-linux-x64.tar.gz",
+          "hash": "sha256-ZNxM6H+B6mFKTk/s1eb4HY75H643Q0YC5qWuv23SKTk="
+        }
+      },
+      "date": "2026-09-02"
+    },
+    "12.2.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "pnpm-darwin-arm64.tar.gz",
+          "hash": "sha256-ujQ0CLhHmFf95cQrIoXnjgaPDhjDWCTNClURl8bYt3Q="
+        },
+        "aarch64-linux": {
+          "file": "pnpm-linux-arm64.tar.gz",
+          "hash": "sha256-tC/hfSpqcDWuF2I3f/Xs1TB0a9XUnbbXfHSYbbjv2kg="
+        },
+        "x86_64-linux": {
+          "file": "pnpm-linux-x64.tar.gz",
+          "hash": "sha256-BqaaTzNEcJb9yLwHGtMioVO6HYrr+cy9cgywgvfkl+0="
+        }
+      },
+      "date": "2026-09-01"
+    },
+    "12.2.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "pnpm-darwin-arm64.tar.gz",
+          "hash": "sha256-fTQ+qbPDdBE9IdysKc7ft5YRP+5QhLwxsx6GAaLOejU="
+        },
+        "aarch64-linux": {
+          "file": "pnpm-linux-arm64.tar.gz",
+          "hash": "sha256-c+Iy23LV5ZqNOre6N8uHzv02bmBysgbRNUDqkr0LGUY="
+        },
+        "x86_64-linux": {
+          "file": "pnpm-linux-x64.tar.gz",
+          "hash": "sha256-czMlNW0vPeWaPZbxlk7BaAmIwDtkd5TuFvPo3gk80jE="
+        }
+      },
+      "date": "2026-09-01"
+    },
+    "12.1.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "pnpm-darwin-arm64.tar.gz",
+          "hash": "sha256-knVCeDcGtpZrZ5LyY7m5WNzZkJxRdJZc0arg9Kt/YTw="
+        },
+        "aarch64-linux": {
+          "file": "pnpm-linux-arm64.tar.gz",
+          "hash": "sha256-JLICrwFXmuiFyLPcOaKcA9QYoMhe6idKlpshZhKrzQc="
+        },
+        "x86_64-linux": {
+          "file": "pnpm-linux-x64.tar.gz",
+          "hash": "sha256-70w+Mcj25YfJ8EyktCtj1H8zEkeTBhcwT/pjNUwR23k="
+        }
+      },
+      "date": "2026-08-29"
+    },
+    "12.0.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "pnpm-darwin-arm64.tar.gz",
+          "hash": "sha256-wx9avnlt/ISJ6pgMtDiEQFOta0ArtPPrmr1xCGJ511s="
+        },
+        "aarch64-linux": {
+          "file": "pnpm-linux-arm64.tar.gz",
+          "hash": "sha256-BK50q/D2IBifHdbLslhvj2Jn5CJo95kuL536pn6bMjw="
+        },
+        "x86_64-linux": {
+          "file": "pnpm-linux-x64.tar.gz",
+          "hash": "sha256-2TSXugfV38fVJ7MJBf3ST1XIdhjqI+o68ofN/wYVEOA="
+        }
+      },
+      "date": "2026-08-26"
+    }
+  }
+}

@@ -54,6 +54,31 @@ let
     else
       null;
 
+  packageManagerFromPackageJSON =
+    manager: file:
+    let
+      package = readJSON file;
+      declared = package.devEngines.packageManager or null;
+      declarations =
+        if builtins.isList declared then declared else lib.optional (declared != null) declared;
+      declaration = lib.findFirst (
+        value: builtins.isAttrs value && (value.name or null) == manager
+      ) null declarations;
+      declaredVersion = if declaration == null then null else declaration.version or null;
+      engineVersion =
+        if nonEmptyString declaredVersion then lib.head (lib.splitString "+" declaredVersion) else null;
+    in
+    if package == null then
+      null
+    else if manager == "pnpm" && declarations != [ ] then
+      engineVersion
+    else if nonEmptyString (package.packageManager or null) then
+      packageManagerVersion manager package
+    else if declarations != [ ] then
+      engineVersion
+    else
+      package.engines.${manager} or null;
+
   runtimeFromDevEngines =
     runtimeName: package:
     let
@@ -100,6 +125,7 @@ in
   inherit
     findFirstVersion
     packageManagerVersion
+    packageManagerFromPackageJSON
     readJSON
     readVersionFile
     versionFromPackage
