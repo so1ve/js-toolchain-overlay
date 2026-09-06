@@ -33,14 +33,26 @@ async function npmArtifact(release) {
   return { url, hash };
 }
 
+function externalDependencies(release) {
+  const bundled = release.bundleDependencies ?? release.bundledDependencies;
+  if (bundled === true) return {};
+
+  const dependencies = { ...release.dependencies };
+  if (Array.isArray(bundled)) {
+    for (const name of bundled) delete dependencies[name];
+  }
+  return dependencies;
+}
+
 async function lockDependencies(name, version, release) {
-  if (!Object.keys(release.dependencies ?? {}).length) return {};
+  const dependencies = externalDependencies(release);
+  if (!Object.keys(dependencies).length) return {};
 
   const directory = await mkdtemp(join(tmpdir(), "toolchain-npm-lock-"));
   try {
     await writeFile(
       join(directory, "package.json"),
-      JSON.stringify({ name, version, dependencies: release.dependencies }),
+      JSON.stringify({ name, version, dependencies }),
     );
     console.log(`${name} ${version}: locking runtime dependencies`);
     await run(
@@ -167,7 +179,7 @@ async function backfillYarn() {
     const release = github.get(version);
     let artifact;
     let dependencies = {};
-    if (npm && !Object.keys(npm.dependencies ?? {}).length) {
+    if (npm && !Object.keys(externalDependencies(npm)).length) {
       artifact = await npmArtifact(npm);
     } else if (Number(version.split(".")[0]) >= 2) {
       const url = `https://repo.yarnpkg.com/${version}/packages/yarnpkg-cli/bin/yarn.js`;
