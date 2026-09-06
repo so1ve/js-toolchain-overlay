@@ -1,7 +1,9 @@
 {
   "latest": "4.18.0",
   "majors": {
-    "2": "2.4.2",
+    "0": "0.28.4",
+    "1": "1.22.22",
+    "2": "2.4.3",
     "3": "3.8.7",
     "4": "4.18.0"
   },
@@ -223,6 +225,23 @@
         "x86_64-linux": {
           "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.10.1.tgz",
           "hash": "sha512-r1Urs2p2FWEv6D1SF5bU6DQsOCe7QmdSN7ixLEM5ZkbPyCjM7N1XawoQYESvoRAS+duMVagTFJe9OwmKqKXvyw=="
+        }
+      },
+      "date": "2025-09-18"
+    },
+    "4.10.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://repo.yarnpkg.com/4.10.0/packages/yarnpkg-cli/bin/yarn.js",
+          "hash": "sha256-I4TAN8uBxPolBizhwUt0pKCTOzuQwvmc2qAg3Udqlcw="
+        },
+        "aarch64-linux": {
+          "url": "https://repo.yarnpkg.com/4.10.0/packages/yarnpkg-cli/bin/yarn.js",
+          "hash": "sha256-I4TAN8uBxPolBizhwUt0pKCTOzuQwvmc2qAg3Udqlcw="
+        },
+        "x86_64-linux": {
+          "url": "https://repo.yarnpkg.com/4.10.0/packages/yarnpkg-cli/bin/yarn.js",
+          "hash": "sha256-I4TAN8uBxPolBizhwUt0pKCTOzuQwvmc2qAg3Udqlcw="
         }
       },
       "date": "2025-09-18"
@@ -1162,6 +1181,23 @@
       },
       "date": "2021-07-26"
     },
+    "2.4.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-2.4.3.tgz",
+          "hash": "sha512-HQ8VJL8v1Tlq+VVzcohmYw7dHtZ6VUB4/b2oHRGQc6Xv00AQjVk4C6cyqu4iHRI4esfgIi8S9doOm1d3Z3MlPA=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-2.4.3.tgz",
+          "hash": "sha512-HQ8VJL8v1Tlq+VVzcohmYw7dHtZ6VUB4/b2oHRGQc6Xv00AQjVk4C6cyqu4iHRI4esfgIi8S9doOm1d3Z3MlPA=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-2.4.3.tgz",
+          "hash": "sha512-HQ8VJL8v1Tlq+VVzcohmYw7dHtZ6VUB4/b2oHRGQc6Xv00AQjVk4C6cyqu4iHRI4esfgIi8S9doOm1d3Z3MlPA=="
+        }
+      },
+      "date": "2021-09-06"
+    },
     "2.4.2": {
       "artifacts": {
         "aarch64-darwin": {
@@ -1195,6 +1231,2774 @@
         }
       },
       "date": "2021-04-09"
+    },
+    "2.4.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://repo.yarnpkg.com/2.4.0/packages/yarnpkg-cli/bin/yarn.js",
+          "hash": "sha256-IOH8kGeL6eb6k1NK9isRX4TTxU9hnNZUrwbavSmOK14="
+        },
+        "aarch64-linux": {
+          "url": "https://repo.yarnpkg.com/2.4.0/packages/yarnpkg-cli/bin/yarn.js",
+          "hash": "sha256-IOH8kGeL6eb6k1NK9isRX4TTxU9hnNZUrwbavSmOK14="
+        },
+        "x86_64-linux": {
+          "url": "https://repo.yarnpkg.com/2.4.0/packages/yarnpkg-cli/bin/yarn.js",
+          "hash": "sha256-IOH8kGeL6eb6k1NK9isRX4TTxU9hnNZUrwbavSmOK14="
+        }
+      },
+      "date": "2020-11-30"
+    },
+    "2.3.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://repo.yarnpkg.com/2.3.3/packages/yarnpkg-cli/bin/yarn.js",
+          "hash": "sha256-Y+ozpUvKvkSX+zxbLiExd34b5or7VVNWsnViV9nQUUE="
+        },
+        "aarch64-linux": {
+          "url": "https://repo.yarnpkg.com/2.3.3/packages/yarnpkg-cli/bin/yarn.js",
+          "hash": "sha256-Y+ozpUvKvkSX+zxbLiExd34b5or7VVNWsnViV9nQUUE="
+        },
+        "x86_64-linux": {
+          "url": "https://repo.yarnpkg.com/2.3.3/packages/yarnpkg-cli/bin/yarn.js",
+          "hash": "sha256-Y+ozpUvKvkSX+zxbLiExd34b5or7VVNWsnViV9nQUUE="
+        }
+      },
+      "date": "2020-10-13"
+    },
+    "2.3.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://repo.yarnpkg.com/2.3.2/packages/yarnpkg-cli/bin/yarn.js",
+          "hash": "sha256-h1NZ5qJJW3/Xgzud9TuSVESOn0CQM0nBGoqZzVuMXRk="
+        },
+        "aarch64-linux": {
+          "url": "https://repo.yarnpkg.com/2.3.2/packages/yarnpkg-cli/bin/yarn.js",
+          "hash": "sha256-h1NZ5qJJW3/Xgzud9TuSVESOn0CQM0nBGoqZzVuMXRk="
+        },
+        "x86_64-linux": {
+          "url": "https://repo.yarnpkg.com/2.3.2/packages/yarnpkg-cli/bin/yarn.js",
+          "hash": "sha256-h1NZ5qJJW3/Xgzud9TuSVESOn0CQM0nBGoqZzVuMXRk="
+        }
+      },
+      "date": "2020-10-07"
+    },
+    "2.3.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://repo.yarnpkg.com/2.3.1/packages/yarnpkg-cli/bin/yarn.js",
+          "hash": "sha256-VF+jUVAEKm/1lHYXCw5S5YntF3RIl8f4JHaN7ErQlWg="
+        },
+        "aarch64-linux": {
+          "url": "https://repo.yarnpkg.com/2.3.1/packages/yarnpkg-cli/bin/yarn.js",
+          "hash": "sha256-VF+jUVAEKm/1lHYXCw5S5YntF3RIl8f4JHaN7ErQlWg="
+        },
+        "x86_64-linux": {
+          "url": "https://repo.yarnpkg.com/2.3.1/packages/yarnpkg-cli/bin/yarn.js",
+          "hash": "sha256-VF+jUVAEKm/1lHYXCw5S5YntF3RIl8f4JHaN7ErQlWg="
+        }
+      },
+      "date": "2020-10-02"
+    },
+    "2.3.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://repo.yarnpkg.com/2.3.0/packages/yarnpkg-cli/bin/yarn.js",
+          "hash": "sha256-j4/B1F7dH7deuPyC3XlcJqhE0kmEp5N5nBYfDWgQygI="
+        },
+        "aarch64-linux": {
+          "url": "https://repo.yarnpkg.com/2.3.0/packages/yarnpkg-cli/bin/yarn.js",
+          "hash": "sha256-j4/B1F7dH7deuPyC3XlcJqhE0kmEp5N5nBYfDWgQygI="
+        },
+        "x86_64-linux": {
+          "url": "https://repo.yarnpkg.com/2.3.0/packages/yarnpkg-cli/bin/yarn.js",
+          "hash": "sha256-j4/B1F7dH7deuPyC3XlcJqhE0kmEp5N5nBYfDWgQygI="
+        }
+      },
+      "date": "2020-10-02"
+    },
+    "2.2.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://repo.yarnpkg.com/2.2.2/packages/yarnpkg-cli/bin/yarn.js",
+          "hash": "sha256-cFOtrWiM0lH6KqAVNDUCnsEt+fTBMwMr/U/TkUybfE4="
+        },
+        "aarch64-linux": {
+          "url": "https://repo.yarnpkg.com/2.2.2/packages/yarnpkg-cli/bin/yarn.js",
+          "hash": "sha256-cFOtrWiM0lH6KqAVNDUCnsEt+fTBMwMr/U/TkUybfE4="
+        },
+        "x86_64-linux": {
+          "url": "https://repo.yarnpkg.com/2.2.2/packages/yarnpkg-cli/bin/yarn.js",
+          "hash": "sha256-cFOtrWiM0lH6KqAVNDUCnsEt+fTBMwMr/U/TkUybfE4="
+        }
+      },
+      "date": "2020-08-31"
+    },
+    "2.2.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://repo.yarnpkg.com/2.2.1/packages/yarnpkg-cli/bin/yarn.js",
+          "hash": "sha256-vSgYJeUstWF31URl4QAEnRqKlaZw4EIvpswiygnlT9c="
+        },
+        "aarch64-linux": {
+          "url": "https://repo.yarnpkg.com/2.2.1/packages/yarnpkg-cli/bin/yarn.js",
+          "hash": "sha256-vSgYJeUstWF31URl4QAEnRqKlaZw4EIvpswiygnlT9c="
+        },
+        "x86_64-linux": {
+          "url": "https://repo.yarnpkg.com/2.2.1/packages/yarnpkg-cli/bin/yarn.js",
+          "hash": "sha256-vSgYJeUstWF31URl4QAEnRqKlaZw4EIvpswiygnlT9c="
+        }
+      },
+      "date": "2020-08-31"
+    },
+    "2.2.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://repo.yarnpkg.com/2.2.0/packages/yarnpkg-cli/bin/yarn.js",
+          "hash": "sha256-xws3w0HdKBI3zU3VO0vXx3H3nWRAI1YvHkeF77mq0VQ="
+        },
+        "aarch64-linux": {
+          "url": "https://repo.yarnpkg.com/2.2.0/packages/yarnpkg-cli/bin/yarn.js",
+          "hash": "sha256-xws3w0HdKBI3zU3VO0vXx3H3nWRAI1YvHkeF77mq0VQ="
+        },
+        "x86_64-linux": {
+          "url": "https://repo.yarnpkg.com/2.2.0/packages/yarnpkg-cli/bin/yarn.js",
+          "hash": "sha256-xws3w0HdKBI3zU3VO0vXx3H3nWRAI1YvHkeF77mq0VQ="
+        }
+      },
+      "date": "2020-08-28"
+    },
+    "2.1.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://repo.yarnpkg.com/2.1.1/packages/yarnpkg-cli/bin/yarn.js",
+          "hash": "sha256-32Oe+i0BMgtCrljFmroEVWoX9UaA6EeDUeUethRIwbI="
+        },
+        "aarch64-linux": {
+          "url": "https://repo.yarnpkg.com/2.1.1/packages/yarnpkg-cli/bin/yarn.js",
+          "hash": "sha256-32Oe+i0BMgtCrljFmroEVWoX9UaA6EeDUeUethRIwbI="
+        },
+        "x86_64-linux": {
+          "url": "https://repo.yarnpkg.com/2.1.1/packages/yarnpkg-cli/bin/yarn.js",
+          "hash": "sha256-32Oe+i0BMgtCrljFmroEVWoX9UaA6EeDUeUethRIwbI="
+        }
+      },
+      "date": "2020-07-09"
+    },
+    "2.1.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://repo.yarnpkg.com/2.1.0/packages/yarnpkg-cli/bin/yarn.js",
+          "hash": "sha256-r9ezTS8ME7WroMyo/zi7/Kp4nabBFRx87WyachHteBQ="
+        },
+        "aarch64-linux": {
+          "url": "https://repo.yarnpkg.com/2.1.0/packages/yarnpkg-cli/bin/yarn.js",
+          "hash": "sha256-r9ezTS8ME7WroMyo/zi7/Kp4nabBFRx87WyachHteBQ="
+        },
+        "x86_64-linux": {
+          "url": "https://repo.yarnpkg.com/2.1.0/packages/yarnpkg-cli/bin/yarn.js",
+          "hash": "sha256-r9ezTS8ME7WroMyo/zi7/Kp4nabBFRx87WyachHteBQ="
+        }
+      },
+      "date": "2020-07-09"
+    },
+    "1.22.22": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.22.tgz",
+          "hash": "sha512-prL3kGtyG7o9Z9Sv8IPfBNrWTDmXB4Qbes8A9rEzt6wkJV8mUvoirjU0Mp3GGAU06Y0XQyA3/2/RQFVuK7MTfg=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.22.tgz",
+          "hash": "sha512-prL3kGtyG7o9Z9Sv8IPfBNrWTDmXB4Qbes8A9rEzt6wkJV8mUvoirjU0Mp3GGAU06Y0XQyA3/2/RQFVuK7MTfg=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.22.tgz",
+          "hash": "sha512-prL3kGtyG7o9Z9Sv8IPfBNrWTDmXB4Qbes8A9rEzt6wkJV8mUvoirjU0Mp3GGAU06Y0XQyA3/2/RQFVuK7MTfg=="
+        }
+      },
+      "date": "2024-03-09"
+    },
+    "1.22.21": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.21.tgz",
+          "hash": "sha512-ynXaJsADJ9JiZ84zU25XkPGOvVMmZ5b7tmTSpKURYwgELdjucAOydqIOrOfTxVYcNXe91xvLZwcRh68SR3liCg=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.21.tgz",
+          "hash": "sha512-ynXaJsADJ9JiZ84zU25XkPGOvVMmZ5b7tmTSpKURYwgELdjucAOydqIOrOfTxVYcNXe91xvLZwcRh68SR3liCg=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.21.tgz",
+          "hash": "sha512-ynXaJsADJ9JiZ84zU25XkPGOvVMmZ5b7tmTSpKURYwgELdjucAOydqIOrOfTxVYcNXe91xvLZwcRh68SR3liCg=="
+        }
+      },
+      "date": "2023-11-14"
+    },
+    "1.22.20": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.20.tgz",
+          "hash": "sha512-rAQTKOBnJSk3MhOJ536OIR9R/taWCU/e+Caun3BJuBoP5kZUDZoqNqt8PAPfBLihZVQoX/sUaNQqAdKjY9agcw=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.20.tgz",
+          "hash": "sha512-rAQTKOBnJSk3MhOJ536OIR9R/taWCU/e+Caun3BJuBoP5kZUDZoqNqt8PAPfBLihZVQoX/sUaNQqAdKjY9agcw=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.20.tgz",
+          "hash": "sha512-rAQTKOBnJSk3MhOJ536OIR9R/taWCU/e+Caun3BJuBoP5kZUDZoqNqt8PAPfBLihZVQoX/sUaNQqAdKjY9agcw=="
+        }
+      },
+      "date": "2023-11-14"
+    },
+    "1.22.19": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.19.tgz",
+          "hash": "sha512-/0V5q0WbslqnwP91tirOvldvYISzaqhClxzyUKXYxs07yUILIs5jx/k6CFe8bvKSkds5w+eiOqta39Wk3WxdcQ=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.19.tgz",
+          "hash": "sha512-/0V5q0WbslqnwP91tirOvldvYISzaqhClxzyUKXYxs07yUILIs5jx/k6CFe8bvKSkds5w+eiOqta39Wk3WxdcQ=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.19.tgz",
+          "hash": "sha512-/0V5q0WbslqnwP91tirOvldvYISzaqhClxzyUKXYxs07yUILIs5jx/k6CFe8bvKSkds5w+eiOqta39Wk3WxdcQ=="
+        }
+      },
+      "date": "2022-06-08"
+    },
+    "1.22.18": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.18.tgz",
+          "hash": "sha512-oFffv6Jp2+BTUBItzx1Z0dpikTX+raRdqupfqzeMKnoh7WD6RuPAxcqDkMUy9vafJkrB0YaV708znpuMhEBKGQ=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.18.tgz",
+          "hash": "sha512-oFffv6Jp2+BTUBItzx1Z0dpikTX+raRdqupfqzeMKnoh7WD6RuPAxcqDkMUy9vafJkrB0YaV708znpuMhEBKGQ=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.18.tgz",
+          "hash": "sha512-oFffv6Jp2+BTUBItzx1Z0dpikTX+raRdqupfqzeMKnoh7WD6RuPAxcqDkMUy9vafJkrB0YaV708znpuMhEBKGQ=="
+        }
+      },
+      "date": "2022-03-18"
+    },
+    "1.22.17": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.17.tgz",
+          "hash": "sha512-H0p241BXaH0UN9IeH//RT82tl5PfNraVpSpEoW+ET7lmopNC61eZ+A+IDvU8FM6Go5vx162SncDL8J1ZjRBriQ=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.17.tgz",
+          "hash": "sha512-H0p241BXaH0UN9IeH//RT82tl5PfNraVpSpEoW+ET7lmopNC61eZ+A+IDvU8FM6Go5vx162SncDL8J1ZjRBriQ=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.17.tgz",
+          "hash": "sha512-H0p241BXaH0UN9IeH//RT82tl5PfNraVpSpEoW+ET7lmopNC61eZ+A+IDvU8FM6Go5vx162SncDL8J1ZjRBriQ=="
+        }
+      },
+      "date": "2021-10-16"
+    },
+    "1.22.16": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.16.tgz",
+          "hash": "sha512-2B/Ml9jE9aTuC98ouzpN9M+e5FZGTU0ljdTKAlVokyuEqT6emFoVhgfThE0L8a90PaAlJw3s4CEcCJ9dSYH1Xg=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.16.tgz",
+          "hash": "sha512-2B/Ml9jE9aTuC98ouzpN9M+e5FZGTU0ljdTKAlVokyuEqT6emFoVhgfThE0L8a90PaAlJw3s4CEcCJ9dSYH1Xg=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.16.tgz",
+          "hash": "sha512-2B/Ml9jE9aTuC98ouzpN9M+e5FZGTU0ljdTKAlVokyuEqT6emFoVhgfThE0L8a90PaAlJw3s4CEcCJ9dSYH1Xg=="
+        }
+      },
+      "date": "2021-10-16"
+    },
+    "1.22.15": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.15.tgz",
+          "hash": "sha512-AzoEDxj256BOS/jqDXA3pjyhmi4FRBBUMgYoTHI4EIt2EhREkvH0soPVEtnD+DQIJfU5R9bKhcZ1H9l8zPWeoA=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.15.tgz",
+          "hash": "sha512-AzoEDxj256BOS/jqDXA3pjyhmi4FRBBUMgYoTHI4EIt2EhREkvH0soPVEtnD+DQIJfU5R9bKhcZ1H9l8zPWeoA=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.15.tgz",
+          "hash": "sha512-AzoEDxj256BOS/jqDXA3pjyhmi4FRBBUMgYoTHI4EIt2EhREkvH0soPVEtnD+DQIJfU5R9bKhcZ1H9l8zPWeoA=="
+        }
+      },
+      "date": "2021-09-30"
+    },
+    "1.22.14": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.14.tgz",
+          "hash": "sha512-V6wPpGH6FaToKlXbqzpTnTWzy6kQdzoAz8yR3jhymaxD3wtB70tkagsRQEqFX7leRZAXFjkdaSWwdq91j1VZOw=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.14.tgz",
+          "hash": "sha512-V6wPpGH6FaToKlXbqzpTnTWzy6kQdzoAz8yR3jhymaxD3wtB70tkagsRQEqFX7leRZAXFjkdaSWwdq91j1VZOw=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.14.tgz",
+          "hash": "sha512-V6wPpGH6FaToKlXbqzpTnTWzy6kQdzoAz8yR3jhymaxD3wtB70tkagsRQEqFX7leRZAXFjkdaSWwdq91j1VZOw=="
+        }
+      },
+      "date": "2021-09-29"
+    },
+    "1.22.13": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.13.tgz",
+          "hash": "sha512-G8qG4t7Ef5cLVpzbM3HWWsow4hpfeSCfKtMnjfERmp9V5qSCOKz0uGAIQCM/x3gWfCzH8Bvb4hl3ZfhG/XD1Jg=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.13.tgz",
+          "hash": "sha512-G8qG4t7Ef5cLVpzbM3HWWsow4hpfeSCfKtMnjfERmp9V5qSCOKz0uGAIQCM/x3gWfCzH8Bvb4hl3ZfhG/XD1Jg=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.13.tgz",
+          "hash": "sha512-G8qG4t7Ef5cLVpzbM3HWWsow4hpfeSCfKtMnjfERmp9V5qSCOKz0uGAIQCM/x3gWfCzH8Bvb4hl3ZfhG/XD1Jg=="
+        }
+      },
+      "date": "2021-09-29"
+    },
+    "1.22.12": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v1.22.12/yarn-1.22.12.js",
+          "hash": "sha256-lEkzWvJCEAOhsyUNOTpVYcUjL4OPNp9BFZ5LcGFMOzA="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v1.22.12/yarn-1.22.12.js",
+          "hash": "sha256-lEkzWvJCEAOhsyUNOTpVYcUjL4OPNp9BFZ5LcGFMOzA="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v1.22.12/yarn-1.22.12.js",
+          "hash": "sha256-lEkzWvJCEAOhsyUNOTpVYcUjL4OPNp9BFZ5LcGFMOzA="
+        }
+      },
+      "date": "2021-09-29"
+    },
+    "1.22.11": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.11.tgz",
+          "hash": "sha512-AWje4bzqO9RUn3sdnM5N8n4ZJ0BqCc/kqFJvpOI5/EVkINXui0yuvU7NDCEF//+WaxHuNay2uOHxA4+tq1P3cg=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.11.tgz",
+          "hash": "sha512-AWje4bzqO9RUn3sdnM5N8n4ZJ0BqCc/kqFJvpOI5/EVkINXui0yuvU7NDCEF//+WaxHuNay2uOHxA4+tq1P3cg=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.11.tgz",
+          "hash": "sha512-AWje4bzqO9RUn3sdnM5N8n4ZJ0BqCc/kqFJvpOI5/EVkINXui0yuvU7NDCEF//+WaxHuNay2uOHxA4+tq1P3cg=="
+        }
+      },
+      "date": "2021-07-26"
+    },
+    "1.22.10": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.10.tgz",
+          "hash": "sha512-IanQGI9RRPAN87VGTF7zs2uxkSyQSrSPsju0COgbsKQOOXr5LtcVPeyXWgwVa0ywG3d8dg6kSYKGBuYK021qeA=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.10.tgz",
+          "hash": "sha512-IanQGI9RRPAN87VGTF7zs2uxkSyQSrSPsju0COgbsKQOOXr5LtcVPeyXWgwVa0ywG3d8dg6kSYKGBuYK021qeA=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.10.tgz",
+          "hash": "sha512-IanQGI9RRPAN87VGTF7zs2uxkSyQSrSPsju0COgbsKQOOXr5LtcVPeyXWgwVa0ywG3d8dg6kSYKGBuYK021qeA=="
+        }
+      },
+      "date": "2020-09-28"
+    },
+    "1.22.9": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.9.tgz",
+          "hash": "sha512-EqEkRREB/xLv/lFQV/fhqB1KwqbFjqFYgapHgNbozSQTVmOH/voNjcBQ/kaRStiVsvZYmYJXF4SH6btLrwMecA=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.9.tgz",
+          "hash": "sha512-EqEkRREB/xLv/lFQV/fhqB1KwqbFjqFYgapHgNbozSQTVmOH/voNjcBQ/kaRStiVsvZYmYJXF4SH6btLrwMecA=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.9.tgz",
+          "hash": "sha512-EqEkRREB/xLv/lFQV/fhqB1KwqbFjqFYgapHgNbozSQTVmOH/voNjcBQ/kaRStiVsvZYmYJXF4SH6btLrwMecA=="
+        }
+      },
+      "date": "2020-09-28"
+    },
+    "1.22.8": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.8.tgz",
+          "hash": "sha512-5M9/gwb2jVZ8EFaYlpIG6Pmv4UEEOCqfS+W7ZRQC82GwZlyHIEbgQ6+YZJAcYJbU9jBMd/5SE6gSaH4OK5m80w=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.8.tgz",
+          "hash": "sha512-5M9/gwb2jVZ8EFaYlpIG6Pmv4UEEOCqfS+W7ZRQC82GwZlyHIEbgQ6+YZJAcYJbU9jBMd/5SE6gSaH4OK5m80w=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.8.tgz",
+          "hash": "sha512-5M9/gwb2jVZ8EFaYlpIG6Pmv4UEEOCqfS+W7ZRQC82GwZlyHIEbgQ6+YZJAcYJbU9jBMd/5SE6gSaH4OK5m80w=="
+        }
+      },
+      "date": "2020-09-28"
+    },
+    "1.22.7": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.7.tgz",
+          "hash": "sha512-Kj70fr/tH6tYZPeOKHKXtaOxhiXCaMTQxMzRRwk13nn9mcPUuXqX+ve66rxFgMmD8NiZXIsLP+VP+fJFjLPJDA=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.7.tgz",
+          "hash": "sha512-Kj70fr/tH6tYZPeOKHKXtaOxhiXCaMTQxMzRRwk13nn9mcPUuXqX+ve66rxFgMmD8NiZXIsLP+VP+fJFjLPJDA=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.7.tgz",
+          "hash": "sha512-Kj70fr/tH6tYZPeOKHKXtaOxhiXCaMTQxMzRRwk13nn9mcPUuXqX+ve66rxFgMmD8NiZXIsLP+VP+fJFjLPJDA=="
+        }
+      },
+      "date": "2020-09-28"
+    },
+    "1.22.6": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.6.tgz",
+          "hash": "sha512-TtoGCRZpgQMVueRQQhPiZHuqsFNEJnzqX1kzlzrRt1FimIRybJg1xtyC/Nv2/byrX14Cs933iMEy4D54H64kLg=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.6.tgz",
+          "hash": "sha512-TtoGCRZpgQMVueRQQhPiZHuqsFNEJnzqX1kzlzrRt1FimIRybJg1xtyC/Nv2/byrX14Cs933iMEy4D54H64kLg=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.6.tgz",
+          "hash": "sha512-TtoGCRZpgQMVueRQQhPiZHuqsFNEJnzqX1kzlzrRt1FimIRybJg1xtyC/Nv2/byrX14Cs933iMEy4D54H64kLg=="
+        }
+      },
+      "date": "2020-09-28",
+      "npmLock": "npm/yarn-1.22.6.json"
+    },
+    "1.22.5": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.5.tgz",
+          "hash": "sha512-5uzKXwdMc++mYktXqkfpNYT9tY8ViWegU58Hgbo+KXzrzzhEyP1Ip+BTtXloLrXNcNlxFJbLiFKGaS9vK9ym6Q=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.5.tgz",
+          "hash": "sha512-5uzKXwdMc++mYktXqkfpNYT9tY8ViWegU58Hgbo+KXzrzzhEyP1Ip+BTtXloLrXNcNlxFJbLiFKGaS9vK9ym6Q=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.5.tgz",
+          "hash": "sha512-5uzKXwdMc++mYktXqkfpNYT9tY8ViWegU58Hgbo+KXzrzzhEyP1Ip+BTtXloLrXNcNlxFJbLiFKGaS9vK9ym6Q=="
+        }
+      },
+      "date": "2020-08-27"
+    },
+    "1.22.4": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.4.tgz",
+          "hash": "sha512-oYM7hi/lIWm9bCoDMEWgffW8aiNZXCWeZ1/tGy0DWrN6vmzjCXIKu2Y21o8DYVBUtiktwKcNoxyGl/2iKLUNGA=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.4.tgz",
+          "hash": "sha512-oYM7hi/lIWm9bCoDMEWgffW8aiNZXCWeZ1/tGy0DWrN6vmzjCXIKu2Y21o8DYVBUtiktwKcNoxyGl/2iKLUNGA=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.4.tgz",
+          "hash": "sha512-oYM7hi/lIWm9bCoDMEWgffW8aiNZXCWeZ1/tGy0DWrN6vmzjCXIKu2Y21o8DYVBUtiktwKcNoxyGl/2iKLUNGA=="
+        }
+      },
+      "date": "2020-03-09"
+    },
+    "1.22.3": {
+      "artifacts": {},
+      "date": "2020-03-07"
+    },
+    "1.22.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v1.22.2/yarn-1.22.2.js",
+          "hash": "sha256-A7PwuCWUQUtvZZvw/9mHcVn16VhhFP7thqOJd4czUPw="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v1.22.2/yarn-1.22.2.js",
+          "hash": "sha256-A7PwuCWUQUtvZZvw/9mHcVn16VhhFP7thqOJd4czUPw="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v1.22.2/yarn-1.22.2.js",
+          "hash": "sha256-A7PwuCWUQUtvZZvw/9mHcVn16VhhFP7thqOJd4czUPw="
+        }
+      },
+      "date": "2020-03-07"
+    },
+    "1.22.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.1.tgz",
+          "hash": "sha512-hL7Fd2Psv4fOiE/JjVULDg+LckG0Ql7IPUh5wWC/4UEr6W+eF+VVEWfRu6Q7qbOnqk7+qY7CXYSSLBfJIyElXA=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.1.tgz",
+          "hash": "sha512-hL7Fd2Psv4fOiE/JjVULDg+LckG0Ql7IPUh5wWC/4UEr6W+eF+VVEWfRu6Q7qbOnqk7+qY7CXYSSLBfJIyElXA=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.1.tgz",
+          "hash": "sha512-hL7Fd2Psv4fOiE/JjVULDg+LckG0Ql7IPUh5wWC/4UEr6W+eF+VVEWfRu6Q7qbOnqk7+qY7CXYSSLBfJIyElXA=="
+        }
+      },
+      "date": "2020-03-06"
+    },
+    "1.22.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.0.tgz",
+          "hash": "sha512-KMHP/Jq53jZKTY9iTUt3dIVl/be6UPs2INo96+BnZHLKxYNTfwMmlgHTaMWyGZoO74RI4AIFvnWhYrXq2USJkg=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.0.tgz",
+          "hash": "sha512-KMHP/Jq53jZKTY9iTUt3dIVl/be6UPs2INo96+BnZHLKxYNTfwMmlgHTaMWyGZoO74RI4AIFvnWhYrXq2USJkg=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.22.0.tgz",
+          "hash": "sha512-KMHP/Jq53jZKTY9iTUt3dIVl/be6UPs2INo96+BnZHLKxYNTfwMmlgHTaMWyGZoO74RI4AIFvnWhYrXq2USJkg=="
+        }
+      },
+      "date": "2020-02-05"
+    },
+    "1.21.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.21.1.tgz",
+          "hash": "sha512-dQgmJv676X/NQczpbiDtc2hsE/pppGDJAzwlRiADMTvFzYbdxPj2WO4PcNyriSt2c4jsCMpt8UFRKHUozt21GQ=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.21.1.tgz",
+          "hash": "sha512-dQgmJv676X/NQczpbiDtc2hsE/pppGDJAzwlRiADMTvFzYbdxPj2WO4PcNyriSt2c4jsCMpt8UFRKHUozt21GQ=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.21.1.tgz",
+          "hash": "sha512-dQgmJv676X/NQczpbiDtc2hsE/pppGDJAzwlRiADMTvFzYbdxPj2WO4PcNyriSt2c4jsCMpt8UFRKHUozt21GQ=="
+        }
+      },
+      "date": "2019-12-11"
+    },
+    "1.21.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.21.0.tgz",
+          "hash": "sha512-g9cvrdKXPZlz1eJYpKanQm3eywEmecudeyDkwiVWeswBrpHK3nJFBholkphHF9eNc8y/FNEhSQ8Et5ZAx4XyLw=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.21.0.tgz",
+          "hash": "sha512-g9cvrdKXPZlz1eJYpKanQm3eywEmecudeyDkwiVWeswBrpHK3nJFBholkphHF9eNc8y/FNEhSQ8Et5ZAx4XyLw=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.21.0.tgz",
+          "hash": "sha512-g9cvrdKXPZlz1eJYpKanQm3eywEmecudeyDkwiVWeswBrpHK3nJFBholkphHF9eNc8y/FNEhSQ8Et5ZAx4XyLw=="
+        }
+      },
+      "date": "2019-12-01"
+    },
+    "1.20.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v1.20.0/yarn-1.20.0.js",
+          "hash": "sha256-RLoUUWb70r7PYu9Aan5aaJ+Al+EmiKujQKw4a0/8BZI="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v1.20.0/yarn-1.20.0.js",
+          "hash": "sha256-RLoUUWb70r7PYu9Aan5aaJ+Al+EmiKujQKw4a0/8BZI="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v1.20.0/yarn-1.20.0.js",
+          "hash": "sha256-RLoUUWb70r7PYu9Aan5aaJ+Al+EmiKujQKw4a0/8BZI="
+        }
+      },
+      "date": "2019-12-01"
+    },
+    "1.19.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.19.2.tgz",
+          "hash": "sha512-OdLN/K/sA+KnW4ggNQwHYK6YJdLkSWxbx6IYd+WIQJ6xDfk8CIYKckBfwGxTBmDaEluWs83InzjFCmUqPtpY+w=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.19.2.tgz",
+          "hash": "sha512-OdLN/K/sA+KnW4ggNQwHYK6YJdLkSWxbx6IYd+WIQJ6xDfk8CIYKckBfwGxTBmDaEluWs83InzjFCmUqPtpY+w=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.19.2.tgz",
+          "hash": "sha512-OdLN/K/sA+KnW4ggNQwHYK6YJdLkSWxbx6IYd+WIQJ6xDfk8CIYKckBfwGxTBmDaEluWs83InzjFCmUqPtpY+w=="
+        }
+      },
+      "date": "2019-11-22"
+    },
+    "1.19.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.19.1.tgz",
+          "hash": "sha512-gBnfbL9rYY05Gt0cjJhs/siqQXHYlZalTjK3nXn2QO20xbkIFPob+LlH44ML47GcR4VU9/2dYck1BWFM0Javxw=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.19.1.tgz",
+          "hash": "sha512-gBnfbL9rYY05Gt0cjJhs/siqQXHYlZalTjK3nXn2QO20xbkIFPob+LlH44ML47GcR4VU9/2dYck1BWFM0Javxw=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.19.1.tgz",
+          "hash": "sha512-gBnfbL9rYY05Gt0cjJhs/siqQXHYlZalTjK3nXn2QO20xbkIFPob+LlH44ML47GcR4VU9/2dYck1BWFM0Javxw=="
+        }
+      },
+      "date": "2019-10-08"
+    },
+    "1.19.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.19.0.tgz",
+          "hash": "sha512-QLiMoj+ZHo2kT17x1t7erO6gzR+9xSa5z7Lmei1qYM1Sj37wiIFv67kQcH+nkshsO0f03ImXClfkEKUgnsMreQ=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.19.0.tgz",
+          "hash": "sha512-QLiMoj+ZHo2kT17x1t7erO6gzR+9xSa5z7Lmei1qYM1Sj37wiIFv67kQcH+nkshsO0f03ImXClfkEKUgnsMreQ=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.19.0.tgz",
+          "hash": "sha512-QLiMoj+ZHo2kT17x1t7erO6gzR+9xSa5z7Lmei1qYM1Sj37wiIFv67kQcH+nkshsO0f03ImXClfkEKUgnsMreQ=="
+        }
+      },
+      "date": "2019-09-28"
+    },
+    "1.18.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.18.0.tgz",
+          "hash": "sha512-2xKaLeLQPXd4LBvkfeCXpua2oMLi5E4PACKqDw4U62KzY6qoVgi8iZdXWYLXFK4AExjP9GOxicwgySPoERONPA=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.18.0.tgz",
+          "hash": "sha512-2xKaLeLQPXd4LBvkfeCXpua2oMLi5E4PACKqDw4U62KzY6qoVgi8iZdXWYLXFK4AExjP9GOxicwgySPoERONPA=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.18.0.tgz",
+          "hash": "sha512-2xKaLeLQPXd4LBvkfeCXpua2oMLi5E4PACKqDw4U62KzY6qoVgi8iZdXWYLXFK4AExjP9GOxicwgySPoERONPA=="
+        }
+      },
+      "date": "2019-09-23"
+    },
+    "1.17.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.17.3.tgz",
+          "hash": "sha512-CgA8o7nRZaQvmeF/WBx2FC7f9W/0X59T2IaLYqgMo6637wfp5mMEsM3YXoJtKUspnpmDJKl/gGFhnqS+sON7hA=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.17.3.tgz",
+          "hash": "sha512-CgA8o7nRZaQvmeF/WBx2FC7f9W/0X59T2IaLYqgMo6637wfp5mMEsM3YXoJtKUspnpmDJKl/gGFhnqS+sON7hA=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.17.3.tgz",
+          "hash": "sha512-CgA8o7nRZaQvmeF/WBx2FC7f9W/0X59T2IaLYqgMo6637wfp5mMEsM3YXoJtKUspnpmDJKl/gGFhnqS+sON7hA=="
+        }
+      },
+      "date": "2019-07-12"
+    },
+    "1.17.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.17.2.tgz",
+          "hash": "sha512-rxZS/VzeBmZdQORjjlOBvh85N3/6DSQv600TAh0OU9O4D5iwxozF08BVCTpmDlR/25zx8Cz3/0IU00kP5HoiJg=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.17.2.tgz",
+          "hash": "sha512-rxZS/VzeBmZdQORjjlOBvh85N3/6DSQv600TAh0OU9O4D5iwxozF08BVCTpmDlR/25zx8Cz3/0IU00kP5HoiJg=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.17.2.tgz",
+          "hash": "sha512-rxZS/VzeBmZdQORjjlOBvh85N3/6DSQv600TAh0OU9O4D5iwxozF08BVCTpmDlR/25zx8Cz3/0IU00kP5HoiJg=="
+        }
+      },
+      "date": "2019-06-21"
+    },
+    "1.17.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.17.1.tgz",
+          "hash": "sha512-i+xeOIV1N2oBJXpYm4k+TV7dOBS6t1wuzn2J69qZ+S9dGkcN+2vsudoUYicgh22TAZmS89Hv+tnalAIMU7EjXg=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.17.1.tgz",
+          "hash": "sha512-i+xeOIV1N2oBJXpYm4k+TV7dOBS6t1wuzn2J69qZ+S9dGkcN+2vsudoUYicgh22TAZmS89Hv+tnalAIMU7EjXg=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.17.1.tgz",
+          "hash": "sha512-i+xeOIV1N2oBJXpYm4k+TV7dOBS6t1wuzn2J69qZ+S9dGkcN+2vsudoUYicgh22TAZmS89Hv+tnalAIMU7EjXg=="
+        }
+      },
+      "date": "2019-06-21"
+    },
+    "1.17.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.17.0.tgz",
+          "hash": "sha512-gssWKQKlLqVaE04byB3YktqawKiTlBINNbpaTBvUvVKi8ruLN35CZxUjFuBZZLyQek0HkLnmuF2dA8xNCyI/1A=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.17.0.tgz",
+          "hash": "sha512-gssWKQKlLqVaE04byB3YktqawKiTlBINNbpaTBvUvVKi8ruLN35CZxUjFuBZZLyQek0HkLnmuF2dA8xNCyI/1A=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.17.0.tgz",
+          "hash": "sha512-gssWKQKlLqVaE04byB3YktqawKiTlBINNbpaTBvUvVKi8ruLN35CZxUjFuBZZLyQek0HkLnmuF2dA8xNCyI/1A=="
+        }
+      },
+      "date": "2019-06-14"
+    },
+    "1.16.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.16.0.tgz",
+          "hash": "sha512-cfemyGlnWKA1zopUUgebTPf8C4WkPIZ+TJmklwcEAJ4u6oWPtJeAzrsamaGGh/+b1XWe8W51yzAImC4AWbWR1g=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.16.0.tgz",
+          "hash": "sha512-cfemyGlnWKA1zopUUgebTPf8C4WkPIZ+TJmklwcEAJ4u6oWPtJeAzrsamaGGh/+b1XWe8W51yzAImC4AWbWR1g=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.16.0.tgz",
+          "hash": "sha512-cfemyGlnWKA1zopUUgebTPf8C4WkPIZ+TJmklwcEAJ4u6oWPtJeAzrsamaGGh/+b1XWe8W51yzAImC4AWbWR1g=="
+        }
+      },
+      "date": "2019-04-29"
+    },
+    "1.15.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.15.2.tgz",
+          "hash": "sha512-DhqaGe2FcYKduO42d2hByXk7y8k2k42H3uzYdWBMTvcNcgWKx7xCkJWsVAQikXvaEQN2GyJNrz8CboqUmaBRrw=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.15.2.tgz",
+          "hash": "sha512-DhqaGe2FcYKduO42d2hByXk7y8k2k42H3uzYdWBMTvcNcgWKx7xCkJWsVAQikXvaEQN2GyJNrz8CboqUmaBRrw=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.15.2.tgz",
+          "hash": "sha512-DhqaGe2FcYKduO42d2hByXk7y8k2k42H3uzYdWBMTvcNcgWKx7xCkJWsVAQikXvaEQN2GyJNrz8CboqUmaBRrw=="
+        }
+      },
+      "date": "2019-03-15"
+    },
+    "1.15.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.15.1.tgz",
+          "hash": "sha512-wTzYVrmKDmorrCuaB6bV12wznSQBbr9AeKhtczQMVpfmpQJYHcWNdQrCzViQJNXNw/aXLdthxDElCDZmtOhjJw=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.15.1.tgz",
+          "hash": "sha512-wTzYVrmKDmorrCuaB6bV12wznSQBbr9AeKhtczQMVpfmpQJYHcWNdQrCzViQJNXNw/aXLdthxDElCDZmtOhjJw=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.15.1.tgz",
+          "hash": "sha512-wTzYVrmKDmorrCuaB6bV12wznSQBbr9AeKhtczQMVpfmpQJYHcWNdQrCzViQJNXNw/aXLdthxDElCDZmtOhjJw=="
+        }
+      },
+      "date": "2019-03-14"
+    },
+    "1.15.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.15.0.tgz",
+          "hash": "sha512-uQ4fLDU2DWpeBFu1vSTKviD29hdSB+WaC8zKUdrmzbdarYH7b1MrcFRM4SFvfkINhgq0vZ4pK3pvWRAs/kKk8Q=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.15.0.tgz",
+          "hash": "sha512-uQ4fLDU2DWpeBFu1vSTKviD29hdSB+WaC8zKUdrmzbdarYH7b1MrcFRM4SFvfkINhgq0vZ4pK3pvWRAs/kKk8Q=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.15.0.tgz",
+          "hash": "sha512-uQ4fLDU2DWpeBFu1vSTKviD29hdSB+WaC8zKUdrmzbdarYH7b1MrcFRM4SFvfkINhgq0vZ4pK3pvWRAs/kKk8Q=="
+        }
+      },
+      "date": "2019-03-08"
+    },
+    "1.14.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.14.0.tgz",
+          "hash": "sha512-X90WAgXmSNiadjrhD66Gc6i8Ld409blDd9OagJdxy1k8FEBOWlTeoDz7xWpxg7RPCqouTY1hhI0LE3jwj2tdFg=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.14.0.tgz",
+          "hash": "sha512-X90WAgXmSNiadjrhD66Gc6i8Ld409blDd9OagJdxy1k8FEBOWlTeoDz7xWpxg7RPCqouTY1hhI0LE3jwj2tdFg=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.14.0.tgz",
+          "hash": "sha512-X90WAgXmSNiadjrhD66Gc6i8Ld409blDd9OagJdxy1k8FEBOWlTeoDz7xWpxg7RPCqouTY1hhI0LE3jwj2tdFg=="
+        }
+      },
+      "date": "2019-01-26"
+    },
+    "1.13.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.13.0.tgz",
+          "hash": "sha512-Unfw2eefv8imt4ZMPhvFVP44WCz38huDxkHs+Yqrx4wBTK75Tr0mh3V4rh+2Nw5iQq0rcM/VafotCZo9qTb5DA=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.13.0.tgz",
+          "hash": "sha512-Unfw2eefv8imt4ZMPhvFVP44WCz38huDxkHs+Yqrx4wBTK75Tr0mh3V4rh+2Nw5iQq0rcM/VafotCZo9qTb5DA=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.13.0.tgz",
+          "hash": "sha512-Unfw2eefv8imt4ZMPhvFVP44WCz38huDxkHs+Yqrx4wBTK75Tr0mh3V4rh+2Nw5iQq0rcM/VafotCZo9qTb5DA=="
+        }
+      },
+      "date": "2018-12-18"
+    },
+    "1.12.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.12.3.tgz",
+          "hash": "sha512-8f5rWNDvkhAmCxmn8C0LsNWMxTYVk4VGKiq0sIB6HGZjaZTHsGIH87SUmVDUEd2Wk54bqKoUlbVWgQFCQhRkVw=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.12.3.tgz",
+          "hash": "sha512-8f5rWNDvkhAmCxmn8C0LsNWMxTYVk4VGKiq0sIB6HGZjaZTHsGIH87SUmVDUEd2Wk54bqKoUlbVWgQFCQhRkVw=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.12.3.tgz",
+          "hash": "sha512-8f5rWNDvkhAmCxmn8C0LsNWMxTYVk4VGKiq0sIB6HGZjaZTHsGIH87SUmVDUEd2Wk54bqKoUlbVWgQFCQhRkVw=="
+        }
+      },
+      "date": "2018-11-07"
+    },
+    "1.12.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v1.12.2/yarn-v1.12.1.tar.gz",
+          "hash": "sha256-WVbdMFRniKZNQl16CsZTkPmVcsQMokuC5yTyGN93z5Q="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v1.12.2/yarn-v1.12.1.tar.gz",
+          "hash": "sha256-WVbdMFRniKZNQl16CsZTkPmVcsQMokuC5yTyGN93z5Q="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v1.12.2/yarn-v1.12.1.tar.gz",
+          "hash": "sha256-WVbdMFRniKZNQl16CsZTkPmVcsQMokuC5yTyGN93z5Q="
+        }
+      },
+      "date": "2018-11-07"
+    },
+    "1.12.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.12.1.tgz",
+          "hash": "sha512-vdVLrYWx73k4QR8ZpQQ3HJg/X8aAunjUHuPlADR/ogmZOhnqgAdETPz0e/Df+MW8Dno7F1dOxS5e3G6niobumw=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.12.1.tgz",
+          "hash": "sha512-vdVLrYWx73k4QR8ZpQQ3HJg/X8aAunjUHuPlADR/ogmZOhnqgAdETPz0e/Df+MW8Dno7F1dOxS5e3G6niobumw=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.12.1.tgz",
+          "hash": "sha512-vdVLrYWx73k4QR8ZpQQ3HJg/X8aAunjUHuPlADR/ogmZOhnqgAdETPz0e/Df+MW8Dno7F1dOxS5e3G6niobumw=="
+        }
+      },
+      "date": "2018-10-30"
+    },
+    "1.12.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.12.0.tgz",
+          "hash": "sha512-I12gbd954Gi+ynI/b86e36AMWVwo/V3I/FOlTvO0Eq6Yian3bIlwEXpZUr+B6lEcgnvsBQ6Y6/G48zb4UcXsdg=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.12.0.tgz",
+          "hash": "sha512-I12gbd954Gi+ynI/b86e36AMWVwo/V3I/FOlTvO0Eq6Yian3bIlwEXpZUr+B6lEcgnvsBQ6Y6/G48zb4UcXsdg=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.12.0.tgz",
+          "hash": "sha512-I12gbd954Gi+ynI/b86e36AMWVwo/V3I/FOlTvO0Eq6Yian3bIlwEXpZUr+B6lEcgnvsBQ6Y6/G48zb4UcXsdg=="
+        }
+      },
+      "date": "2018-10-02"
+    },
+    "1.11.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.11.1.tgz",
+          "hash": "sha512-xbcaSdr6A5Et/SvFxAlVL1ufrfbuBzrn+1wW3GhkbAaGyv1EzX+d7h1Qo1c72+Uv19I15xW0eDqEQjA99eP8Vg=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.11.1.tgz",
+          "hash": "sha512-xbcaSdr6A5Et/SvFxAlVL1ufrfbuBzrn+1wW3GhkbAaGyv1EzX+d7h1Qo1c72+Uv19I15xW0eDqEQjA99eP8Vg=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.11.1.tgz",
+          "hash": "sha512-xbcaSdr6A5Et/SvFxAlVL1ufrfbuBzrn+1wW3GhkbAaGyv1EzX+d7h1Qo1c72+Uv19I15xW0eDqEQjA99eP8Vg=="
+        }
+      },
+      "date": "2018-09-26"
+    },
+    "1.11.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.11.0.tgz",
+          "hash": "sha512-1FOiMw0U0wQ7x2eoA4yJ1wY9o/wopjelmb7beD2/f2NAkC0g8AsUPOA5KqTYSKmtHRJ5t9JH3LaO8FM9PIcjyA=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.11.0.tgz",
+          "hash": "sha512-1FOiMw0U0wQ7x2eoA4yJ1wY9o/wopjelmb7beD2/f2NAkC0g8AsUPOA5KqTYSKmtHRJ5t9JH3LaO8FM9PIcjyA=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.11.0.tgz",
+          "hash": "sha512-1FOiMw0U0wQ7x2eoA4yJ1wY9o/wopjelmb7beD2/f2NAkC0g8AsUPOA5KqTYSKmtHRJ5t9JH3LaO8FM9PIcjyA=="
+        }
+      },
+      "date": "2018-09-26"
+    },
+    "1.10.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.10.1.tgz",
+          "hash": "sha512-EH0H1fyfFxkE4UpG4b+VCaVY4I488I2EyQNmGjGGKmvsSIb0G3b+1IcfGYPI2gqa1du43g4ZA3jH8fXlq6oVxg=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.10.1.tgz",
+          "hash": "sha512-EH0H1fyfFxkE4UpG4b+VCaVY4I488I2EyQNmGjGGKmvsSIb0G3b+1IcfGYPI2gqa1du43g4ZA3jH8fXlq6oVxg=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.10.1.tgz",
+          "hash": "sha512-EH0H1fyfFxkE4UpG4b+VCaVY4I488I2EyQNmGjGGKmvsSIb0G3b+1IcfGYPI2gqa1du43g4ZA3jH8fXlq6oVxg=="
+        }
+      },
+      "date": "2018-09-26"
+    },
+    "1.10.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.10.0.tgz",
+          "hash": "sha512-cA0d1O8GzYZfeuBC7ynZ6UkUf4DoCatXcl0L9N8FuKgGZo159gFqpnn/lyloguPhx20UD6vp2UjBnQkPNNRS7g=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.10.0.tgz",
+          "hash": "sha512-cA0d1O8GzYZfeuBC7ynZ6UkUf4DoCatXcl0L9N8FuKgGZo159gFqpnn/lyloguPhx20UD6vp2UjBnQkPNNRS7g=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.10.0.tgz",
+          "hash": "sha512-cA0d1O8GzYZfeuBC7ynZ6UkUf4DoCatXcl0L9N8FuKgGZo159gFqpnn/lyloguPhx20UD6vp2UjBnQkPNNRS7g=="
+        }
+      },
+      "date": "2018-09-05"
+    },
+    "1.9.4": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.9.4.tgz",
+          "hash": "sha512-HjqQjPR6L+RtfOjbVJuRzQszcsfEPGsAKfEGCwRKCmXlvDMj9O1rryC7vLSbo1imu48mkaWR5NPooBvDE3LLWw=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.9.4.tgz",
+          "hash": "sha512-HjqQjPR6L+RtfOjbVJuRzQszcsfEPGsAKfEGCwRKCmXlvDMj9O1rryC7vLSbo1imu48mkaWR5NPooBvDE3LLWw=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.9.4.tgz",
+          "hash": "sha512-HjqQjPR6L+RtfOjbVJuRzQszcsfEPGsAKfEGCwRKCmXlvDMj9O1rryC7vLSbo1imu48mkaWR5NPooBvDE3LLWw=="
+        }
+      },
+      "date": "2018-08-03"
+    },
+    "1.9.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v1.9.3/yarn-1.9.3.js",
+          "hash": "sha256-vgABqRw+JJZlYWzzDqV0UJ2+EULFpjSKWU7ottynHL4="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v1.9.3/yarn-1.9.3.js",
+          "hash": "sha256-vgABqRw+JJZlYWzzDqV0UJ2+EULFpjSKWU7ottynHL4="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v1.9.3/yarn-1.9.3.js",
+          "hash": "sha256-vgABqRw+JJZlYWzzDqV0UJ2+EULFpjSKWU7ottynHL4="
+        }
+      },
+      "date": "2018-08-03"
+    },
+    "1.9.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.9.2.tgz",
+          "hash": "sha512-iZzZvtlXwPdMJ/c5fBfcOE691DFTK3sfSFPXbeSLf2uf1lhc0V04Mxpnj0ooioLFKrAV6tVSZ8nafIoqZ0barw=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.9.2.tgz",
+          "hash": "sha512-iZzZvtlXwPdMJ/c5fBfcOE691DFTK3sfSFPXbeSLf2uf1lhc0V04Mxpnj0ooioLFKrAV6tVSZ8nafIoqZ0barw=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.9.2.tgz",
+          "hash": "sha512-iZzZvtlXwPdMJ/c5fBfcOE691DFTK3sfSFPXbeSLf2uf1lhc0V04Mxpnj0ooioLFKrAV6tVSZ8nafIoqZ0barw=="
+        }
+      },
+      "date": "2018-07-25"
+    },
+    "1.9.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.9.1.tgz",
+          "hash": "sha512-cxi0eGr4hdkHjZA7IS2v+5OMngn9MJzSZGZqES/iwckZI1vEzjFaF0lwBqqM4nEA2VrPXDa+cqoBoZku3oDHIg=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.9.1.tgz",
+          "hash": "sha512-cxi0eGr4hdkHjZA7IS2v+5OMngn9MJzSZGZqES/iwckZI1vEzjFaF0lwBqqM4nEA2VrPXDa+cqoBoZku3oDHIg=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.9.1.tgz",
+          "hash": "sha512-cxi0eGr4hdkHjZA7IS2v+5OMngn9MJzSZGZqES/iwckZI1vEzjFaF0lwBqqM4nEA2VrPXDa+cqoBoZku3oDHIg=="
+        }
+      },
+      "date": "2018-07-23"
+    },
+    "1.9.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v1.9.0/yarn-1.9.0.js",
+          "hash": "sha256-ePbq9M7wcBnxLd1oGpS17tfK+ETpdDsU3IjJIDPlXgY="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v1.9.0/yarn-1.9.0.js",
+          "hash": "sha256-ePbq9M7wcBnxLd1oGpS17tfK+ETpdDsU3IjJIDPlXgY="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v1.9.0/yarn-1.9.0.js",
+          "hash": "sha256-ePbq9M7wcBnxLd1oGpS17tfK+ETpdDsU3IjJIDPlXgY="
+        }
+      },
+      "date": "2018-07-19"
+    },
+    "1.8.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.8.0.tgz",
+          "hash": "sha512-EpGaJ9CEVkSZKmDIepGe8nduWVnEPRwxdnAhR1uMu1kfX2/yshTq3cEdUg+R11i+5Dmr4HdxenNI6zh4E9vvtg=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.8.0.tgz",
+          "hash": "sha512-EpGaJ9CEVkSZKmDIepGe8nduWVnEPRwxdnAhR1uMu1kfX2/yshTq3cEdUg+R11i+5Dmr4HdxenNI6zh4E9vvtg=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.8.0.tgz",
+          "hash": "sha512-EpGaJ9CEVkSZKmDIepGe8nduWVnEPRwxdnAhR1uMu1kfX2/yshTq3cEdUg+R11i+5Dmr4HdxenNI6zh4E9vvtg=="
+        }
+      },
+      "date": "2018-06-11"
+    },
+    "1.7.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.7.0.tgz",
+          "hash": "sha512-Hedfu0jEnvnDnqtDSz8ntmmo50+TBeXwP+PKMM9soAtLlPhEViFHQIloG7dPSBPAWVYzpFwWxEabqwgYfOlElQ=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.7.0.tgz",
+          "hash": "sha512-Hedfu0jEnvnDnqtDSz8ntmmo50+TBeXwP+PKMM9soAtLlPhEViFHQIloG7dPSBPAWVYzpFwWxEabqwgYfOlElQ=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.7.0.tgz",
+          "hash": "sha512-Hedfu0jEnvnDnqtDSz8ntmmo50+TBeXwP+PKMM9soAtLlPhEViFHQIloG7dPSBPAWVYzpFwWxEabqwgYfOlElQ=="
+        }
+      },
+      "date": "2018-05-23"
+    },
+    "1.6.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.6.0.tgz",
+          "hash": "sha512-bLQeVB0RkGgiIt3ciMe9cByDNcoD2Etn+wHn0YQllIiP5pwLZDOUWCU8gHlWhDrkPRS4ZclopJZW50UJzUc8Cw=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.6.0.tgz",
+          "hash": "sha512-bLQeVB0RkGgiIt3ciMe9cByDNcoD2Etn+wHn0YQllIiP5pwLZDOUWCU8gHlWhDrkPRS4ZclopJZW50UJzUc8Cw=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.6.0.tgz",
+          "hash": "sha512-bLQeVB0RkGgiIt3ciMe9cByDNcoD2Etn+wHn0YQllIiP5pwLZDOUWCU8gHlWhDrkPRS4ZclopJZW50UJzUc8Cw=="
+        }
+      },
+      "date": "2018-04-11"
+    },
+    "1.5.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.5.1.tgz",
+          "hash": "sha512-tYtxLuOV1M/sUnHgLoz3dIlDiBWu6+ocaESGbrYWG+muB49i9ybkTutwTQGVuUM50eiZkc5W3oaQ1hPUurX1SA=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.5.1.tgz",
+          "hash": "sha512-tYtxLuOV1M/sUnHgLoz3dIlDiBWu6+ocaESGbrYWG+muB49i9ybkTutwTQGVuUM50eiZkc5W3oaQ1hPUurX1SA=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.5.1.tgz",
+          "hash": "sha512-tYtxLuOV1M/sUnHgLoz3dIlDiBWu6+ocaESGbrYWG+muB49i9ybkTutwTQGVuUM50eiZkc5W3oaQ1hPUurX1SA=="
+        }
+      },
+      "date": "2018-02-26"
+    },
+    "1.5.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.5.0.tgz",
+          "hash": "sha512-js5fKFMwhLlwJHyI5AE6rujUxMuUXkJA8/yYiyAnxSTdtsWfDwT359otm94DwHEDt8FpkYxECDYAgDCWhL9gvQ=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.5.0.tgz",
+          "hash": "sha512-js5fKFMwhLlwJHyI5AE6rujUxMuUXkJA8/yYiyAnxSTdtsWfDwT359otm94DwHEDt8FpkYxECDYAgDCWhL9gvQ=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.5.0.tgz",
+          "hash": "sha512-js5fKFMwhLlwJHyI5AE6rujUxMuUXkJA8/yYiyAnxSTdtsWfDwT359otm94DwHEDt8FpkYxECDYAgDCWhL9gvQ=="
+        }
+      },
+      "date": "2018-02-23"
+    },
+    "1.4.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v1.4.1/yarn-1.4.1.js",
+          "hash": "sha256-UaC1ni9HBmV4MIplKfCkW9Y7vjZzoloBr4VF03MyBNE="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v1.4.1/yarn-1.4.1.js",
+          "hash": "sha256-UaC1ni9HBmV4MIplKfCkW9Y7vjZzoloBr4VF03MyBNE="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v1.4.1/yarn-1.4.1.js",
+          "hash": "sha256-UaC1ni9HBmV4MIplKfCkW9Y7vjZzoloBr4VF03MyBNE="
+        }
+      },
+      "date": "2018-01-19"
+    },
+    "1.4.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.4.0.tgz",
+          "hash": "sha512-1ORsUWJHt4CtJYz4coKbZDdki2ceIFJWROvUkHxg6KfU/uIBPPoSuL5gMlVReQRG8PZeHxj8FtwbXFMDX+mbZg=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.4.0.tgz",
+          "hash": "sha512-1ORsUWJHt4CtJYz4coKbZDdki2ceIFJWROvUkHxg6KfU/uIBPPoSuL5gMlVReQRG8PZeHxj8FtwbXFMDX+mbZg=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.4.0.tgz",
+          "hash": "sha512-1ORsUWJHt4CtJYz4coKbZDdki2ceIFJWROvUkHxg6KfU/uIBPPoSuL5gMlVReQRG8PZeHxj8FtwbXFMDX+mbZg=="
+        }
+      },
+      "date": "2018-01-15"
+    },
+    "1.3.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.3.2.tgz",
+          "hash": "sha512-1IiuVrYIhLtC5eKsigNZxpR+I07YtbuhKpPySrtEGbSm/vcIw134yqnmjtyj/lcNHc2pKV0pQ45Foy710Cmu3w=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.3.2.tgz",
+          "hash": "sha512-1IiuVrYIhLtC5eKsigNZxpR+I07YtbuhKpPySrtEGbSm/vcIw134yqnmjtyj/lcNHc2pKV0pQ45Foy710Cmu3w=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.3.2.tgz",
+          "hash": "sha512-1IiuVrYIhLtC5eKsigNZxpR+I07YtbuhKpPySrtEGbSm/vcIw134yqnmjtyj/lcNHc2pKV0pQ45Foy710Cmu3w=="
+        }
+      },
+      "date": "2017-11-02"
+    },
+    "1.3.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.3.1.tgz",
+          "hash": "sha512-HF03wu2mZKEoKr7wd06obNozurP2JZdSPiYSu50d8SzHtbHE+XxY0eSyM4W/J25sMDM1oQzKDQZQJHiw6ST5Mg=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.3.1.tgz",
+          "hash": "sha512-HF03wu2mZKEoKr7wd06obNozurP2JZdSPiYSu50d8SzHtbHE+XxY0eSyM4W/J25sMDM1oQzKDQZQJHiw6ST5Mg=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.3.1.tgz",
+          "hash": "sha512-HF03wu2mZKEoKr7wd06obNozurP2JZdSPiYSu50d8SzHtbHE+XxY0eSyM4W/J25sMDM1oQzKDQZQJHiw6ST5Mg=="
+        }
+      },
+      "date": "2017-11-02"
+    },
+    "1.3.0": {
+      "artifacts": {},
+      "date": "2017-11-01"
+    },
+    "1.2.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.2.1.tgz",
+          "hash": "sha512-y2F4jhbNNTcHOzqHEc5qKffhQ4DOogyhYUTpftBexixoW4BaGK+ecNFveu20xGDK2XAn43+0NZb5dXA4bVlkdw=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.2.1.tgz",
+          "hash": "sha512-y2F4jhbNNTcHOzqHEc5qKffhQ4DOogyhYUTpftBexixoW4BaGK+ecNFveu20xGDK2XAn43+0NZb5dXA4bVlkdw=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.2.1.tgz",
+          "hash": "sha512-y2F4jhbNNTcHOzqHEc5qKffhQ4DOogyhYUTpftBexixoW4BaGK+ecNFveu20xGDK2XAn43+0NZb5dXA4bVlkdw=="
+        }
+      },
+      "date": "2017-10-12"
+    },
+    "1.2.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.2.0.tgz",
+          "hash": "sha512-bqIf33PQgTTK88WgSwRtiFv9yOyQYGUNkk+S1jInkHfj0QGUeGq8GHjlzHaq3PPt3q3oefWbpFbj9RBqIJ3T3w=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.2.0.tgz",
+          "hash": "sha512-bqIf33PQgTTK88WgSwRtiFv9yOyQYGUNkk+S1jInkHfj0QGUeGq8GHjlzHaq3PPt3q3oefWbpFbj9RBqIJ3T3w=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.2.0.tgz",
+          "hash": "sha512-bqIf33PQgTTK88WgSwRtiFv9yOyQYGUNkk+S1jInkHfj0QGUeGq8GHjlzHaq3PPt3q3oefWbpFbj9RBqIJ3T3w=="
+        }
+      },
+      "date": "2017-10-09"
+    },
+    "1.1.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.1.0.tgz",
+          "hash": "sha512-fOdArEfYukLEfQJil5/NHSLa7eKimOF0M0HFJYS+59S+yodYwRjezK79nLC8J4CjfhEK42M69WrGkWrgOJ6t9g=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.1.0.tgz",
+          "hash": "sha512-fOdArEfYukLEfQJil5/NHSLa7eKimOF0M0HFJYS+59S+yodYwRjezK79nLC8J4CjfhEK42M69WrGkWrgOJ6t9g=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.1.0.tgz",
+          "hash": "sha512-fOdArEfYukLEfQJil5/NHSLa7eKimOF0M0HFJYS+59S+yodYwRjezK79nLC8J4CjfhEK42M69WrGkWrgOJ6t9g=="
+        }
+      },
+      "date": "2017-09-24"
+    },
+    "1.0.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.0.2.tgz",
+          "hash": "sha512-IbJPRjNRfwAfDPJSnWcxa1oa3teHxlFlBLD3uJ/smRw/F/egmFkLz86oil2YMRIQefrMoiN8Z4SVvSEkzfB9rQ=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.0.2.tgz",
+          "hash": "sha512-IbJPRjNRfwAfDPJSnWcxa1oa3teHxlFlBLD3uJ/smRw/F/egmFkLz86oil2YMRIQefrMoiN8Z4SVvSEkzfB9rQ=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.0.2.tgz",
+          "hash": "sha512-IbJPRjNRfwAfDPJSnWcxa1oa3teHxlFlBLD3uJ/smRw/F/egmFkLz86oil2YMRIQefrMoiN8Z4SVvSEkzfB9rQ=="
+        }
+      },
+      "date": "2017-09-13"
+    },
+    "1.0.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.0.1.tgz",
+          "hash": "sha512-PSK7ensyz/JrtwU6EuIf2r9KL/GY5xZOA0/V4Laldg4N7xm8xlkvffhQEIo7821gqTN/HcVqNe1yyYsUwK+V+w=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.0.1.tgz",
+          "hash": "sha512-PSK7ensyz/JrtwU6EuIf2r9KL/GY5xZOA0/V4Laldg4N7xm8xlkvffhQEIo7821gqTN/HcVqNe1yyYsUwK+V+w=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.0.1.tgz",
+          "hash": "sha512-PSK7ensyz/JrtwU6EuIf2r9KL/GY5xZOA0/V4Laldg4N7xm8xlkvffhQEIo7821gqTN/HcVqNe1yyYsUwK+V+w=="
+        }
+      },
+      "date": "2017-09-07"
+    },
+    "1.0.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.0.0.tgz",
+          "hash": "sha512-mIvLt8PeODp5ZGY+GPhcdZZaTYNz3Nc8cjh41HSKzTcG4IE+Ac8nfa3XpQ3HfortJ9AXzIhdaMEeFBbomxkkRg=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.0.0.tgz",
+          "hash": "sha512-mIvLt8PeODp5ZGY+GPhcdZZaTYNz3Nc8cjh41HSKzTcG4IE+Ac8nfa3XpQ3HfortJ9AXzIhdaMEeFBbomxkkRg=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-1.0.0.tgz",
+          "hash": "sha512-mIvLt8PeODp5ZGY+GPhcdZZaTYNz3Nc8cjh41HSKzTcG4IE+Ac8nfa3XpQ3HfortJ9AXzIhdaMEeFBbomxkkRg=="
+        }
+      },
+      "date": "2017-09-05"
+    },
+    "0.28.4": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-0.28.4.tgz",
+          "hash": "sha512-3by6sbTT4DM4XaMJ/fGHQPFqPR51SkRJg1uLdd/YfeX27B5JLnduIkUySm5uH45EuRIAktAOeSsb/wezuwb2+w=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-0.28.4.tgz",
+          "hash": "sha512-3by6sbTT4DM4XaMJ/fGHQPFqPR51SkRJg1uLdd/YfeX27B5JLnduIkUySm5uH45EuRIAktAOeSsb/wezuwb2+w=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-0.28.4.tgz",
+          "hash": "sha512-3by6sbTT4DM4XaMJ/fGHQPFqPR51SkRJg1uLdd/YfeX27B5JLnduIkUySm5uH45EuRIAktAOeSsb/wezuwb2+w=="
+        }
+      },
+      "date": "2017-08-17"
+    },
+    "0.28.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-0.28.1.tgz",
+          "hash": "sha512-b0c9SmxiDL49LI6Q0+fThtzulTRMjAsnuoJNXdzyidllOvWh+/0wtoc1LyILxAfNMyojuUH2+g8RlTIPkQ56gg=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-0.28.1.tgz",
+          "hash": "sha512-b0c9SmxiDL49LI6Q0+fThtzulTRMjAsnuoJNXdzyidllOvWh+/0wtoc1LyILxAfNMyojuUH2+g8RlTIPkQ56gg=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-0.28.1.tgz",
+          "hash": "sha512-b0c9SmxiDL49LI6Q0+fThtzulTRMjAsnuoJNXdzyidllOvWh+/0wtoc1LyILxAfNMyojuUH2+g8RlTIPkQ56gg=="
+        }
+      },
+      "date": "2017-07-10"
+    },
+    "0.28.0": {
+      "artifacts": {},
+      "date": "2017-07-09"
+    },
+    "0.27.5": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.27.5/yarn-0.27.5.js",
+          "hash": "sha256-lbRdJ8nAP+S7/0wObJKn15Vsokc9PI44pSDHfpm5MYM="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.27.5/yarn-0.27.5.js",
+          "hash": "sha256-lbRdJ8nAP+S7/0wObJKn15Vsokc9PI44pSDHfpm5MYM="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.27.5/yarn-0.27.5.js",
+          "hash": "sha256-lbRdJ8nAP+S7/0wObJKn15Vsokc9PI44pSDHfpm5MYM="
+        }
+      },
+      "date": "2017-06-30"
+    },
+    "0.27.4": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.27.4/yarn-0.27.4.js",
+          "hash": "sha256-gAIDreuy6B+7v21ctq6GTJP2UJd8UjZ254zmkUlDkBo="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.27.4/yarn-0.27.4.js",
+          "hash": "sha256-gAIDreuy6B+7v21ctq6GTJP2UJd8UjZ254zmkUlDkBo="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.27.4/yarn-0.27.4.js",
+          "hash": "sha256-gAIDreuy6B+7v21ctq6GTJP2UJd8UjZ254zmkUlDkBo="
+        }
+      },
+      "date": "2017-06-30"
+    },
+    "0.27.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.27.3/yarn-0.27.3.js",
+          "hash": "sha256-slLavvrJu/8hwZge4+Wbyyy9t2/SFrmJuNqLLwDpVWs="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.27.3/yarn-0.27.3.js",
+          "hash": "sha256-slLavvrJu/8hwZge4+Wbyyy9t2/SFrmJuNqLLwDpVWs="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.27.3/yarn-0.27.3.js",
+          "hash": "sha256-slLavvrJu/8hwZge4+Wbyyy9t2/SFrmJuNqLLwDpVWs="
+        }
+      },
+      "date": "2017-06-29"
+    },
+    "0.27.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.27.2/yarn-0.27.2.js",
+          "hash": "sha256-OkBYEDcuZv9UNKVNGVPCvCgliV9v25yf1bMd91Lx3Mo="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.27.2/yarn-0.27.2.js",
+          "hash": "sha256-OkBYEDcuZv9UNKVNGVPCvCgliV9v25yf1bMd91Lx3Mo="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.27.2/yarn-0.27.2.js",
+          "hash": "sha256-OkBYEDcuZv9UNKVNGVPCvCgliV9v25yf1bMd91Lx3Mo="
+        }
+      },
+      "date": "2017-06-29"
+    },
+    "0.27.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.27.1/yarn-0.27.1.js",
+          "hash": "sha256-3inATmKHsXrnFWioWj/rWV4NREBib6PmTeylcXclXX0="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.27.1/yarn-0.27.1.js",
+          "hash": "sha256-3inATmKHsXrnFWioWj/rWV4NREBib6PmTeylcXclXX0="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.27.1/yarn-0.27.1.js",
+          "hash": "sha256-3inATmKHsXrnFWioWj/rWV4NREBib6PmTeylcXclXX0="
+        }
+      },
+      "date": "2017-06-27"
+    },
+    "0.27.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.27.0/yarn-0.27.0.js",
+          "hash": "sha256-J2MPCbGN1MOhQnBtdF/Q6UhPsHiUmw7yFn8KuLaFsHE="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.27.0/yarn-0.27.0.js",
+          "hash": "sha256-J2MPCbGN1MOhQnBtdF/Q6UhPsHiUmw7yFn8KuLaFsHE="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.27.0/yarn-0.27.0.js",
+          "hash": "sha256-J2MPCbGN1MOhQnBtdF/Q6UhPsHiUmw7yFn8KuLaFsHE="
+        }
+      },
+      "date": "2017-06-23"
+    },
+    "0.26.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.26.1/yarn-0.26.1.js",
+          "hash": "sha256-mKZ0z2rfs+c8TqPtFBigOgt5/5x8kMs3RL71vxE3F4E="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.26.1/yarn-0.26.1.js",
+          "hash": "sha256-mKZ0z2rfs+c8TqPtFBigOgt5/5x8kMs3RL71vxE3F4E="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.26.1/yarn-0.26.1.js",
+          "hash": "sha256-mKZ0z2rfs+c8TqPtFBigOgt5/5x8kMs3RL71vxE3F4E="
+        }
+      },
+      "date": "2017-06-07"
+    },
+    "0.26.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-0.26.0.tgz",
+          "hash": "sha512-4+7vs/X1J5o/rVHC2ux1RoDd2ZVa1/pExMTEHmawG9WxAdiGzfTyOZopoQzR3TehSnormbZNc+LSKTsoKMTwww=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-0.26.0.tgz",
+          "hash": "sha512-4+7vs/X1J5o/rVHC2ux1RoDd2ZVa1/pExMTEHmawG9WxAdiGzfTyOZopoQzR3TehSnormbZNc+LSKTsoKMTwww=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-0.26.0.tgz",
+          "hash": "sha512-4+7vs/X1J5o/rVHC2ux1RoDd2ZVa1/pExMTEHmawG9WxAdiGzfTyOZopoQzR3TehSnormbZNc+LSKTsoKMTwww=="
+        }
+      },
+      "date": "2017-06-06",
+      "npmLock": "npm/yarn-0.26.0.json"
+    },
+    "0.25.4": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.25.4/yarn-0.25.4.js",
+          "hash": "sha256-5TisdVYHmfzO8GRsVgeoPkcrYanIBnXrxNIR1QIx4uE="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.25.4/yarn-0.25.4.js",
+          "hash": "sha256-5TisdVYHmfzO8GRsVgeoPkcrYanIBnXrxNIR1QIx4uE="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.25.4/yarn-0.25.4.js",
+          "hash": "sha256-5TisdVYHmfzO8GRsVgeoPkcrYanIBnXrxNIR1QIx4uE="
+        }
+      },
+      "date": "2017-06-01"
+    },
+    "0.25.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.25.3/yarn-0.25.3.js",
+          "hash": "sha256-EzvFSs2YV81jRsOf4vQUdwJWe02pCJyeOR5AIN+L4YU="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.25.3/yarn-0.25.3.js",
+          "hash": "sha256-EzvFSs2YV81jRsOf4vQUdwJWe02pCJyeOR5AIN+L4YU="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.25.3/yarn-0.25.3.js",
+          "hash": "sha256-EzvFSs2YV81jRsOf4vQUdwJWe02pCJyeOR5AIN+L4YU="
+        }
+      },
+      "date": "2017-05-23"
+    },
+    "0.25.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.25.2/yarn-0.25.2.js",
+          "hash": "sha256-xH194wpCaSObScD8fhPJjHLSWp3DAEb7df/81sKb6bU="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.25.2/yarn-0.25.2.js",
+          "hash": "sha256-xH194wpCaSObScD8fhPJjHLSWp3DAEb7df/81sKb6bU="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.25.2/yarn-0.25.2.js",
+          "hash": "sha256-xH194wpCaSObScD8fhPJjHLSWp3DAEb7df/81sKb6bU="
+        }
+      },
+      "date": "2017-05-15"
+    },
+    "0.25.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.25.1/yarn-0.25.1.js",
+          "hash": "sha256-4rDeph6w6tXp5p0UOtwoJb7I1UeqzUQBDCRm9EU8sDc="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.25.1/yarn-0.25.1.js",
+          "hash": "sha256-4rDeph6w6tXp5p0UOtwoJb7I1UeqzUQBDCRm9EU8sDc="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.25.1/yarn-0.25.1.js",
+          "hash": "sha256-4rDeph6w6tXp5p0UOtwoJb7I1UeqzUQBDCRm9EU8sDc="
+        }
+      },
+      "date": "2017-05-12"
+    },
+    "0.25.0": {
+      "artifacts": {},
+      "date": "2017-05-12"
+    },
+    "0.24.6": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.24.6/yarn-0.24.6.js",
+          "hash": "sha256-3h0uRQq3R7F2kXllnxmA4gDQmPGpZcquWYYH1xXqEqI="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.24.6/yarn-0.24.6.js",
+          "hash": "sha256-3h0uRQq3R7F2kXllnxmA4gDQmPGpZcquWYYH1xXqEqI="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.24.6/yarn-0.24.6.js",
+          "hash": "sha256-3h0uRQq3R7F2kXllnxmA4gDQmPGpZcquWYYH1xXqEqI="
+        }
+      },
+      "date": "2017-05-23"
+    },
+    "0.24.5": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.24.5/yarn-0.24.5.js",
+          "hash": "sha256-iLRB2GQ9WZH0qa0ppyZkcBGlQWCLy0aUNA80tXiogb8="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.24.5/yarn-0.24.5.js",
+          "hash": "sha256-iLRB2GQ9WZH0qa0ppyZkcBGlQWCLy0aUNA80tXiogb8="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.24.5/yarn-0.24.5.js",
+          "hash": "sha256-iLRB2GQ9WZH0qa0ppyZkcBGlQWCLy0aUNA80tXiogb8="
+        }
+      },
+      "date": "2017-05-15"
+    },
+    "0.24.4": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.24.4/yarn-0.24.4.js",
+          "hash": "sha256-SDHY1etdqjRc8nhkTvsNJW+2EbTblW59krDZ2gv9k1U="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.24.4/yarn-0.24.4.js",
+          "hash": "sha256-SDHY1etdqjRc8nhkTvsNJW+2EbTblW59krDZ2gv9k1U="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.24.4/yarn-0.24.4.js",
+          "hash": "sha256-SDHY1etdqjRc8nhkTvsNJW+2EbTblW59krDZ2gv9k1U="
+        }
+      },
+      "date": "2017-05-12"
+    },
+    "0.24.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.24.3/yarn-0.24.3.js",
+          "hash": "sha256-Y0+3bTmQ4uHAkRBMXOrgzsoyOkY4k8TrUchPky03sFQ="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.24.3/yarn-0.24.3.js",
+          "hash": "sha256-Y0+3bTmQ4uHAkRBMXOrgzsoyOkY4k8TrUchPky03sFQ="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.24.3/yarn-0.24.3.js",
+          "hash": "sha256-Y0+3bTmQ4uHAkRBMXOrgzsoyOkY4k8TrUchPky03sFQ="
+        }
+      },
+      "date": "2017-05-12"
+    },
+    "0.24.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.24.2/yarn-0.24.2.js",
+          "hash": "sha256-WdmVfZpotAvN62d0DqK58LSQCvCSL+pFhOWLdu2py9w="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.24.2/yarn-0.24.2.js",
+          "hash": "sha256-WdmVfZpotAvN62d0DqK58LSQCvCSL+pFhOWLdu2py9w="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.24.2/yarn-0.24.2.js",
+          "hash": "sha256-WdmVfZpotAvN62d0DqK58LSQCvCSL+pFhOWLdu2py9w="
+        }
+      },
+      "date": "2017-05-05"
+    },
+    "0.24.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.24.1/yarn-0.24.1.js",
+          "hash": "sha256-0+keDUGChSXTj5AbJkbQCp+0IkbC6XhBz7B51sDa9ZQ="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.24.1/yarn-0.24.1.js",
+          "hash": "sha256-0+keDUGChSXTj5AbJkbQCp+0IkbC6XhBz7B51sDa9ZQ="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.24.1/yarn-0.24.1.js",
+          "hash": "sha256-0+keDUGChSXTj5AbJkbQCp+0IkbC6XhBz7B51sDa9ZQ="
+        }
+      },
+      "date": "2017-05-04"
+    },
+    "0.24.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.24.0/yarn-0.24.0.js",
+          "hash": "sha256-FmPTQlrA8DSANxUsuWZBcJbx9DAxZ5/jqWHqJ6TD66Q="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.24.0/yarn-0.24.0.js",
+          "hash": "sha256-FmPTQlrA8DSANxUsuWZBcJbx9DAxZ5/jqWHqJ6TD66Q="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.24.0/yarn-0.24.0.js",
+          "hash": "sha256-FmPTQlrA8DSANxUsuWZBcJbx9DAxZ5/jqWHqJ6TD66Q="
+        }
+      },
+      "date": "2017-05-04"
+    },
+    "0.23.4": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.23.4/yarn-0.23.4.js",
+          "hash": "sha256-mtu1tz6xhq8g1DDdtSlb4nLQHZnnSrHlXveaoCXSfZg="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.23.4/yarn-0.23.4.js",
+          "hash": "sha256-mtu1tz6xhq8g1DDdtSlb4nLQHZnnSrHlXveaoCXSfZg="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.23.4/yarn-0.23.4.js",
+          "hash": "sha256-mtu1tz6xhq8g1DDdtSlb4nLQHZnnSrHlXveaoCXSfZg="
+        }
+      },
+      "date": "2017-05-02"
+    },
+    "0.23.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.23.3/yarn-0.23.3.js",
+          "hash": "sha256-k5jkxdm33BZRzfOCympFCrm6WLpjfvaXeEAxWWYrZt8="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.23.3/yarn-0.23.3.js",
+          "hash": "sha256-k5jkxdm33BZRzfOCympFCrm6WLpjfvaXeEAxWWYrZt8="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.23.3/yarn-0.23.3.js",
+          "hash": "sha256-k5jkxdm33BZRzfOCympFCrm6WLpjfvaXeEAxWWYrZt8="
+        }
+      },
+      "date": "2017-04-27"
+    },
+    "0.23.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.23.2/yarn-0.23.2.js",
+          "hash": "sha256-ceEQxfOY0y3tuDNChy8rbgfHZXUfkvPWxjuzqK8xCyw="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.23.2/yarn-0.23.2.js",
+          "hash": "sha256-ceEQxfOY0y3tuDNChy8rbgfHZXUfkvPWxjuzqK8xCyw="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.23.2/yarn-0.23.2.js",
+          "hash": "sha256-ceEQxfOY0y3tuDNChy8rbgfHZXUfkvPWxjuzqK8xCyw="
+        }
+      },
+      "date": "2017-04-12"
+    },
+    "0.23.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.23.1/yarn-0.23.1.js",
+          "hash": "sha256-BAd/D1S+/oq5GoCC6zSfxNsQ6+sPyDkYdGz4auRJ2iQ="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.23.1/yarn-0.23.1.js",
+          "hash": "sha256-BAd/D1S+/oq5GoCC6zSfxNsQ6+sPyDkYdGz4auRJ2iQ="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.23.1/yarn-0.23.1.js",
+          "hash": "sha256-BAd/D1S+/oq5GoCC6zSfxNsQ6+sPyDkYdGz4auRJ2iQ="
+        }
+      },
+      "date": "2017-04-07"
+    },
+    "0.23.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.23.0/yarn-0.23.0.js",
+          "hash": "sha256-bIC8SANb+Jw04VP3GVOSHREeqT7nIEjN5wWVtsnqc8M="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.23.0/yarn-0.23.0.js",
+          "hash": "sha256-bIC8SANb+Jw04VP3GVOSHREeqT7nIEjN5wWVtsnqc8M="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.23.0/yarn-0.23.0.js",
+          "hash": "sha256-bIC8SANb+Jw04VP3GVOSHREeqT7nIEjN5wWVtsnqc8M="
+        }
+      },
+      "date": "2017-04-06"
+    },
+    "0.22.1": {
+      "artifacts": {},
+      "date": "2017-04-20"
+    },
+    "0.22.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.22.0/yarn-0.22.0.js",
+          "hash": "sha256-QyPJs3rhzSNbIQvKFAE9/M7Ox6kcXxTYLPib2aS196s="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.22.0/yarn-0.22.0.js",
+          "hash": "sha256-QyPJs3rhzSNbIQvKFAE9/M7Ox6kcXxTYLPib2aS196s="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.22.0/yarn-0.22.0.js",
+          "hash": "sha256-QyPJs3rhzSNbIQvKFAE9/M7Ox6kcXxTYLPib2aS196s="
+        }
+      },
+      "date": "2017-03-06"
+    },
+    "0.21.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.21.3/yarn-0.21.3.js",
+          "hash": "sha256-M7NyjZb5RP3i3ltfdl6R1lFlDB9DPRAX+poFCYSjGCc="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.21.3/yarn-0.21.3.js",
+          "hash": "sha256-M7NyjZb5RP3i3ltfdl6R1lFlDB9DPRAX+poFCYSjGCc="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.21.3/yarn-0.21.3.js",
+          "hash": "sha256-M7NyjZb5RP3i3ltfdl6R1lFlDB9DPRAX+poFCYSjGCc="
+        }
+      },
+      "date": "2017-02-27"
+    },
+    "0.21.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.21.2/yarn-0.21.2.js",
+          "hash": "sha256-b/cqEVgTgBLGVh1OSUhFNzcEvvo/bPD4MVahzhXVLb0="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.21.2/yarn-0.21.2.js",
+          "hash": "sha256-b/cqEVgTgBLGVh1OSUhFNzcEvvo/bPD4MVahzhXVLb0="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.21.2/yarn-0.21.2.js",
+          "hash": "sha256-b/cqEVgTgBLGVh1OSUhFNzcEvvo/bPD4MVahzhXVLb0="
+        }
+      },
+      "date": "2017-02-20"
+    },
+    "0.21.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.21.1/yarn-0.21.1.js",
+          "hash": "sha256-2HFKr3Tn4kSrDEkjjKDTCvkqCjFo9uYw7+FEOJQX/uw="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.21.1/yarn-0.21.1.js",
+          "hash": "sha256-2HFKr3Tn4kSrDEkjjKDTCvkqCjFo9uYw7+FEOJQX/uw="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.21.1/yarn-0.21.1.js",
+          "hash": "sha256-2HFKr3Tn4kSrDEkjjKDTCvkqCjFo9uYw7+FEOJQX/uw="
+        }
+      },
+      "date": "2017-02-20"
+    },
+    "0.21.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.21.0/yarn-0.21.0.js",
+          "hash": "sha256-wTKHK71WBNA7APUPWbRYc27RbiNEsawTyrN9aADZDPE="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.21.0/yarn-0.21.0.js",
+          "hash": "sha256-wTKHK71WBNA7APUPWbRYc27RbiNEsawTyrN9aADZDPE="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.21.0/yarn-0.21.0.js",
+          "hash": "sha256-wTKHK71WBNA7APUPWbRYc27RbiNEsawTyrN9aADZDPE="
+        }
+      },
+      "date": "2017-02-14"
+    },
+    "0.20.4": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.20.4/yarn-0.20.4.js",
+          "hash": "sha256-r876OZ7mYyi5g9agfVlXOrt4qJ8PT0IvZX2FjpQ/7ts="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.20.4/yarn-0.20.4.js",
+          "hash": "sha256-r876OZ7mYyi5g9agfVlXOrt4qJ8PT0IvZX2FjpQ/7ts="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.20.4/yarn-0.20.4.js",
+          "hash": "sha256-r876OZ7mYyi5g9agfVlXOrt4qJ8PT0IvZX2FjpQ/7ts="
+        }
+      },
+      "date": "2017-02-27"
+    },
+    "0.20.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.20.3/yarn-0.20.3.js",
+          "hash": "sha256-joCHq3Th9R3JZp4vmx26Dq+gRoEVVAVTK7vx+4w+toY="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.20.3/yarn-0.20.3.js",
+          "hash": "sha256-joCHq3Th9R3JZp4vmx26Dq+gRoEVVAVTK7vx+4w+toY="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.20.3/yarn-0.20.3.js",
+          "hash": "sha256-joCHq3Th9R3JZp4vmx26Dq+gRoEVVAVTK7vx+4w+toY="
+        }
+      },
+      "date": "2017-02-14"
+    },
+    "0.20.2": {
+      "artifacts": {},
+      "date": "2017-02-14"
+    },
+    "0.20.1": {
+      "artifacts": {},
+      "date": "2017-02-14"
+    },
+    "0.20.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.20.0/yarn-0.20.0.js",
+          "hash": "sha256-nB7iqied19VgZmScVr64AeT2odWumcDTluH4wdcecDc="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.20.0/yarn-0.20.0.js",
+          "hash": "sha256-nB7iqied19VgZmScVr64AeT2odWumcDTluH4wdcecDc="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.20.0/yarn-0.20.0.js",
+          "hash": "sha256-nB7iqied19VgZmScVr64AeT2odWumcDTluH4wdcecDc="
+        }
+      },
+      "date": "2017-01-30"
+    },
+    "0.19.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.19.1/yarn-0.19.1.js",
+          "hash": "sha256-/nybs71nYxtDqrepFw0krSOObThoG3ypxmvy+KwXYUk="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.19.1/yarn-0.19.1.js",
+          "hash": "sha256-/nybs71nYxtDqrepFw0krSOObThoG3ypxmvy+KwXYUk="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.19.1/yarn-0.19.1.js",
+          "hash": "sha256-/nybs71nYxtDqrepFw0krSOObThoG3ypxmvy+KwXYUk="
+        }
+      },
+      "date": "2017-01-16"
+    },
+    "0.19.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.19.0/yarn-0.19.0.js",
+          "hash": "sha256-fdzLr6IMlEM/HJJtUOkRjqKEgoE919Ik8OCr5YgfX6w="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.19.0/yarn-0.19.0.js",
+          "hash": "sha256-fdzLr6IMlEM/HJJtUOkRjqKEgoE919Ik8OCr5YgfX6w="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.19.0/yarn-0.19.0.js",
+          "hash": "sha256-fdzLr6IMlEM/HJJtUOkRjqKEgoE919Ik8OCr5YgfX6w="
+        }
+      },
+      "date": "2017-01-07"
+    },
+    "0.18.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.18.2/yarn-0.18.2.js",
+          "hash": "sha256-CX5zbNIUkmlW991TNfsvokw/Tp/qJEwTPrpNsnzRFPE="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.18.2/yarn-0.18.2.js",
+          "hash": "sha256-CX5zbNIUkmlW991TNfsvokw/Tp/qJEwTPrpNsnzRFPE="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.18.2/yarn-0.18.2.js",
+          "hash": "sha256-CX5zbNIUkmlW991TNfsvokw/Tp/qJEwTPrpNsnzRFPE="
+        }
+      },
+      "date": "2017-02-23"
+    },
+    "0.18.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.18.1/yarn-0.18.1.js",
+          "hash": "sha256-9rcK/JTnf5sUD90yBK6QAWxAfzMcXm8bKF+fO8Fb/2Y="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.18.1/yarn-0.18.1.js",
+          "hash": "sha256-9rcK/JTnf5sUD90yBK6QAWxAfzMcXm8bKF+fO8Fb/2Y="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.18.1/yarn-0.18.1.js",
+          "hash": "sha256-9rcK/JTnf5sUD90yBK6QAWxAfzMcXm8bKF+fO8Fb/2Y="
+        }
+      },
+      "date": "2016-12-17"
+    },
+    "0.18.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.18.0/yarn-0.18.0.js",
+          "hash": "sha256-IREAgL/fSWgY0EHVcZ3OesjlkJVhxNpk5iuqkXZ3QaQ="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.18.0/yarn-0.18.0.js",
+          "hash": "sha256-IREAgL/fSWgY0EHVcZ3OesjlkJVhxNpk5iuqkXZ3QaQ="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.18.0/yarn-0.18.0.js",
+          "hash": "sha256-IREAgL/fSWgY0EHVcZ3OesjlkJVhxNpk5iuqkXZ3QaQ="
+        }
+      },
+      "date": "2016-12-04"
+    },
+    "0.17.10": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.17.10/yarn-0.17.10.js",
+          "hash": "sha256-EXhDKjS7a1sRtu8bgu7NZ/koNVXPbQOXMcslnTUs7O8="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.17.10/yarn-0.17.10.js",
+          "hash": "sha256-EXhDKjS7a1sRtu8bgu7NZ/koNVXPbQOXMcslnTUs7O8="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.17.10/yarn-0.17.10.js",
+          "hash": "sha256-EXhDKjS7a1sRtu8bgu7NZ/koNVXPbQOXMcslnTUs7O8="
+        }
+      },
+      "date": "2016-12-01"
+    },
+    "0.17.9": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.17.9/yarn-0.17.9.js",
+          "hash": "sha256-4ZIePdqiLEMn5aQcxMFxCgX7jQjHAAKco/kWXsDZ6Fw="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.17.9/yarn-0.17.9.js",
+          "hash": "sha256-4ZIePdqiLEMn5aQcxMFxCgX7jQjHAAKco/kWXsDZ6Fw="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.17.9/yarn-0.17.9.js",
+          "hash": "sha256-4ZIePdqiLEMn5aQcxMFxCgX7jQjHAAKco/kWXsDZ6Fw="
+        }
+      },
+      "date": "2016-11-25"
+    },
+    "0.17.8": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.17.8/yarn-0.17.8.js",
+          "hash": "sha256-Nw4Jxzd02A8fk5IqM/hahtTj2w8FXT6BLBJIa6staMw="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.17.8/yarn-0.17.8.js",
+          "hash": "sha256-Nw4Jxzd02A8fk5IqM/hahtTj2w8FXT6BLBJIa6staMw="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.17.8/yarn-0.17.8.js",
+          "hash": "sha256-Nw4Jxzd02A8fk5IqM/hahtTj2w8FXT6BLBJIa6staMw="
+        }
+      },
+      "date": "2016-11-21"
+    },
+    "0.17.7": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.17.7/yarn-0.17.7.js",
+          "hash": "sha256-acR9mTkpcb609o37eeEdFeHxFP395M2XDyZXF1FWBvI="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.17.7/yarn-0.17.7.js",
+          "hash": "sha256-acR9mTkpcb609o37eeEdFeHxFP395M2XDyZXF1FWBvI="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.17.7/yarn-0.17.7.js",
+          "hash": "sha256-acR9mTkpcb609o37eeEdFeHxFP395M2XDyZXF1FWBvI="
+        }
+      },
+      "date": "2016-11-21"
+    },
+    "0.17.6": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.17.6/yarn-0.17.6.js",
+          "hash": "sha256-FUxQ55nlfYm6ceWk0CPm0H6PsenhGBbaJ1WRWXigoE0="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.17.6/yarn-0.17.6.js",
+          "hash": "sha256-FUxQ55nlfYm6ceWk0CPm0H6PsenhGBbaJ1WRWXigoE0="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.17.6/yarn-0.17.6.js",
+          "hash": "sha256-FUxQ55nlfYm6ceWk0CPm0H6PsenhGBbaJ1WRWXigoE0="
+        }
+      },
+      "date": "2016-11-18"
+    },
+    "0.17.5": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.17.5/yarn-0.17.5.js",
+          "hash": "sha256-5WIhzRUSbUw7/btDFAXkcCiHSBhVXgYY9wDBzgRRrpk="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.17.5/yarn-0.17.5.js",
+          "hash": "sha256-5WIhzRUSbUw7/btDFAXkcCiHSBhVXgYY9wDBzgRRrpk="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.17.5/yarn-0.17.5.js",
+          "hash": "sha256-5WIhzRUSbUw7/btDFAXkcCiHSBhVXgYY9wDBzgRRrpk="
+        }
+      },
+      "date": "2016-11-18"
+    },
+    "0.17.4": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.17.4/yarn-0.17.4.js",
+          "hash": "sha256-Hhrqbcb1ryfo2Lqs1226x4Al/b/Bqf1W5DjhFCcbong="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.17.4/yarn-0.17.4.js",
+          "hash": "sha256-Hhrqbcb1ryfo2Lqs1226x4Al/b/Bqf1W5DjhFCcbong="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.17.4/yarn-0.17.4.js",
+          "hash": "sha256-Hhrqbcb1ryfo2Lqs1226x4Al/b/Bqf1W5DjhFCcbong="
+        }
+      },
+      "date": "2016-11-17"
+    },
+    "0.17.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.17.3/yarn-0.17.3.js",
+          "hash": "sha256-Eu7GlBfx9cQGtXk3iTR+E2GVGhXSWwScbeddDXPbXRM="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.17.3/yarn-0.17.3.js",
+          "hash": "sha256-Eu7GlBfx9cQGtXk3iTR+E2GVGhXSWwScbeddDXPbXRM="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.17.3/yarn-0.17.3.js",
+          "hash": "sha256-Eu7GlBfx9cQGtXk3iTR+E2GVGhXSWwScbeddDXPbXRM="
+        }
+      },
+      "date": "2016-11-16"
+    },
+    "0.17.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.17.2/yarn-0.17.2.js",
+          "hash": "sha256-3zDH9t7yhswUeX7jpwwLUApML6WJlHeixC7Wmu5vnk0="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.17.2/yarn-0.17.2.js",
+          "hash": "sha256-3zDH9t7yhswUeX7jpwwLUApML6WJlHeixC7Wmu5vnk0="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.17.2/yarn-0.17.2.js",
+          "hash": "sha256-3zDH9t7yhswUeX7jpwwLUApML6WJlHeixC7Wmu5vnk0="
+        }
+      },
+      "date": "2016-11-15"
+    },
+    "0.17.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.17.0/yarn-0.17.0.js",
+          "hash": "sha256-zKxkNnGwVXTLT3ECmXLD/njPbfAMeWROsgAH8Dg+08I="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.17.0/yarn-0.17.0.js",
+          "hash": "sha256-zKxkNnGwVXTLT3ECmXLD/njPbfAMeWROsgAH8Dg+08I="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.17.0/yarn-0.17.0.js",
+          "hash": "sha256-zKxkNnGwVXTLT3ECmXLD/njPbfAMeWROsgAH8Dg+08I="
+        }
+      },
+      "date": "2016-11-14"
+    },
+    "0.16.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.16.1/yarn-0.16.1.js",
+          "hash": "sha256-rKxQHkTilhe9MEzdktfiOHi3fb7zr96V2jSjtS2+SsU="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.16.1/yarn-0.16.1.js",
+          "hash": "sha256-rKxQHkTilhe9MEzdktfiOHi3fb7zr96V2jSjtS2+SsU="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.16.1/yarn-0.16.1.js",
+          "hash": "sha256-rKxQHkTilhe9MEzdktfiOHi3fb7zr96V2jSjtS2+SsU="
+        }
+      },
+      "date": "2016-10-19"
+    },
+    "0.16.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.16.0/yarn-0.16.0.js",
+          "hash": "sha256-vtY5n8WuPefk0yXqJOzZNdAQ7595PAsa/sSZWzr2WEQ="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.16.0/yarn-0.16.0.js",
+          "hash": "sha256-vtY5n8WuPefk0yXqJOzZNdAQ7595PAsa/sSZWzr2WEQ="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.16.0/yarn-0.16.0.js",
+          "hash": "sha256-vtY5n8WuPefk0yXqJOzZNdAQ7595PAsa/sSZWzr2WEQ="
+        }
+      },
+      "date": "2016-10-18"
+    },
+    "0.15.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-0.15.1.tgz",
+          "hash": "sha512-BVUS/bxl1Y6R5CsZjaCaPUcjgw6Mfnmv3l+Ciom0m5QMfeaVLufzPf+WgWMcFaaIGp9XeZOKZj36q/05jSOc6A=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-0.15.1.tgz",
+          "hash": "sha512-BVUS/bxl1Y6R5CsZjaCaPUcjgw6Mfnmv3l+Ciom0m5QMfeaVLufzPf+WgWMcFaaIGp9XeZOKZj36q/05jSOc6A=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/yarn/-/yarn-0.15.1.tgz",
+          "hash": "sha512-BVUS/bxl1Y6R5CsZjaCaPUcjgw6Mfnmv3l+Ciom0m5QMfeaVLufzPf+WgWMcFaaIGp9XeZOKZj36q/05jSOc6A=="
+        }
+      },
+      "date": "2016-10-11",
+      "npmLock": "npm/yarn-0.15.1.json"
+    },
+    "0.15.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.15.0/yarn-0.15.0.js",
+          "hash": "sha256-ITnG0UuhMfkvoGaBFwVxdda8q2xgaKvkEsmuYBrSAMw="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.15.0/yarn-0.15.0.js",
+          "hash": "sha256-ITnG0UuhMfkvoGaBFwVxdda8q2xgaKvkEsmuYBrSAMw="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.15.0/yarn-0.15.0.js",
+          "hash": "sha256-ITnG0UuhMfkvoGaBFwVxdda8q2xgaKvkEsmuYBrSAMw="
+        }
+      },
+      "date": "2016-10-11"
+    },
+    "0.14.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.14.3/yarn-0.14.3.js",
+          "hash": "sha256-ut89i28fyltEUPpJIs94BIpH88ScwpZUUo5msBeqvVA="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.14.3/yarn-0.14.3.js",
+          "hash": "sha256-ut89i28fyltEUPpJIs94BIpH88ScwpZUUo5msBeqvVA="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.14.3/yarn-0.14.3.js",
+          "hash": "sha256-ut89i28fyltEUPpJIs94BIpH88ScwpZUUo5msBeqvVA="
+        }
+      },
+      "date": "2016-10-05"
+    },
+    "0.14.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.14.2/yarn-0.14.2.js",
+          "hash": "sha256-5sl86rWQdJeGPf2eXW49yH+J6LEc3gGprLJATze7fvk="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.14.2/yarn-0.14.2.js",
+          "hash": "sha256-5sl86rWQdJeGPf2eXW49yH+J6LEc3gGprLJATze7fvk="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.14.2/yarn-0.14.2.js",
+          "hash": "sha256-5sl86rWQdJeGPf2eXW49yH+J6LEc3gGprLJATze7fvk="
+        }
+      },
+      "date": "2016-10-05"
+    },
+    "0.14.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.14.1/yarn-0.14.1.js",
+          "hash": "sha256-fAMIMrJ+c1bVAl6DlDFW3Ba8/c0UYTOAIctyw1QIIDs="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.14.1/yarn-0.14.1.js",
+          "hash": "sha256-fAMIMrJ+c1bVAl6DlDFW3Ba8/c0UYTOAIctyw1QIIDs="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.14.1/yarn-0.14.1.js",
+          "hash": "sha256-fAMIMrJ+c1bVAl6DlDFW3Ba8/c0UYTOAIctyw1QIIDs="
+        }
+      },
+      "date": "2016-10-04"
+    },
+    "0.14.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.14.0/yarn-v0.14.0.tar.gz",
+          "hash": "sha256-Bws6yykvSkFKr6SzuqlS37/yAoR0MSdylM4Yk/REwTo="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.14.0/yarn-v0.14.0.tar.gz",
+          "hash": "sha256-Bws6yykvSkFKr6SzuqlS37/yAoR0MSdylM4Yk/REwTo="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.14.0/yarn-v0.14.0.tar.gz",
+          "hash": "sha256-Bws6yykvSkFKr6SzuqlS37/yAoR0MSdylM4Yk/REwTo="
+        }
+      },
+      "date": "2016-10-03"
+    },
+    "0.13.6": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.13.6/kpm-v0.13.6.tar.gz",
+          "hash": "sha256-Y6ie3UJCPuLJEd8eIj57kxW94YZZC3Lg/XExdo8iZtk="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.13.6/kpm-v0.13.6.tar.gz",
+          "hash": "sha256-Y6ie3UJCPuLJEd8eIj57kxW94YZZC3Lg/XExdo8iZtk="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.13.6/kpm-v0.13.6.tar.gz",
+          "hash": "sha256-Y6ie3UJCPuLJEd8eIj57kxW94YZZC3Lg/XExdo8iZtk="
+        }
+      },
+      "date": "2016-09-30"
+    },
+    "0.13.5": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.13.5/kpm-v0.13.5.tar.gz",
+          "hash": "sha256-mfPHIyuoOhSzBBEzvssxUQXhRy25a9qfdyGdy8e6APY="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.13.5/kpm-v0.13.5.tar.gz",
+          "hash": "sha256-mfPHIyuoOhSzBBEzvssxUQXhRy25a9qfdyGdy8e6APY="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.13.5/kpm-v0.13.5.tar.gz",
+          "hash": "sha256-mfPHIyuoOhSzBBEzvssxUQXhRy25a9qfdyGdy8e6APY="
+        }
+      },
+      "date": "2016-09-23"
+    },
+    "0.13.4": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.13.4/kpm-v0.13.4.tar.gz",
+          "hash": "sha256-wHPwEtDAH7d/CANNXOkZSYud96aCCw1m3SA2PZSo0AU="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.13.4/kpm-v0.13.4.tar.gz",
+          "hash": "sha256-wHPwEtDAH7d/CANNXOkZSYud96aCCw1m3SA2PZSo0AU="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.13.4/kpm-v0.13.4.tar.gz",
+          "hash": "sha256-wHPwEtDAH7d/CANNXOkZSYud96aCCw1m3SA2PZSo0AU="
+        }
+      },
+      "date": "2016-09-21"
+    },
+    "0.13.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.13.3/kpm-v0.13.3.tar.gz",
+          "hash": "sha256-7TFRtXvjqp8N5tRQNaSpGuy3j/ILBhrkkIyxIrQbZLA="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.13.3/kpm-v0.13.3.tar.gz",
+          "hash": "sha256-7TFRtXvjqp8N5tRQNaSpGuy3j/ILBhrkkIyxIrQbZLA="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.13.3/kpm-v0.13.3.tar.gz",
+          "hash": "sha256-7TFRtXvjqp8N5tRQNaSpGuy3j/ILBhrkkIyxIrQbZLA="
+        }
+      },
+      "date": "2016-09-20"
+    },
+    "0.13.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.13.2/kpm-v0.13.2.tar.gz",
+          "hash": "sha256-M/etv747UP2LUcUbgQN41XAmzCWuyIXB6h9OTBsBnNc="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.13.2/kpm-v0.13.2.tar.gz",
+          "hash": "sha256-M/etv747UP2LUcUbgQN41XAmzCWuyIXB6h9OTBsBnNc="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.13.2/kpm-v0.13.2.tar.gz",
+          "hash": "sha256-M/etv747UP2LUcUbgQN41XAmzCWuyIXB6h9OTBsBnNc="
+        }
+      },
+      "date": "2016-09-19"
+    },
+    "0.13.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.13.0/kpm-v0.13.0.tar.gz",
+          "hash": "sha256-V8DugJ/jXygMcfqJmdCGm+/Mc+ujTLBVBU0YzxwFZ6k="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.13.0/kpm-v0.13.0.tar.gz",
+          "hash": "sha256-V8DugJ/jXygMcfqJmdCGm+/Mc+ujTLBVBU0YzxwFZ6k="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.13.0/kpm-v0.13.0.tar.gz",
+          "hash": "sha256-V8DugJ/jXygMcfqJmdCGm+/Mc+ujTLBVBU0YzxwFZ6k="
+        }
+      },
+      "date": "2016-09-14"
+    },
+    "0.12.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.12.0/kpm-v0.12.0.tar.gz",
+          "hash": "sha256-LSO5VqIFDWuSHnz4BaNR4lZchLursmYnvDI3sRioNPs="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.12.0/kpm-v0.12.0.tar.gz",
+          "hash": "sha256-LSO5VqIFDWuSHnz4BaNR4lZchLursmYnvDI3sRioNPs="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.12.0/kpm-v0.12.0.tar.gz",
+          "hash": "sha256-LSO5VqIFDWuSHnz4BaNR4lZchLursmYnvDI3sRioNPs="
+        }
+      },
+      "date": "2016-09-06"
+    },
+    "0.11.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.11.2/kpm-v0.11.2.tar.gz",
+          "hash": "sha256-hEJe3bZHSQqAnDntgErhu8OIRniH3lsoOZqvGIcU7Pw="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.11.2/kpm-v0.11.2.tar.gz",
+          "hash": "sha256-hEJe3bZHSQqAnDntgErhu8OIRniH3lsoOZqvGIcU7Pw="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.11.2/kpm-v0.11.2.tar.gz",
+          "hash": "sha256-hEJe3bZHSQqAnDntgErhu8OIRniH3lsoOZqvGIcU7Pw="
+        }
+      },
+      "date": "2016-08-26"
+    },
+    "0.11.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.11.0/kpm-v0.11.0.tar.gz",
+          "hash": "sha256-KhZhZ0quJgvcI3YrJr9uH6kmjZpcAD7ax/mGTujOkZ0="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.11.0/kpm-v0.11.0.tar.gz",
+          "hash": "sha256-KhZhZ0quJgvcI3YrJr9uH6kmjZpcAD7ax/mGTujOkZ0="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.11.0/kpm-v0.11.0.tar.gz",
+          "hash": "sha256-KhZhZ0quJgvcI3YrJr9uH6kmjZpcAD7ax/mGTujOkZ0="
+        }
+      },
+      "date": "2016-08-26"
+    },
+    "0.10.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.10.1/kpm-v0.10.1.tar.gz",
+          "hash": "sha256-3gZ4lZL8lIkPGF5hEFN5i7STCFxjJNOj6Ocw92QQhyw="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.10.1/kpm-v0.10.1.tar.gz",
+          "hash": "sha256-3gZ4lZL8lIkPGF5hEFN5i7STCFxjJNOj6Ocw92QQhyw="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.10.1/kpm-v0.10.1.tar.gz",
+          "hash": "sha256-3gZ4lZL8lIkPGF5hEFN5i7STCFxjJNOj6Ocw92QQhyw="
+        }
+      },
+      "date": "2016-08-26"
+    },
+    "0.10.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.10.0/kpm-v0.10.0.tar.gz",
+          "hash": "sha256-HdS5aDh3tfDSZ2POt9EIo9kRxJTzfVRpHonByNq0joQ="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.10.0/kpm-v0.10.0.tar.gz",
+          "hash": "sha256-HdS5aDh3tfDSZ2POt9EIo9kRxJTzfVRpHonByNq0joQ="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.10.0/kpm-v0.10.0.tar.gz",
+          "hash": "sha256-HdS5aDh3tfDSZ2POt9EIo9kRxJTzfVRpHonByNq0joQ="
+        }
+      },
+      "date": "2016-08-20"
+    },
+    "0.9.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.9.0/kpm-v0.9.0.tar.gz",
+          "hash": "sha256-QeBPo6O7F0re1qC92HucQz9uXchWRAM8SeRBzxLhmeQ="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.9.0/kpm-v0.9.0.tar.gz",
+          "hash": "sha256-QeBPo6O7F0re1qC92HucQz9uXchWRAM8SeRBzxLhmeQ="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.9.0/kpm-v0.9.0.tar.gz",
+          "hash": "sha256-QeBPo6O7F0re1qC92HucQz9uXchWRAM8SeRBzxLhmeQ="
+        }
+      },
+      "date": "2016-08-13"
+    },
+    "0.8.3": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.8.3/kpm-v0.8.3.tar.gz",
+          "hash": "sha256-EbIKmqi5rcbXx3NmkZSJeRnhGaEpptV82yW9vVQ2Yio="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.8.3/kpm-v0.8.3.tar.gz",
+          "hash": "sha256-EbIKmqi5rcbXx3NmkZSJeRnhGaEpptV82yW9vVQ2Yio="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.8.3/kpm-v0.8.3.tar.gz",
+          "hash": "sha256-EbIKmqi5rcbXx3NmkZSJeRnhGaEpptV82yW9vVQ2Yio="
+        }
+      },
+      "date": "2016-08-10"
+    },
+    "0.8.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.8.2/kpm-v0.8.2.tar.gz",
+          "hash": "sha256-vloo4+o0aHJFziRVp3jLdT/eRWYf3TKIEJu3WOqmlz0="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.8.2/kpm-v0.8.2.tar.gz",
+          "hash": "sha256-vloo4+o0aHJFziRVp3jLdT/eRWYf3TKIEJu3WOqmlz0="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.8.2/kpm-v0.8.2.tar.gz",
+          "hash": "sha256-vloo4+o0aHJFziRVp3jLdT/eRWYf3TKIEJu3WOqmlz0="
+        }
+      },
+      "date": "2016-08-04"
+    },
+    "0.8.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.8.1/kpm-v0.8.1.tar.gz",
+          "hash": "sha256-KltVJ8KH+kEdgB5risVld/IWlOPeOIxwxxz6qKMpPf0="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.8.1/kpm-v0.8.1.tar.gz",
+          "hash": "sha256-KltVJ8KH+kEdgB5risVld/IWlOPeOIxwxxz6qKMpPf0="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.8.1/kpm-v0.8.1.tar.gz",
+          "hash": "sha256-KltVJ8KH+kEdgB5risVld/IWlOPeOIxwxxz6qKMpPf0="
+        }
+      },
+      "date": "2016-08-02"
+    },
+    "0.7.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.7.1/fb-kpm-v0.7.1.tar.gz",
+          "hash": "sha256-5rrX/v4mEQ0xE3QdybPaaRVi27ClQuWIJLjeKeU5XHM="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.7.1/fb-kpm-v0.7.1.tar.gz",
+          "hash": "sha256-5rrX/v4mEQ0xE3QdybPaaRVi27ClQuWIJLjeKeU5XHM="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.7.1/fb-kpm-v0.7.1.tar.gz",
+          "hash": "sha256-5rrX/v4mEQ0xE3QdybPaaRVi27ClQuWIJLjeKeU5XHM="
+        }
+      },
+      "date": "2016-07-22"
+    },
+    "0.7.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.7.0/fb-kpm-v0.7.0.tar.gz",
+          "hash": "sha256-7fq90uCYrK4AhWM+DH+LFL7KzwnE1s4Do34yL6Gvt2g="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.7.0/fb-kpm-v0.7.0.tar.gz",
+          "hash": "sha256-7fq90uCYrK4AhWM+DH+LFL7KzwnE1s4Do34yL6Gvt2g="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/v0.7.0/fb-kpm-v0.7.0.tar.gz",
+          "hash": "sha256-7fq90uCYrK4AhWM+DH+LFL7KzwnE1s4Do34yL6Gvt2g="
+        }
+      },
+      "date": "2016-07-22"
+    },
+    "0.6.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/0.6.1/fb-kpm-v0.6.1.tar.gz",
+          "hash": "sha256-Lj6pgtP7HITazffNFpvMqT1RQaPP+gUXtlDo/reRlig="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/0.6.1/fb-kpm-v0.6.1.tar.gz",
+          "hash": "sha256-Lj6pgtP7HITazffNFpvMqT1RQaPP+gUXtlDo/reRlig="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/0.6.1/fb-kpm-v0.6.1.tar.gz",
+          "hash": "sha256-Lj6pgtP7HITazffNFpvMqT1RQaPP+gUXtlDo/reRlig="
+        }
+      },
+      "date": "2016-07-22"
+    },
+    "0.6.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/0.6.0/fb-kpm-v0.6.0.tar.gz",
+          "hash": "sha256-a+b7rmNl3Zhw4/mSB72ewqufNJhZZalHeWYsZz1YbIU="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/0.6.0/fb-kpm-v0.6.0.tar.gz",
+          "hash": "sha256-a+b7rmNl3Zhw4/mSB72ewqufNJhZZalHeWYsZz1YbIU="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/0.6.0/fb-kpm-v0.6.0.tar.gz",
+          "hash": "sha256-a+b7rmNl3Zhw4/mSB72ewqufNJhZZalHeWYsZz1YbIU="
+        }
+      },
+      "date": "2016-07-22"
+    },
+    "0.5.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/0.5.0/fb-kpm-v0.5.0.tar.gz",
+          "hash": "sha256-kr2XrByMwUwhSsYAqA6Ab6GAFrgV1z+mQuAewv1nqvg="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/0.5.0/fb-kpm-v0.5.0.tar.gz",
+          "hash": "sha256-kr2XrByMwUwhSsYAqA6Ab6GAFrgV1z+mQuAewv1nqvg="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/0.5.0/fb-kpm-v0.5.0.tar.gz",
+          "hash": "sha256-kr2XrByMwUwhSsYAqA6Ab6GAFrgV1z+mQuAewv1nqvg="
+        }
+      },
+      "date": "2016-07-22"
+    },
+    "0.4.9": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/0.4.9/fb-kpm-v0.4.9.tar.gz",
+          "hash": "sha256-vEBuXK3lDQ2Pgse6J79ycXkt+aI4l5BQ3xGYQzn0hO8="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/0.4.9/fb-kpm-v0.4.9.tar.gz",
+          "hash": "sha256-vEBuXK3lDQ2Pgse6J79ycXkt+aI4l5BQ3xGYQzn0hO8="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/0.4.9/fb-kpm-v0.4.9.tar.gz",
+          "hash": "sha256-vEBuXK3lDQ2Pgse6J79ycXkt+aI4l5BQ3xGYQzn0hO8="
+        }
+      },
+      "date": "2016-07-22"
+    },
+    "0.4.8": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/0.4.8/fb-kpm-v0.4.8.tar.gz",
+          "hash": "sha256-QXfQb2ZT7l9YBrghaeNJYXCns2jLrXK/94lo4l4lp+M="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/0.4.8/fb-kpm-v0.4.8.tar.gz",
+          "hash": "sha256-QXfQb2ZT7l9YBrghaeNJYXCns2jLrXK/94lo4l4lp+M="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/0.4.8/fb-kpm-v0.4.8.tar.gz",
+          "hash": "sha256-QXfQb2ZT7l9YBrghaeNJYXCns2jLrXK/94lo4l4lp+M="
+        }
+      },
+      "date": "2016-07-07"
+    },
+    "0.4.7": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/0.4.7/fb-kpm-v0.4.7.tar.gz",
+          "hash": "sha256-nKLHlmloCXPRfINTS6JqwLQZpKYfbWMXgZIyrnPutNM="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/0.4.7/fb-kpm-v0.4.7.tar.gz",
+          "hash": "sha256-nKLHlmloCXPRfINTS6JqwLQZpKYfbWMXgZIyrnPutNM="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/0.4.7/fb-kpm-v0.4.7.tar.gz",
+          "hash": "sha256-nKLHlmloCXPRfINTS6JqwLQZpKYfbWMXgZIyrnPutNM="
+        }
+      },
+      "date": "2016-07-05"
+    },
+    "0.4.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/0.4.2/fb-kpm-v0.4.2.tar.gz",
+          "hash": "sha256-BuQtvsWujmDQCVer1u/OUENcKQdgehD/bioieqs3xtA="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/0.4.2/fb-kpm-v0.4.2.tar.gz",
+          "hash": "sha256-BuQtvsWujmDQCVer1u/OUENcKQdgehD/bioieqs3xtA="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/0.4.2/fb-kpm-v0.4.2.tar.gz",
+          "hash": "sha256-BuQtvsWujmDQCVer1u/OUENcKQdgehD/bioieqs3xtA="
+        }
+      },
+      "date": "2016-07-01"
+    },
+    "0.4.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/0.4.1/fb-kpm-v0.4.1.tar.gz",
+          "hash": "sha256-Y9Bq8AKMRXFych10Zl+XmXh9y7sKHbBYHuj8ProQGRA="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/0.4.1/fb-kpm-v0.4.1.tar.gz",
+          "hash": "sha256-Y9Bq8AKMRXFych10Zl+XmXh9y7sKHbBYHuj8ProQGRA="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/0.4.1/fb-kpm-v0.4.1.tar.gz",
+          "hash": "sha256-Y9Bq8AKMRXFych10Zl+XmXh9y7sKHbBYHuj8ProQGRA="
+        }
+      },
+      "date": "2016-06-29"
+    },
+    "0.4.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/0.4.0/fb-kpm-v0.4.0.tar.gz",
+          "hash": "sha256-lv8yDKAQhPmNiIeiUA30qoGbw1KFc97I66/csXRXCFo="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/0.4.0/fb-kpm-v0.4.0.tar.gz",
+          "hash": "sha256-lv8yDKAQhPmNiIeiUA30qoGbw1KFc97I66/csXRXCFo="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/0.4.0/fb-kpm-v0.4.0.tar.gz",
+          "hash": "sha256-lv8yDKAQhPmNiIeiUA30qoGbw1KFc97I66/csXRXCFo="
+        }
+      },
+      "date": "2016-06-29"
+    },
+    "0.2.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/0.2.0/fb-kpm-v0.2.0.tar.gz",
+          "hash": "sha256-qDTGBRdcl0AJHsA4xqI9j1+PRJvg2koTNGiNZ4g7laE="
+        },
+        "aarch64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/0.2.0/fb-kpm-v0.2.0.tar.gz",
+          "hash": "sha256-qDTGBRdcl0AJHsA4xqI9j1+PRJvg2koTNGiNZ4g7laE="
+        },
+        "x86_64-linux": {
+          "url": "https://github.com/yarnpkg/yarn/releases/download/0.2.0/fb-kpm-v0.2.0.tar.gz",
+          "hash": "sha256-qDTGBRdcl0AJHsA4xqI9j1+PRJvg2koTNGiNZ4g7laE="
+        }
+      },
+      "date": "2016-06-17"
     }
   }
 }
