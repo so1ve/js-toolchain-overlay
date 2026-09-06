@@ -39,47 +39,11 @@ let
       {
         nodejs ? pkgs.nodejs,
       }:
-      let
+      import ./package-manager.nix {
+        inherit pkgs nodejs version;
         release = data.releases.${version};
-        system = pkgs.stdenv.hostPlatform.system;
-        artifact = release.artifacts.${system};
-      in
-      pkgs.stdenvNoCC.mkDerivation {
-        pname = "yarn-bin";
-        inherit version;
-
-        src = pkgs.fetchurl { inherit (artifact) url hash; };
-
-        sourceRoot = "package";
-        strictDeps = true;
-        nativeBuildInputs = [ pkgs.makeWrapper ];
-
-        dontConfigure = true;
-        dontBuild = true;
-
-        installPhase = ''
-          runHook preInstall
-          install -Dm644 bin/yarn.js "$out/lib/yarn/yarn.js"
-          makeWrapper ${lib.getExe nodejs} "$out/bin/yarn" \
-            --add-flags "$out/lib/yarn/yarn.js" \
-            --set YARN_IGNORE_PATH 1 \
-            --prefix PATH : ${lib.makeBinPath [ nodejs ]}
-          ln -s yarn "$out/bin/yarnpkg"
-          runHook postInstall
-        '';
-
-        passthru = {
-          inherit (release) date;
-          inherit nodejs;
-        };
-
-        meta = {
-          description = "Yarn package manager (${version}, official CLI distribution)";
-          homepage = "https://yarnpkg.com/";
-          license = lib.licenses.bsd2;
-          mainProgram = "yarn";
-          platforms = builtins.attrNames release.artifacts;
-        };
+        name = "yarn";
+        environment.YARN_IGNORE_PATH = "1";
       }
     ) { };
 

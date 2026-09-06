@@ -23,7 +23,7 @@ jobs:
       - name: Backfill hashes
         env:
           GITHUB_TOKEN: ${{ github.token }}
-        run: nix shell .#node -c node scripts/backfill.mjs
+        run: nix shell .#node .#node.npm -c node scripts/backfill.mjs
 
       - name: Detect updates
         id: changes
@@ -36,9 +36,11 @@ jobs:
             git diff --stat -- versions >>"$GITHUB_STEP_SUMMARY"
           fi
 
-      - name: Evaluate catalogs
+      - name: Stage and evaluate catalogs
         if: steps.changes.outputs.changed == 'true'
-        run: nix flake check --no-build
+        run: |
+          git add versions/pnpm.json versions/yarn.json versions/npm
+          nix flake check --no-build
 
       - name: Commit updates
         if: steps.changes.outputs.changed == 'true'
@@ -47,6 +49,5 @@ jobs:
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git add versions/pnpm.json versions/yarn.json
           git commit --message "chore: backfill package manager release hashes"
           git push origin "HEAD:$DEFAULT_BRANCH"

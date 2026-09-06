@@ -43,5 +43,5 @@ export async function updatePnpm() {
   }
 
   // Use the highest packaged stable release, independently of npm's latest tag.
-  await writeCatalog(NAME, buildCatalog(records, {}));
+  await writeCatalog(NAME, buildCatalog(records, { keepEmpty: true }));
 }

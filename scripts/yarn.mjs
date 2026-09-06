@@ -24,5 +24,5 @@ export async function updateYarn() {
     };
   }
 
-  await writeCatalog(NAME, buildCatalog(records, {}));
+  await writeCatalog(NAME, buildCatalog(records, { keepEmpty: true }));
 }

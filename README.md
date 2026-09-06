@@ -142,16 +142,19 @@ File- and project-based selectors return `null` when no declaration is found.
 
 ## Package managers
 
-pnpm is packaged from the official native archives starting with version 12.
-The package includes `pnpm`, `pnpx`, and the bundled helper files. pnpm itself
-can start without Node.js; add Node.js separately for project scripts and
-features that use it.
+pnpm 12 and newer use the official native archives, including `pnpm`, `pnpx`,
+and the bundled helper files. pnpm itself can start without Node.js; add
+Node.js separately for project scripts and features that use it. Earlier
+versions use the official npm packages and their declared CLI entry points.
 
-Yarn is packaged from the official `@yarnpkg/cli-dist` bundles for stable
-versions 2 through 5 available in that registry package. Yarn Classic and Yarn 6
-previews are not cataloged. The package provides `yarn` and `yarnpkg`, uses
-nixpkgs' `nodejs` by default, and supports `.override { nodejs = node; }` to
-select its runtime.
+Yarn uses official npm packages and release bundles, including Yarn Classic
+and historical releases missing from `@yarnpkg/cli-dist`. The package provides
+`yarn` and `yarnpkg`.
+
+JavaScript distributions use nixpkgs' `nodejs` by default and support
+`.override { nodejs = node; }` to select their runtime. Very old releases may
+need an older Node.js version. Runtime dependencies omitted from historical
+archives are pinned in `versions/npm` and installed offline by Nix.
 
 For a project declaring Node.js and pnpm:
 

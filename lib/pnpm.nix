@@ -32,7 +32,7 @@ let
       (versionFromPackageJSON "${root}/package.json")
     ];
 
-  mkPackage =
+  mkNativePackage =
     pkgs: version:
     let
       release = data.releases.${version};
@@ -86,6 +86,36 @@ let
         sourceProvenance = [ lib.sourceTypes.binaryNativeCode ];
       };
     };
+
+  mkPackage =
+    pkgs: version:
+    let
+      release = data.releases.${version};
+      artifact = release.artifacts.${pkgs.stdenv.hostPlatform.system};
+    in
+    if artifact ? file then
+      mkNativePackage pkgs version
+    else
+      lib.makeOverridable (
+        {
+          nodejs ? pkgs.nodejs,
+        }:
+        import ./package-manager.nix {
+          inherit
+            pkgs
+            nodejs
+            version
+            release
+            ;
+          name = "pnpm";
+          environment = {
+            npm_config_manage_package_manager_versions = "false";
+            npm_config_package_manager_strict = "false";
+            pnpm_config_pm_on_fail = "ignore";
+            pnpm_config_runtime_on_fail = "ignore";
+          };
+        }
+      ) { };
 
   packagesByVersionFor =
     pkgs: lib.mapAttrs (version: _: mkPackage pkgs version) (catalog.availableReleasesFor data pkgs);
