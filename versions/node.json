@@ -1,5 +1,5 @@
 {
-  "latest": "26.8.1",
+  "latest": "26.8.2",
   "lts": "24.21.0",
   "majors": {
     "0": "0.12.18",
@@ -25,9 +25,28 @@
     "23": "23.11.1",
     "24": "24.21.0",
     "25": "25.9.0",
-    "26": "26.8.1"
+    "26": "26.8.2"
   },
   "releases": {
+    "26.8.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "node-v26.8.2-darwin-arm64.tar.xz",
+          "hash": "sha256-9Y5QRLk4oxdBhN5Krx0rv8//gS6IIg/wjpIhwJ9chnc="
+        },
+        "aarch64-linux": {
+          "file": "node-v26.8.2-linux-arm64.tar.xz",
+          "hash": "sha256-gdjw/eqdzTv9z+r8X4NZwVHwl+mICwAHwGRcpnDQeXE="
+        },
+        "x86_64-linux": {
+          "file": "node-v26.8.2-linux-x64.tar.xz",
+          "hash": "sha256-QOHTIlwcmumiZxyY7LmFfk1VVQJjlPNIZFZ2eYhA1cU="
+        }
+      },
+      "date": "2026-09-09",
+      "lts": false,
+      "npm": "11.19.1"
+    },
     "26.8.1": {
       "artifacts": {
         "aarch64-darwin": {
