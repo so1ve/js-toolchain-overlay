@@ -1,5 +1,5 @@
 {
-  "latest": "12.6.0",
+  "latest": "12.7.0",
   "majors": {
     "0": "0.75.0",
     "1": "1.43.1",
@@ -13,9 +13,26 @@
     "9": "9.15.9",
     "10": "10.34.5",
     "11": "11.25.0",
-    "12": "12.6.0"
+    "12": "12.7.0"
   },
   "releases": {
+    "12.7.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "pnpm-darwin-arm64.tar.gz",
+          "hash": "sha256-gt5ucDf8+qtqHum2Ng6IdyOtaDiXgIEPo+OjVA1giKs="
+        },
+        "aarch64-linux": {
+          "file": "pnpm-linux-arm64.tar.gz",
+          "hash": "sha256-2zmj/Hlp3PM5jr8vIJDGK6cy5amIe5YUepcTShp3kIg="
+        },
+        "x86_64-linux": {
+          "file": "pnpm-linux-x64.tar.gz",
+          "hash": "sha256-aBkMfSie/s1m/wiMk7nF7DYZiegZQjngBL2QVAPT0+U="
+        }
+      },
+      "date": "2026-09-25"
+    },
     "12.6.0": {
       "artifacts": {
         "aarch64-darwin": {
