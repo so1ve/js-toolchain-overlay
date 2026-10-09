@@ -1,5 +1,5 @@
 {
-  "latest": "12.10.1",
+  "latest": "12.11.2",
   "majors": {
     "0": "0.75.0",
     "1": "1.43.1",
@@ -13,9 +13,60 @@
     "9": "9.15.9",
     "10": "10.34.5",
     "11": "11.25.0",
-    "12": "12.10.1"
+    "12": "12.11.2"
   },
   "releases": {
+    "12.11.2": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "pnpm-darwin-arm64.tar.gz",
+          "hash": "sha256-L0cB29SnuBgneJ6UIlJyNV/MF8Trn1rdCO0m+UMAO2c="
+        },
+        "aarch64-linux": {
+          "file": "pnpm-linux-arm64.tar.gz",
+          "hash": "sha256-rURPoG1/80TXS6Hkkz8u1xzGNXzC0zcHpcYJWLfYMIU="
+        },
+        "x86_64-linux": {
+          "file": "pnpm-linux-x64.tar.gz",
+          "hash": "sha256-NY8wVBtCNxNgwNSKja3cDAhQqQw2/L6lmAMqmFDiyas="
+        }
+      },
+      "date": "2026-10-09"
+    },
+    "12.11.1": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "pnpm-darwin-arm64.tar.gz",
+          "hash": "sha256-6vKdGo2tjwVi4Av/fk0qGzBsl05Azv+Ii+MJlmwXwh4="
+        },
+        "aarch64-linux": {
+          "file": "pnpm-linux-arm64.tar.gz",
+          "hash": "sha256-p0S0Oomvtmd5MYHnh+NuETIUSyohRjDRn84z7QcmSKQ="
+        },
+        "x86_64-linux": {
+          "file": "pnpm-linux-x64.tar.gz",
+          "hash": "sha256-uqxPyG6ubLfH2GWJV8OGFxFktsBOqhr6qLUaQUHzwtQ="
+        }
+      },
+      "date": "2026-10-09"
+    },
+    "12.11.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "pnpm-darwin-arm64.tar.gz",
+          "hash": "sha256-eczE2kt2A8J2P3jlm5M3fsAfkfcyMsiFT4GpQI4De0o="
+        },
+        "aarch64-linux": {
+          "file": "pnpm-linux-arm64.tar.gz",
+          "hash": "sha256-Ji0I5EVc9oIBSrn7fCRqCW82Eeeoavg3QI6ifkyIUEA="
+        },
+        "x86_64-linux": {
+          "file": "pnpm-linux-x64.tar.gz",
+          "hash": "sha256-lSJRNiV9IIJxj2f83NwH5zu0kkLRp0vsD/GAxn7ynxg="
+        }
+      },
+      "date": "2026-10-09"
+    },
     "12.10.1": {
       "artifacts": {
         "aarch64-darwin": {
