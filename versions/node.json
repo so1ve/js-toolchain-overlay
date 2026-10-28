@@ -1,6 +1,6 @@
 {
-  "latest": "26.12.1",
-  "lts": "24.22.1",
+  "latest": "26.13.0",
+  "lts": "26.13.0",
   "majors": {
     "0": "0.12.18",
     "4": "4.9.1",
@@ -25,9 +25,28 @@
     "23": "23.11.1",
     "24": "24.22.1",
     "25": "25.9.0",
-    "26": "26.12.1"
+    "26": "26.13.0"
   },
   "releases": {
+    "26.13.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "node-v26.13.0-darwin-arm64.tar.xz",
+          "hash": "sha256-b1sxh9nfn8AH6IEWeQW8fWmtJkUN3Dd8g9YyVqJJW24="
+        },
+        "aarch64-linux": {
+          "file": "node-v26.13.0-linux-arm64.tar.xz",
+          "hash": "sha256-QG/j+94cBUrf+LKXwW/bWvZlnbMnwayKzUa1bvGvmpI="
+        },
+        "x86_64-linux": {
+          "file": "node-v26.13.0-linux-x64.tar.xz",
+          "hash": "sha256-0oqWr2w4WW9tnZfA7lMcE9I411d0I4fRko3oItlZ6Zc="
+        }
+      },
+      "date": "2026-10-28",
+      "lts": "Lithium",
+      "npm": "11.20.0"
+    },
     "26.12.1": {
       "artifacts": {
         "aarch64-darwin": {
