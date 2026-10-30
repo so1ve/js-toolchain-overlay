@@ -1,5 +1,5 @@
 {
-  "latest": "26.13.0",
+  "latest": "27.0.0-alpha.0.0.0",
   "lts": "26.13.0",
   "majors": {
     "0": "0.12.18",
@@ -25,9 +25,29 @@
     "23": "23.11.1",
     "24": "24.22.2",
     "25": "25.9.0",
-    "26": "26.13.0"
+    "26": "26.13.0",
+    "27": "27.0.0-alpha.0.0.0"
   },
   "releases": {
+    "27.0.0-alpha.0.0.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "file": "node-v27.0.0-alpha.0.0.0-darwin-arm64.tar.xz",
+          "hash": "sha256-gGHTQ1Sp2EfZ8SZY4CeW/fjyDtFzdUdMKZ7spdkA0w0="
+        },
+        "aarch64-linux": {
+          "file": "node-v27.0.0-alpha.0.0.0-linux-arm64.tar.xz",
+          "hash": "sha256-NIvlPWo9bUG6FH2IdDzIQnd6waHv7Fao3FYSiyfmm58="
+        },
+        "x86_64-linux": {
+          "file": "node-v27.0.0-alpha.0.0.0-linux-x64.tar.xz",
+          "hash": "sha256-8en38t7vl5f5EGeB0Jdkm5nfKkc+H9P5e2mR+monH08="
+        }
+      },
+      "date": "2026-10-29",
+      "lts": false,
+      "npm": "12.1.0"
+    },
     "26.13.0": {
       "artifacts": {
         "aarch64-darwin": {
