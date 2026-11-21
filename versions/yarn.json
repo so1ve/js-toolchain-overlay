@@ -1,13 +1,30 @@
 {
-  "latest": "4.18.1",
+  "latest": "4.19.0",
   "majors": {
     "0": "0.28.4",
     "1": "1.22.22",
     "2": "2.4.3",
     "3": "3.8.7",
-    "4": "4.18.1"
+    "4": "4.19.0"
   },
   "releases": {
+    "4.19.0": {
+      "artifacts": {
+        "aarch64-darwin": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.19.0.tgz",
+          "hash": "sha512-jjv4NIPlz974CUxGIdQDuK7mRb1f26BFIdkCkuFcM/64LT9tTRVj7/UqEv9bcB8DKFvtUw680CVo71bEBsHjuA=="
+        },
+        "aarch64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.19.0.tgz",
+          "hash": "sha512-jjv4NIPlz974CUxGIdQDuK7mRb1f26BFIdkCkuFcM/64LT9tTRVj7/UqEv9bcB8DKFvtUw680CVo71bEBsHjuA=="
+        },
+        "x86_64-linux": {
+          "url": "https://registry.npmjs.org/@yarnpkg/cli-dist/-/cli-dist-4.19.0.tgz",
+          "hash": "sha512-jjv4NIPlz974CUxGIdQDuK7mRb1f26BFIdkCkuFcM/64LT9tTRVj7/UqEv9bcB8DKFvtUw680CVo71bEBsHjuA=="
+        }
+      },
+      "date": "2026-11-21"
+    },
     "4.18.1": {
       "artifacts": {
         "aarch64-darwin": {
